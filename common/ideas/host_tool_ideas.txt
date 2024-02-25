@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		WW_army_cheat = {
+			removal_cost = -1
+			picture = generic_victors_of_ww1
+			modifier = {
+				army_attack_factor = 0.1
+				army_org_factor = 0.1
+			}
+		}
+		WW_industry_cheat = {
+			removal_cost = -1
+			picture = generic_victors_of_ww1
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+		WW_industry_growth_cheat = {
+			removal_cost = -1
+			picture = generic_victors_of_ww1
+			modifier = {
+				production_factory_start_efficiency_factor = 0.5
+			}
+		}
+		WW_dockyard_cheat = {
+			removal_cost = -1
+			picture = generic_victors_of_ww1
+			modifier = {
+				industrial_capacity_dockyard = 0.2
+			}
+		}
+	}	
+}
