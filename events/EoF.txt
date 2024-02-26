@@ -1,0 +1,17 @@
+add_namespace = EoF
+
+country_event = {
+	id = Eof.1
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		EQS = {
+			add_to_faction = CRY
+			add_to_faction = STG
+		}
+		CHN = {
+			add_to_faction = PLB
+			add_to_faction = GRF
+		}
+	}
+}
