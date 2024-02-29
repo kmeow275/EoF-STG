@@ -1545,10 +1545,6 @@ technologies = {
 		}
 		research_cost = 3
 		start_year = 1016
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 12 }
-		}
 
 		categories = {
 			industry
@@ -1589,10 +1585,6 @@ technologies = {
 		}
 		research_cost = 3
 		start_year = 1019
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 14 }
-		}
 
 		categories = {
 			industry
@@ -1633,10 +1625,6 @@ technologies = {
 		}
 		research_cost = 3
 		start_year = 1022
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 16 }
-		}
 
 		categories = {
 			industry
@@ -1673,10 +1661,6 @@ technologies = {
 
 		research_cost = 3
 		start_year = 1025
-		folder = {
-			name = industry_folder
-			position = { x = 3 y = 18 }
-		}
 
 		categories = {
 			industry
@@ -1719,11 +1703,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1016
 
-		folder = {
-			name = industry_folder
-			position = { x = -1 y = 12 }
-		}
-
 		categories = {
 			industry
 			synth_resources
@@ -1763,11 +1742,6 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1019
-
-		folder = {
-			name = industry_folder
-			position = { x = -1 y = 14 }
-		}
 
 		categories = {
 			industry
@@ -1809,11 +1783,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1022
 
-		folder = {
-			name = industry_folder
-			position = { x = -1 y = 16 }
-		}
-
 		categories = {
 			industry
 			synth_resources
@@ -1849,11 +1818,6 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1025
-
-		folder = {
-			name = industry_folder
-			position = { x = -1 y = 18 }
-		}
 
 		categories = {
 			industry
@@ -1902,11 +1866,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1016
 
-		folder = {
-			name = industry_folder
-			position = { x = 1 y = 12 }
-		}
-
 		categories = {
 			industry
 			synth_resources
@@ -1953,11 +1912,6 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1019
-
-		folder = {
-			name = industry_folder
-			position = { x = 1 y = 14 }
-		}
 
 		categories = {
 			industry
@@ -2006,11 +1960,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1022
 
-		folder = {
-			name = industry_folder
-			position = { x = 1 y = 16 }
-		}
-
 		categories = {
 			industry
 			synth_resources
@@ -2052,11 +2001,6 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1025
-
-		folder = {
-			name = industry_folder
-			position = { x = 1 y = 18 }
-		}
 
 		categories = {
 			industry
@@ -2575,11 +2519,6 @@ technologies = {
 			construction_tech
 		}
 
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 10 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -2597,11 +2536,6 @@ technologies = {
 			industry
 			construction_tech
 			excavation_tech
-		}
-
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 10 }
 		}
 
 		ai_will_do = {
@@ -2658,11 +2592,6 @@ technologies = {
 			construction_tech
 		}
 
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 12 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -2679,11 +2608,6 @@ technologies = {
 			industry
 			construction_tech
 			excavation_tech
-		}
-
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 12 }
 		}
 
 		ai_will_do = {
@@ -2740,11 +2664,6 @@ technologies = {
 			construction_tech
 		}
 
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 14 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -2761,11 +2680,6 @@ technologies = {
 			industry
 			construction_tech
 			excavation_tech
-		}
-
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 14 }
 		}
 
 		ai_will_do = {
@@ -2817,11 +2731,6 @@ technologies = {
 			construction_tech
 		}
 
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 16 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -2838,11 +2747,6 @@ technologies = {
 			industry
 			construction_tech
 			excavation_tech
-		}
-
-		folder = {
-			name = industry_folder
-			position = { x = 2 y = 16 }
 		}
 
 		ai_will_do = {
@@ -2893,11 +2797,6 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1016
 
-		folder = {
-			name = industry_folder
-			position = { x = -1 y = 12 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -2921,11 +2820,6 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1016
 
-		folder = {
-			name = industry_folder
-			position = { x = 1 y = 12 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -2947,11 +2841,6 @@ technologies = {
 
 		research_cost = 2.5
 		start_year = 1019
-
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 14 }
-		}
 
 		ai_will_do = {
 			factor = 4
@@ -2975,11 +2864,6 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1022
 
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 16 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -2997,11 +2881,6 @@ technologies = {
 
 		research_cost = 2.5
 		start_year = 1025
-
-		folder = {
-			name = industry_folder
-			position = { x = 0 y = 18 }
-		}
 
 		ai_will_do = {
 			factor = 4
@@ -3027,11 +2906,6 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1016
-
-		folder = {
-			name = industry_folder
-			position = { x = 4 y = 12 }
-		}
 
 		ai_will_do = {
 			factor = 4
@@ -3063,11 +2937,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1016
 
-		folder = {
-			name = industry_folder
-			position = { x = 6 y = 12 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -3094,12 +2963,6 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1019
-
-		folder = {
-			name = industry_folder
-			position = { x = 4 y = 14 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -3130,11 +2993,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1019
 
-		folder = {
-			name = industry_folder
-			position = { x = 6 y = 14 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -3161,11 +3019,6 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1022
-
-		folder = {
-			name = industry_folder
-			position = { x = 4 y = 16 }
-		}
 
 		ai_will_do = {
 			factor = 4
@@ -3197,11 +3050,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1022
 
-		folder = {
-			name = industry_folder
-			position = { x = 6 y = 16 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -3223,11 +3071,6 @@ technologies = {
 		global_building_slots_factor = 0.05
 		research_cost = 2
 		start_year = 1025
-
-		folder = {
-			name = industry_folder
-			position = { x = 4 y = 18 }
-		}
 
 		ai_will_do = {
 			factor = 4
@@ -3253,11 +3096,6 @@ technologies = {
 		global_building_slots_factor = 0.05
 		research_cost = 2
 		start_year = 1025
-
-		folder = {
-			name = industry_folder
-			position = { x = 6 y = 18 }
-		}
 
 		ai_will_do = {
 			factor = 4

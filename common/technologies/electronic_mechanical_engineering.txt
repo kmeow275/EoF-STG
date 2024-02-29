@@ -1675,12 +1675,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1016
 
-
-		folder = {
-			name = electronics_folder
-			position = { x = -2 y = 20 }
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -1714,11 +1708,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1020
 
-		folder = {
-			name = electronics_folder
-			position = { x = -2 y = 24 }
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -1750,12 +1739,6 @@ technologies = {
 		research_cost = 1.75
 		start_year = 1024
 
-
-		folder = {
-			name = electronics_folder
-			position = { x = -2 y = 28 }
-		}
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -1778,11 +1761,6 @@ technologies = {
 		enable_equipment_modules = {
 			air_air_radar_4
 			air_ground_radar_4
-		}
-
-		folder = {
-			name = electronics_folder
-			position = { x = -2 y = 30 }
 		}
 
 		ai_will_do = {
@@ -1833,11 +1811,6 @@ technologies = {
 
 		research_cost = 2.5
 		start_year = 1015
-
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 18 }
-		}
 
 		ai_will_do = {
 			factor = 3
@@ -1892,11 +1865,6 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1018
 
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 22 }
-		}
-
 		ai_will_do = {
 			factor = 3
 		}
@@ -1945,11 +1913,6 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1022
 
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 26 }
-		}
-
 		ai_will_do = {
 			factor = 3
 		}
@@ -1976,11 +1939,6 @@ technologies = {
 
 		dependencies = {
 			streamlined_line_c = 1
-		}
-
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 30 }
 		}
 
 		ai_will_do = {
@@ -2510,11 +2468,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1015
 	
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 18 }
-		}
-	
 		ai_will_do = {
 			factor = 1.5
 		}
@@ -2534,12 +2487,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1015
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 18 }
-		}
-	
 		ai_will_do = {
 			factor = 1.25
 			modifier = {
@@ -2564,11 +2511,6 @@ technologies = {
 		research_cost = 1.5
 		start_year = 1018
 	
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 22 }
-		}
-	
 		ai_will_do = {
 			factor = 1.5
 		}
@@ -2588,11 +2530,6 @@ technologies = {
 		}
 		research_cost = 1
 		start_year = 1018
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 22 }
-		}
 	
 		ai_will_do = {
 			factor = 1.25
@@ -2618,11 +2555,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1022
 	
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 26 }
-		}
-	
 		ai_will_do = {
 			factor = 1.5
 		}
@@ -2642,11 +2574,6 @@ technologies = {
 		}
 		research_cost = 1.5
 		start_year = 1022
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 4 y = 26 }
-		}
 	
 		ai_will_do = {
 			factor = 1.25

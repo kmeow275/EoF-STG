@@ -1599,11 +1599,6 @@ technologies = {
 
 		start_year = 1016
 
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 14 }
-		}
-
 		ai_will_do = {
 			factor = 18
 			modifier = {
@@ -1671,11 +1666,6 @@ technologies = {
 
 		start_year = 1018
 
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 16 }
-		}
-
 		ai_will_do = {
 			factor = 18
 			modifier = {
@@ -1719,11 +1709,6 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1020
-
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 18 }
-		}
 
 		ai_will_do = {
 			factor = 18
@@ -1792,11 +1777,6 @@ technologies = {
 
 		start_year = 1022
 
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 20 }
-		}
-
 		ai_will_do = {
 			factor = 18
 			modifier = {
@@ -1863,10 +1843,6 @@ technologies = {
 			leads_to_tech = antitank_f
 			research_cost_coeff = 1
 		}
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 22 }
-		}
 
 		ai_will_do = {
 			factor = 18
@@ -1909,11 +1885,6 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1026
-
-		folder = {
-			name = artillery_folder
-			position = { x = 7 y = 24 }
-		}
 
 		ai_will_do = {
 			factor = 18
@@ -1983,11 +1954,6 @@ technologies = {
 
 		start_year = 1016
 
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 14 }
-		}
-
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
@@ -2017,11 +1983,6 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1018
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 16 }
-		}
 
 		categories = {
 			artillery
@@ -2068,11 +2029,6 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1020
-
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 18 }
-		}
 
 		categories = {
 			artillery
@@ -2123,11 +2079,6 @@ technologies = {
 
 		start_year = 1022
 
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 20 }
-		}
-
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
@@ -2154,10 +2105,6 @@ technologies = {
 		path = {
 			leads_to_tech = artillery_f
 			research_cost_coeff = 1
-		}
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 22 }
 		}
 
 		categories = {
@@ -2201,11 +2148,6 @@ technologies = {
 
 		start_year = 1026
 
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = 24 }
-		}
-
 		categories = {
 			artillery
 			mio_cat_all_artillery_equipment
@@ -2244,11 +2186,6 @@ technologies = {
 
 		start_year = 1016
 
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 14 }
-		}
-
 		ai_will_do = {
 			factor = 2
 		}
@@ -2285,11 +2222,6 @@ technologies = {
 
 		start_year = 1018
 
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 16 }
-		}
-
 		ai_will_do = {
 			factor = 2
 		}
@@ -2324,11 +2256,6 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1020
-
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 18 }
-		}
 
 		ai_will_do = {
 			factor = 2
@@ -2365,11 +2292,6 @@ technologies = {
 
 		start_year = 1022
 
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 20 }
-		}
-
 		ai_will_do = {
 			factor = 2
 		}
@@ -2405,11 +2327,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 22 }
-		}
-
 		ai_will_do = {
 			factor = 2
 		}
@@ -2439,11 +2356,6 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1026
-
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 24 }
-		}
 
 		ai_will_do = {
 			factor = 2
@@ -2498,11 +2410,6 @@ technologies = {
 
 		start_year = 1016
 
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 14 }
-		}
-
 		ai_will_do = {
 			factor = 4
 		}
@@ -2553,11 +2460,6 @@ technologies = {
 
 		start_year = 1018
 
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 16 }
-		}
-
 		ai_will_do = {
 			factor = 5
 		}
@@ -2593,11 +2495,6 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1020
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 18 }
-		}
 
 		ai_will_do = {
 			factor = 5
@@ -2649,11 +2546,6 @@ technologies = {
 
 		start_year = 1022
 
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 20 }
-		}
-
 		ai_will_do = {
 			factor = 5
 		}
@@ -2703,10 +2595,6 @@ technologies = {
 			leads_to_tech = antiair_f
 			research_cost_coeff = 1
 		}
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 22 }
-		}
 
 		ai_will_do = {
 			factor = 5
@@ -2740,11 +2628,6 @@ technologies = {
 		research_cost = 1
 
 		start_year = 1026
-
-		folder = {
-			name = artillery_folder
-			position = { x = -3 y = 24 }
-		}
 
 		ai_will_do = {
 			factor = 5
