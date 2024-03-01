@@ -1,4 +1,5 @@
 spriteTypes = {
+	###GUIs###
 	spriteType = {
 		name = "GFX_buildings_strip_2"
 		textureFile = "gfx/interface/buildings/building_icon_strip_2.dds"
@@ -13,6 +14,7 @@ spriteTypes = {
 		name = "GFX_div_subunit_item_bg_2"
 		textureFile = "gfx//interface//div_subunit_item_bg_2.dds"
 	}
+	###Tank Modules###
 	spriteType = {
 		name = "GFX_EMI_advanced_medium_tank_turret"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_advanced_medium_turret.dds"
@@ -23,6 +25,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_advanced_heavy_turret.dds"
 		legacy_lazy_load = no
 	}
+	###Technologies###
 	SpriteType = {
 		name = "GFX_tank_super_heavy_cannon_medium"
 		textureFile = "gfx/interface/technologies/super_heavy_cannon.dds"
@@ -35,4 +38,10 @@ spriteTypes = {
 		name = "GFX_advanced_heavy_tank_turret_medium"
 		textureFile = "gfx/interface/technologies/advanced_heavy_turret.dds"
 	}
+	###Events###
+	spriteType = {
+		name = "GFX_GRF_border_war"
+		texturefile = "gfx/event_pictures/GRF_border_war.dds"
+	}
+
 }
