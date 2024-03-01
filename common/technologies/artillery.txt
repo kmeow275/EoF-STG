@@ -1499,6 +1499,8 @@ technologies = {
 			tank_medium_cannon_3
 			tank_high_velocity_cannon_3
 			tank_heavy_cannon_3
+			tank_advanced_medium_high_velocity_cannon
+			tank_advanced_heavy_high_velocity_cannon 
 			auto_loader
 		}
 		

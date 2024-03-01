@@ -8,7 +8,15 @@ EQ_MOD_SLOT_special_type_slot_6_TITLE:0 "Special Features"
 EQ_MOD_SLOT_special_type_slot_7_TITLE:0 "Special Features"
 EQ_MOD_SLOT_special_type_slot_8_TITLE:0 "Special Features"
 
+EQ_MOD_CAT_tank_advanced_medium_main_armament_TITLE:0 "Advanced Medium Armaments"
+EQ_MOD_CAT_tank_advanced_heavy_main_armament_TITLE:0 "Advanced Heavy Armaments"
+
 advanced_medium_tank_turret:0 "Advanced Medium Turret"
 advanced_medium_tank_turret_desc:0 "An evolution of the previous generation of three-man turrets. The additional space allows the crew to better perform their tasks, as well as enabling advanced armaments to be equipped on large enough chassis."
 advanced_heavy_tank_turret:0 "Advanced Heavy Turret"
 advanced_heavy_tank_turret_desc:0 "An evolution of the previous generation of three-man turrets. The additional space allows the crew to better perform their tasks, as well as enabling advanced armaments to be equipped on large enough chassis."
+
+tank_advanced_medium_high_velocity_cannon:0 "Advanced Medium High-Velocity Cannon"
+tank_advanced_medium_high_velocity_cannon_desc:0 "An advanced cannon combining the advantages of a high-velocity gun with those of a more traditional armament. However, the space, ammunition and fire control requirements necessitate both an advanced turret and chassis."
+tank_advanced_heavy_high_velocity_cannon:0 "Advanced Heavy High-Velocity Cannon"
+tank_advanced_heavy_high_velocity_cannon_desc:0 "An advanced cannon combining the advantages of a high-velocity gun with those of a more traditional armament. However, the space, ammunition and fire control requirements necessitate both an advanced turret and chassis."

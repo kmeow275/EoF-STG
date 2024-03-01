@@ -113,11 +113,11 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = { has_completed_focus = vasya_1 }
-					country_event = { id = stalliongrad.16 days = 1 random = 456 } #days to hours applied
+					country_event = { id = stalliongrad.16 days = 11 } #days to hours applied
 				}
 				else_if = {
 					limit = { has_completed_focus = polya_1 }
-					country_event = { id = stalliongrad.17 days = 1 random = 456 } #days to hours applied
+					country_event = { id = stalliongrad.17 days = 11 } #days to hours applied
 				}
 			}
 		}
@@ -186,11 +186,11 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = { has_completed_focus = polya_1 }
-					country_event = { id = stalliongrad.15 days = 1 random = 456 } #days to hours applied
+					country_event = { id = stalliongrad.15 days = 11 } #days to hours applied
 				}
 				else_if = {
 					limit = { has_completed_focus = vasya_1 }
-					country_event = { id = stalliongrad.18 days = 1 random = 456 } #days to hours applied
+					country_event = { id = stalliongrad.18 days = 11 } #days to hours applied
 				}
 			}
 		}
@@ -250,7 +250,7 @@ focus_tree = {
 				id = stalliongrad.35 days = 1
 			}
 			hidden_effect = {
-				country_event = { id = stalliongrad.32 days = 1 random = 2352 } #days to hours applied
+				country_event = { id = stalliongrad.32 days = 50 } #days to hours applied
 			}
 		}
 	}
@@ -357,10 +357,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus new_leaders"
 			country_event = { id = stalliongrad.20 days = 1 }
 			hidden_effect = {
-				country_event = { id = stalliongrad.32 days = 1 random = 2352 } #days to hours applied
+				country_event = { id = stalliongrad.32 days = 50 } #days to hours applied
 				if = {
 					limit = { has_country_flag = polya_dies2 }
-					country_event = { id = stalliongrad.37 days = 1 random = 432 } #days to hours applied
+					country_event = { id = stalliongrad.37 days = 11 } #days to hours applied
 				}
 			}
 		}
@@ -446,7 +446,7 @@ focus_tree = {
 			add_political_power = 150
 			country_event = { id = stalliongrad.95 days = 1 }
 			hidden_effect = {
-				country_event = { id = stalliongrad.106 days = 1 random = 6000 } #days to hours applied
+				country_event = { id = stalliongrad.106 days = 126 } #days to hours applied
 			}
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }

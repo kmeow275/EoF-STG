@@ -1249,7 +1249,7 @@ focus_tree = {
 	focus = {
 		id = demand_equestria
 		icon = GFX_goal_chn_lead_the_army
-		cost = 14.4
+		cost = 0
 		cancel_if_invalid = yes
 		prerequisite = {
 			focus = prepare_for_war
@@ -1257,6 +1257,7 @@ focus_tree = {
 		available = {
 			has_government = fascism
 			is_subject = no
+			date > 1011.11.01
 		}
 		select_effect = {
 			hidden_effect = {
@@ -1412,7 +1413,7 @@ focus_tree = {
 	focus = {
 		id = prepare_for_war2
 		icon = GFX_goal_chn_man_tools
-		cost = 10
+		cost = 1
 		prerequisite = {
 			focus = CHN_great_war_beginning
 		}
@@ -1514,7 +1515,7 @@ focus_tree = {
 	focus = {
 		id = prepare_for_war3
 		icon = GFX_goal_chn_factory
-		cost = 10
+		cost = 1
 		prerequisite = {
 			focus = CHN_great_war_beginning
 		}
@@ -1600,7 +1601,7 @@ focus_tree = {
 	focus = {
 		id = prepare_for_war
 		icon = GFX_goal_chn_man_bombing
-		cost = 10
+		cost = 1
 		prerequisite = {
 			focus = prepare_for_war3
 		}

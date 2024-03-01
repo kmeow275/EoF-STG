@@ -25,6 +25,28 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_advanced_heavy_turret.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_EMI_tank_advanced_medium_high_velocity_cannon"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_high_velocity_cannon_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_advanced_heavy_high_velocity_cannon"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_heavy_cannon_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_advanced_medium_main_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_medium_main_armament.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_advanced_heavy_main_armament"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_heavy_main_armament.dds"
+		legacy_lazy_load = no
+	}
+
 	###Technologies###
 	SpriteType = {
 		name = "GFX_tank_super_heavy_cannon_medium"
