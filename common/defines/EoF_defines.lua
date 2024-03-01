@@ -46,6 +46,3 @@ NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 0		-- XP cost for adding a n
 NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 0	-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.
 NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 0	-- XP cost for converting one equipment module to a related module when creating an equipment variant.
 NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0	-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
-
-NDefines.NTechnology.BASE_TECH_COST = 100			-- Base cost for a tech. multiplied with tech cost and ahead of time penalties. 100 in vanilla
-NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 2		-- Base year ahead penalty. Vanilla is 2. Changed back to 2 from 2.25 in vanilla EaW
