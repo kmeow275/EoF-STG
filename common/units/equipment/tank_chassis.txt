@@ -370,7 +370,7 @@ equipments = {
 			}
 
 			radio_type_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					tank_radio_module
 				}
@@ -586,7 +586,6 @@ equipments = {
 		parent = medium_tank_chassis_2
 		archetype = medium_tank_chassis
 		priority = 2000
-		module_slots = inherit
 		maximum_speed = 6
 		build_cost_ic = 4
 		reliability = 1.2
@@ -596,6 +595,92 @@ equipments = {
 		}
 
 		module_slots = {
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+					tank_medium_turret_type
+				}
+			}
+			
+			advanced_main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_magic_cannon_light
+					tank_magic_cannon_medium
+					tank_flamethrower
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			radio_type_slot = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+				}
+			}
+
+			optics_type_slot = {
+				required = no
+				allowed_module_categories = {
+					tank_optics_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_special_module_stabilizer
+					tank_special_module_maintenance
+					tank_special_module_skirts
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_special_module_stabilizer
+					tank_special_module_maintenance
+					tank_special_module_skirts
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_special_module_stabilizer
+					tank_special_module_maintenance
+					tank_special_module_skirts
+					tank_secondary_turret
+				}
+			}
+
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
@@ -695,7 +780,7 @@ equipments = {
 			}
 
 			radio_type_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					tank_radio_module
 				}
@@ -907,7 +992,6 @@ equipments = {
 		archetype = heavy_tank_chassis
 		parent = heavy_tank_chassis_2
 		priority = 2000
-		module_slots = inherit
 		build_cost_ic = 12
 		maximum_speed =5
 		reliability = 1.2
@@ -918,6 +1002,94 @@ equipments = {
 		}
 
 		module_slots = {
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+					tank_medium_turret_type
+					tank_heavy_turret_type
+				}
+			}
+			
+			advanced_main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_magic_cannon_light
+					tank_magic_cannon_medium
+					tank_magic_cannon_heavy
+					tank_flamethrower
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			radio_type_slot = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+				}
+			}
+
+			optics_type_slot = {
+				required = no
+				allowed_module_categories = {
+					tank_optics_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_special_module_stabilizer
+					tank_special_module_maintenance
+					tank_special_module_skirts
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_special_module_stabilizer
+					tank_special_module_maintenance
+					tank_special_module_skirts
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_special_module_stabilizer
+					tank_special_module_maintenance
+					tank_special_module_skirts
+					tank_secondary_turret
+				}
+			}
+
 			special_type_slot_4 = {
 				required = no
 				allowed_module_categories = {
@@ -1019,7 +1191,7 @@ equipments = {
 			}
 
 			radio_type_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					tank_radio_module
 				}
@@ -1293,7 +1465,7 @@ equipments = {
 			}
 
 			radio_type_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					tank_radio_module
 				}
@@ -1570,7 +1742,7 @@ equipments = {
 			}
 
 			radio_type_slot = {
-				required = yes
+				required = no
 				allowed_module_categories = {
 					tank_radio_module
 				}

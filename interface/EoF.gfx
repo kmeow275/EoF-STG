@@ -13,4 +13,26 @@ spriteTypes = {
 		name = "GFX_div_subunit_item_bg_2"
 		textureFile = "gfx//interface//div_subunit_item_bg_2.dds"
 	}
+	spriteType = {
+		name = "GFX_EMI_advanced_medium_tank_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_advanced_medium_turret.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_advanced_heavy_tank_turret"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_advanced_heavy_turret.dds"
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_tank_super_heavy_cannon_medium"
+		textureFile = "gfx/interface/technologies/super_heavy_cannon.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_medium_tank_turret_medium"
+		textureFile = "gfx/interface/technologies/advanced_medium_turret.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_heavy_tank_turret_medium"
+		textureFile = "gfx/interface/technologies/advanced_heavy_turret.dds"
+	}
 }

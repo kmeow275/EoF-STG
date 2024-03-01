@@ -1,0 +1,57 @@
+equipment_modules = {
+	limit = {
+		has_dlc = "No Step Back" 
+	}
+
+	advanced_medium_tank_turret = {
+		abbreviation = "am3m"
+		category = tank_medium_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_medium_main_armament
+			}
+			advanced_main_armament_slot = {
+				tank_medium_main_armament
+				tank_advanced_medium_main_armament
+			}
+		}
+		add_stats = {
+			build_cost_ic = 2
+			maximum_speed = -0.25
+			breakthrough = 24
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 0
+		multiply_stats = {
+	
+		}
+
+	}
+	advanced_heavy_tank_turret = {
+		abbreviation = "ah3m"
+		category = tank_heavy_turret_type
+		sfx = sfx_ui_sd_module_turret
+
+		allowed_module_categories = {
+			main_armament_slot = {
+				tank_medium_main_armament
+				tank_heavy_main_armament
+			}
+			advanced_main_armament_slot = {
+				tank_medium_main_armament
+				tank_heavy_main_armament
+				tank_advanced_medium_main_armament
+				tank_advanced_heavy_main_armament
+			}
+		}
+		dismantle_cost_ic = 1
+		xp_cost = 0
+		add_stats = {
+			build_cost_ic = 5.5
+			maximum_speed = -0.25
+			breakthrough = 22
+		}
+	}
+}

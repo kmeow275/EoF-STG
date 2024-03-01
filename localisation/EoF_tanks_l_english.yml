@@ -1,0 +1,14 @@
+﻿l_english:
+EQ_MOD_SLOT_advanced_main_armament_slot_TITLE:0 "Main Armament"
+EQ_MOD_SLOT_radio_type_slot_TITLE:0 "Radio"
+EQ_MOD_SLOT_optics_type_slot_TITLE:0 "Optics"
+
+EQ_MOD_SLOT_special_type_slot_5_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_6_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_7_TITLE:0 "Special Features"
+EQ_MOD_SLOT_special_type_slot_8_TITLE:0 "Special Features"
+
+advanced_medium_tank_turret:0 "Advanced Medium Turret"
+advanced_medium_tank_turret_desc:0 "An evolution of the previous generation of three-man turrets. The additional space allows the crew to better perform their tasks, as well as enabling advanced armaments to be equipped on large enough chassis."
+advanced_heavy_tank_turret:0 "Advanced Heavy Turret"
+advanced_heavy_tank_turret_desc:0 "An evolution of the previous generation of three-man turrets. The additional space allows the crew to better perform their tasks, as well as enabling advanced armaments to be equipped on large enough chassis."
