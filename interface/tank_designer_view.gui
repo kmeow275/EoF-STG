@@ -175,27 +175,27 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "equipment_upgrade_0"
-				position = { x = 220 y = 245 }
+				position = { x = 380 y = 190 }
 				size = { width = 130 height = 50 } 
 			
 				buttonType = {
 					name = "btn_dec"
 					quadTextureSprite ="GFX_naval_decrease_amount"
-					position = { x = 90 y = 17 }
+					position = { x = 36 y = 17 }
 					clicksound = "ui_tank_designer_decrease"
 				}
 
 				buttonType = {
 					name = "btn_inc"
 					quadTextureSprite ="GFX_naval_increase_amount"
-					position = { x = 150 y = 17 }
+					position = { x = 96 y = 17 }
 					clicksound = "ui_tank_designer_increase"
 				}
 				
 
 				instantTextboxType = {
 					name = "name"
-					position = { x = 91 y = 3 }
+					position = { x = 37 y = 3 }
 					font = "hoi_18mbs"
 					maxWidth = 90
 					maxHeight = 20
@@ -205,7 +205,7 @@ guiTypes = {
 
 				instantTextboxType = {
 					name = "level"
-					position = { x = 122 y = 18 }
+					position = { x = 68 y = 18 }
 					font = "hoi_18mbs"
 					maxWidth = 28
 					maxHeight = 30
@@ -243,6 +243,48 @@ guiTypes = {
 					maxHeight = 20
 					format = center
 					text = "_armor_"
+				}
+
+				instantTextboxType = {
+					name = "level"
+					position = { x = 68 y = 18 }
+					font = "hoi_18mbs"
+					maxWidth = 29
+					maxHeight = 30
+					format = center
+					vertical_alignment = center
+					text = "99"
+				}
+
+			}
+
+			containerWindowType = {
+				name = "equipment_upgrade_2"
+				position = { x = 380 y = 135 }
+				size = { width = 130 height = 50 } 
+
+				buttonType = {
+					name = "btn_dec"
+					quadTextureSprite ="GFX_naval_decrease_amount"
+					position = { x = 36 y = 17 }
+					clicksound = "ui_tank_designer_decrease"
+				}
+
+				buttonType = {
+					name = "btn_inc"
+					quadTextureSprite ="GFX_naval_increase_amount"
+					position = { x = 96 y = 17 }
+					clicksound = "ui_tank_designer_increase"
+				}
+
+				instantTextboxType = {
+					name = "name"
+					position = { x = 37 y = 3 }
+					font = "hoi_18mbs"
+					maxWidth = 90
+					maxHeight = 20
+					format = center
+					text = "_ammo_"
 				}
 
 				instantTextboxType = {

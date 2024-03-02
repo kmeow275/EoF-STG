@@ -445,7 +445,6 @@ ideas = {
 				stability_factor = -0.2
 				war_support_factor = -0.2
 				consumer_goods_factor = 0.1
-				custom_modifier_tooltip = ZES_military_blocked_tp
 			}
 		}
 		CHN_unity = {

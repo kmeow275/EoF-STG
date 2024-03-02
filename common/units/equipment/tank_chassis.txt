@@ -204,6 +204,7 @@ equipments = {
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
+			tank_nsb_gun_upgrade
 		}
 	}
 
@@ -512,6 +513,7 @@ equipments = {
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
+			tank_nsb_gun_upgrade
 		}
 		maximum_speed = 4
 		build_cost_ic = 2.5
@@ -920,6 +922,7 @@ equipments = {
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
+			tank_nsb_gun_upgrade
 		}
 		maximum_speed = 3
 		build_cost_ic = 10
@@ -1371,6 +1374,7 @@ equipments = {
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
+			tank_nsb_gun_upgrade
 		}
 	}
 
@@ -1652,6 +1656,7 @@ equipments = {
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
+			tank_nsb_gun_upgrade
 		}
 	}
 	
@@ -1880,6 +1885,7 @@ equipments = {
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
+			tank_nsb_gun_upgrade
 		}
 		module_slots = inherit
 	}

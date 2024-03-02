@@ -102,6 +102,36 @@ upgrades = {
 		}
 	}
 
+	tank_nsb_gun_upgrade = {
+		abbreviation = "gun"
+		max_level = 2 #each level represents ~10mm of armor 
+		cost = land
+
+		linear_cost = {
+			cost_by_level = 0
+			cost_by_level_for_licensed_equipment = 0
+		}
+
+		level_requirements = {
+		}
+
+		resource_cost_thresholds = { # resource values defined here are TOTAL added cost, not cumulative
+			1 = { #more armor requires more resources
+				steel = 1 
+			}
+			2 = {
+				steel = 1
+				tungsten = 1
+			}
+		}
+		reliability = -0.015
+		add_stats = {
+			hard_attack = 0.03
+			ap_attack = 0.05
+			build_cost_ic = 0.2
+		}
+	}
+
 	tank_gun_upgrade = {
 		max_level = 5
 
