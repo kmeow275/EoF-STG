@@ -1,7 +1,7 @@
 add_namespace = EoF
 
 country_event = {
-	id = Eof.1
+	id = EoF.1
 	is_triggered_only = yes
 	hidden = yes
 	immediate = {
@@ -12,6 +12,32 @@ country_event = {
 		CHN = {
 			add_to_faction = PLB
 			add_to_faction = GRF
+		}
+	}
+}
+country_event = {
+	id = EoF.2
+	title = EoF.2.t
+	desc = EoF.2.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF.2.a
+		add_timed_idea = {
+			idea = EoF_YAK_thanks
+			days = 120
+		}
+	}
+}
+country_event = {
+	id = EoF.3
+	title = EoF.3.t
+	desc = EoF.3.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF.3.a
+		add_timed_idea = {
+			idea = EoF_JAK_thanks
+			days = 120
 		}
 	}
 }

@@ -6,4 +6,260 @@ on_actions = {
 			}
 		}
 	}
+	on_declare_war = { 
+		effect = {
+			if = {
+				limit = {
+					tag = JAK
+					FROM = { tag = YAK }
+				}
+				YAK = {
+					add_ideas = EoF_YAK_JAK_civil_war
+					division_template = {
+						name = "Great Yak Warband"
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 0 y = 3 }
+							infantry = { x = 0 y = 4 }
+			
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+							infantry = { x = 1 y = 3 }
+							infantry = { x = 1 y = 4 }
+		
+							infantry = { x = 2 y = 0 }
+							infantry = { x = 2 y = 1 }
+							infantry = { x = 2 y = 2 }
+							infantry = { x = 2 y = 3 }
+							infantry = { x = 2 y = 4 }
+
+							artillery_brigade = { x = 3 y = 0 }
+							artillery_brigade = { x = 3 y = 1 }
+						}
+						support = {
+							artillery = { x = 0 y = 0 }
+						}
+					}
+					every_controlled_state = {
+						limit = {
+							any_neighbor_state = {
+								controller = {
+									tag = JAK
+								}
+							}
+						}
+						create_unit = {
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = YAK
+						}
+						create_unit = {
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = YAK
+						}
+						create_unit = {
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = YAK
+						}
+						create_unit = {
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = YAK
+						}
+						create_unit = {
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = YAK
+						}
+						create_unit = {
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = YAK
+						}
+						create_unit = {
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = YAK
+						}
+						create_unit = {
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = YAK
+						}
+					}
+				}
+				JAK = {
+					add_ideas = EoF_YAK_JAK_civil_war
+					division_template = {
+						name = "Great Clan Hussars"
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 0 y = 3 }
+							infantry = { x = 0 y = 4 }
+			
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+							infantry = { x = 1 y = 3 }
+							infantry = { x = 1 y = 4 }
+		
+							infantry = { x = 2 y = 0 }
+							infantry = { x = 2 y = 1 }
+							infantry = { x = 2 y = 2 }
+							infantry = { x = 2 y = 3 }
+							infantry = { x = 2 y = 4 }
+
+							artillery_brigade = { x = 3 y = 0 }
+							artillery_brigade = { x = 3 y = 1 }
+						}
+						support = {
+							artillery = { x = 0 y = 0 }
+						}
+					}
+					every_controlled_state = {
+						limit = {
+							any_neighbor_state = {
+								controller = {
+									tag = YAK
+								}
+							}
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							owner = JAK
+						}
+					}
+				}
+				EQS = {
+					add_ideas = EoF_YAK_JAK_civil_war_volunteers_2
+				}
+				CRY = {
+					add_ideas = EoF_YAK_JAK_civil_war_volunteers_2
+				}
+				STG = {
+					add_ideas = EoF_YAK_JAK_civil_war_volunteers_2
+				}
+				CHN = {
+					add_ideas = EoF_YAK_JAK_civil_war_volunteers_1
+				}
+				PLB = {
+					add_ideas = EoF_YAK_JAK_civil_war_volunteers_1
+				}
+				GRF = {
+					add_ideas = EoF_YAK_JAK_civil_war_volunteers_1
+				}
+			}
+		}
+	}
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					#Yaks win the civil war
+					tag = JAK
+					FROM = { tag = YAK }
+				}
+				add_threat = 10
+				YAK = {
+					remove_ideas = EoF_YAK_JAK_civil_war
+				}
+				EQS = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_2
+					country_event = EoF.2
+				}
+				CRY = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_2
+					country_event = EoF.2
+				}
+				STG = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_2
+					country_event = EoF.2
+				}
+				CHN = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_1
+				}
+				PLB = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_1
+				}
+				GRF = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_1
+				}
+			}
+			else_if = {
+				limit = {
+					#Jaks win the civil war
+					tag = YAK
+					FROM = { tag = JAK }
+				}
+				add_threat = 10
+				JAK = {
+					remove_ideas = EoF_YAK_JAK_civil_war
+				}
+				EQS = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+				}
+				CRY = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+				}
+				STG = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+				}
+				CHN = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					country_event = EoF.3
+				}
+				PLB = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					country_event = EoF.3
+				}
+				GRF = {
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					country_event = EoF.3
+				}
+			}
+		}
+	}
 }

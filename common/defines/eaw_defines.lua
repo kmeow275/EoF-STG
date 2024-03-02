@@ -3,7 +3,7 @@ NDefines.NGame.END_DATE = "1030.1.1.1"
 NDefines.NGame.HANDS_OFF_START_TAG = "DRG"
 
 NDefines.NDiplomacy.TENSION_TIME_SCALE_START_DATE = "1007.1.1.12"
-NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 10
+NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 0
 NDefines.NDiplomacy.MAX_OPINION_VALUE = 200							-- Max opinion value cap.
 NDefines.NDiplomacy.MIN_OPINION_VALUE = -200						-- Min opinion value cap.
 NDefines.NDiplomacy.TENSION_PUPPET = 0
@@ -32,7 +32,7 @@ NDefines.NProduction.FLOATING_HARBOR_MAX_NAV_FACTORIES_PER_LINE = 10 -- vanilla 
 NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10 -- vanilla is 5
 NDefines.NProduction.RAILWAY_GUN_MAX_MIL_FACTORIES_PER_LINE = 10 -- vanilla is 5
 NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 3.5 -- vanilla is 2.5
-NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT = 0.05 -- vanilla is 0.1
+NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_PERCENT = 0 -- vanilla is 0.1
 
 
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 4
