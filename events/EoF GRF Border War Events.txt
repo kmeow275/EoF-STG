@@ -70,6 +70,9 @@ country_event = {
 		name = GRF_border_war.4.a
 		add_war_support = 0.05
 		army_experience = 30
+		hidden_effect = {
+			add_war_support = 0.005
+		}
 	}
 }
 country_event = {
@@ -82,5 +85,8 @@ country_event = {
 		name = GRF_border_war.5.a
 		add_stability = -0.05
 		add_war_support = 0.05
+		hidden_effect = {
+			add_war_support = 0.005
+		}
 	}
 }
