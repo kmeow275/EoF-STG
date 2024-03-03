@@ -41,3 +41,152 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = EoF.4
+	title = EoF.4.t
+	desc = EoF.4.desc
+	picture = GFX_event_stalliongrad
+	is_triggered_only = yes
+	option = {
+		name = EoF.4.a
+		STG = {
+			add_threat = 10
+
+		}
+		add_to_faction = STG
+		326 = {
+			transfer_state_to = STG
+		}
+		167 = {
+			transfer_state_to = STG
+		}
+		164 = {
+			transfer_state_to = STG
+		}
+		162 = {
+			transfer_state_to = STG
+		}
+		160 = {
+			transfer_state_to = STG
+		}
+		159 = {
+			transfer_state_to = STG
+		}
+		158 = {
+			transfer_state_to = STG
+		}
+		157 = {
+			transfer_state_to = STG
+		}
+		156 = {
+			transfer_state_to = STG
+		}
+		155 = {
+			transfer_state_to = STG
+		}
+		154 = {
+			transfer_state_to = STG
+		}
+		653 = {
+			transfer_state_to = STG
+		}
+		662 = {
+			transfer_state_to = STG
+		}
+		661 = {
+			transfer_state_to = STG
+		}
+		229 = {
+			transfer_state_to = STG
+		}
+		67 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+		10 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+		9 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+		8 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+		7 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+		6 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+		328 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+		1194 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+		1193 = {
+			transfer_state_to = STG
+			set_compliance = 80
+		}
+	}
+	option = {
+		name = EoF.4.b
+		STG = {
+			add_threat = 10
+
+		}
+		add_to_faction = STG
+		326 = {
+			transfer_state_to = STG
+		}
+		167 = {
+			transfer_state_to = STG
+		}
+		164 = {
+			transfer_state_to = STG
+		}
+		162 = {
+			transfer_state_to = STG
+		}
+		160 = {
+			transfer_state_to = STG
+		}
+		159 = {
+			transfer_state_to = STG
+		}
+		158 = {
+			transfer_state_to = STG
+		}
+		157 = {
+			transfer_state_to = STG
+		}
+		156 = {
+			transfer_state_to = STG
+		}
+		155 = {
+			transfer_state_to = STG
+		}
+		154 = {
+			transfer_state_to = STG
+		}
+		653 = {
+			transfer_state_to = STG
+		}
+		662 = {
+			transfer_state_to = STG
+		}
+		661 = {
+			transfer_state_to = STG
+		}
+		229 = {
+			transfer_state_to = STG
+		}
+	}
+}

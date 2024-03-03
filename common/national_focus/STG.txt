@@ -3918,4 +3918,30 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
+
+	###EoF Changes###
+	focus = {
+		id = EoF_join_UPA
+		icon = GFX_goal_eqs_stg_relations
+		cost = 5
+		prerequisite = {
+		}
+		x = 16
+		y = 0
+		available = {
+			OLE = {
+				OR = {
+					exists = no
+					is_subject_of = CHN
+					has_war_with = CHN
+				}
+			}
+		}
+		completion_reward = {
+			EQS = {
+				country_event = { id = EoF.4 }
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
 }
