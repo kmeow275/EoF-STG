@@ -14,6 +14,10 @@ spriteTypes = {
 		name = "GFX_div_subunit_item_bg_2"
 		textureFile = "gfx//interface//div_subunit_item_bg_2.dds"
 	}
+	spriteType = {
+		name = "GFX_modifiers_EoF_YAK_JAK_civil_war_terrain_icon"
+		textureFile = "gfx/interface/modifiers_unplanned_offensive_icon.dds"
+	}
 	###Tank Modules###
 	spriteType = {
 		name = "GFX_EMI_advanced_medium_tank_turret"

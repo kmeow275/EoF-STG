@@ -7,8 +7,8 @@ ideas = {
 				conscription = 0.1
 				supply_consumption_factor = -0.25
 				out_of_supply_factor = -0.5
-				army_core_attack_factor = 0.15
-				army_core_defence_factor = 0.15
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
 			}
 		}
 		EoF_YAK_JAK_civil_war_volunteers_1 = {
@@ -22,7 +22,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_volunteer_expedition_bonus
 			modifier = {
-				send_volunteer_size = 3
+				send_volunteer_size = 4
 			}
 		}
 		EoF_YAK_thanks = {
