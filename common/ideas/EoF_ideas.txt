@@ -1,5 +1,17 @@
 ideas = {
 	country = {
+		EoF_neutral_country = {
+			removal_cost = -1
+			picture = neutrality_idea
+			modifier = {
+				conscription_factor = -1
+				consumer_goods_factor = 10
+				industrial_capacity_factory = -2
+				industrial_capacity_dockyard = -2
+				political_power_gain = -3
+				ai_desired_divisions_factor = -10
+			}
+		}
 		EoF_YAK_JAK_civil_war = {
 			removal_cost = -1
 			picture = YAK_yakistanks
