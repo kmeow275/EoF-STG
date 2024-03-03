@@ -56,83 +56,107 @@ country_event = {
 		add_to_faction = STG
 		326 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		167 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		164 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		162 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		160 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		159 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		158 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		157 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		156 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		155 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		154 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		653 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		662 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		661 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		229 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		67 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 		10 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 		9 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 		8 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 		7 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 		6 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 		328 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 		1194 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 		1193 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 			set_compliance = 80
 		}
 	}
@@ -145,48 +169,63 @@ country_event = {
 		add_to_faction = STG
 		326 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		167 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		164 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		162 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		160 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		159 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		158 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		157 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		156 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		155 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		154 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		653 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		662 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		661 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 		229 = {
 			transfer_state_to = STG
+			remove_core_of = EQS
 		}
 	}
 }

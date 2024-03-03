@@ -19,10 +19,10 @@ focus_tree = {
 	shared_focus = Ministry_of_defense
 	shared_focus = Crystal_Fair
 	shared_focus = Friendship_Games
-	shared_focus = EQS_Civil_War_End
+	# shared_focus = EQS_Civil_War_End
 	shared_focus = EQS_buffalo_relations
-	shared_focus = eqs_come_to_compromise
-	shared_focus = eqs_prevent_the_vote
+	# shared_focus = eqs_come_to_compromise
+	# shared_focus = eqs_prevent_the_vote
 
 
 	shared_focus = SOL_Imperium_Solis
@@ -987,7 +987,7 @@ shared_focus = {
 shared_focus = {
 	id = Ministry_of_defense
 	icon = GFX_goal_eqs_ministry_of_defence
-	cost = 10.00
+	cost = 5
 	ai_will_do = {
 		factor = 93
 		modifier = {
@@ -1090,7 +1090,7 @@ shared_focus = {
 shared_focus = {
 	id = EQS_airfields
 	icon = GFX_goal_eqs_airfields_central
-	cost = 7
+	cost = 1
 	ai_will_do = { factor = 70 }
 	prerequisite = {
 		focus = Ministry_of_defense
@@ -1117,49 +1117,49 @@ shared_focus = {
 		132 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		170 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		129 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		131 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		146 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		70 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		74 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
@@ -1170,7 +1170,7 @@ shared_focus = {
 shared_focus = {
 	id = EQS_airfields2
 	icon = GFX_goal_eqs_airfields_south
-	cost = 7
+	cost = 1
 	ai_will_do = { factor = 20 }
 	prerequisite = {
 		focus = Ministry_of_defense
@@ -1192,42 +1192,42 @@ shared_focus = {
 		38 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		114 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		111 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		22 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		116 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
 		12 = {
 			add_building_construction = {
 				type = air_base
-				level = 1
+				level = 3
 				instant_build = yes
 			}
 		}
@@ -2946,7 +2946,7 @@ shared_focus = {
 shared_focus = {
 	id = tenochtitlan_state_university
 	icon = GFX_goal_tfv_generic_tech_sharing
-	cost = 15.00
+	cost = 10
 	ai_will_do = {
 		factor = 200
 	}
