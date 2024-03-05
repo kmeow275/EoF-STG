@@ -189,7 +189,6 @@ technologies = {
 		enable_equipment_modules = {
 			tank_medium_howitzer
 			tank_medium_cannon
-
 		}
 
 		path = {
@@ -456,8 +455,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipment_modules = {
-			tank_heavy_howitzer
-			tank_super_heavy_howitzer
 			auto_loader
 		}
 
@@ -523,6 +520,10 @@ technologies = {
 
 	heavyartillery2 = {
 
+		heavy_artillery_brigade = {
+			soft_attack = 0.1
+		}
+
 		start_year = 1010
 		path = {
 			leads_to_tech = heavyartillery3
@@ -543,6 +544,10 @@ technologies = {
 	}
 
 	heavyartillery3 = {
+
+		heavy_artillery_brigade = {
+			soft_attack = 0.1
+		}
 
 		start_year = 1011
 		path = {
@@ -568,6 +573,10 @@ technologies = {
 		enable_equipments = {
 			heavy_artillery_equipment_2
 		}
+		enable_equipment_modules = {
+			tank_heavy_howitzer
+			tank_super_heavy_howitzer
+		}
 
 		start_year = 1012
 		path = {
@@ -589,6 +598,10 @@ technologies = {
 
 	heavyartillery5 = {
 
+		heavy_artillery_brigade = {
+			soft_attack = 0.1
+		}
+
 		start_year = 1013
 		path = {
 			leads_to_tech = heavyartillery6
@@ -608,6 +621,10 @@ technologies = {
 	}
 
 	heavyartillery6 = {
+
+		heavy_artillery_brigade = {
+			soft_attack = 0.1
+		}
 
 		start_year = 1014
 		research_cost = 1
@@ -1633,10 +1650,7 @@ technologies = {
 		}	
 		enable_equipment_modules = {
 			tank_medium_cannon_3
-			tank_high_velocity_cannon_3
-			tank_heavy_cannon_3
 			tank_advanced_medium_high_velocity_cannon
-			tank_advanced_heavy_high_velocity_cannon 
 			auto_loader
 		}
 		
@@ -1699,7 +1713,8 @@ technologies = {
 			heavy_anti_tank_equipment_1
 		}
 		enable_equipment_modules = {
-		}		
+			tank_heavy_cannon_2
+		}			
 		path = {
 			leads_to_tech = heavyantitank2
 			research_cost_coeff = 1
@@ -1723,10 +1738,11 @@ technologies = {
 
 	heavyantitank2 = {
 
-		enable_equipments = {
+		heavy_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.075
 		}
-		enable_equipment_modules = {
-		}		
+
 		path = {
 			leads_to_tech = heavyantitank3
 			research_cost_coeff = 1
@@ -1750,10 +1766,11 @@ technologies = {
 
 	heavyantitank3 = {
 
-		enable_equipments = {
+		heavy_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.075
 		}
-		enable_equipment_modules = {
-		}		
+
 		path = {
 			leads_to_tech = heavyantitank4
 			research_cost_coeff = 1
@@ -1781,6 +1798,10 @@ technologies = {
 			heavy_anti_tank_equipment_2
 		}
 		enable_equipment_modules = {
+			tank_high_velocity_cannon_3
+			tank_heavy_cannon_3
+			tank_advanced_heavy_high_velocity_cannon 
+			auto_loader
 		}		
 
 		research_cost = 1

@@ -23,20 +23,17 @@ sub_units = {
 
 		combat_width = 1
 
-		manpower = 500
 		need = {
 			heavy_artillery_equipment = 36
 		}
-
-		max_strength = 0.6
+		manpower = 500
 		max_organisation = 0
+		max_strength = 0.6
 		default_morale = 0.1
 		training_time = 120
 		weight = 0.5
-		supply_consumption = 0.21
 
-		#Line artillery bonuses
-		#soft_attack = 0.25
+		supply_consumption = 0.3
 
 		forest = {
 			attack = -0.2
