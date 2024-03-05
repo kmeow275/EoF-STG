@@ -64,10 +64,82 @@ spriteTypes = {
 		name = "GFX_advanced_heavy_tank_turret_medium"
 		textureFile = "gfx/interface/technologies/advanced_heavy_turret.dds"
 	}
+	SpriteType = {
+		name = "GFX_heavyartillery1_medium"
+		textureFile = "gfx/interface/technologies/heavy_artillery_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyartillery2_medium"
+		textureFile = "gfx/interface/technologies/artillery1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyartillery3_medium"
+		textureFile = "gfx/interface/technologies/artillery2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyartillery4_medium"
+		textureFile = "gfx/interface/technologies/heavy_artillery_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyartillery5_medium"
+		textureFile = "gfx/interface/technologies/artillery3.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyartillery6_medium"
+		textureFile = "gfx/interface/technologies/artillery5.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyantitank1_medium"
+		textureFile = "gfx/interface/technologies/heavy_AT_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyantitank2_medium"
+		textureFile = "gfx/interface/technologies/antitank3.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyantitank3_medium"
+		textureFile = "gfx/interface/technologies/antitank5.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyantitank4_medium"
+		textureFile = "gfx/interface/technologies/heavy_AT_2.dds"
+	}
 	###Events###
 	spriteType = {
 		name = "GFX_GRF_border_war"
 		texturefile = "gfx/event_pictures/GRF_border_war.dds"
 	}
-
+	###Units###
+	spriteType = {
+		name = "GFX_unit_heavy_artillery_brigade_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_art_icon.dds"
+		noOfFrames = 2	
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_artillery_brigade_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_art_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_artillery_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_artillery_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_anti_tank_brigade_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_heavy_at_icon.dds"
+		noOfFrames = 2	
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_anti_tank_brigade_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_at_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_heavy_anti_tank_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_anti_tank_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
 }
