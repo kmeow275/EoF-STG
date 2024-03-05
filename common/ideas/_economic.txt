@@ -715,7 +715,6 @@ ideas = {
 				production_speed_arms_factory_factor = 0.2
 				conversion_cost_civ_to_mil_factor= -0.2
 				conversion_cost_mil_to_civ_factor = -0.2
-				political_power_gain = -0.20
 			}
 
 			cancel_if_invalid = no
@@ -868,7 +867,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.3
 				conversion_cost_civ_to_mil_factor= -0.3
 				conversion_cost_mil_to_civ_factor = -0.3
-				political_power_gain = -0.25
+				political_power_gain = -0.1
 			}
 
 			cancel_if_invalid = no

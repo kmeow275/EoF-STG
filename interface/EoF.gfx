@@ -51,6 +51,42 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 
+	spriteType = {
+		name = "GFX_EMI_tank_optics_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_1.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_optics_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_2.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_optics_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_3.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_optics_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_4.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_bino_optics_1"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_bino_optics_1.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tank_bino_optics_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_bino_optics_2.dds"
+		legacy_lazy_load = no
+	}
+
 	###Technologies###
 	SpriteType = {
 		name = "GFX_tank_super_heavy_cannon_medium"
@@ -103,6 +139,38 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_heavyantitank4_medium"
 		textureFile = "gfx/interface/technologies/heavy_AT_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_1_medium"
+		textureFile = "gfx/interface/technologies/nsb_gun_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_2_medium"
+		textureFile = "gfx/interface/technologies/nsb_gun_tech_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_3_medium"
+		textureFile = "gfx/interface/technologies/nsb_gun_tech_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_gun_tech_4_medium"
+		textureFile = "gfx/interface/technologies/nsb_gun_tech_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_1_medium"
+		textureFile = "gfx/interface/technologies/nsb_optics_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_2_medium"
+		textureFile = "gfx/interface/technologies/nsb_optics_tech_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_3_medium"
+		textureFile = "gfx/interface/technologies/nsb_optics_tech_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics_tech_4_medium"
+		textureFile = "gfx/interface/technologies/nsb_optics_tech_4.dds"
 	}
 	###Events###
 	spriteType = {

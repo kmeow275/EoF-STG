@@ -1515,6 +1515,22 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UPPER_LEFT"
 			}
+
+			gridboxtype = {
+				name = "gun_tech_1_tree"
+				position = { x = 0 y = 40 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
+			}
+
+			gridboxtype = {
+				name = "optics_tech_1_tree"
+				position = { x = 175 y = 40 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UPPER_LEFT"
+			}
 		}
 
 		containerWindowType = {

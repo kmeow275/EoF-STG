@@ -10,6 +10,19 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
+					tag = PLB
+					FROM = { tag =  }
+				}
+				PLB = {
+					country_event = EoF.5
+				}
+			}
+		}
+	}
+	on_declare_war = { 
+		effect = {
+			if = {
+				limit = {
 					tag = JAK
 					FROM = { tag = YAK }
 				}

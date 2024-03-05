@@ -14,7 +14,7 @@ focus_tree = {
 	focus = {
 		id = GRF_new_economy
 		icon = GFX_goal_GRF_new_economy
-		cost = 20.00
+		cost = 10.00
 		ai_will_do = { factor = 80 }
 		x = -2
 		y = 1

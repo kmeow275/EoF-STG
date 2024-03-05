@@ -229,3 +229,35 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = EoF.5
+	title = EoF.5.t
+	desc = EoF.5.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF.5.a
+		GRF = {
+			country_event = EoF.6
+		}
+	}
+}
+country_event = {
+	id = EoF.6
+	title = EoF.6.t
+	desc = EoF.6.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF.6.a
+		add_stability = 0.05
+		add_political_power = 50
+	}
+	option = {
+		name = EoF.6.b
+		add_war_support = 0.05
+		declare_war_on = {
+			target = PNG
+    			type = annex_everything
+		}
+		add_threat = 5
+	}
+}

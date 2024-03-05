@@ -1492,7 +1492,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = armor_tech_1_tt
+			custom_effect_tooltip = EoF_armor_tech_1_tt
 		}
 		show_effect_as_desc = yes
 
@@ -1555,7 +1555,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = armor_tech_2_tt
+			custom_effect_tooltip = EoF_armor_tech_2_tt
 		}
 		show_effect_as_desc = yes
 
@@ -1616,7 +1616,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = armor_tech_3_tt
+			custom_effect_tooltip = EoF_armor_tech_3_tt
 		}
 		show_effect_as_desc = yes
 
@@ -1678,7 +1678,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = armor_tech_4_tt
+			custom_effect_tooltip = EoF_armor_tech_4_tt
 		}
 		show_effect_as_desc = yes
 
@@ -1830,7 +1830,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
-			custom_effect_tooltip = engine_tech_1_tt
+			custom_effect_tooltip = EoF_engine_tech_1_tt
 		}
 		dependencies = {
 			infantry_weapons = 1
@@ -1893,7 +1893,7 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = engine_tech_2_tt
+			custom_effect_tooltip = EoF_engine_tech_2_tt
 		}
 		show_effect_as_desc = yes
 
@@ -1953,7 +1953,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		on_research_complete = {
-			custom_effect_tooltip = engine_tech_3_tt
+			custom_effect_tooltip = EoF_engine_tech_3_tt
 		}
 		show_effect_as_desc = yes
 		research_cost = 1
@@ -2013,7 +2013,7 @@ technologies = {
 			position = { x = 2 y = @1015 }
 		}
 		on_research_complete = {
-			custom_effect_tooltip = engine_tech_4_tt
+			custom_effect_tooltip = EoF_engine_tech_4_tt
 		}
 		show_effect_as_desc = yes
 		ai_will_do = {
@@ -2144,6 +2144,202 @@ technologies = {
 			mio_cat_tech_heavy_armor_and_modules
 		}
 	}
+
+	#EoF Tank Upgrades
+	gun_tech_1 = {
+		path = {
+			leads_to_tech = gun_tech_2
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = EoF_gun_tech_1_tt
+		}
+		dependencies = {
+			infantry_weapons = 1
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1005
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 21 y = @1006 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+	gun_tech_2 = {
+		path = {
+			leads_to_tech = gun_tech_3
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = EoF_gun_tech_2_tt
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1009
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 21 y = @1009 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+	gun_tech_3 = {
+		path = {
+			leads_to_tech = gun_tech_4
+			research_cost_coeff = 1
+		}
+		on_research_complete = {
+			custom_effect_tooltip = EoF_gun_tech_3_tt
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1012
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 21 y = @1012 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+	gun_tech_4 = {
+		on_research_complete = {
+			custom_effect_tooltip = EoF_gun_tech_4_tt
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1015
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 21 y = @1015 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+
+	optics_tech_1 = {
+		path = {
+			leads_to_tech = optics_tech_2
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			tank_optics_1
+		}
+		dependencies = {
+			infantry_weapons = 1
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1005
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 20 y = @1006 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+	optics_tech_2 = {
+		path = {
+			leads_to_tech = optics_tech_3
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			tank_optics_2
+			tank_bino_optics_1
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1009
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 20 y = @1009 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+	optics_tech_3 = {
+		path = {
+			leads_to_tech = optics_tech_4
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = {
+			tank_optics_3
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1012
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 20 y = @1012 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+	optics_tech_4 = {
+		enable_equipment_modules = {
+			tank_optics_4
+			tank_bino_optics_2
+		}
+		show_effect_as_desc = yes
+		research_cost = 1
+		start_year = 1015
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 20 y = @1015 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			mio_cat_tech_light_armor_and_modules
+			mio_cat_tech_medium_armor_and_modules
+			mio_cat_tech_heavy_armor_and_modules
+		}
+	}
+
 	NOR_rikstanken_tech = {
 
 		allow = { always = no } #Only obtained through Rikstanken Event
