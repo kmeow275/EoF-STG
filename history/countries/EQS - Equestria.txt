@@ -603,6 +603,8 @@ recruit_character = UESR_literally_sablin
 recruit_character = POE_country_leader
 recruit_character = ERE_country_leader
 
+recruit_character = EoF_sunset_shimmer
+
 create_faction = "All_ponies_front"
 add_to_faction = CRY
 add_to_faction = EQC

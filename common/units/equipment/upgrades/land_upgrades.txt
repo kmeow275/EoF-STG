@@ -42,7 +42,7 @@ upgrades = {
 		add_stats = {
 			fuel_consumption = 0.05
 			build_cost_ic = 0.1
-			maximum_speed = 0.1
+			maximum_speed = 0.15
 		}
 	}
 
@@ -96,7 +96,7 @@ upgrades = {
 		add_stats = {
 			maximum_speed = -0.1
 			breakthrough = 1.25
-			build_cost_ic = 0.2
+			build_cost_ic = 0.1
 			armor_value = 2.5
 
 		}
@@ -132,9 +132,9 @@ upgrades = {
 				steel = 1
 			}
 		}
-		reliability = -0.05
+		reliability = -0.015
 		soft_attack = 0.05
-		hard_attack = 0.03
+		hard_attack = 0.05
 		ap_attack = 0.03
 		add_stats = {
 			build_cost_ic = 0.1

@@ -2,7 +2,7 @@ political_actions = {
 	EoF_GRF_border_war_mission = {
 		icon = GFX_decision_border_war
 		allowed = {
-				original_tag = GRF
+			original_tag = GRF
 		}
 		available = {
 		}
@@ -25,6 +25,88 @@ political_actions = {
 				country_event = {
 					id = GRF_border_war.1
 				}
+			}
+		}
+	}
+}
+EoF_great_war_category_CHN = {
+	EoF_declare_winter_offensive = {
+		icon = GFX_decision_generic_army_support
+		allowed = {
+			original_tag = CHN
+		}
+		available = {
+			date > 1011.11.01
+			date < 1012.01.01
+		}
+		visible = {
+			has_country_flag = EoF_winter_offensive_selected
+		}
+		fire_only_once = yes
+		complete_effect = {
+			add_timed_idea = {
+				idea = EoF_winter_offensive
+				days = 120
+			}
+		}
+	}
+	EoF_declare_summer_offensive_1 = {
+		icon = GFX_decision_generic_army_support
+		allowed = {
+			original_tag = CHN
+		}
+		available = {
+			date > 1012.05.01
+			date < 1012.07.01
+		}
+		visible = {
+			has_country_flag = EoF_summer_offensive_selected
+		}
+		fire_only_once = yes
+		complete_effect = {
+			add_timed_idea = {
+				idea = EoF_summer_offensive_1
+				days = 90
+			}
+		}
+	}
+	EoF_declare_summer_offensive_2 = {
+		icon = GFX_decision_generic_army_support
+		allowed = {
+			original_tag = CHN
+		}
+		available = {
+			date > 1013.05.01
+			date < 1013.07.01
+		}
+		visible = {
+			has_completed_focus = EoF_new_offensive
+		}
+		fire_only_once = yes
+		complete_effect = {
+			add_timed_idea = {
+				idea = EoF_summer_offensive_1
+				days = 90
+			}
+		}
+	}
+	EoF_declare_summer_offensive_3 = {
+		icon = GFX_decision_generic_army_support
+		allowed = {
+			original_tag = CHN
+		}
+		available = {
+			date > 1013.05.01
+			date < 1013.07.01
+		}
+		visible = {
+			has_completed_focus = EoF_failure_of_1013
+		}
+		fire_only_once = yes
+		complete_effect = {
+			add_timed_idea = {
+				idea = EoF_summer_offensive_2
+				days = 90
 			}
 		}
 	}

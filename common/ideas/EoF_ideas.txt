@@ -52,5 +52,73 @@ ideas = {
 				production_speed_buildings_factor = 0.15
 			}
 		}
+		EoF_winter_offensive = {
+			removal_cost = -1
+			picture = CHN_plan_east_prep
+			modifier = {
+				army_speed_factor = 0.1
+				supply_consumption_factor = -0.2
+				no_supply_grace	= 48.0
+				planning_speed = 1.0
+				acclimatization_cold_climate_gain_factor = 5
+				winter_attrition_factor = -0.8
+			}
+			targeted_modifier = {
+				tag = EQS
+				attack_bonus_against = 0.2
+			}
+			targeted_modifier = {
+				tag = STG
+				attack_bonus_against = 0.2
+			}
+			targeted_modifier = {
+				tag = CRY
+				attack_bonus_against = 0.2
+			}
+		}
+		EoF_summer_offensive_1 = {
+			removal_cost = -1
+			picture = CHN_plan_east_prep
+			modifier = {
+				army_speed_factor = 0.1
+				supply_consumption_factor = -0.2
+				no_supply_grace	= 48.0
+				planning_speed = 1.0
+			}
+			targeted_modifier = {
+				tag = EQS
+				attack_bonus_against = 0.2
+			}
+			targeted_modifier = {
+				tag = STG
+				attack_bonus_against = 0.2
+			}
+			targeted_modifier = {
+				tag = CRY
+				attack_bonus_against = 0.2
+			}
+		}
+		EoF_summer_offensive_2 = {
+			removal_cost = -1
+			picture = CHN_plan_east_prep
+			modifier = {
+				army_speed_factor = 0.2
+				supply_consumption_factor = -0.5
+				no_supply_grace	= 96.0
+				planning_speed = 2.0
+			}
+			targeted_modifier = {
+				tag = EQS
+				attack_bonus_against = 0.5
+			}
+			targeted_modifier = {
+				tag = STG
+				attack_bonus_against = 0.5
+			}
+			targeted_modifier = {
+				tag = CRY
+				attack_bonus_against = 0.5
+			}
+		}
 	}
 }

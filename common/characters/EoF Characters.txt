@@ -1,0 +1,26 @@
+characters={
+	EoF_sunset_shimmer = {
+		name = EoF_sunset_shimmer
+		portraits = {
+			army = {
+				large = "gfx/leaders/EQS/Sunset.tga"
+				small = "GFX_idea_EQS_sunset_shimmer"
+			}
+		}
+		gender = female
+		field_marshal = {
+			traits = { EoF_sunset_trait adaptable panzer_leader pony_race_trait }
+			skill = 6
+			attack_skill = 9
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 5
+			legacy_id = 34
+			desc = EQS_sunset_shimmer_desc
+			visible = {
+				has_country_flag = EoF_sunset_counteroffensive
+
+			}
+		}
+	}
+}

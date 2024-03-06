@@ -44,46 +44,59 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_medium_main_armament.dds"
 		legacy_lazy_load = no
 	}
-
 	spriteType = {
 		name = "GFX_EMI_tank_advanced_heavy_main_armament"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/EMI_tank_heavy_main_armament.dds"
 		legacy_lazy_load = no
 	}
-
 	spriteType = {
 		name = "GFX_EMI_tank_optics_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_1.dds"
 		legacy_lazy_load = no
 	}
-
 	spriteType = {
 		name = "GFX_EMI_tank_optics_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_2.dds"
 		legacy_lazy_load = no
 	}
-
 	spriteType = {
 		name = "GFX_EMI_tank_optics_3"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_3.dds"
 		legacy_lazy_load = no
 	}
-
 	spriteType = {
 		name = "GFX_EMI_tank_optics_4"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_4.dds"
 		legacy_lazy_load = no
 	}
-
 	spriteType = {
 		name = "GFX_EMI_tank_bino_optics_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_bino_optics_1.dds"
 		legacy_lazy_load = no
 	}
-
 	spriteType = {
 		name = "GFX_EMI_tank_bino_optics_2"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_bino_optics_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_simplification_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/simplification.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_wartime_simplification_steel"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/simplification.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_wartime_simplification_tungsten"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/simplification.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_wartime_simplification_chromium"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/simplification.dds"
 		legacy_lazy_load = no
 	}
 

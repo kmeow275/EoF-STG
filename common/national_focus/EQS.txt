@@ -1550,6 +1550,7 @@ shared_focus = {
 	y = 1
 	available = {
 		OR = {
+			date > 1010.01.01
 			eqs_has_civil_war = yes
 			AND = {
 				has_defensive_war = yes

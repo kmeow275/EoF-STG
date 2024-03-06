@@ -52,7 +52,7 @@ equipments = {
 
 		archetype = heavy_artillery_equipment
 		priority = 50
-		visual_level = 0
+		visual_level = 1`
 
 		defense = 24
 		breakthrough = 4

@@ -70,6 +70,9 @@ technologies = {
 			wet_ammo_storage
 			smoke_launchers
 			expanded_fuel_tank
+			wartime_simplification_steel
+			wartime_simplification_tungsten
+			wartime_simplification_chromium
 		}
 		enable_subunits = {
 			light_armor

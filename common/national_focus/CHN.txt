@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 2700 y = 1350 }
+	continuous_focus_position = { x = 3400 y = 700 }
 	
 	focus = {
 		id = destroy_thoraxian_opposition
@@ -427,7 +427,6 @@ focus_tree = {
 		continue_if_invalid = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_develop_vesalipolis"
-			add_research_slot = 1
 			add_stability = 0.05
 			251 = {
 				add_extra_state_shared_building_slots = 3
@@ -1347,6 +1346,7 @@ focus_tree = {
 			country_event = {
 				id = changelings.20 days = 1
 			}
+			unlock_decision_category_tooltip = EoF_great_war_category_CHN
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 	}
@@ -2333,6 +2333,72 @@ focus_tree = {
 #			}
 #		}
 #	}
+
+	#EoF Changes
+
+	focus = {
+		id = EoF_winter_of_1011
+		icon = GFX_goal_chn_infiltrate_eqs
+		cost = 10.00
+		prerequisite = {
+			focus = demand_equestria
+		}
+		relative_position_id = demand_equestria
+		x = 8
+		y = 2
+		completion_reward = {
+			country_event = EoF_great_war.2
+		}
+	}
+
+	focus = {
+		id = EoF_our_war_plan
+		icon = GFX_goal_chn_infiltrate_eqs
+		cost = 10.00
+		prerequisite = {
+			focus = EoF_winter_of_1011
+		}
+		relative_position_id = EoF_winter_of_1011
+		x = 0
+		y = 1
+	}
+
+	focus = {
+		id = EoF_new_offensive
+		icon = GFX_goal_chn_infiltrate_eqs
+		cost = 10.00
+		prerequisite = {
+			focus = EoF_our_war_plan
+		}
+		mutually_exclusive = {
+			focus = EoF_failure_of_1013
+		}
+		relative_position_id = EoF_our_war_plan
+		x = -1
+		y = 1
+		completion_reward = {
+			unlock_decision_tooltip = EoF_declare_summer_offensive_2
+		}
+	}
+
+	focus = {
+		id = EoF_failure_of_1013
+		icon = GFX_goal_chn_infiltrate_eqs
+		cost = 10.00
+		prerequisite = {
+			focus = EoF_our_war_plan
+		}
+		mutually_exclusive = {
+			focus = EoF_new_offensive
+		}
+		relative_position_id = EoF_our_war_plan
+		x = 1
+		y = 1
+		completion_reward = {
+			unlock_decision_tooltip = EoF_declare_summer_offensive_3
+		}
+	}
+
 	##############MILITARY FOCUS TREES################
 
 	focus = {
