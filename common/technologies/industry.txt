@@ -308,7 +308,7 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.15
-		global_building_slots_factor = 0.20
+		global_building_slots_factor = 0.30
 
 		dependencies = {
 			infantry_weapons = 1
@@ -362,7 +362,7 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.15
-		global_building_slots_factor = 0.20
+		global_building_slots_factor = 0.30
 		path = {
 			leads_to_tech = concentrated_industry3
 			research_cost_coeff = 1
@@ -400,7 +400,7 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.15
-		global_building_slots_factor = 0.20
+		global_building_slots_factor = 0.30
 		path = {
 			leads_to_tech = concentrated_industry4
 			research_cost_coeff = 1
@@ -437,7 +437,7 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.15
-		global_building_slots_factor = 0.20
+		global_building_slots_factor = 0.30
 		path = {
 			leads_to_tech = concentrated_industry5
 			research_cost_coeff = 1
@@ -476,7 +476,7 @@ technologies = {
 
 		industrial_capacity_factory = 0.15
 		industrial_capacity_dockyard = 0.15
-		global_building_slots_factor = 0.20
+		global_building_slots_factor = 0.30
 		path = {
 			leads_to_tech = concentrated_industry_a
 			research_cost_coeff = 1
@@ -523,7 +523,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.15
-		global_building_slots_factor = 0.2
+		global_building_slots_factor = 0.3
 		dependencies = {
 			infantry_weapons = 1
 		}
@@ -579,7 +579,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.1
-		global_building_slots_factor = 0.2
+		global_building_slots_factor = 0.3
 		path = {
 			leads_to_tech = dispersed_industry3
 			research_cost_coeff = 1
@@ -619,7 +619,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.1
-		global_building_slots_factor = 0.2
+		global_building_slots_factor = 0.3
 		path = {
 			leads_to_tech = dispersed_industry4
 			research_cost_coeff = 1
@@ -659,7 +659,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.1
-		global_building_slots_factor = 0.2
+		global_building_slots_factor = 0.3
 		path = {
 			leads_to_tech = dispersed_industry5
 			research_cost_coeff = 1
@@ -701,7 +701,7 @@ technologies = {
 		line_change_production_efficiency_factor = 0.1
 		production_factory_start_efficiency_factor = 0.05
 		industry_air_damage_factor = -0.1
-		global_building_slots_factor = 0.2
+		global_building_slots_factor = 0.3
 		path = {
 			leads_to_tech = dispersed_industry_a
 			research_cost_coeff = 1
@@ -2036,7 +2036,7 @@ technologies = {
 
 	construction1 = {
 
-		production_speed_buildings_factor = 0.15
+		production_speed_buildings_factor = 0.2
 		industry_repair_factor = 0.10
 		dependencies = {
 			infantry_weapons = 1
@@ -2126,7 +2126,7 @@ technologies = {
 
 	construction2 = {
 
-		production_speed_buildings_factor = 0.15
+		production_speed_buildings_factor = 0.2
 		industry_repair_factor = 0.10
 
 		path = {
@@ -2214,7 +2214,7 @@ technologies = {
 
 	construction3 = {
 
-		production_speed_buildings_factor = 0.15
+		production_speed_buildings_factor = 0.2
 		industry_repair_factor = 0.10
 
 		path = {
@@ -2314,7 +2314,7 @@ technologies = {
 
 	construction4 = {
 
-		production_speed_buildings_factor = 0.15
+		production_speed_buildings_factor = 0.2
 		industry_repair_factor = 0.10
 
 		path = {
@@ -2404,7 +2404,7 @@ technologies = {
 
 	construction5 = {
 
-		production_speed_buildings_factor = 0.15
+		production_speed_buildings_factor = 0.2
 		industry_repair_factor = 0.10
 
 		path = {

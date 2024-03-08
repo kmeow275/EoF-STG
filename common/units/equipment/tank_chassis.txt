@@ -74,6 +74,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -86,6 +87,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -98,6 +100,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -173,6 +176,10 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
 			count < 2
 		}
 		default_modules = {
@@ -273,6 +280,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_maintenance
 					tank_special_module_stabilizer
 					tank_special_module_skirts
@@ -285,6 +293,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_maintenance
 					tank_special_module_stabilizer
 					tank_special_module_skirts
@@ -400,6 +409,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -412,6 +422,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -424,6 +435,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -499,6 +511,10 @@ equipments = {
 			category = tank_simplification_module
 			count < 2
 		}
+		module_count_limit = {
+			category = tank_cupola_module
+			count < 2
+		}
 		default_modules = {
 			main_armament_slot = empty
 			turret_type_slot = tank_medium_one_man_tank_turret
@@ -552,7 +568,7 @@ equipments = {
 		priority = 2000
 		module_slots = inherit
 		armor_value = 40
-		build_cost_ic = 22
+		build_cost_ic = 2
 		reliability = 0.8
 		maximum_speed = 5
 		resources = {
@@ -583,6 +599,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -595,6 +612,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -679,6 +697,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -691,6 +710,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -703,6 +723,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -715,6 +736,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -727,6 +749,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -739,6 +762,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -751,6 +775,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -831,6 +856,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -843,6 +869,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -855,6 +882,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -925,6 +953,10 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
 			count < 2
 		}
 		default_modules = {
@@ -1009,6 +1041,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1021,6 +1054,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1109,6 +1143,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1121,6 +1156,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1133,6 +1169,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1145,6 +1182,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1157,6 +1195,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1169,6 +1208,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1181,6 +1221,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1263,6 +1304,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1274,6 +1316,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1285,6 +1328,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1296,6 +1340,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1307,6 +1352,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1318,6 +1364,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1329,6 +1376,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1398,6 +1446,10 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
 			count < 2
 		}
 
@@ -1550,6 +1602,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1562,6 +1615,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1574,6 +1628,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1586,6 +1641,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1598,6 +1654,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1610,6 +1667,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1622,6 +1680,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1691,6 +1750,10 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
 			count < 2
 		}
 		default_modules = {
@@ -1840,6 +1903,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1851,6 +1915,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1862,6 +1927,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_simplification_module
+					tank_cupola_module
 					tank_special_module_stabilizer
 					tank_special_module_maintenance
 					tank_special_module_skirts
@@ -1931,6 +1997,10 @@ equipments = {
 		}
 		module_count_limit = {
 			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
 			count < 2
 		}
 

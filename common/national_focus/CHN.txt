@@ -28,7 +28,7 @@ focus_tree = {
 		y = 0
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus destroy_thoraxian_opposition"
-			add_war_support = 0.05
+			add_war_support = 0.15
 			country_event = { id = changelings.59 days = 3 }
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
@@ -2359,6 +2359,9 @@ focus_tree = {
 			focus = EoF_winter_of_1011
 		}
 		relative_position_id = EoF_winter_of_1011
+		completion_reward = {
+			country_event = EoF_great_war.3
+		}
 		x = 0
 		y = 1
 	}

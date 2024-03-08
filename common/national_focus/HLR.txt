@@ -1,0 +1,11 @@
+focus_tree = {
+	id = EoF_HLR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HLR
+		}
+
+	}
+}

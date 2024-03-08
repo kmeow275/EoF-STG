@@ -2364,7 +2364,7 @@ equipment_modules = {
 		add_stats = {
 			build_cost_ic = 1
 			soft_attack = 4
-			maximum_speed = -0.5
+			maximum_speed = -0.2
 		}
 		xp_cost = 0
 		multiply_stats = {

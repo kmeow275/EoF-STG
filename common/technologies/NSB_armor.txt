@@ -185,6 +185,9 @@ technologies = {
 			light_tank_artillery_chassis_1
 			light_tank_aa_chassis_1
 		}
+		enable_equipment_modules = {
+			cupola_1
+		}
 		enable_subunits = {
 			light_armor
 		}
@@ -276,6 +279,9 @@ technologies = {
 			light_tank_destroyer_chassis_2
 			light_tank_artillery_chassis_2
 			light_tank_aa_chassis_2
+		}
+		enable_equipment_modules = {
+			cupola_2
 		}
 
 		path = {
@@ -502,6 +508,9 @@ technologies = {
 			light_tank_artillery_chassis_3
 			light_tank_aa_chassis_3
 		}
+		enable_equipment_modules = {
+			cupola_3
+		}
 
 		path = {
 			leads_to_tech = semi_modern_light_tank_chassis
@@ -659,6 +668,9 @@ technologies = {
 			medium_tank_artillery_chassis_1
 			medium_tank_aa_chassis_1
 		}
+		enable_equipment_modules = {
+			cupola_1
+		}
 
 		enable_subunits = {
 			medium_armor
@@ -750,6 +762,9 @@ technologies = {
 			medium_tank_artillery_chassis_2
 			medium_tank_aa_chassis_2
 		}
+		enable_equipment_modules = {
+			cupola_2
+		}
 
 		path = {
 			leads_to_tech = advanced_medium_tank_turret
@@ -819,6 +834,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			advanced_medium_tank_turret
+			cupola_3
 		}
 
 		path = {
@@ -1114,6 +1130,9 @@ technologies = {
 			heavy_tank_artillery_chassis_1
 			heavy_tank_aa_chassis_1
 		}
+		enable_equipment_modules = {
+			cupola_1
+		}
 
 		enable_subunits = {
 			heavy_armor
@@ -1193,6 +1212,9 @@ technologies = {
 			heavy_tank_artillery_chassis_2
 			heavy_tank_aa_chassis_2
 		}
+		enable_equipment_modules = {
+			cupola_2
+		}
 
 		path = {
 			leads_to_tech = advanced_heavy_tank_turret
@@ -1243,6 +1265,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			advanced_heavy_tank_turret
+			cupola_3
 		}
 
 		path = {

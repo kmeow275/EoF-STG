@@ -156,10 +156,30 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = EoF_great_war.2.a
+		unlock_decision_tooltip = EoF_declare_winter_offensive
 		set_country_flag = EoF_winter_offensive_selected
 	}
 	option = {
 		name = EoF_great_war.2.b
+		unlock_decision_tooltip = EoF_declare_summer_offensive_1
 		set_country_flag = EoF_summer_offensive_selected
+	}
+}
+country_event = {
+	id = EoF_great_war.3
+	title = EoF_great_war.3.t
+	desc = EoF_great_war.3.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF_great_war.3.a
+		add_timed_idea = { idea = EoF_CHN_warplan_short days = 60 }
+	}
+	option = {
+		name = EoF_great_war.3.b
+		add_ideas = EoF_CHN_warplan_medium
+	}
+	option = {
+		name = EoF_great_war.3.c
+		add_timed_idea = { idea = EoF_CHN_warplan_long_debuff days = 240 }
 	}
 }

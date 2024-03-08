@@ -66,5 +66,6 @@ leader_traits = {
 			planning_speed = 0.25
 			terrain_penalty_reduction = 0.05
 		}
+		new_commander_weight = { factor = 0 }
 	}
 }

@@ -58,7 +58,7 @@ equipments = {
 		breakthrough = 4
 		soft_attack = 60
 
-		build_cost_ic = 16
+		build_cost_ic = 15
 		resources = {
 			tungsten = 1
 			steel = 4
