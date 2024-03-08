@@ -2339,7 +2339,7 @@ focus_tree = {
 	focus = {
 		id = EoF_winter_of_1011
 		icon = GFX_goal_chn_infiltrate_eqs
-		cost = 10.00
+		cost = 1
 		prerequisite = {
 			focus = demand_equestria
 		}
@@ -2354,7 +2354,7 @@ focus_tree = {
 	focus = {
 		id = EoF_our_war_plan
 		icon = GFX_goal_chn_infiltrate_eqs
-		cost = 10.00
+		cost = 5
 		prerequisite = {
 			focus = EoF_winter_of_1011
 		}
@@ -2369,12 +2369,15 @@ focus_tree = {
 	focus = {
 		id = EoF_new_offensive
 		icon = GFX_goal_chn_infiltrate_eqs
-		cost = 10.00
+		cost = 5
 		prerequisite = {
 			focus = EoF_our_war_plan
 		}
 		mutually_exclusive = {
-			focus = EoF_failure_of_1013
+			focus = EoF_failure_of_1012
+		}
+		available = {
+			date > 1013.01.01
 		}
 		relative_position_id = EoF_our_war_plan
 		x = -1
@@ -2385,14 +2388,43 @@ focus_tree = {
 	}
 
 	focus = {
-		id = EoF_failure_of_1013
+		id = EoF_failure_of_1012
 		icon = GFX_goal_chn_infiltrate_eqs
-		cost = 10.00
+		cost = 5
 		prerequisite = {
 			focus = EoF_our_war_plan
 		}
 		mutually_exclusive = {
 			focus = EoF_new_offensive
+		}
+		available = {
+			date > 1013.01.01
+			NOT = {
+				14 = {
+					controller = {
+						OR = {
+							is_in_faction_with = CHN
+							tag = CHN
+						}
+					}
+				}
+				54 = {
+					controller = {
+						OR = {
+							is_in_faction_with = CHN
+							tag = CHN
+						}
+					}
+				}
+				138 = {
+					controller = {
+						OR = {
+							is_in_faction_with = CHN
+							tag = CHN
+						}
+					}
+				}
+			}
 		}
 		relative_position_id = EoF_our_war_plan
 		x = 1

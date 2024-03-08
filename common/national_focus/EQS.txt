@@ -1664,7 +1664,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_war = yes
-			has_war_support > 0.75
+			has_war_support > 0.5
 			any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
 			hidden_trigger = {
 				CHN = {
@@ -1804,7 +1804,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_war = yes
-			has_war_support > 0.75
+			has_war_support > 0.5
 			any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
 			hidden_trigger = {
 				CHN = {
@@ -1855,7 +1855,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_war = yes
-			has_war_support > 0.75
+			has_war_support > 0.5
 			any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
 			hidden_trigger = {
 				CHN = {
@@ -1970,7 +1970,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_war = yes
-			has_war_support > 0.75
+			has_war_support > 0.5
 			any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
 			hidden_trigger = {
 				CHN = {
@@ -2008,7 +2008,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_war = yes
-			has_war_support > 0.75
+			has_war_support > 0.5
 			any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
 			hidden_trigger = {
 				CHN = {
@@ -2539,7 +2539,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_war = yes
-			has_war_support > 0.75
+			has_war_support > 0.5
 			any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
 			hidden_trigger = {
 				CHN = {
@@ -2601,7 +2601,7 @@ shared_focus = {
 	available = {
 		OR = {
 			has_war = yes
-			has_war_support > 0.75
+			has_war_support > 0.5
 			any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
 			hidden_trigger = {
 				CHN = {
@@ -3865,6 +3865,231 @@ shared_focus = {
 	}
 	search_filters = { FOCUS_FILTER_ANNEXATION }
 }
+
+#EoF Changes
+
+shared_focus = {
+	id = EoF_wave_1
+	icon = GFX_goal_graveyard
+	cost = 5
+	available = {
+		EQS = {
+			casualties > 1000000
+		}
+		CHN = {
+			casualties < 500000
+		}
+	}
+	bypass = {
+		CHN = {
+			casualties > 500000
+		}
+	}
+	prerequisite = {
+		focus = Preemptive_attack
+	}
+	cancel_if_invalid = yes
+	x = 23
+	y = 6
+	completion_reward = {
+		division_template = {
+			name = "First Wave Division"
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 0 y = 3 }
+				infantry = { x = 0 y = 4 }
+
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+				infantry = { x = 1 y = 2 }
+				infantry = { x = 1 y = 3 }
+				infantry = { x = 1 y = 4 }
+			}
+			support = {
+				artillery = { x = 0 y = 0 }
+				anti_tank = { x = 0 y = 1 }
+				engineer = { x = 0 y = 2 }
+				anti_air = { x = 0 y = 3 }
+			}
+		}
+		every_controlled_state = {
+			limit = {
+				any_neighbor_state = {
+					controller = {
+						has_war_with = EQS
+					}
+				}
+			}
+			create_unit = {
+				division = "name = \"First Wave Division\" division_template = \"First Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"First Wave Division\" division_template = \"First Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"First Wave Division\" division_template = \"First Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EoF_wave_2
+	icon = GFX_goal_eqs_public_schools
+	cost = 5
+	available = {
+		EQS = {
+			casualties > 3000000
+		}
+		CHN = {
+			casualties < 1000000
+		}
+	}
+	bypass = {
+		CHN = {
+			casualties > 1000000
+		}
+	}
+	prerequisite = {
+		focus = EoF_wave_1
+	}
+	cancel_if_invalid = yes
+	x = 23
+	y = 7
+	completion_reward = {
+		division_template = {
+			name = "Second Wave Division"
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 0 y = 3 }
+				infantry = { x = 0 y = 4 }
+
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+				infantry = { x = 1 y = 2 }
+				infantry = { x = 1 y = 3 }
+				infantry = { x = 1 y = 4 }
+			}
+			support = {
+				artillery = { x = 0 y = 0 }
+				anti_tank = { x = 0 y = 1 }
+				engineer = { x = 0 y = 2 }
+				anti_air = { x = 0 y = 3 }
+			}
+		}
+		every_controlled_state = {
+			limit = {
+				any_neighbor_state = {
+					controller = {
+						has_war_with = EQS
+					}
+				}
+			}
+			create_unit = {
+				division = "name = \"Second Wave Division\" division_template = \"Second Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Second Wave Division\" division_template = \"Second Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Second Wave Division\" division_template = \"Second Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Second Wave Division\" division_template = \"Second Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EoF_wave_3
+	icon = GFX_goal_derpy_conscription
+	cost = 5
+	available = {
+		EQS = {
+			casualties > 6000000
+		}
+		CHN = {
+			casualties < 1500000
+		}
+	}
+	bypass = {
+		CHN = {
+			casualties > 1500000
+		}
+	}
+	prerequisite = {
+		focus = EoF_wave_2
+	}
+	cancel_if_invalid = yes
+	x = 23
+	y = 8
+	completion_reward = {
+		division_template = {
+			name = "Third Wave Division"
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 0 y = 3 }
+				infantry = { x = 0 y = 4 }
+
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+				infantry = { x = 1 y = 2 }
+				infantry = { x = 1 y = 3 }
+				infantry = { x = 1 y = 4 }
+			}
+			support = {
+				artillery = { x = 0 y = 0 }
+				anti_tank = { x = 0 y = 1 }
+				engineer = { x = 0 y = 2 }
+				anti_air = { x = 0 y = 3 }
+			}
+		}
+		every_controlled_state = {
+			limit = {
+				any_neighbor_state = {
+					controller = {
+						has_war_with = EQS
+					}
+				}
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+		}
+	}
+}
+
 
 shared_focus = {
 
