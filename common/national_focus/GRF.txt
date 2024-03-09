@@ -6861,7 +6861,7 @@ focus_tree = {
 			factor = 50
 		}
 		prerequisite = { focus = GRF_mass_assault_f focus = GRF_grand_battleplan_f focus = GRF_superior_firepower_f focus = GRF_mobile_warfare_f }
-		x = 49
+		x = 48
 		y = 5
 		
 		offset = {
@@ -7122,7 +7122,7 @@ focus_tree = {
 			factor = 50
 		}
 		prerequisite = { focus = GRF_mass_assault_f focus = GRF_grand_battleplan_f focus = GRF_superior_firepower_f focus = GRF_mobile_warfare_f }
-		x = 51
+		x = 50
 		y = 5
 		
 		offset = {
@@ -7152,7 +7152,7 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
-	
+
 	focus = {
 		id = GRF_standard_artillery
 		icon = GFX_goal_artillery
@@ -7160,7 +7160,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-		prerequisite = { focus = GRF_standard_rifles }
+		prerequisite = { focus = GRF_standard_rifles focus = GRF_motorized_f }
 		x = 50
 		y = 6
 		
@@ -7199,7 +7199,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-		prerequisite = { focus = GRF_standard_rifles }
+		prerequisite = { focus = GRF_standard_rifles focus = GRF_motorized_f}
 		x = 52
 		y = 6
 		
@@ -7238,10 +7238,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-		prerequisite = { focus = GRF_standard_artillery }
-		prerequisite = { focus = GRF_standard_support }
-		x = 51
-		y = 7
+		prerequisite = { focus = GRF_mass_assault_f focus = GRF_grand_battleplan_f focus = GRF_superior_firepower_f focus = GRF_mobile_warfare_f }
+		x = 52
+		y = 5
 		
 		offset = {
 			x = -20
@@ -7270,7 +7269,44 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
-	
+
+	#EoF Changes
+	focus = {
+		id = EoF_GRF_mechanized_bonus
+		icon = GFX_goal_generic_build_tank
+		cost = 8.00
+		prerequisite = { focus = GRF_standard_artillery }
+		prerequisite = { focus = GRF_standard_support }
+		x = 51
+		y = 7
+		
+		offset = {
+			x = -20
+			y = 0
+			trigger = {
+				has_completed_focus = GRF_highhill_junta
+			}
+		}
+		
+		offset = {
+			x = -12
+			y = 0
+			trigger = {
+				has_completed_focus = GRF_free_elections
+			}
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = mech_army_bonus
+				bonus = 1.0
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
+	}
+	#EoF Changes
+
 	focus = {
 		id = GRF_heavy_tank_f
 		icon = GFX_focus_indy_industrial_tanks
@@ -7278,7 +7314,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-		prerequisite = { focus = GRF_motorized_f }
+		prerequisite = { focus = EoF_GRF_mechanized_bonus }
 		prerequisite = { focus = GRF_medium_tank_f }
 		x = 50
 		y = 8
@@ -7318,7 +7354,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 50
 		}
-		prerequisite = { focus = GRF_motorized_f }
+		prerequisite = { focus = EoF_GRF_mechanized_bonus }
 		prerequisite = { focus = GRF_train_officers }
 		x = 52
 		y = 8
@@ -7354,7 +7390,7 @@ focus_tree = {
 			factor = 50
 		}
 		prerequisite = { focus = GRF_mass_assault_f focus = GRF_grand_battleplan_f focus = GRF_superior_firepower_f focus = GRF_mobile_warfare_f }
-		x = 53
+		x = 54
 		y = 5
 		
 		offset = {

@@ -1803,7 +1803,13 @@ focus_tree = {
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 10
 		prerequisite = {
-			focus = technological_revolution
+			focus = Improve_logistics
+		}
+		prerequisite = {
+			focus = new_fuel_experiments
+		}
+		prerequisite = {
+			focus = industrialize_the_north
 		}
 		x = 21
 		y = 10
@@ -2146,8 +2152,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10
 		prerequisite = {
-			focus = expand_the_plan
-			focus = simplify_bureaucracy
+			focus = technological_revolution
 		}
 		available = {
 			225 = { is_owned_and_controlled_by = ROOT }
@@ -2289,16 +2294,15 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10
 		prerequisite = {
-			focus = expand_the_plan
-			focus = simplify_bureaucracy
+			focus = STG_oil2
 		}
 		available = {
 			153 = { is_owned_and_controlled_by = ROOT }
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		x = 21
-		y = 4
+		x = 23
+		y = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STG_aluminum"
 			add_resource = {
@@ -2328,7 +2332,7 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		x = 20
+		x = 19
 		y = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus STG_to_Peterhoof_railroad"
@@ -2353,7 +2357,7 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		x = 22
+		x = 21
 		y = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus steel_production"
@@ -3769,16 +3773,11 @@ focus_tree = {
 		icon = GFX_focus_research
 		cost = 10
 		prerequisite = {
-			focus = Improve_logistics
-		}
-		prerequisite = {
-			focus = new_fuel_experiments
-		}
-		prerequisite = {
-			focus = industrialize_the_north
+			focus = expand_the_plan
+			focus = simplify_bureaucracy
 		}
 		x = 21
-		y = 9
+		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus technological_revolution"
 			add_research_slot = 1
@@ -3942,6 +3941,22 @@ focus_tree = {
 				country_event = { id = EoF.4 }
 			}
 		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	focus = {
+		id = EoF_STG_buy_planes
+		icon = GFX_goal_stg_eqs
+		cost = 5
+		prerequisite = {
+			focus = EoF_join_UPA
+		}
+		x = 16
+		y = 1
+		completion_reward = {
+			add_equipment_subsidy = {
+				cic = 10000
+				equipment_type = small_plane_airframe
+				seller_tags = { EQS }
+			}
+		}
 	}
 }
