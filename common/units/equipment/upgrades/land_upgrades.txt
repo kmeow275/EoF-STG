@@ -137,7 +137,7 @@ upgrades = {
 		hard_attack = 0.05
 		ap_attack = 0.03
 		add_stats = {
-			build_cost_ic = 0.1
+			build_cost_ic = 0.5
 		}
 	}
 

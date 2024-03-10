@@ -1060,8 +1060,8 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			motorized_attack_factor = 0.12
-			mechanized_attack_factor = 0.12
+			motorized_attack_factor = 0.1
+			mechanized_attack_factor = 0.1
 		}
 		
 		slot = high_command
@@ -1087,7 +1087,7 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			army_infantry_defence_factor = 0.13
+			army_infantry_defence_factor = 0.1
 		}
 		
 		slot = high_command
@@ -1272,7 +1272,7 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			army_armor_speed_factor = 0.05 
-			army_armor_attack_factor = 0.16 
+			army_armor_attack_factor = 0.1
 		}
 		ai_will_do = {
 			factor = 1
