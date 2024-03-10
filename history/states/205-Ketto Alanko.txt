@@ -1,27 +1,31 @@
 
 state={
-	id=740
-	name="STATE_740"
-
+	id=205
+	name="STATE_205"
+	resources={
+		tungsten=7.000
+	}
+	
 	history={
 		owner = HLR
-		add_claim_by = HLR
-		add_claim_by = HLR
 		add_core_of = HLR
 		buildings = {
 			infrastructure = 1
+			16739 = {
+				naval_base = 1
+
+			}
 
 		}
 		victory_points = {
-			10143 3 
+			16739 3
 		}
-
 	}
 
 	provinces={
-		7585 7627 7839 8218 8235 10141 10143 10191 10222 
+		12931 15281 15293 15301 15315 15325 15330 16739 16741 16744 
 	}
-	manpower=354325
+	manpower=272310
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000
