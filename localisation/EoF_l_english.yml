@@ -1,6 +1,9 @@
 ﻿l_english:
 EoF_neutral_country:0 "Neutral Country"
 
+light_of_kemerkai:0 "Light of Kemerkai"
+shadow_of_kemerkai:0 "Shadow of Kemerkai"
+
 EoF_GRF_border_war_mission:0 "Demand the Village Up North"
 EoF_GRF_border_war_mission_desc:0 "The Village Up North has long been a reminder of Equestria's blatent disregard for our nation. By demanding its annexation we will finally send a message that we are not to be taken lightly."
 GRF_border_war.1.t:0 "Nova Griffonia Demands Village Up North"
@@ -80,4 +83,5 @@ EoF_warplan_CHN_short:0 "Short Warplan"
 EoF_warplan_CHN_medium:0 "Medium Warplan"
 EoF_warplan_CHN_long_debuff:0 "Preparing our Wartime Industry"
 EoF_warplan_CHN_long_buff:0 "Consolidated Wartime Industry"
+
 

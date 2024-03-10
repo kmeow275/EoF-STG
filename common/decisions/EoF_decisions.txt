@@ -46,7 +46,7 @@ EoF_great_war_category_CHN = {
 		complete_effect = {
 			add_timed_idea = {
 				idea = EoF_winter_offensive
-				days = 120
+				days = 90
 			}
 		}
 	}
@@ -66,7 +66,7 @@ EoF_great_war_category_CHN = {
 		complete_effect = {
 			add_timed_idea = {
 				idea = EoF_summer_offensive_1
-				days = 90
+				days = 60
 			}
 		}
 	}
@@ -86,7 +86,7 @@ EoF_great_war_category_CHN = {
 		complete_effect = {
 			add_timed_idea = {
 				idea = EoF_summer_offensive_1
-				days = 90
+				days = 60
 			}
 		}
 	}

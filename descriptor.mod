@@ -1,4 +1,4 @@
-version="0.2"
+version="0.3"
 tags={
 	"Balance"
 	"Gameplay"
@@ -7,6 +7,6 @@ dependencies={
 	"Equestria at War"
 }
 name="Equus on Fire: Redux"
-supported_version="1.13.7"
+supported_version="1.14.1"
 picture="thumbnail.png"
 remote_file_id="7777777"

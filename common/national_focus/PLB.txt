@@ -32762,7 +32762,7 @@ shared_focus = {
 	shared_focus = {
 		id = PLB_into_the_future
 		icon = GFX_goal_chn_man_panzerfaust
-		cost = 15.00
+		cost = 5
 
 		prerequisite = {
 			focus = PLB_banish_outdated_industry
