@@ -30,7 +30,7 @@ country_event = {
 		set_border_war_data = {
 			attacker = 338
 			defender = 241
-			attacker_modifier = 0.2
+			attacker_modifier = 0.5
 		}
 	}
 }

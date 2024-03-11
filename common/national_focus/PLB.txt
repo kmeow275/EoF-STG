@@ -29975,6 +29975,27 @@ shared_focus = {
 			}
 		}
 	}
+
+	#EoF Changes
+	shared_focus = {
+		id = EoF_mobearlization
+		icon = GFX_goal_chn_plb
+		cost = 10
+
+		prerequisite = {
+			focus = PLB_new_overlords_of_winter
+		}
+
+		relative_position_id = PLB_new_overlords_of_winter
+		x = 0
+		y = 1
+
+		completion_reward = {
+			add_war_support = 0.15
+			add_ideas = tot_economic_mobilisation
+		}
+	}	
+	#EoF Changes
 	shared_focus = {
 		id = PLB_queen_of_ice
 		icon = GFX_goal_chn_man_crown
