@@ -14,7 +14,9 @@ NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0	--Base cost to change a
 NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0 		--Base cost to unlock a support slot
 
 NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY = -1		-- over combat width penalty per %.
-NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY_MAX = -0.15		-- over combat width max (when you cant join no more).
+NDefines.NMilitary.COMBAT_OVER_WIDTH_PENALTY_MAX = -0.15	-- over combat width max (when you cant join no more).
+NDefines.NMilitary.COMBAT_STACKING_START = 5			-- at what nr of divisions stacking penalty starts
+NDefines.NMilitary.COMBAT_STACKING_EXTRA = 2                    -- extra stacking from directions
 NDefines.NMilitary.COMBAT_STACKING_PENALTY = -0.1		-- how much stacking penalty per division
 
 NDefines.NMilitary.TRAINING_ATTRITION = 0		  	-- amount of extra attrition from being in training
@@ -30,12 +32,12 @@ NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_ON_SOFT_DICE_SIZE = 2	-- extra damage d
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6	-- extra damage dice if our armor outclasses enemy
 
 NDefines.NMilitary.PIERCING_THRESHOLDS = {			-- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
-		1.50,
-		1.25,
 		1.00,
-		0.75,
+		0.90,
+		0.80,
+		0.70,
+		0.60,
 		0.50,
-		0.25,
 		0.00, 						--there isn't much point setting this higher than 0
 	}
 NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = {		-- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
@@ -57,6 +59,8 @@ NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_VALUE =
 
 NDefines.NCountry.AIR_VOLUNTEER_PLANES_RATIO = 0		-- Ratio for volunteer planes available for sending in relation to sender air force
 NDefines.NCountry.AIR_VOLUNTEER_BASES_CAPACITY_LIMIT = 1	-- Ratio for volunteer planes available for sending in relation to receiver air base capacity
+
+NDefines.NCountry.REINFORCEMENT_MANPOWER_DELIVERY_SPEED = 50.0	-- Modifier for army manpower reinforcement delivery speed (travel time)
 
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 1		-- Each province owned by the target country contributes this amount of volunteers to the limit.
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0		-- Each army unit owned by the source country contributes this amount of volunteers to the limit.

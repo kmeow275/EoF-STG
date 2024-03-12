@@ -1,6 +1,6 @@
 sub_units = {
 	heavy_anti_tank_brigade = {
-		abbreviation = "HANT"
+		abbreviation = "HAT"
 		sprite = anti_tank
 		map_icon_category = infantry
 		priority = 1197
@@ -51,6 +51,83 @@ sub_units = {
 		jungle = {
 			attack = -0.25
 			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	mech_heavy_anti_tank_brigade = {
+		abbreviation = "MHAT"
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 1197
+		ai_priority = 100
+		active = yes
+		
+		type = {
+			mechanized
+			anti_tank
+		}
+		
+		group = mobile_combat_support
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_all_at
+		}		
+		
+		combat_width = 1
+		transport = mechanized_equipment
+
+		essential = {
+			mechanized_equipment
+		}
+		need = {
+			heavy_anti_tank_equipment = 36
+			mechanized_equipment = 50
+		}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0
+		max_strength = 0.6
+		training_time = 120
+		weight = 0.5
+
+		supply_consumption = 0.25
+
+		forest = {
+			attack = -0.2
+			movement = -0.5
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.5
 		}
 
 		marsh = {

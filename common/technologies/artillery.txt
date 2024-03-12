@@ -462,7 +462,13 @@ technologies = {
 
 	heavyartillery2 = {
 
+		heavy_artillery = {
+			soft_attack = 0.1			
+		}
 		heavy_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mech_heavy_artillery_brigade = {
 			soft_attack = 0.1
 		}
 
@@ -487,7 +493,13 @@ technologies = {
 
 	heavyartillery3 = {
 
+		heavy_artillery = {
+			soft_attack = 0.1			
+		}
 		heavy_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mech_heavy_artillery_brigade = {
 			soft_attack = 0.1
 		}
 
@@ -540,7 +552,13 @@ technologies = {
 
 	heavyartillery5 = {
 
+		heavy_artillery = {
+			soft_attack = 0.1			
+		}
 		heavy_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mech_heavy_artillery_brigade = {
 			soft_attack = 0.1
 		}
 
@@ -564,7 +582,13 @@ technologies = {
 
 	heavyartillery6 = {
 
+		heavy_artillery = {
+			soft_attack = 0.1			
+		}
 		heavy_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mech_heavy_artillery_brigade = {
 			soft_attack = 0.1
 		}
 
@@ -1622,7 +1646,15 @@ technologies = {
 
 	heavyantitank2 = {
 
+		heavy_anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.1			
+		}
 		heavy_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		mech_heavy_anti_tank_brigade = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}
@@ -1650,7 +1682,15 @@ technologies = {
 
 	heavyantitank3 = {
 
+		heavy_anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.1			
+		}
 		heavy_anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		mech_heavy_anti_tank_brigade = {
 			hard_attack = 0.1
 			ap_attack = 0.1
 		}

@@ -3739,6 +3739,14 @@ shared_focus = {
 				division = "name = \"First Wave Division\" division_template = \"First Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
 				owner = EQS
 			}
+			create_unit = {
+				division = "name = \"First Wave Division\" division_template = \"First Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"First Wave Division\" division_template = \"First Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
 		}
 	}
 }
@@ -3749,7 +3757,7 @@ shared_focus = {
 	cost = 5
 	available = {
 		EQS = {
-			casualties > 3000000
+			casualties > 2000000
 		}
 		CHN = {
 			casualties < 1000000
@@ -3813,6 +3821,18 @@ shared_focus = {
 				division = "name = \"Second Wave Division\" division_template = \"Second Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
 				owner = EQS
 			}
+			create_unit = {
+				division = "name = \"Second Wave Division\" division_template = \"Second Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Second Wave Division\" division_template = \"Second Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Second Wave Division\" division_template = \"Second Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
 		}
 	}
 }
@@ -3823,7 +3843,7 @@ shared_focus = {
 	cost = 5
 	available = {
 		EQS = {
-			casualties > 6000000
+			casualties > 3000000
 		}
 		CHN = {
 			casualties < 1500000
@@ -3870,6 +3890,22 @@ shared_focus = {
 						has_war_with = EQS
 					}
 				}
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
+			}
+			create_unit = {
+				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
+				owner = EQS
 			}
 			create_unit = {
 				division = "name = \"Third Wave Division\" division_template = \"Third Wave Division\" start_experience_factor = 0.1 start_equipment_factor = 1"
