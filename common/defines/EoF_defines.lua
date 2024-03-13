@@ -38,6 +38,9 @@ NDefines.NMilitary.PIERCING_THRESHOLDS = {			-- Our piercing / their armor must 
 		0.70,
 		0.60,
 		0.50,
+		0.40,
+		0.30,
+		0.20,
 		0.00, 						--there isn't much point setting this higher than 0
 	}
 NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = {		-- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
@@ -47,8 +50,13 @@ NDefines.NMilitary.PIERCING_THRESHOLD_DAMAGE_VALUES = {		-- 0 armor will always 
 		0.70,
 		0.60,
 		0.50,
+		0.40,
+		0.30,
+		0.20,
 		0.10,
 	}
+
+NDefines.NMilitary.DAMAGE_SPLIT_ON_FIRST_TARGET = 0.35		--% of damage dealt to the first target in a combat. The rest will be split amongst subsequent targets. Modifiers can affect this up to a maximum of 0.9. That value must not be exposed as a define.
 
 NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 0		-- XP cost for adding a new equipment module in an empty slot when creating an equipment variant.
 NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 0	-- XP cost for replacing one equipment module with an unrelated module when creating an equipment variant.

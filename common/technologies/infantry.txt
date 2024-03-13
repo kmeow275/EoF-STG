@@ -242,6 +242,10 @@ technologies = {
 			position = { x = 4 y = @1010 }
 		}
 
+		sub_technologies = {
+			basic_assault_weapons
+		}
+
 		categories = {
 			infantry_weapons
 		}
@@ -261,6 +265,19 @@ technologies = {
 			}
 		}
 	}
+
+	basic_assault_weapons = {
+		enable_equipments = {
+			assault_equipment_1
+		}
+		research_cost = 1
+		start_year = 1010
+
+		categories = {
+			infantry_weapons
+		}		
+	}
+
 	improved_infantry_weapons_2 = {
 
 		category_light_infantry = {
@@ -718,6 +735,10 @@ technologies = {
 			position = { x = 4 y = @1013 }
 		}
 
+		sub_technologies = {
+			improved_assault_weapons
+		}
+
 		on_research_complete = {
 			hidden_effect = {
 				fix_weapon_techs = yes
@@ -746,6 +767,18 @@ technologies = {
 				date > "1013.1.6"
 			}
 		}
+	}
+
+	improved_assault_weapons = {
+		enable_equipments = {
+			assault_equipment_2
+		}
+		research_cost = 1
+		start_year = 1013
+
+		categories = {
+			infantry_weapons
+		}		
 	}
 
 	###------> Old Infantry Equipment   <><> <><> <><> <><> <><>

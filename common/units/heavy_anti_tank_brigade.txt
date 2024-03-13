@@ -104,6 +104,7 @@ sub_units = {
 			mechanized_equipment = 50
 		}
 		manpower = 500
+		breakthrough = -0.5
 		max_organisation = 0
 		default_morale = 0
 		max_strength = 0.6

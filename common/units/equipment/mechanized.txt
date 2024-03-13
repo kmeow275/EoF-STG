@@ -33,7 +33,7 @@ equipments = {
 
 		#Defensive Abilities
 		defense = 26
-		breakthrough = 6
+		breakthrough = 12
 		hardness = 0.6
 		armor_value = 10
 
@@ -75,11 +75,11 @@ equipments = {
 			mechanized_equipment_1
 		}
 
-		maximum_speed = 8
+		maximum_speed = 7
 
 		#Defensive Abilities
 		defense = 30
-		breakthrough = 8
+		breakthrough = 16
 		hardness = 0.65
 		armor_value = 15
 
@@ -109,11 +109,11 @@ equipments = {
 			mechanized_equipment_2
 		}
 
-		maximum_speed = 10
+		maximum_speed = 8
 
 		#Defensive Abilities
 		defense = 34
-		breakthrough = 10
+		breakthrough = 20
 		hardness = 0.7
 		armor_value = 20
 

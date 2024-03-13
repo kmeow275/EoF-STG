@@ -447,6 +447,8 @@ equipment_modules = {
 			advanced_main_armament_slot = {
 				tank_medium_main_armament
 				tank_heavy_main_armament
+				tank_advanced_medium_main_armament
+				tank_advanced_heavy_main_armament
 			}
 		}
 		forbid_equipment_type_exact_match_for_category = {
@@ -542,6 +544,8 @@ equipment_modules = {
 			advanced_main_armament_slot = {
 				tank_medium_main_armament
 				tank_heavy_main_armament
+				tank_advanced_medium_main_armament
+				tank_advanced_heavy_main_armament
 				tank_super_heavy_main_armament
 			}
 		}
@@ -2370,7 +2374,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 1
-			soft_attack = 3
+			soft_attack = 2
 			maximum_speed = -0.2
 		}
 		xp_cost = 0

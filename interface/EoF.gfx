@@ -213,6 +213,14 @@ spriteTypes = {
 		name = "GFX_optics_tech_4_medium"
 		textureFile = "gfx/interface/technologies/nsb_optics_tech_4.dds"
 	}
+	SpriteType = {
+		name = "GFX_basic_assault_weapons_medium"
+		texturefile = "gfx/interface/technologies/assault_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_assault_weapons_medium"
+		texturefile = "gfx/interface/technologies/assault_equipment_2.dds"
+	}
 	###Events###
 	spriteType = {
 		name = "GFX_GRF_border_war"
