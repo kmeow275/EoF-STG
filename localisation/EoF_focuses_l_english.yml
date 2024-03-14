@@ -18,6 +18,10 @@ EoF_wave_2_desc:0 ""
 EoF_wave_3:0 "Send in the Disabled"
 EoF_wave_3_desc:0 ""
 
+EoF_all_equestrian_army:0 "All Equestrian Army"
+EoF_all_equestrian_army_desc:0 ""
+EoF_equestrian_army_tt:0 "Allows for the §Yrecruitment§! of local conscript units in every state at §Gzero§! manpower cost."
+
 EoF_GRF_mechanized_bonus:0 "Army Mechanization Effort"
 EoF_GRF_mechanized_bonus_desc:0 ""
 

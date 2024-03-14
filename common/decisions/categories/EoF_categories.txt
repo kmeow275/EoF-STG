@@ -5,3 +5,7 @@ EoF_great_war_category_CHN = {
 		has_completed_focus = demand_equestria
 	}
 }
+EoF_great_war_category_EQS = {
+	icon = harmony_cat
+	priority = 1000
+}

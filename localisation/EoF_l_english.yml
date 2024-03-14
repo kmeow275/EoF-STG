@@ -1,4 +1,16 @@
 ﻿l_english:
+ABILITY_ARTILLERY_BOMBARDMENT:0 "Artillery Bombardment"
+ABILITY_ARTILLERY_BOMBARDMENT_DESC:0 "Your units will bombard the enemy, but leave themselves vulnerable to counterattack."
+
+modifier_production_cost_industrial_complex_factor:0 "£construction_speed_civfactory_texticon  §YCivilian Factory§! construction cost"
+modifier_production_cost_industrial_complex_factor_desc:0 "Modifies the cost of Military Factory construction."
+modifier_production_cost_arms_factory_factor:0 "£construction_speed_milfactory_texticon  §YMilitary Factory§! construction cost"
+modifier_production_cost_arms_factory_factor_desc:0 "Modifies the cost of Civilian Factory construction."
+
+
+
+EoF_dandan:0 "Narcoleptic Genius"
+
 EoF_neutral_country:0 "Neutral Country"
 
 light_of_kemerkai:0 "Light of Kemerkai"
@@ -57,6 +69,9 @@ EoF_sunset_trait:0 "Otherworldly Experience"
 EoF_sunset_trait_desc:0 "§LThis general was long absent from the land, and has only recently returned. During their time abroad they picked up several quirks that some call unsettling and even alien, but which also make them a more effective commander.§!"
 EoF_sunset_shimmer_stats_tp:0 "§YSunset Shimmer§! becomes a Field Marshal.\n§gLevel§!: §Y6§!, (£trait_attack §Y9§! £trait_defense §Y3§!, £trait_planning §Y2§!, £trait_logistics §Y5§!)\n§gTraits§!: §C$EoF_sunset_trait$§!, §C$adaptable$§!, §C$panzer_leader$§!\n\n"
 
+EoF_equestrian_army_decision:0 "Recruit Local Conscripts"
+EoF_locals_conscripted:0 "Locals Conscripted"
+
 EoF_great_war.2.t:0 "The Question of Winter"
 EoF_great_war.2.desc:0 "The premier question facing our high command at this moment is whether to attack immediately or wait until winter is over to launch our offensive. While every day wasted allows Equestria to mobilize more material, the harsh conditions of winter risk blunting our operation before it even begins."
 EoF_great_war.2.a:0 "Our actions in the next few months will decide the war, attack immediately."
@@ -67,6 +82,16 @@ EoF_great_war.3.desc:0 "It is now time to decide how we plan to conduct the futu
 EoF_great_war.3.a:0 "Maximize our near-future production."
 EoF_great_war.3.b:0 "Maintain steady output."
 EoF_great_war.3.c:0 "Reorganize our industry for the long conflict ahead."
+
+EoF_great_war.4.t:0 "Our New War Plan"
+EoF_great_war.4.desc:0 "So like we gotta come up with a plan to stop the Changelings right? Pick the option you think is the most meta, probably the second or third one. First one's not gonna be good until I rework the island campaign mechanics, though you do get a couple more planes I guess. Man, I need someone to write my events for me."
+EoF_great_war.4.a:0 "The floatie and the flyie things, I like'em."
+EoF_great_war.4.b:0 "Ackchyually, the increased mils and factory output is better."
+EoF_great_war.4.c:0 "My name is Comrade Soviet, or Kettle, or some other bad player who just roaches."
+
+EoF_EQS_warplan_1:0 "War Plan"
+EoF_EQS_warplan_2:0 "War Plan"
+EoF_EQS_warplan_3:0 "War Plan"
 
 EoF_great_war_category_CHN:0 "The Great War"
 EoF_declare_winter_offensive:0 "Launch the Winter Offensive"

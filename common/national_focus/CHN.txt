@@ -3159,9 +3159,6 @@ focus_tree = {
 		icon = GFX_goal_chn_swarms_in_the_sky
 		cost = 8
 		prerequisite = {
-			focus = CHN_Air_Doctrine_2
-		}
-		prerequisite = {
 			focus = CHN_Fighter_3
 		}
 		mutually_exclusive = { focus = CHN_Bomber_Command }
@@ -3180,9 +3177,6 @@ focus_tree = {
 		id = CHN_Bomber_Command
 		icon = GFX_goal_chn_bomber_command
 		cost = 8
-		prerequisite = {
-			focus = CHN_Air_Doctrine_1
-		}
 		prerequisite = {
 			focus = CHN_Bomber_3
 		}

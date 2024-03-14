@@ -184,3 +184,21 @@ country_event = {
 		add_timed_idea = { idea = EoF_CHN_warplan_long_debuff days = 240 }
 	}
 }
+country_event = {
+	id = EoF_great_war.4
+	title = EoF_great_war.4.t
+	desc = EoF_great_war.4.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF_great_war.4.a
+		set_country_flag = EoF_EQS_warplan_1_selected
+	}
+	option = {
+		name = EoF_great_war.4.b
+		set_country_flag = EoF_EQS_warplan_2_selected
+	}
+	option = {
+		name = EoF_great_war.4.c
+		set_country_flag = EoF_EQS_warplan_3_selected
+	}
+}

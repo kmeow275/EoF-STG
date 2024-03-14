@@ -533,7 +533,7 @@ leader_traits = {
 		trait_type = personality_trait
 
 		field_marshal_modifier = {
-			combat_width_factor = -0.1
+			combat_width_factor = -0.05
 			army_morale_factor = 0.07
 		}
 

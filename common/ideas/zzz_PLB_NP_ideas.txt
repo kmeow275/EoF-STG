@@ -92,7 +92,7 @@ ideas = {
 				original_tag = CHN
 			}
 			modifier = {
-				weekly_manpower = 800
+				weekly_manpower = 3000
 			}
 		}
 		PLB_NP_cutie_pox = {

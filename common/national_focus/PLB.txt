@@ -3657,49 +3657,49 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_MANPOWER }
 	}
 
-	shared_focus = {
-		id = PLB_open_the_northern_front
-		icon = GFX_goal_support_equestria
-		cost = 8.00
+	# shared_focus = {
+	# 	id = PLB_open_the_northern_front
+	# 	icon = GFX_goal_support_equestria
+	# 	cost = 8.00
 
-		prerequisite = {
-			focus = PLB_raise_up_volunteer_divisions
-		}
-		available = {
-			has_completed_focus = PLB_harmonic_inspirations
-			CHN = {
-				has_war_with = EQS
+	# 	prerequisite = {
+	# 		focus = PLB_raise_up_volunteer_divisions
+	# 	}
+	# 	available = {
+	# 		has_completed_focus = PLB_harmonic_inspirations
+	# 		CHN = {
+	# 			has_war_with = EQS
 
-			}
-		}
-		bypass = {
-		   CHN = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					is_subject_of = EQS
-				}
-			}
-		}
+	# 		}
+	# 	}
+	# 	bypass = {
+	# 	   CHN = {
+	# 			OR = {
+	# 				exists = no
+	# 				is_subject_of = ROOT
+	# 				is_subject_of = EQS
+	# 			}
+	# 		}
+	# 	}
 
-		ai_will_do = {
-			factor = 10
-		}
+	# 	ai_will_do = {
+	# 		factor = 10
+	# 	}
 
-		relative_position_id = PLB_raise_up_volunteer_divisions
-		x = 0
-		y = 1
+	# 	relative_position_id = PLB_raise_up_volunteer_divisions
+	# 	x = 0
+	# 	y = 1
 
-		will_lead_to_war_with = CHN
-		completion_reward = {
-			hidden_effect = { set_country_flag = PLB_northern_front_flag }
-			if = {
-				limit = { CHN = { exists = yes } }
-				declare_war_on = { type = annex_everything target = CHN }
-			}
-		}
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-	}
+	# 	will_lead_to_war_with = CHN
+	# 	completion_reward = {
+	# 		hidden_effect = { set_country_flag = PLB_northern_front_flag }
+	# 		if = {
+	# 			limit = { CHN = { exists = yes } }
+	# 			declare_war_on = { type = annex_everything target = CHN }
+	# 		}
+	# 	}
+	# 	search_filters = { FOCUS_FILTER_ANNEXATION }
+	# }
 
 	shared_focus = {
 		id = PLB_like_an_avalanche
@@ -31015,7 +31015,7 @@ shared_focus = {
 		}
 
 		relative_position_id = PLB_the_polar_connection
-		x = -1
+		x = 0
 		y = 1
 
 		completion_reward = {
@@ -31115,9 +31115,6 @@ shared_focus = {
 		prerequisite = {
 			focus = PLB_waste_expeditionaries
 		}
-		prerequisite = {
-			focus = PLB_northern_front
-		}
 
 
 		ai_will_do = {
@@ -31129,10 +31126,7 @@ shared_focus = {
 		y = 2
 
 		completion_reward = {
-			add_timed_idea = {
-				idea = PLB_NP_ancient_tribes_rise
-				days = 365
-			}
+			add_ideas = PLB_NP_ancient_tribes_rise
 			custom_effect_tooltip = PLB_autonomy_score_add_50
 			hidden_effect = {
 				add_autonomy_score = {
@@ -31348,11 +31342,7 @@ shared_focus = {
 			focus = PLB_polarin
 		}
 		available = {
-			has_war = yes
-			OR = {
-				has_defensive_war = yes
-				date > 1013.01.01
-			}
+			date > 1013.01.01
 		}
 
 		ai_will_do = {
@@ -32690,10 +32680,8 @@ shared_focus = {
 			focus = PLB_NP_own_industry
 		}
 		available = {
-			OR = {
-				has_capitulated = yes
-				surrender_progress > 0.4
-			}
+			date > 1013.01.01
+			casualties > 200000
 		}
 
 
@@ -32706,10 +32694,7 @@ shared_focus = {
 		y = 2
 
 		completion_reward = {
-			add_timed_idea = {
-				idea = PLB_NP_true_endsieg
-				days = 180
-			}
+			add_ideas = PLB_NP_true_endsieg
 		}
 	}
 	shared_focus = {

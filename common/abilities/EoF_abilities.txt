@@ -1,0 +1,26 @@
+ability = {
+	artillery_bombardment = {
+		name = ABILITY_ARTILLERY_BOMBARDMENT
+		desc = ABILITY_ARTILLERY_BOMBARDMENT_DESC
+		
+		type = army_leader
+		
+		allowed = {
+			is_leading_army_group = no
+			is_border_war = no
+		}
+		
+		one_time_effect = {
+			add_temporary_buff_to_units = {
+				combat_offense = -0.5
+				combat_defense = -0.5
+				org_damage_multiplier = 0.6
+				str_damage_multiplier = -0.9
+				cannot_retreat_while_attacking = 1.0
+				days = 7
+			}
+		}
+		cost = 0.1
+		duration = 168
+	}
+}

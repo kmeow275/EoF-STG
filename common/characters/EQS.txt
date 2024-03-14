@@ -119,6 +119,17 @@ characters={
 				small = "GFX_idea_EQS_luna_executive"
 			}
 		}
+		field_marshal = {
+			character = EQS_princess_luna
+			traits = { goddess_of_the_night warrior_princess inspirational_leader pony_race_trait }
+			legacy_id = 9999
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 1
+			desc = LUNA_DESC
+		}
 		country_leader = {
 			desc = "LUNA_DESC"
 			expire = "1965.1.1"
