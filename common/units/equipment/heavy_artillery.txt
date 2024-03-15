@@ -51,8 +51,9 @@ equipments = {
 		year = 1012
 
 		archetype = heavy_artillery_equipment
+		parent = heavy_artillery_equipment_1
 		priority = 50
-		visual_level = 1`
+		visual_level = 0
 
 		defense = 24
 		breakthrough = 4

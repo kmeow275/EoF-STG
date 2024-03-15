@@ -202,8 +202,9 @@ equipments = {
 		year = 1010
 
 		archetype = infantry_equipment
+		parent = infantry_equipment_3
 		priority = 10
-		visual_level = 2
+		visual_level = 3
 
 		#Defensive Abilities
 		defense = 18
@@ -226,7 +227,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = assault_equipment_1
 		priority = 10
-		visual_level = 2
+		visual_level = 3
 
 		#Defensive Abilities
 		defense = 22

@@ -9,3 +9,10 @@ EoF_great_war_category_EQS = {
 	icon = harmony_cat
 	priority = 1000
 }
+EoF_category = {
+	priority = 9999
+	icon =  category_gamer
+	allowed = {
+		always = yes
+	}
+}
