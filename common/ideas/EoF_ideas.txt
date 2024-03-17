@@ -28,7 +28,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_volunteer_expedition_bonus
 			modifier = {
-				send_volunteer_size = 2
+				send_volunteer_size = 1
 			}
 		}
 		EoF_YAK_JAK_civil_war_volunteers_2 = {

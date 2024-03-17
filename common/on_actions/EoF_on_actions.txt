@@ -289,24 +289,24 @@ on_actions = {
 					}
 				}
 				EQS = {
-					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_2
 				}
 				CRY = {
-					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_2
 				}
 				STG = {
-					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_2
 				}
 				CHN = {
-					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_1
 					country_event = EoF.3
 				}
 				PLB = {
-					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_1
 					country_event = EoF.3
 				}
 				GRF = {
-					remove_ideas = EoF_YAK_JAK_civil_war_volunteers
+					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_1
 					country_event = EoF.3
 				}
 			}
@@ -383,4 +383,5 @@ on_actions = {
 			 	}
 			}
 		}
+	}
 }
