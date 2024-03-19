@@ -12,6 +12,47 @@ on_actions = {
 			}
 		}
 	}
+
+	on_daily_CHN = {
+		effect = {
+			if = {
+				limit = {
+					has_completed_focus = EoF_hive_plants
+				}
+				set_variable = { EoF_lyctida_mils_comp = EoF_lyctida_mils }
+				set_variable = { EoF_vraks_mils_comp = EoF_vraks_mils }
+				set_variable = { EoF_sicarus_mils_comp = EoF_sicarus_mils }
+				set_variable = { EoF_lyctida_mils = 309.arms_factory_level }
+				set_variable = { EoF_vraks_mils = 259.arms_factory_level }
+				set_variable = { EoF_sicarus_mils = 248.arms_factory_level }
+				if = {
+					limit = {
+						OR = {
+							check_variable = {
+								var = EoF_lyctida_mils
+								value = EoF_lyctida_mils_comp
+								compare = not_equals
+							}
+							check_variable = {
+								var = EoF_vraks_mils
+								value = EoF_vraks_mils_comp
+								compare = not_equals
+							}
+							check_variable = {
+								var = EoF_sicarus_mils
+								value = EoF_sicarus_mils_comp
+								compare = not_equals
+							}
+						}
+					}
+					remove_all_plant_buffs = yes
+					update_lyctida_effect = yes
+					update_vraks_effect = yes
+					update_sicarus_effect = yes
+				}
+			}			
+		}
+	}
 	#GRF Helping PLB Against PNG
 	on_declare_war = { 
 		effect = {

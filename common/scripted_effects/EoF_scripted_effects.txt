@@ -4,21 +4,21 @@ remove_all_plant_buffs = {
 			remove_ideas = [EOF_PLANT_IDEA]_[TEMP]
 		}
 		EOF_PLANT_IDEA = "EoF_lyctida"
-		TEMP = "[?EoF_lyctida_mils]"
+		TEMP = "[?EoF_lyctida_mils_comp]"
 	}
 	meta_effect = {
 		text = {
 			remove_ideas = [EOF_PLANT_IDEA]_[TEMP]
 		}
 		EOF_PLANT_IDEA = "EoF_vraks"
-		TEMP = "[?EoF_vraks_mils]"
+		TEMP = "[?EoF_vraks_mils_comp]"
 	}
 	meta_effect = {
 		text = {
 			remove_ideas = [EOF_PLANT_IDEA]_[TEMP]
 		}
 		EOF_PLANT_IDEA = "EoF_sicarus"
-		TEMP = "[?EoF_sicarus_mils]"
+		TEMP = "[?EoF_sicarus_mils_comp]"
 	}
 }
 update_lyctida_effect = {
