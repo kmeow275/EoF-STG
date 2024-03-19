@@ -1,0 +1,100 @@
+
+EoF_hive_plants_category = {
+	EoF_lyctida_plant = {
+		state_target = any_owned_state
+		target_root_trigger = {
+			has_completed_focus = EoF_hive_plants
+		}
+		targets = { state = 309 }
+		target_trigger = {
+			FROM = {
+				is_owned_by = ROOT
+
+			}
+		}
+		on_map_mode = map_and_decisions_view
+		icon = GFX_decision_generic_construction
+		cost = 30
+		days_remove = 60
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	EoF_vraks_plant = {
+		state_target = any_owned_state
+		target_root_trigger = {
+			has_completed_focus = EoF_hive_plants
+		}
+		targets = { state = 259 }
+		target_trigger = {
+			FROM = {
+				is_owned_by = ROOT
+				
+			}
+		}
+		on_map_mode = map_and_decisions_view
+		icon = GFX_decision_generic_construction
+		cost = 30
+		days_remove = 60
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	EoF_sicarus_plant = {
+		state_target = any_owned_state
+		target_root_trigger = {
+			has_completed_focus = EoF_hive_plants
+		}
+		targets = { state = 248 }
+		target_trigger = {
+			FROM = {
+				is_owned_by = ROOT
+				
+			}
+		}
+		on_map_mode = map_and_decisions_view
+		icon = GFX_decision_generic_construction
+		cost = 30
+		days_remove = 60
+		remove_effect = {
+			FROM = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	EoF_recalculate_hive_plants = {
+		icon = GFX_decision_generic_merge_plant_materiel
+		allowed = {
+			original_tag = CHN
+		}
+		available = {
+			309 = {
+				is_owned_by = CHN
+			}
+			259 = {
+				is_owned_by = CHN
+			}
+			248 = {
+				is_owned_by = CHN
+			}
+		}
+		visible = {
+			has_completed_focus = EoF_hive_plants
+		}
+		complete_effect = {
+			hidden_effect = {
+				remove_all_plant_buffs = yes
+				set_variable = { EoF_lyctida_mils = 309.arms_factory_level }
+				set_variable = { EoF_vraks_mils = 259.arms_factory_level }
+				set_variable = { EoF_sicarus_mils = 248.arms_factory_level }
+				update_lyctida_effect = yes
+				update_vraks_effect = yes
+				update_sicarus_effect = yes
+			}
+		}
+	}
+}

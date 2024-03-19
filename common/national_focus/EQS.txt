@@ -3665,6 +3665,84 @@ shared_focus = {
 }
 
 #EoF Changes
+shared_focus = {
+	id = EoF_war_begins
+	icon = GFX_goal_generic_attack_allies
+	cost = 1
+	prerequisite = {
+		focus = Preemptive_attack
+	}
+	relative_position_id = Preemptive_attack
+	x = 0
+	y = 4
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = EoF_losing
+	icon = GFX_goal_fire
+	cost = 15
+	prerequisite = {
+		focus = EoF_war_begins
+	}
+	relative_position_id = EoF_war_begins
+	x = -5
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = EoF_operation_vegetarian
+	icon = GFX_goal_new_treaty
+	cost = 15
+	prerequisite = {
+		focus = EoF_losing
+	}
+	relative_position_id = EoF_losing
+	x = -3
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = EoF_experimental_magic
+	icon = GFX_goal_EQS_TNO_elements
+	cost = 15
+	prerequisite = {
+		focus = EoF_operation_vegetarian
+	}
+	relative_position_id = EoF_operation_vegetarian
+	x = -1
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = EoF_polyphony
+	icon = GFX_goal_equestria
+	cost = 15
+	prerequisite = {
+		focus = EoF_operation_vegetarian
+	}
+	relative_position_id = EoF_operation_vegetarian
+	x = 0
+	y = 2
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = EoF_dangerous_allies
+	icon = GFX_goal_skull_treaty2
+	cost = 15
+	prerequisite = {
+		focus = EoF_operation_vegetarian
+	}
+	relative_position_id = EoF_operation_vegetarian
+	x = 1
+	y = 1
+	completion_reward = {
+	}
+}
 
 shared_focus = {
 	id = EoF_wave_1
@@ -3684,11 +3762,12 @@ shared_focus = {
 		}
 	}
 	prerequisite = {
-		focus = Preemptive_attack
+		focus = EoF_losing
 	}
 	cancel_if_invalid = yes
-	x = 23
-	y = 6
+	relative_position_id = EoF_losing
+	x = 0
+	y = 1
 	completion_reward = {
 		division_template = {
 			name = "First Wave Division"
@@ -3765,8 +3844,9 @@ shared_focus = {
 		focus = EoF_wave_1
 	}
 	cancel_if_invalid = yes
-	x = 23
-	y = 7
+	relative_position_id = EoF_wave_1
+	x = 0
+	y = 1
 	completion_reward = {
 		division_template = {
 			name = "Second Wave Division"
@@ -3851,8 +3931,9 @@ shared_focus = {
 		focus = EoF_wave_2
 	}
 	cancel_if_invalid = yes
-	x = 23
-	y = 8
+	relative_position_id = EoF_wave_2
+	x = 0
+	y = 1
 	completion_reward = {
 		division_template = {
 			name = "Third Wave Division"
@@ -3921,6 +4002,484 @@ shared_focus = {
 				owner = EQS
 			}
 		}
+	}
+}
+
+shared_focus = {
+	id = EoF_shire
+	icon = GFX_goal_fortify_the_westwall
+	cost = 15
+	prerequisite = {
+		focus = EoF_losing
+	}
+	relative_position_id = EoF_losing
+	x = 3
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_hope
+	icon = GFX_goal_nested_fortifications
+	cost = 15
+	prerequisite = {
+		focus = EoF_shire
+	}
+	relative_position_id = EoF_shire
+	x = 0
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_defend_canterlot
+	icon = GFX_goal_eqs_canterlot
+	cost = 15
+	prerequisite = {
+		focus = EoF_hope
+	}
+	relative_position_id = EoF_hope
+	x = -1
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_eastern_redoubt
+	icon = GFX_goal_generic_fortify_city
+	cost = 15
+	prerequisite = {
+		focus = EoF_hope
+	}
+	relative_position_id = EoF_hope
+	x = 0
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_defend_south
+	icon = GFX_goal_generic_position_armies
+	cost = 15
+	prerequisite = {
+		focus = EoF_hope
+	}
+	relative_position_id = EoF_hope
+	x = 1
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_reform_roots
+	icon = GFX_goal_tree_of_harmony
+	cost = 5
+	prerequisite = {
+		focus = EoF_war_begins
+	}
+	relative_position_id = EoF_war_begins
+	x = 4
+	y = 1
+	completion_reward = {
+		country_event = EoF_great_war.5
+	}
+}
+
+shared_focus = {
+	id = EoF_luna_reform
+	icon = GFX_goal_night_supporters
+	cost = 5
+	prerequisite = {
+		focus = EoF_reform_roots
+	}
+	mutually_exclusive = {
+		focus = EoF_blueblood_reform
+		focus = EoF_twilight_objection
+	}
+	available = {
+		has_country_flag = EoF_luna_reform_flag
+	}
+	relative_position_id = EoF_reform_roots
+	x = -2
+	y = 1
+	completion_reward = {
+		add_trait = {
+			character = EQS_princess_luna
+			trait = EoF_busy_reforming_trait
+	   }
+	   army_experience = 20
+	}
+}
+
+shared_focus = {
+	id = EoF_specialization_innovation
+	icon = GFX_focus_SOV_organize_wreckers
+	cost = 5
+	prerequisite = {
+		focus = EoF_luna_reform
+	}
+	relative_position_id = EoF_luna_reform
+	x = 0
+	y = 1
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.15
+			uses = 2
+			category = artillery
+		}
+		add_tech_bonus = {
+			bonus = 0.15
+			uses = 2
+			category = armor
+		}
+		add_tech_bonus = {
+			bonus = 0.15
+			uses = 2
+			category = air_equipment
+		}
+	}
+}
+
+shared_focus = {
+	id = EoF_perfect_tool
+	icon = GFX_focus_generic_self_propelled_gun
+	cost = 5
+	prerequisite = {
+		focus = EoF_specialization_innovation
+	}
+	relative_position_id = EoF_specialization_innovation
+	x = 0
+	y = 1
+	completion_reward = {
+		add_ideas = EoF_luna_reform_1
+	}
+}
+
+shared_focus = {
+	id = EoF_24_hour_army
+	icon = GFX_goal_nightmare_moon
+	cost = 5
+	prerequisite = {
+		focus = EoF_perfect_tool
+	}
+	relative_position_id = EoF_perfect_tool
+	x = -2
+	y = 1
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = EoF_luna_reform_3
+			}
+			swap_ideas = {
+				remove_idea = EoF_luna_reform_3
+				add_idea = EoF_luna_reform_4
+			}
+		}
+		else = {
+			swap_ideas = {
+				remove_idea = EoF_luna_reform_1
+				add_idea = EoF_luna_reform_2
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = EoF_arms_master
+	icon = GFX_focus_generic_combined_arms
+	cost = 10
+	prerequisite = {
+		focus = EoF_perfect_tool
+	}
+	relative_position_id = EoF_perfect_tool
+	x = 0
+	y = 1
+	completion_reward = {
+		if = {
+			limit = {
+				has_idea = EoF_luna_reform_2
+			}
+			swap_ideas = {
+				remove_idea = EoF_luna_reform_2
+				add_idea = EoF_luna_reform_4
+			}
+		}
+		else = {
+			swap_ideas = {
+				remove_idea = EoF_luna_reform_1
+				add_idea = EoF_luna_reform_3
+			}
+		}
+		remove_trait = {
+			character = EQS_princess_luna
+			trait = EoF_busy_reforming_trait
+	   }
+	}
+}
+
+shared_focus = {
+	id = EoF_blueblood_reform
+	icon = GFX_goal_blueblood
+	cost = 5
+	prerequisite = {
+		focus = EoF_reform_roots
+	}
+	mutually_exclusive = {
+		focus = EoF_luna_reform
+		focus = EoF_twilight_objection
+	}
+	available = {
+		has_country_flag = EoF_blueblood_reform_flag
+	}
+	relative_position_id = EoF_reform_roots
+	x = 0
+	y = 1
+	completion_reward = {
+		add_trait = {
+			character = EQS_prince_blueblood
+			trait = EoF_busy_reforming_trait
+	   }
+	   army_experience = 20
+	}
+}
+
+shared_focus = {
+	id = EoF_develop_pieces
+	icon = GFX_goal_generic_army_doctrines
+	cost = 5
+	prerequisite = {
+		focus = EoF_blueblood_reform
+	}
+	relative_position_id = EoF_blueblood_reform
+	x = 0
+	y = 1
+	completion_reward = {
+		add_ideas = EoF_blueblood_reform_1
+	}
+}
+
+shared_focus = {
+	id = EoF_positional_warfare
+	icon = GFX_goal_generic_cavalry
+	cost = 5
+	prerequisite = {
+		focus = EoF_develop_pieces
+	}
+	relative_position_id = EoF_develop_pieces
+	x = 0
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EoF_blueblood_reform_1
+			add_idea = EoF_blueblood_reform_2
+		}
+	}
+}
+
+shared_focus = {
+	id = EoF_checkmate
+	icon = GFX_goal_checkmate
+	cost = 10
+	prerequisite = {
+		focus = EoF_positional_warfare
+	}
+	relative_position_id = EoF_positional_warfare
+	x = 0
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EoF_blueblood_reform_2
+			add_idea = EoF_blueblood_reform_3
+		}
+		remove_trait = {
+			character = EQS_prince_blueblood
+			trait = EoF_busy_reforming_trait
+	   }
+	}
+}
+
+shared_focus = {
+	id = EoF_twilight_objection
+	icon = GFX_goal_EQS_TNO_harmony_good
+	cost = 1
+	prerequisite = {
+		focus = EoF_reform_roots
+	}
+	mutually_exclusive = {
+		focus = EoF_luna_reform
+		focus = EoF_blueblood_reform
+	}
+	available = {
+		has_country_flag = EoF_twilight_objection_flag
+	}
+	relative_position_id = EoF_reform_roots
+	x = 2
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_ember_reform
+	icon = GFX_goal_sunrise_sparkle
+	cost = 5
+	prerequisite = {
+		focus = EoF_twilight_objection
+	}
+	relative_position_id = EoF_twilight_objection
+	x = 0
+	y = 1
+	completion_reward = {
+		army_experience = 20
+	}
+}
+
+shared_focus = {
+	id = EoF_armour_first
+	icon = GFX_goal_generic_army_tanks
+	cost = 5
+	prerequisite = {
+		focus = EoF_ember_reform
+	}
+	relative_position_id = EoF_ember_reform
+	x = 0
+	y = 1
+	completion_reward = {
+		add_ideas = EoF_ember_reform_1
+	}
+}
+
+shared_focus = {
+	id = EoF_counterattack
+	icon = GFX_goal_doctrine_tank_warfare
+	cost = 5
+	prerequisite = {
+		focus = EoF_armour_first
+	}
+	relative_position_id = EoF_armour_first
+	x = 0
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EoF_ember_reform_1
+			add_idea = EoF_ember_reform_2
+		}
+	}
+}
+
+shared_focus = {
+	id = EoF_mass_armoured_wave
+	icon = GFX_focus_generic_army_tanks2
+	cost = 10
+	prerequisite = {
+		focus = EoF_counterattack
+	}
+	relative_position_id = EoF_counterattack
+	x = 0
+	y = 1
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EoF_ember_reform_2
+			add_idea = EoF_ember_reform_3
+		}
+	}
+}
+
+shared_focus = {
+	id = EoF_real_war_industry
+	icon = GFX_focus_generic_tank_production
+	cost = 15
+	prerequisite = {
+		focus = EoF_war_begins
+	}
+	relative_position_id = EoF_war_begins
+	x = 10
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_talent_distribution_bureau
+	icon = GFX_goal_generic_secret_documents
+	cost = 15
+	prerequisite = {
+		focus = EoF_real_war_industry
+	}
+	mutually_exclusive = {
+		focus = EoF_talent_utilization_bureau
+	}
+	relative_position_id = EoF_real_war_industry
+	x = -1
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_talent_utilization_bureau
+	icon = GFX_goal_document
+	cost = 15
+	prerequisite = {
+		focus = EoF_real_war_industry
+	}
+	mutually_exclusive = {
+		focus = EoF_talent_distribution_bureau
+	}
+	relative_position_id = EoF_real_war_industry
+	x = 1
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_crystal_connection
+	icon = GFX_goal_cry_factory
+	cost = 15
+	prerequisite = {
+		focus = EoF_talent_distribution_bureau
+		focus = EoF_talent_utilization_bureau
+	}
+	relative_position_id = EoF_talent_distribution_bureau
+	x = -1
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_regional_industry
+	icon = GFX_goal_improve_industry
+	cost = 15
+	prerequisite = {
+		focus = EoF_talent_distribution_bureau
+		focus = EoF_talent_utilization_bureau
+	}
+	relative_position_id = EoF_talent_distribution_bureau
+	x = 1
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EoF_stalliongrad_connection
+	icon = GFX_goal_stg_socialist_industry
+	cost = 15
+	prerequisite = {
+		focus = EoF_talent_distribution_bureau
+		focus = EoF_talent_utilization_bureau
+	}
+	relative_position_id = EoF_talent_distribution_bureau
+	x = 3
+	y = 1
+	completion_reward = {
 	}
 }
 

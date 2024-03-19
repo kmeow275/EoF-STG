@@ -261,3 +261,11 @@ country_event = {
 		add_threat = 5
 	}
 }
+country_event = {
+	id = EoF.7
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		remove_ideas = EoF_CHN_core_buff 
+	}
+}

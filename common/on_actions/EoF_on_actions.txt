@@ -7,6 +7,9 @@ on_actions = {
 			PLB = {
 				country_event = { id = northern_protectorate.99 }
 			}
+			CHN = {
+				country_event = { id = EoF.7 days = 2190}
+			}
 		}
 	}
 	#GRF Helping PLB Against PNG
@@ -50,26 +53,35 @@ on_actions = {
 					division_template = {
 						name = "Great Yak Warband"
 						regiments = {
-							infantry = { x = 0 y = 0 }
-							infantry = { x = 0 y = 1 }
-							infantry = { x = 0 y = 2 }
-							infantry = { x = 0 y = 3 }
-							infantry = { x = 0 y = 4 }
+							mountaineers = { x = 0 y = 0 }
+							mountaineers = { x = 0 y = 1 }
+							mountaineers = { x = 0 y = 2 }
+							mountaineers = { x = 0 y = 3 }
+							mountaineers = { x = 0 y = 4 }
 			
-							infantry = { x = 1 y = 0 }
-							infantry = { x = 1 y = 1 }
-							infantry = { x = 1 y = 2 }
-							infantry = { x = 1 y = 3 }
-							infantry = { x = 1 y = 4 }
+							mountaineers = { x = 1 y = 0 }
+							mountaineers = { x = 1 y = 1 }
+							mountaineers = { x = 1 y = 2 }
+							mountaineers = { x = 1 y = 3 }
+							mountaineers = { x = 1 y = 4 }
 		
-							infantry = { x = 2 y = 0 }
-							infantry = { x = 2 y = 1 }
-							infantry = { x = 2 y = 2 }
-							infantry = { x = 2 y = 3 }
-							infantry = { x = 2 y = 4 }
+							mountaineers = { x = 2 y = 0 }
+							mountaineers = { x = 2 y = 1 }
+							mountaineers = { x = 2 y = 2 }
+							mountaineers = { x = 2 y = 3 }
+							mountaineers = { x = 2 y = 4 }
 
 							artillery_brigade = { x = 3 y = 0 }
 							artillery_brigade = { x = 3 y = 1 }
+							artillery_brigade = { x = 3 y = 2 }
+							artillery_brigade = { x = 3 y = 3 }
+							artillery_brigade = { x = 3 y = 4 }
+
+							artillery_brigade = { x = 4 y = 0 }
+							artillery_brigade = { x = 4 y = 1 }
+							artillery_brigade = { x = 4 y = 2 }
+							artillery_brigade = { x = 4 y = 3 }
+							artillery_brigade = { x = 4 y = 4 }
 						}
 						support = {
 							artillery = { x = 0 y = 0 }
@@ -84,35 +96,35 @@ on_actions = {
 							}
 						}
 						create_unit = {
-							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 1 start_equipment_factor = 1"
 							owner = YAK
 						}
 						create_unit = {
-							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 1 start_equipment_factor = 1"
 							owner = YAK
 						}
 						create_unit = {
-							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = YAK
 						}
 						create_unit = {
-							division = "name = \"Great Yak Warband\" division_template = \"Great Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = YAK
 						}
 						create_unit = {
-							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = YAK
 						}
 						create_unit = {
-							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = YAK
 						}
 						create_unit = {
-							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = YAK
 						}
 						create_unit = {
-							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Yak Warband\" division_template = \"Yak Warband\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = YAK
 						}
 					}
@@ -139,26 +151,35 @@ on_actions = {
 					division_template = {
 						name = "Great Clan Hussars"
 						regiments = {
-							infantry = { x = 0 y = 0 }
-							infantry = { x = 0 y = 1 }
-							infantry = { x = 0 y = 2 }
-							infantry = { x = 0 y = 3 }
-							infantry = { x = 0 y = 4 }
+							mountaineers = { x = 0 y = 0 }
+							mountaineers = { x = 0 y = 1 }
+							mountaineers = { x = 0 y = 2 }
+							mountaineers = { x = 0 y = 3 }
+							mountaineers = { x = 0 y = 4 }
 			
-							infantry = { x = 1 y = 0 }
-							infantry = { x = 1 y = 1 }
-							infantry = { x = 1 y = 2 }
-							infantry = { x = 1 y = 3 }
-							infantry = { x = 1 y = 4 }
+							mountaineers = { x = 1 y = 0 }
+							mountaineers = { x = 1 y = 1 }
+							mountaineers = { x = 1 y = 2 }
+							mountaineers = { x = 1 y = 3 }
+							mountaineers = { x = 1 y = 4 }
 		
-							infantry = { x = 2 y = 0 }
-							infantry = { x = 2 y = 1 }
-							infantry = { x = 2 y = 2 }
-							infantry = { x = 2 y = 3 }
-							infantry = { x = 2 y = 4 }
+							mountaineers = { x = 2 y = 0 }
+							mountaineers = { x = 2 y = 1 }
+							mountaineers = { x = 2 y = 2 }
+							mountaineers = { x = 2 y = 3 }
+							mountaineers = { x = 2 y = 4 }
 
 							artillery_brigade = { x = 3 y = 0 }
 							artillery_brigade = { x = 3 y = 1 }
+							artillery_brigade = { x = 3 y = 2 }
+							artillery_brigade = { x = 3 y = 3 }
+							artillery_brigade = { x = 3 y = 4 }
+
+							artillery_brigade = { x = 4 y = 0 }
+							artillery_brigade = { x = 4 y = 1 }
+							artillery_brigade = { x = 4 y = 2 }
+							artillery_brigade = { x = 4 y = 3 }
+							artillery_brigade = { x = 4 y = 4 }
 						}
 						support = {
 							artillery = { x = 0 y = 0 }
@@ -173,43 +194,47 @@ on_actions = {
 							}
 						}
 						create_unit = {
-							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 1 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 1 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Great Clan Hussars\" division_template = \"Great Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
 						create_unit = {
-							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0.5 start_equipment_factor = 1"
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
 					}

@@ -1,0 +1,784 @@
+ideas = {
+	country = {
+		EoF_lyctida_0 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = 0
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_1 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.003
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_2 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.006
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_3 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.009
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_4 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.012
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_5 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.015
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_6 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.018
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_7 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.021
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_8 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.024
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_9 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.027
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_10 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.03
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_11 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.033
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_12 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.036
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_13 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.039
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_14 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.042
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_15 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.045
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_16 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.048
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_17 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.051
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_18 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.054
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_19 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.057
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_20 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.06
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_21 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.063
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_22 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.066
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_23 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.069
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_24 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.072
+					instant = yes
+				}
+			}
+		}
+		EoF_lyctida_25 = {
+			removal_cost = -1
+			picture = man_five_year_plan_air
+			equipment_bonus = {
+				small_plane_airframe = {
+					build_cost_ic = -0.075
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_0 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = 0
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_1 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.003
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_2 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.006
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_3 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.009
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_4 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.012
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_5 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.015
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_6 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.018
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_7 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.021
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_8 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.024
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_9 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.027
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_10 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.03
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_11 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.033
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_12 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.036
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_13 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.039
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_14 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.042
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_15 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.045
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_16 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.048
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_17 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.051
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_18 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.054
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_19 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.057
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_20 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.06
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_21 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.063
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_22 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.066
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_23 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.069
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_24 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.072
+					instant = yes
+				}
+			}
+		}
+		EoF_vraks_25 = {
+			removal_cost = -1
+			picture = man_five_year_plan_tank
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.075
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_0 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = 0
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_1 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.003
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_2 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.006
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_3 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.009
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_4 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.012
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_5 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.015
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_6 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.018
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_7 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.021
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_8 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.024
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_9 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.027
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_10 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.03
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_11 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.033
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_12 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.036
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_13 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.039
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_14 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.042
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_15 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.045
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_16 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.048
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_17 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.051
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_18 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.054
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_19 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.057
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_20 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.06
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_21 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.063
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_22 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.066
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_23 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.069
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_24 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.072
+					instant = yes
+				}
+			}
+		}
+		EoF_sicarus_25 = {
+			removal_cost = -1
+			picture = man_five_year_plan_industry
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.075
+					instant = yes
+				}
+			}
+		}
+	}
+}

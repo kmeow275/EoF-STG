@@ -173,15 +173,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = EoF_great_war.3.a
-		add_timed_idea = { idea = EoF_CHN_warplan_short days = 60 }
+		set_country_flag = EoF_CHN_fast_warplan
 	}
 	option = {
 		name = EoF_great_war.3.b
-		add_ideas = EoF_CHN_warplan_medium
+		set_country_flag = EoF_CHN_medium_warplan
 	}
 	option = {
 		name = EoF_great_war.3.c
-		add_timed_idea = { idea = EoF_CHN_warplan_long_debuff days = 240 }
+		set_country_flag = EoF_CHN_slow_warplan
 	}
 }
 country_event = {
@@ -200,5 +200,23 @@ country_event = {
 	option = {
 		name = EoF_great_war.4.c
 		set_country_flag = EoF_EQS_warplan_3_selected
+	}
+}
+country_event = {
+	id = EoF_great_war.5
+	title = EoF_great_war.5.t
+	desc = EoF_great_war.5.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF_great_war.5.a
+		set_country_flag = EoF_luna_reform_flag
+	}
+	option = {
+		name = EoF_great_war.5.b
+		set_country_flag = EoF_blueblood_reform_flag
+	}
+	option = {
+		name = EoF_great_war.5.c
+		set_country_flag = EoF_twilight_objection_flag
 	}
 }
