@@ -88,9 +88,9 @@ EoF_hive_plants_category = {
 		complete_effect = {
 			hidden_effect = {
 				remove_all_plant_buffs = yes
-				
-				
-				
+				set_variable = { EoF_lyctida_mils = 309.arms_factory_level }
+				set_variable = { EoF_vraks_mils = 259.arms_factory_level }
+				set_variable = { EoF_sicarus_mils = 248.arms_factory_level }
 				update_lyctida_effect = yes
 				update_vraks_effect = yes
 				update_sicarus_effect = yes
