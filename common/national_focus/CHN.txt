@@ -2555,6 +2555,10 @@ focus_tree = {
 		x = -2
 		y = 1
 		completion_reward = {
+			add_timed_idea = {
+				idea = EoF_CHN_warplan_short_1
+				days = 120
+			}
 		}
 	}
 
@@ -2569,6 +2573,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
+			add_ideas = EoF_CHN_warplan_short_2
 		}
 	}
 
@@ -2583,6 +2588,9 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
+			activate_mission_tooltip = EoF_industry_deadline_mission
+			custom_effect_tooltip = EoF_industry_deadline_tt
+			add_ideas = EoF_CHN_warplan_short_3
 		}
 	}
 
@@ -2604,6 +2612,31 @@ focus_tree = {
 		x = 0
 		y = 1
 		completion_reward = {
+			add_ideas = EoF_CHN_warplan_medium
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -2619,7 +2652,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			unlock_decision_category_tooltip = EoF_hive_plants_category
-			add_dynamic_modifier = { modifier = EoF_hive_plants_modifier }
+			custom_effect_tooltip = EoF_hive_plants_tt
 		}
 	}
 
@@ -2680,6 +2713,110 @@ focus_tree = {
 		x = 1
 		y = 1
 		completion_reward = {
+			custom_effect_tooltip = EoF_integrate_war_eco_tt
+			if = {
+				limit = {
+					CHN = {
+						arms_factory > 159
+					}
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = CHN
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 3
+						add_building_construction = {
+							type = industrial_complex
+							level = 3
+							instant_build = yes
+						}
+					}	
+				}
+			}
+			else_if = {
+				limit = {
+					CHN = {
+						arms_factory > 129
+					}
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = CHN
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 2
+						add_building_construction = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					}	
+				}
+			}
+			else = {
+				every_other_country = {
+					limit = {
+						is_in_faction_with = CHN
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					}
+					random_owned_controlled_state = {
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}	
+				}
+			}
 		}
 	}
 

@@ -1,0 +1,16 @@
+
+EoF_industry_deadline_category = {
+	EoF_industry_deadline_mission = {
+		activation = {
+			has_completed_focus = EoF_industry_deadline
+		}
+		available = {
+			always = no
+		}
+		icon = GFX_decision_gre_paying_ifc_debt
+		days_mission_timeout = 120
+		timeout_effect = {
+			remove_ideas = EoF_CHN_warplan_short_3
+		}
+	}
+}

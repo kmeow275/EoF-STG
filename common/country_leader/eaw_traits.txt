@@ -3637,7 +3637,7 @@ apn_time_queen= {
 	EQS_wonderbolts_captain = {
 		random = no
 		air_doctrine_cost_factor = -0.1
-		air_superiority_efficiency = 0.15
+		air_superiority_efficiency = 0.1
 		#experience_gain_air = 0.1
 	}
 
