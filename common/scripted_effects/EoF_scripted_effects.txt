@@ -1,48 +1,37 @@
 remove_all_plant_buffs = {
-	meta_effect = {
-		text = {
-			remove_ideas = [EOF_PLANT_IDEA]_[TEMP]
-		}
-		EOF_PLANT_IDEA = "EoF_lyctida"
-		TEMP = "[?EoF_lyctida_mils]"
-	}
-	meta_effect = {
-		text = {
-			remove_ideas = [EOF_PLANT_IDEA]_[TEMP]
-		}
-		EOF_PLANT_IDEA = "EoF_vraks"
-		TEMP = "[?EoF_vraks_mils]"
-	}
-	meta_effect = {
-		text = {
-			remove_ideas = [EOF_PLANT_IDEA]_[TEMP]
-		}
-		EOF_PLANT_IDEA = "EoF_sicarus"
-		TEMP = "[?EoF_sicarus_mils]"
-	}
+	remove_ideas = var:EoF_lyctida_idea_var
+	remove_ideas = var:EoF_vraks_idea_var
+	remove_ideas = var:EoF_sicarus_idea_var
 }
 update_lyctida_effect = {
+	set_temp_variable = { EoF_lyctida_mils = 309.arms_factory_level }
 	meta_effect = {
 		text = {
 			add_ideas = [EOF_LYCTIDA_IDEA]_[MILS]
+			set_variable = { EoF_lyctida_idea_var = token:[EOF_LYCTIDA_IDEA]_[MILS]}
 		}
 		EOF_LYCTIDA_IDEA = "EoF_lyctida"
 		MILS = "[?EoF_lyctida_mils]"
 	}
+	
 }
 update_vraks_effect = {
+	set_temp_variable = { EoF_vraks_mils = 259.arms_factory_level }
 	meta_effect = {
 		text = {
 			add_ideas = [EOF_VRAKS_IDEA]_[MILS]
+			set_variable = { EoF_vraks_idea_var = token:[EOF_VRAKS_IDEA]_[MILS]}
 		}
 		EOF_VRAKS_IDEA = "EoF_vraks"
 		MILS = "[?EoF_vraks_mils]"
 	}
 }
 update_sicarus_effect = {
+	set_temp_variable = { EoF_sicarus_mils = 248.arms_factory_level }
 	meta_effect = {
 		text = {
 			add_ideas = [EOF_SICARUS_IDEA]_[MILS]
+			set_variable = { EoF_sicarus_idea_var = token:[EOF_SICARUS_IDEA]_[MILS]}
 		}
 		EOF_SICARUS_IDEA = "EoF_sicarus"
 		MILS = "[?EoF_sicarus_mils]"
