@@ -175,6 +175,10 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = spall_liner
+			count < 2
+		}
+		module_count_limit = {
 			category = tank_simplification_module
 			count < 2
 		}
@@ -505,6 +509,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = surface_to_air_missiles
+			count < 2
+		}
+		module_count_limit = {
+			module = spall_liner
 			count < 2
 		}
 		module_count_limit = {
@@ -949,6 +957,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = surface_to_air_missiles
+			count < 2
+		}
+		module_count_limit = {
+			module = spall_liner
 			count < 2
 		}
 		module_count_limit = {
@@ -1445,6 +1457,10 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = spall_liner
+			count < 2
+		}
+		module_count_limit = {
 			category = tank_simplification_module
 			count < 2
 		}
@@ -1749,6 +1765,10 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = spall_liner
+			count < 2
+		}
+		module_count_limit = {
 			category = tank_simplification_module
 			count < 2
 		}
@@ -1993,6 +2013,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = surface_to_air_missiles
+			count < 2
+		}
+		module_count_limit = {
+			module = spall_liner
 			count < 2
 		}
 		module_count_limit = {

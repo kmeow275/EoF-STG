@@ -153,6 +153,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/cupola3.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_EMI_spall_liner"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spall_liner.dds"
+		legacy_lazy_load = no
+	}
 	###Technologies###
 	SpriteType = {
 		name = "GFX_tank_super_heavy_cannon_medium"
@@ -347,5 +352,10 @@ spriteTypes = {
 		texturefile = "gfx/texticons/unit_mech_heavy_anti_tank_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
+	}
+	###Ideas###
+	spriteType = {
+		name = "GFX_idea_EoF_redacted"
+		texturefile = "gfx/interface/ideas/advisors/EoF_redacted.dds"
 	}
 }

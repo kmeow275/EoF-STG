@@ -302,5 +302,20 @@ equipment_modules = {
 			breakthrough = 0.15
 		}
 	}
+	spall_liner = {
+		abbreviation = "spl"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats = {
+			hardness = 0.1
+			max_strength = 1
+			max_speed = -0.2
+		}
+		xp_cost = 0
+		multiply_stats = {
+			build_cost_ic = 0.05
+		}
+	}
 }
 
