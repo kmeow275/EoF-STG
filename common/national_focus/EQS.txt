@@ -1254,6 +1254,15 @@ shared_focus = {
 		172 = { is_fully_controlled_by = ROOT }
 		136 = { is_fully_controlled_by = ROOT }
 	}
+	bypass = {
+		CHN = {
+			OR = {
+				exists = no
+				is_subject = yes
+				has_war_with = ROOT
+			}
+		}
+	}
 	continue_if_invalid = no
 	cancel_if_invalid = yes
 	completion_reward = {
@@ -1353,6 +1362,15 @@ shared_focus = {
 		controls_state = 131 }
 	prerequisite = {
 		focus = reinforce_border
+	}
+	bypass = {
+		CHN = {
+			OR = {
+				exists = no
+				is_subject = yes
+				has_war_with = ROOT
+			}
+		}
 	}
 	x = 23
 	y = 4
@@ -3681,7 +3699,7 @@ shared_focus = {
 shared_focus = {
 	id = EoF_losing
 	icon = GFX_goal_fire
-	cost = 15
+	cost = 1
 	prerequisite = {
 		focus = EoF_war_begins
 	}
@@ -3697,6 +3715,9 @@ shared_focus = {
 	cost = 15
 	prerequisite = {
 		focus = EoF_losing
+	}
+	available = {
+		always = no
 	}
 	relative_position_id = EoF_losing
 	x = -3
@@ -3728,6 +3749,8 @@ shared_focus = {
 	x = 0
 	y = 2
 	completion_reward = {
+		custom_effect_tooltip = EoF_polyphony_tt
+		unlock_decision_tooltip = EoF_polyphony_decision
 	}
 }
 shared_focus = {
@@ -4011,6 +4034,9 @@ shared_focus = {
 	cost = 15
 	prerequisite = {
 		focus = EoF_losing
+	}
+	available = {
+		always = no
 	}
 	relative_position_id = EoF_losing
 	x = 3
@@ -4393,7 +4419,7 @@ shared_focus = {
 shared_focus = {
 	id = EoF_real_war_industry
 	icon = GFX_focus_generic_tank_production
-	cost = 15
+	cost = 10
 	prerequisite = {
 		focus = EoF_war_begins
 	}
@@ -4401,13 +4427,14 @@ shared_focus = {
 	x = 10
 	y = 1
 	completion_reward = {
+		activate_advisor = spear
 	}
 }
 
 shared_focus = {
 	id = EoF_talent_distribution_bureau
 	icon = GFX_goal_generic_secret_documents
-	cost = 15
+	cost = 5
 	prerequisite = {
 		focus = EoF_real_war_industry
 	}
@@ -4418,13 +4445,14 @@ shared_focus = {
 	x = -1
 	y = 1
 	completion_reward = {
+		add_ideas = EoF_talent_distribution
 	}
 }
 
 shared_focus = {
 	id = EoF_talent_utilization_bureau
 	icon = GFX_goal_document
-	cost = 15
+	cost = 5
 	prerequisite = {
 		focus = EoF_real_war_industry
 	}
@@ -4435,13 +4463,14 @@ shared_focus = {
 	x = 1
 	y = 1
 	completion_reward = {
+		add_ideas = EoF_talent_utilization
 	}
 }
 
 shared_focus = {
 	id = EoF_crystal_connection
 	icon = GFX_goal_cry_factory
-	cost = 15
+	cost = 5
 	prerequisite = {
 		focus = EoF_talent_distribution_bureau
 		focus = EoF_talent_utilization_bureau
@@ -4450,6 +4479,101 @@ shared_focus = {
 	x = -1
 	y = 1
 	completion_reward = {
+		custom_effect_tooltip = EoF_integrate_war_eco_tt
+		if = {
+			limit = {
+				EQS = {
+					arms_factory > 159
+				}
+			}
+			CRY = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}	
+			}
+		}
+		else_if = {
+			limit = {
+				EQS = {
+					arms_factory > 129
+				}
+			}
+			CRY = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}	
+			}
+		}
+		else = {
+			CRY = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}	
+			}
+		}
 	}
 }
 
@@ -4465,13 +4589,31 @@ shared_focus = {
 	x = 1
 	y = 1
 	completion_reward = {
+		every_core_state = {
+			limit = {
+				controller = EQS
+				has_state_category = rural
+				industrial_complex > 0
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 }
 
 shared_focus = {
 	id = EoF_stalliongrad_connection
 	icon = GFX_goal_stg_socialist_industry
-	cost = 15
+	cost = 5
 	prerequisite = {
 		focus = EoF_talent_distribution_bureau
 		focus = EoF_talent_utilization_bureau
@@ -4480,6 +4622,101 @@ shared_focus = {
 	x = 3
 	y = 1
 	completion_reward = {
+		custom_effect_tooltip = EoF_integrate_war_eco_tt
+		if = {
+			limit = {
+				EQS = {
+					arms_factory > 159
+				}
+			}
+			STG = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = arms_factory
+						level = 3
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 3
+						instant_build = yes
+					}
+				}	
+			}
+		}
+		else_if = {
+			limit = {
+				EQS = {
+					arms_factory > 129
+				}
+			}
+			STG = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}	
+			}
+		}
+		else = {
+			STG = {
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}	
+			}
+		}
 	}
 }
 

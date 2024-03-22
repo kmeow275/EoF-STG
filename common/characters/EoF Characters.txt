@@ -23,4 +23,24 @@ characters={
 			}
 		}
 	}
+	EoF_halberd_spear = {
+		name = EoF_halberd_spear
+		portraits = {
+			civilian = {
+				small = "GFX_idea_EoF_redacted"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = spear
+			allowed = {
+				original_tag = EQS
+			}
+
+			available = {
+				has_completed_focus = EoF_real_war_industry
+			}
+			traits = { EoF_production_conductor }
+		}
+	}
 }

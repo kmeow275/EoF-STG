@@ -11,6 +11,7 @@ EoF_category:0 "Game Decisions"
 EoF_big_division_decision:0 "Add a 48w Template"
 
 EoF_dandan:0 "Narcoleptic Genius"
+EoF_production_conductor:0 "Conductor of Production"
 
 EoF_neutral_country:0 "Neutral Country"
 
@@ -115,7 +116,7 @@ EoF_CHN_core_buff_tt:0 "Losing §YHjortland§! will §Rremove§! this buff."
 EoF_CHN_core_buff_desc:0 "As long as our Olenian flank is secured, our people will be able to fully concentrate their efforts on the defence of the homeland. As long as a steady flow of fuel, food and raw materials is maintained, our interconnected hives are nearly impregnable. However, should Olenia be threatened, our strategic position will rapidly deteriorate."
 
 EoF_hive_plants_category:0 "Hive Plant Integration"
-EoF_recalculate_hive_plants:0 "Recalculate the Hive Plant Ideas"
+EoF_recalculate_hive_plants:0 "Recalculate Hive Plants"
 EoF_lyctida_plant:0 "Expand the Lyctida Hive"
 EoF_vraks_plant:0 "Expand the Vraks Hive"
 EoF_sicarus_plant:0 "Expand the Sicarus Hive"
@@ -276,3 +277,6 @@ EoF_sicarus_24:0 "Sicarus Gun Factory Subsidies"
 EoF_sicarus_24_desc:0 "By subsidising the gun plants in Sicarus we are able to turn out increasingly more infantry equipment."
 EoF_sicarus_25:0 "Sicarus Gun Factory Subsidies"
 EoF_sicarus_25_desc:0 "By subsidising the gun plants in Sicarus we are able to turn out increasingly more infantry equipment."
+
+EoF_halberd_spear:0 "Halberd Spear"
+

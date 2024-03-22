@@ -30,3 +30,10 @@ EoF_category = {
 		always = yes
 	}
 }
+EoF_polyphony_category = {
+	icon = GFX_decision_fire
+	priority = 10000
+	visible = {
+		has_completed_focus = EoF_polyphony
+	}
+}
