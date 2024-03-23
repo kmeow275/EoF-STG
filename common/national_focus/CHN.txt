@@ -2552,7 +2552,7 @@ focus_tree = {
 			focus = EoF_retool_eco
 		}
 		available = {
-			has_country_flag = EoF_CHN_fast_warplan_flag
+			has_country_flag = EoF_CHN_warplan_short_flag
 		}
 		relative_position_id = EoF_our_war_plan
 		x = -2
@@ -2609,7 +2609,7 @@ focus_tree = {
 			focus = EoF_retool_eco
 		}
 		available = {
-			has_country_flag = EoF_CHN_medium_warplan_flag
+			has_country_flag = EoF_CHN_warplan_medium_flag
 		}
 		relative_position_id = EoF_our_war_plan
 		x = 0
@@ -2671,7 +2671,7 @@ focus_tree = {
 			focus = EoF_modern_industry_war
 		}
 		available = {
-			has_country_flag = EoF_CHN_slow_warplan_flag
+			has_country_flag = EoF_CHN_warplan_long_flag
 		}
 		relative_position_id = EoF_our_war_plan
 		x = 2
