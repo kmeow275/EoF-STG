@@ -4589,6 +4589,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	completion_reward = {
+		custom_effect_tooltip = EoF_regional_industry_tt
 		every_core_state = {
 			limit = {
 				controller = EQS

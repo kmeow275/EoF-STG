@@ -12,6 +12,7 @@ EoF_big_division_decision:0 "Add a 48w Template"
 
 EoF_dandan:0 "Narcoleptic Genius"
 EoF_production_conductor:0 "Conductor of Production"
+EoF_busy_reforming:0 "Leading Reform"
 
 EoF_neutral_country:0 "Neutral Country"
 
@@ -277,6 +278,31 @@ EoF_sicarus_24:0 "Sicarus Gun Factory Subsidies"
 EoF_sicarus_24_desc:0 "By subsidising the gun plants in Sicarus we are able to turn out increasingly more infantry equipment."
 EoF_sicarus_25:0 "Sicarus Gun Factory Subsidies"
 EoF_sicarus_25_desc:0 "By subsidising the gun plants in Sicarus we are able to turn out increasingly more infantry equipment."
+
+EoF_CHN_warplan_short_1:0 "Maximized Weapon Output"
+EoF_CHN_warplan_short_2:0 "Optimized Production Lines"
+EoF_CHN_warplan_short_3:0 "Unstable War Industry"
+EoF_CHN_warplan_medium:0 "Modern War Industry"
+EoF_CHN_warplan_long_1:0 "Retooling Economy"
+EoF_CHN_warplan_long_2:0 "Resilient War Industry"
+
+
+EoF_war_measures:0 "War Measures"
+EoF_immortal_swarm:0 "The Immortal Swarm"
+
+EoF_luna_reform_1:0 "Luna's Reform"
+EoF_luna_reform_2:0 "Luna's Reform"
+EoF_luna_reform_3:0 "Luna's Reform"
+EoF_luna_reform_4:0 "Luna's Reform"
+EoF_blueblood_reform_1:0 "Blueblood's Reform"
+EoF_blueblood_reform_2:0 "Blueblood's Reform"
+EoF_blueblood_reform_3:0 "Blueblood's Reform"
+EoF_ember_reform_1:0 "Ember's Reform"
+EoF_ember_reform_2:0 "Ember's Reform"
+EoF_ember_reform_3:0 "Ember's Reform"
+
+EoF_talent_distribution:0 "Bureau of Talent Distribution"
+EoF_talent_utilization:0 "Bureau of Talent Utilization"
 
 EoF_halberd_spear:0 "Halberd Spear"
 
