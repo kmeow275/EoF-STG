@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		EoF_CHN_warplan_short_1 = {
 			removal_cost = -1
-			picture = CHN_plan_east_prep
+			picture = generic_license_production
 			equipment_bonus = {
 				armor = {
 					build_cost_ic = -0.3
@@ -21,7 +21,7 @@ ideas = {
 		}
 		EoF_CHN_warplan_short_2 = {
 			removal_cost = -1
-			picture = CHN_plan_east_prep
+			picture = generic_improved_industries
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1
 				production_speed_arms_factory_factor = -0.2
@@ -31,7 +31,7 @@ ideas = {
 		}
 		EoF_CHN_warplan_short_3 = {
 			removal_cost = -1
-			picture = CHN_plan_east_prep
+			picture = outdated_industry
 			modifier = {
 				consumer_goods_factor = -0.5
 				industrial_capacity_factory = 0.3
@@ -41,7 +41,7 @@ ideas = {
 		}
 		EoF_CHN_warplan_medium = {
 			removal_cost = -1
-			picture = CHN_plan_east_prep
+			picture = generic_improved_industries
 			modifier = {
 				industrial_capacity_factory = 0.1
 				production_factory_max_efficiency_factor = 0.05
@@ -49,7 +49,7 @@ ideas = {
 		}
 		EoF_CHN_warplan_long_1 = {
 			removal_cost = -1
-			picture = CHN_plan_east_prep
+			picture = FRA_factory_strikes
 			modifier = {
 				consumer_goods_factor = 0.25
 				industrial_capacity_factory = -0.1
@@ -60,7 +60,7 @@ ideas = {
 		}
 		EoF_CHN_warplan_long_2 = {
 			removal_cost = -1
-			picture = CHN_plan_east_prep
+			picture = generic_improved_industries
 			modifier = {
 				industrial_capacity_factory = 0.15
 				production_factory_max_efficiency_factor = 0.2

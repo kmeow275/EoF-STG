@@ -23,7 +23,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/traits/personal/trait_sunset_shimmer.dds"
 	}
 	spriteType = {
-		name = "EoF_busy_reforming_trait"
+		name = "GFX_trait_EoF_busy_reforming_trait"
 		texturefile = "gfx/interface/traits/personal/trait_recently_promoted.dds"
 	}
 	spriteType = {

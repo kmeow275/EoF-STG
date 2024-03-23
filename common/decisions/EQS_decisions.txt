@@ -258,15 +258,15 @@ EQS_celestia_evil_meter_category = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision EQS_enact_war_plan_decision"
 			if = {
-				limit = { has_country_flag = EoF_EQS_warplan_1_selected }
+				limit = { has_country_flag = EoF_EQS_warplan_1_flag }
 				add_ideas = EoF_EQS_warplan_1
 			}
 			else_if = {
-				limit = { has_country_flag = EoF_EQS_warplan_2_selected }
+				limit = { has_country_flag = EoF_EQS_warplan_2_flag }
 				add_ideas = EoF_EQS_warplan_2
 			}
 			else_if = {
-				limit = { has_country_flag = EoF_EQS_warplan_3_selected }
+				limit = { has_country_flag = EoF_EQS_warplan_3_flag }
 				add_ideas = EoF_EQS_warplan_3
 			}
 			else = {

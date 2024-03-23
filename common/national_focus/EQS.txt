@@ -3690,6 +3690,9 @@ shared_focus = {
 	prerequisite = {
 		focus = Preemptive_attack
 	}
+	available = {
+		has_war = yes
+	}
 	relative_position_id = Preemptive_attack
 	x = 0
 	y = 4
