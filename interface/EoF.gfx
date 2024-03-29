@@ -200,6 +200,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/artillery5.dds"
 	}
 	SpriteType = {
+		name = "GFX_fieldgun1_medium"
+		textureFile = "gfx/interface/technologies/antitank1.dds"
+	}
+	SpriteType = {
 		name = "GFX_heavyantitank1_medium"
 		textureFile = "gfx/interface/technologies/heavy_AT_1.dds"
 	}
