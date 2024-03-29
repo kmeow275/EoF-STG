@@ -113,11 +113,11 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = { has_completed_focus = vasya_1 }
-					country_event = { id = stalliongrad.16 days = 11 } #days to hours applied
+					country_event = stalliongrad.16 #days to hours applied
 				}
 				else_if = {
 					limit = { has_completed_focus = polya_1 }
-					country_event = { id = stalliongrad.17 days = 11 } #days to hours applied
+					country_event = stalliongrad.17 #days to hours applied
 				}
 			}
 		}
@@ -186,74 +186,74 @@ focus_tree = {
 			hidden_effect = {
 				if = {
 					limit = { has_completed_focus = polya_1 }
-					country_event = { id = stalliongrad.15 days = 11 } #days to hours applied
+					country_event = stalliongrad.15 #days to hours applied
 				}
 				else_if = {
 					limit = { has_completed_focus = vasya_1 }
-					country_event = { id = stalliongrad.18 days = 11 } #days to hours applied
+					country_event = stalliongrad.18 #days to hours applied
 				}
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 	}
-	focus = {
-		id = compromiss
-		icon = GFX_goal_compromise
-		cost = 7
-		prerequisite = {
-			focus = vasya_2
-			focus = polya_2
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		x = 4
-		y = 3
-		mutually_exclusive = {
-			focus = keep_polya
-			focus = purge
-		}
-		available = {
-			OR = {
-				has_country_flag = polya_chosen
-				has_country_flag = vasya_chosen
-			}
-			has_government = communism
-			NOT = { is_subject = yes }
-		}
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus compromiss"
-			country_event = {
-				id = stalliongrad.22 days = 1
-			}
-		}
-	}
-	focus = {
-		id = conditions
-		icon = GFX_goal_conditions
-		cost = 10
-		prerequisite = {
-			focus = compromiss
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		available = {
-			has_government = communism
-			NOT = { is_subject = yes }
-		}
-		x = 4
-		y = 4
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus conditions"
-			country_event = {
-				id = stalliongrad.35 days = 1
-			}
-			hidden_effect = {
-				country_event = { id = stalliongrad.32 days = 50 } #days to hours applied
-			}
-		}
-	}
+	# focus = {
+	# 	id = compromiss
+	# 	icon = GFX_goal_compromise
+	# 	cost = 7
+	# 	prerequisite = {
+	# 		focus = vasya_2
+	# 		focus = polya_2
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 5
+	# 	}
+	# 	x = 4
+	# 	y = 3
+	# 	mutually_exclusive = {
+	# 		focus = keep_polya
+	# 		focus = purge
+	# 	}
+	# 	available = {
+	# 		OR = {
+	# 			has_country_flag = polya_chosen
+	# 			has_country_flag = vasya_chosen
+	# 		}
+	# 		has_government = communism
+	# 		NOT = { is_subject = yes }
+	# 	}
+	# 	completion_reward = {
+	# 		log = "[GetDateText]: [Root.GetName]: Focus compromiss"
+	# 		country_event = {
+	# 			id = stalliongrad.22 days = 1
+	# 		}
+	# 	}
+	# }
+	# focus = {
+	# 	id = conditions
+	# 	icon = GFX_goal_conditions
+	# 	cost = 10
+	# 	prerequisite = {
+	# 		focus = compromiss
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 5
+	# 	}
+	# 	available = {
+	# 		has_government = communism
+	# 		NOT = { is_subject = yes }
+	# 	}
+	# 	x = 4
+	# 	y = 4
+	# 	completion_reward = {
+	# 		log = "[GetDateText]: [Root.GetName]: Focus conditions"
+	# 		country_event = {
+	# 			id = stalliongrad.35 days = 1
+	# 		}
+	# 		hidden_effect = {
+	# 			country_event = { id = stalliongrad.32 days = 50 } #days to hours applied
+	# 		}
+	# 	}
+	# }
 	focus = {
 		id = purge
 		icon = GFX_goal_purge
@@ -263,7 +263,7 @@ focus_tree = {
 			focus = polya_2
 		}
 		available = {
-			has_country_flag = vasya_chosen
+			# has_country_flag = vasya_chosen
 			has_government = communism
 			NOT = { is_subject = yes }
 		}
@@ -274,7 +274,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		x = 2
+		x = 4
 		y = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus purge"
@@ -295,76 +295,77 @@ focus_tree = {
 			has_government = communism
 			NOT = { is_subject = yes }
 		}
-		x = 1
+		x = 4
 		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus elections"
+			add_political_power = 50
 			country_event = {
-				id = stalliongrad.23 days = 1
+				id = stalliongrad.30
 			}
 		}
 	}
 
-	focus = {
-		id = keep_polya
-		icon = GFX_goal_vote_alty
-		cost = 5
-		prerequisite = {
-			focus = polya_2
-			focus = vasya_2
-		}
-		mutually_exclusive = {
-			focus = compromiss
-			focus = purge
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		available = {
-			has_country_flag = polya_chosen
-			NOT = { has_country_flag = polya_dies }
-			has_government = communism
-			NOT = { is_subject = yes }
-		}
-		x = 6
-		y = 3
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus keep_polya"
-			add_political_power = 100
-			hidden_effect = {
-				country_event = { id = stalliongrad.19 days = 1 }
-			}
-		}
-		search_filters = { FOCUS_FILTER_POLITICAL }
-	}
-	focus = {
-		id = new_leaders
-		icon = GFX_goal_new_leaders
-		cost = 10
-		prerequisite = {
-			focus = keep_polya
-		}
-		ai_will_do = {
-			factor = 5
-		}
-		available = {
-			has_government = communism
-			NOT = { is_subject = yes }
-		}
-		x = 7
-		y = 4
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus new_leaders"
-			country_event = { id = stalliongrad.20 days = 1 }
-			hidden_effect = {
-				country_event = { id = stalliongrad.32 days = 50 } #days to hours applied
-				if = {
-					limit = { has_country_flag = polya_dies2 }
-					country_event = { id = stalliongrad.37 days = 11 } #days to hours applied
-				}
-			}
-		}
-	}
+	# focus = {
+	# 	id = keep_polya
+	# 	icon = GFX_goal_vote_alty
+	# 	cost = 5
+	# 	prerequisite = {
+	# 		focus = polya_2
+	# 		focus = vasya_2
+	# 	}
+	# 	mutually_exclusive = {
+	# 		focus = compromiss
+	# 		focus = purge
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# 	available = {
+	# 		has_country_flag = polya_chosen
+	# 		NOT = { has_country_flag = polya_dies }
+	# 		has_government = communism
+	# 		NOT = { is_subject = yes }
+	# 	}
+	# 	x = 6
+	# 	y = 3
+	# 	completion_reward = {
+	# 		log = "[GetDateText]: [Root.GetName]: Focus keep_polya"
+	# 		add_political_power = 100
+	# 		hidden_effect = {
+	# 			country_event = { id = stalliongrad.19 days = 1 }
+	# 		}
+	# 	}
+	# 	search_filters = { FOCUS_FILTER_POLITICAL }
+	# }
+	# focus = {
+	# 	id = new_leaders
+	# 	icon = GFX_goal_new_leaders
+	# 	cost = 10
+	# 	prerequisite = {
+	# 		focus = keep_polya
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 5
+	# 	}
+	# 	available = {
+	# 		has_government = communism
+	# 		NOT = { is_subject = yes }
+	# 	}
+	# 	x = 7
+	# 	y = 4
+	# 	completion_reward = {
+	# 		log = "[GetDateText]: [Root.GetName]: Focus new_leaders"
+	# 		country_event = { id = stalliongrad.20 days = 1 }
+	# 		hidden_effect = {
+	# 			country_event = { id = stalliongrad.32 days = 50 } #days to hours applied
+	# 			if = {
+	# 				limit = { has_country_flag = polya_dies2 }
+	# 				country_event = { id = stalliongrad.37 days = 11 } #days to hours applied
+	# 			}
+	# 		}
+	# 	}
+	# }
 	############################
 	#### AFTER ELECTIONS #########
 	############################
@@ -468,9 +469,9 @@ focus_tree = {
 			factor = 4
 		}
 		prerequisite = {
-			focus = conditions
+			# focus = conditions
 			focus = elections
-			focus = new_leaders
+			# focus = new_leaders
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus manifesto_of_materialism"
@@ -579,7 +580,7 @@ focus_tree = {
 	focus = {
 		id = free_education
 		icon = GFX_goal_free_education
-		cost = 16
+		cost = 10
 		x = 12
 		y = 2
 		prerequisite = {
@@ -756,7 +757,7 @@ focus_tree = {
 	focus = {
 		id = STG_colleges_and_universities
 		icon = GFX_goal_stg_universities
-		cost = 12
+		cost = 10
 		prerequisite = {
 			focus = stg_factory_production
 		}
@@ -3921,7 +3922,7 @@ focus_tree = {
 	focus = {
 		id = EoF_join_UPA
 		icon = GFX_goal_eqs_stg_relations
-		cost = 5
+		cost = 2
 		prerequisite = {
 		}
 		x = 16
@@ -3944,7 +3945,7 @@ focus_tree = {
 	focus = {
 		id = EoF_STG_buy_planes
 		icon = GFX_goal_stg_eqs
-		cost = 5
+		cost = 2
 		prerequisite = {
 			focus = EoF_join_UPA
 		}
@@ -3955,6 +3956,23 @@ focus_tree = {
 				cic = 10000
 				equipment_type = small_plane_airframe
 				seller_tags = { EQS }
+			}
+		}
+	}
+	focus = {
+		id = EoF_STG_red_star
+		icon = GFX_goal_stg_socialist_industry
+		cost = 5
+		prerequisite = {
+			focus = EoF_STG_buy_planes
+		}
+		x = 16
+		y = 2
+		completion_reward = {
+			custom_effect_tooltip = available_mio_tt
+			show_mio_tooltip = CRY_red_star_manufacturing_organization
+			mio:CRY_red_star_manufacturing_organization = {
+				add_mio_funds = 500
 			}
 		}
 	}
