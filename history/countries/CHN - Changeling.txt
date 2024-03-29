@@ -346,6 +346,12 @@ set_country_flag = queens_tower_flag
 add_timed_idea = { idea = CHN_synthetic_armament days = 365 }
 set_stability = 0.6
 
+add_equipment_to_stockpile = {
+	type = infantry_equipment_0
+	amount = 40000
+	producer = CHN
+}
+
 #Generals and Leaders
 recruit_character = CHN_hivesmarschall_synovial
 recruit_character = CHN_queen_chrysalis

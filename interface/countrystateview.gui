@@ -23,18 +23,18 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "countrystateview"
-		position = { x=-416 y=-549}
-		show_position = { x=-6 y =-549 }
+		position = { x=-416 y=-779}
+		show_position = { x=-6 y =-779 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300
 		orientation = lower_left
-		size = { width=436 height=496 }
+		size = { width=436 height=726 }
 		
 		containerWindowType = {
 			name = "state_info_window"
 			position = { x = 0 y = 0 }
-			size = { width=780 height=496 }
+			size = { width=780 height=726 }
 			
 			
 			background = {
@@ -161,7 +161,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "state_resources"
-				position = { x= 26 y=301}
+				position = { x= 26 y=531}
 				size = { width=135 height=99 }
 				
 				
@@ -274,7 +274,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "province_info_window"
-			position = { x = 20 y = 435 }
+			position = { x = 20 y = 665 }
 			size = { width=480 height=29%% }
 			
 			iconType = {

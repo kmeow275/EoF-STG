@@ -6517,6 +6517,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRF_state_army"
 			army_experience = 30
+			add_ideas = war_economy
+			add_political_power = -150
+			
 		}
 		search_filters = { FOCUS_FILTER_ARMY_BONUS }
 	}

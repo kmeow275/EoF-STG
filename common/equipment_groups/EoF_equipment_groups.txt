@@ -1,0 +1,9 @@
+EoF_cat_eq_all_tank_artillery = {
+	equipment_type = {
+		light_tank_artillery_chassis 
+		medium_tank_artillery_chassis
+		heavy_tank_artillery_chassis
+		super_heavy_tank_artillery_chassis
+		modern_tank_artillery_chassis
+	}
+}

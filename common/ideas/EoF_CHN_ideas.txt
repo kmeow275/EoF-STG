@@ -1,0 +1,166 @@
+ideas = {
+	country = {
+		EoF_winter_offensive = {
+			removal_cost = -1
+			picture = CHN_plan_east_prep
+			modifier = {
+				supply_consumption_factor = -0.2
+				no_supply_grace	= 48.0
+				planning_speed = 1.0
+				acclimatization_cold_climate_gain_factor = 5
+				winter_attrition_factor = -0.8
+			}
+			targeted_modifier = {
+				tag = EQS
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = STG
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = CRY
+				attack_bonus_against = 0.1
+			}
+		}
+		EoF_summer_offensive_1 = {
+			removal_cost = -1
+			picture = CHN_plan_east_prep
+			modifier = {
+				supply_consumption_factor = -0.2
+				no_supply_grace	= 48.0
+				planning_speed = 1.0
+			}
+			targeted_modifier = {
+				tag = EQS
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = STG
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = CRY
+				attack_bonus_against = 0.1
+			}
+		}
+		EoF_summer_offensive_2 = {
+			removal_cost = -1
+			picture = CHN_plan_east_prep
+			modifier = {
+				supply_consumption_factor = -0.5
+				no_supply_grace	= 96.0
+				planning_speed = 2.0
+			}
+			targeted_modifier = {
+				tag = EQS
+				attack_bonus_against = 0.5
+			}
+			targeted_modifier = {
+				tag = STG
+				attack_bonus_against = 0.5
+			}
+			targeted_modifier = {
+				tag = CRY
+				attack_bonus_against = 0.5
+			}
+		}
+		EoF_CHN_core_buff = {
+			removal_cost = -1
+			picture = YUG_federal_defense_council
+			modifier = {
+				army_core_attack_factor = 0.75
+				army_core_defence_factor = 0.75
+			}
+			custom_effect_tooltip = EoF_CHN_core_buff_tt
+		}
+		EoF_war_measures = {
+			removal_cost = -1
+			picture = FRA_scw_intervention_nationalists_focus
+			modifier = {
+				max_command_power = 20
+				war_support_weekly = -0.001
+				conversion_cost_civ_to_mil_factor = -0.3
+			}
+		}
+		EoF_immortal_swarm = {
+			removal_cost = -1
+			picture = CHN_changeling_swarm
+			modifier = {
+				training_time_factor = -0.20
+				conscription = 0.04
+				army_core_attack_factor = 0.4
+				army_core_defence_factor = 0.4
+				army_attack_factor = -0.2
+				army_defence_factor = -0.2
+			}
+		}
+		EoF_CHN_warplan_short_1 = {
+			removal_cost = -1
+			picture = generic_license_production
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.3
+					instant = yes
+				}
+				small_plane_airframe = {
+					build_cost_ic = -0.3
+					instant = yes
+				}
+				infantry_equipment = {
+					build_cost_ic = -0.3
+					instant = yes
+				}
+			}
+
+		}
+		EoF_CHN_warplan_short_2 = {
+			removal_cost = -1
+			picture = generic_improved_industries
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_arms_factory_factor = -0.2
+				production_factory_start_efficiency_factor = -0.2
+			}
+
+		}
+		EoF_CHN_warplan_short_3 = {
+			removal_cost = -1
+			picture = outdated_industry
+			modifier = {
+				consumer_goods_factor = -0.5
+				industrial_capacity_factory = 0.3
+				production_speed_buildings_factor = 0.5
+			}
+
+		}
+		EoF_CHN_warplan_medium = {
+			removal_cost = -1
+			picture = generic_improved_industries
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		EoF_CHN_warplan_long_1 = {
+			removal_cost = -1
+			picture = FRA_factory_strikes
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = 0.5
+				production_factory_start_efficiency_factor = 0.2
+			}
+		}
+		EoF_CHN_warplan_long_2 = {
+			removal_cost = -1
+			picture = generic_improved_industries
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.2
+				production_factory_efficiency_gain_factor = 0.2		
+			}
+		}
+	}
+}
