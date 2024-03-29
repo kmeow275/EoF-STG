@@ -2076,7 +2076,7 @@ technologies = {
 
 	excavation1 = {
 
-		local_resources_factor = 0.10
+		local_resources_factor = 0.20
 
 		path = {
 			research_cost_coeff = 1
@@ -2163,7 +2163,7 @@ technologies = {
 
 	excavation2 = {
 
-		local_resources_factor = 0.10
+		local_resources_factor = 0.20
 
 		path = {
 			research_cost_coeff = 1
@@ -2263,7 +2263,7 @@ technologies = {
 
 	excavation3 = {
 
-		local_resources_factor = 0.10
+		local_resources_factor = 0.20
 
 		path = {
 			research_cost_coeff = 1
@@ -2351,7 +2351,7 @@ technologies = {
 
 	excavation4 = {
 
-		local_resources_factor = 0.10
+		local_resources_factor = 0.20
 
 		path = {
 			research_cost_coeff = 1
@@ -2444,7 +2444,7 @@ technologies = {
 
 	excavation5 = {
 
-		local_resources_factor = 0.10
+		local_resources_factor = 0.20
 
 		path = {
 			research_cost_coeff = 1

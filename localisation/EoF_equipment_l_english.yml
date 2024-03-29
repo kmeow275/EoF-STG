@@ -15,7 +15,6 @@ heavy_anti_tank:0 "Support Heavy Anti-Tank"
 heavy_anti_tank_brigade:0 "Heavy Anti-Tank"
 mech_heavy_anti_tank_brigade:0 "Mechanized Heavy Anti-Tank"
 
-
 assault_equipment_1:0 "Basic Assault Equipment"
 assault_equipment_1_desc:0 "Specialized weapons such as flamethrowers and grenades vastly improve the ability of infantry to fight in close-quarters. Dedicated units may be equipped with these assault weapons, replacing their normal equipment, to vastly improve their breakthrough potential."
 assault_equipment_2:0 "Improved Assault Equipment"

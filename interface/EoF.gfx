@@ -357,6 +357,70 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_unit_reinforced_light_armor_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_reinforced_light_tank_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = { 
+		name = "GFX_unit_reinforced_light_armor_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_reinforced_light_tank_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_reinforced_light_armor_icon_small"
+		texturefile = "gfx/texticons/unit_reinforced_light_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_reinforced_medium_armor_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_reinforced_medium_tank_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = { 
+		name = "GFX_unit_reinforced_medium_armor_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_reinforced_medium_tank_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_reinforced_medium_armor_icon_small"
+		texturefile = "gfx/texticons/unit_reinforced_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_reinforced_heavy_armor_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_reinforced_heavy_armor_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = { 
+		name = "GFX_unit_reinforced_heavy_armor_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_reinforced_heavy_armor_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_reinforced_heavy_armor_icon_small"
+		texturefile = "gfx/texticons/unit_reinforced_heavy_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_reinforced_modern_armor_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_reinforced_modern_armor_icon.dds" 
+		noOfFrames = 2
+	}
+	spriteType = { 
+		name = "GFX_unit_reinforced_modern_armor_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_reinforced_modern_armor_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_reinforced_modern_armor_icon_small"
+		texturefile = "gfx/texticons/unit_reinforced_modern_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
 	###Ideas###
 	spriteType = {
 		name = "GFX_idea_EoF_redacted"

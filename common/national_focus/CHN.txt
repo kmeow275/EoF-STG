@@ -1070,17 +1070,33 @@ focus_tree = {
 		x = -1
 		y = 2
 		ai_will_do = { factor = 100 }
-		available = { owns_state = 300 owns_state = 292 }
+		available = { 
+			OLE = {
+				OR = {
+					is_subject_of = ROOT
+					exists = no
+					has_capitulated = yes
+					has_country_flag = CHN_annexed_olenia_by_event
+				}
+			}
+			# owns_state = 300
+			# owns_state = 292
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus national_resources"
 			add_resource = {
 				type = steel
-				amount = 13
+				amount = 21
+				state = 301
+			}
+			add_resource = {
+				type = steel
+				amount = 33
 				state = 300
 			}
 			add_resource = {
 				type = steel
-				amount = 24
+				amount = 28
 				state = 292
 			}
 			add_tech_bonus = {
@@ -1116,7 +1132,7 @@ focus_tree = {
 					has_country_flag = CHN_annexed_olenia_by_event
 				}
 			}
-			OLE = { any_cores_controlled_by_ROOT = yes }
+			# OLE = { any_cores_controlled_by_ROOT = yes }
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_olenian_factories"
