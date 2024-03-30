@@ -2177,7 +2177,7 @@ focus_tree = {
 	focus = {
 		id = STG_steel
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10
+		cost = 3
 		prerequisite = {
 			focus = expand_the_plan
 			focus = simplify_bureaucracy
@@ -2202,7 +2202,7 @@ focus_tree = {
 	focus = {
 		id = STG_steel2
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10
+		cost = 3
 		prerequisite = {
 			focus = STG_steel
 		}
@@ -2243,7 +2243,7 @@ focus_tree = {
 	focus = {
 		id = STG_oil
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10
+		cost = 3
 		prerequisite = {
 			focus = expand_the_plan
 			focus = simplify_bureaucracy
@@ -2259,7 +2259,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus STG_oil"
 			add_resource = {
 				type = oil
-				amount = 8
+				amount = 16
 				state = 235
 			}
 		}
@@ -2268,7 +2268,7 @@ focus_tree = {
 	focus = {
 		id = STG_oil2
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10
+		cost = 3
 		prerequisite = {
 			focus = STG_oil
 		}
@@ -2283,7 +2283,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus STG_oil2"
 			add_resource = {
 				type = oil
-				amount = 12
+				amount = 18
 				state = 235
 			}
 		}
@@ -2292,7 +2292,7 @@ focus_tree = {
 	focus = {
 		id = STG_aluminum
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10
+		cost = 3
 		prerequisite = {
 			focus = STG_oil2
 		}
@@ -2307,8 +2307,13 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus STG_aluminum"
 			add_resource = {
 				type = aluminium
-				amount = 15
+				amount = 23
 				state = 153
+			}
+			add_resource = {
+				type = aluminium
+				amount = 15
+				state = 166
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }

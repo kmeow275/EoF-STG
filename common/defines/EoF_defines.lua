@@ -1,4 +1,5 @@
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 36
+NDefines.NGame.GAME_SPEED_SECONDS = { 0.5, 0.3, 0.2, 0.1, 0.0 }	-- game speeds for each level. Must be 5 entries with last one 0 for unbound
 
 NDefines.NMilitary.UNIT_LEADER_USE_NONLINEAR_XP_GAIN = false	-- Whether unit leader XP gain is scaled by 1/<nr_of_traits>
 NDefines.NMilitary.MAX_NUM_TRAITS = 8				-- cant have more, -1 to disable
