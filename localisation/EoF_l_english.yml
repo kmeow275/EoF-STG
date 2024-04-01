@@ -1,4 +1,5 @@
 ﻿l_english:
+STATE_1209:0 "Griffbraltar"
 ABILITY_ARTILLERY_BOMBARDMENT:0 "Artillery Bombardment"
 ABILITY_ARTILLERY_BOMBARDMENT_DESC:0 "Your units will bombard the enemy, but leave themselves vulnerable to counterattack."
 

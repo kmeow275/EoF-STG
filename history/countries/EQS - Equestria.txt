@@ -478,16 +478,16 @@ if = {
 	}
 	set_autonomy = {
 		target = EQC
-		autonomy_state = autonomy_dominion
+		autonomy_state = autonomy_integrated_puppet
 	}
-	set_autonomy = {
-		target = PCB
-		autonomous_state = autonomy_dominion
-	}
+	# set_autonomy = {
+	# 	target = PCB
+	# 	autonomous_state = autonomy_dominion
+	# }
 	else = {
 		puppet = EQC
 		puppet = CRY
-		puppet = PCB
+		# puppet = PCB
 	}
 }
 

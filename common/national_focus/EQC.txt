@@ -1,0 +1,11 @@
+focus_tree = {
+	id = EoF_EQC
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EQC
+		}
+
+	}
+}
