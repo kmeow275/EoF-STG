@@ -3,10 +3,10 @@ state={
 	name="STATE_729"
 	state_category = rural
 	history={
-		owner = HLR
-		add_core_of = HLR
-		add_claim_by = HLR
-		add_claim_by = HLR
+		owner = HIP
+		add_core_of = HIP
+		add_claim_by = HIP
+		add_claim_by = HIP
 		victory_points = {
 			18485 5 
 		}

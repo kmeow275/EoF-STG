@@ -11,9 +11,9 @@ state={
 	buildings_max_level_factor=1.00
 
 	history={
-		owner = HLR
-		add_core_of = HLR
-		add_claim_by = HLR
+		owner = JER
+		add_core_of = JER
+		add_claim_by = JER
 
 		victory_points = { 12740 20 }
 

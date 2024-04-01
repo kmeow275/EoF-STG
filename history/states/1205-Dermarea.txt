@@ -5,10 +5,10 @@ state={
 		18530 
 	}
 	history={
-		owner = HLR
-		add_core_of = HLR
-		add_core_of = HLR
-		add_claim_by = HLR
+		owner = HIP
+		add_core_of = HIP
+		add_core_of = HIP
+		add_claim_by = HIP
 		victory_points = {
 			18530 1 
 		}

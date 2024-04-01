@@ -7,10 +7,10 @@ state={
 	}
 
 	history={
-		owner = HLR
-		add_core_of = HLR
-		add_claim_by = HLR
-		add_claim_by = HLR
+		owner = HIP
+		add_core_of = HIP
+		add_claim_by = HIP
+		add_claim_by = HIP
 		victory_points = {
 			18510 20
 		}

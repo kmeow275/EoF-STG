@@ -7,8 +7,8 @@ state={
 		victory_points = {
 			18581 10
 		}
-		owner = HLR
-		add_core_of = HLR
+		owner = HIP
+		add_core_of = HIP
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 2

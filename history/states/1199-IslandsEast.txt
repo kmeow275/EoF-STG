@@ -6,8 +6,8 @@ state={
 		20651 20652 20653 20654 20655 20656 20657 20658 20659 
 	}
 	history={
-		owner = HLR
-		add_core_of = HLR
+		owner = HIP
+		add_core_of = HIP
 		buildings = {
 			infrastructure = 1
 			anti_air_building = 1
