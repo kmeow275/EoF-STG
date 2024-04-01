@@ -75,3 +75,26 @@ NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 1		-- Each province owned b
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0		-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50			-- Max slots shared by factories
+
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 2.0			-- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction.
+NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 2.5			-- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction.
+NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 5.0		-- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+NDefines.NNavy.CARRIER_STACK_PENALTY = 8			-- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
+NDefines.NNavy.MISSION_SUPREMACY_RATIOS = {
+		0.0, -- HOLD
+		1.0, -- PATROL
+		0.1, -- STRIKE FORCE
+		0.3, -- CONVOY RAIDING
+		0.3, -- CONVOY ESCORT
+		0.0, -- MINES PLANTING
+		0.0, -- MINES SWEEPING
+		0.0, -- TRAIN
+		0.0, -- RESERVE_FLEET
+		0.1, -- NAVAL_INVASION_SUPPORT
+	}
+NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.1 				-- this screen ratio to num convoys is needed for full screening beyond screen line
+NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.05 				-- this capital ratio to num convoys is needed for full screening beyond screen line
+NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0			-- Chances one ship get damage each hour while on training
+
+NDefines.NNavy.HIT_PROFILE_MULT = 50.0				-- multiplies hit profile of every ship
+NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 5.0		-- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
