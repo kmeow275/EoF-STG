@@ -12,6 +12,158 @@ on_actions = {
 			}
 		}
 	}
+	#All Starting Dynamic Modifiers Here
+	on_startup = {
+		effect = {
+			381 = {
+				set_state_flag = EQS_controls
+			}
+			390 = {
+				set_state_flag = EQS_controls
+			}
+			658 = {
+				set_state_flag = EQS_controls
+			}
+			660 = {
+				set_state_flag = EQS_controls
+			}
+			659 = {
+				set_state_flag = EQS_controls
+			}
+			1209 = {
+				set_state_flag = EQS_controls
+			}
+			333 = {
+				set_state_flag = EQS_controls
+			}
+			67 = {
+				set_state_flag = EQS_controls
+			}
+			678 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
+			}
+			234 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
+			}
+			332 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
+			}
+			233 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
+			}
+			166 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
+			}
+			653 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
+			}
+			662 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
+			}
+			661 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			525 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			231 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			184 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			75 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			110 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			108 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			12 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			29 = {
+				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }
+			}
+			51 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			43 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			92 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			91 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			93 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			80 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			19 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			50 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			15 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			34 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			33 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			34 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			351 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			221 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			52 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			79 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			25 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			24 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			83 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			352 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			88 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			31 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			90 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			13 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			28 = {
+				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+		}
+	}
 	#GRF Helping PLB Against PNG
 	on_declare_war = { 
 		effect = {

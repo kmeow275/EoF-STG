@@ -1,0 +1,59 @@
+on_actions = {
+	#North Equus Island Hopping
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { 
+						OR = { 
+							is_in_faction_with = EQS  
+							tag = EQS
+						} 
+					}
+					ROOT = { 
+						OR = { 
+							is_in_faction_with = JER 
+							tag = JER
+						} 
+					}
+					FROM.FROM = {
+						has_state_flag = EQS_controls
+					}
+				}
+				FROM.FROM = {  
+				 	set_state_flag = JER_controls
+				 	clr_state_flag = EQS_controls
+				}
+				decrease_northern_equus_invasion_terrain = yes
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { 
+						OR = { 
+							is_in_faction_with = JER
+							tag = JER
+						}
+					}
+					ROOT = { 
+						OR = { 
+							is_in_faction_with = EQS
+							tag = EQS
+						}	 
+					}
+					FROM.FROM = {
+						has_state_flag = JER_controls
+					}
+				}
+				FROM.FROM = { 
+				 	set_state_flag = EQS_controls 
+				 	clr_state_flag = JER_controls 
+				}
+				increase_northern_equus_invasion_terrain = yes
+			}
+		}
+	}
+}
