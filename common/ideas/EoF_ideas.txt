@@ -12,6 +12,42 @@ ideas = {
 				ai_desired_divisions_factor = -10
 			}
 		}
+		EoF_neutral_trade = {
+			removal_cost = -1
+			picture = trade
+			targeted_modifier = {
+				tag = EQS
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
+				tag = CRY
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
+				tag = STG
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
+				tag = HIP
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
+				tag = CHN
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
+				tag = PLB
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
+				tag = GRF
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
+				tag = JER
+				trade_cost_for_target_factor = 1
+			}
+		}
 		EoF_YAK_JAK_civil_war = {
 			removal_cost = -1
 			picture = YAK_yakistanks

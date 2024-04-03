@@ -1,6 +1,9 @@
 
 EoF_industry_deadline_category = {
 	EoF_industry_deadline_mission = {
+		allowed = {
+			original_tag =  CHN
+		}
 		activation = {
 			has_completed_focus = EoF_industry_deadline
 		}

@@ -489,6 +489,20 @@ on_actions = {
 			}
 		}
 	}
+	#JER Joins When CHN Declares
+	on_declare_war = { 
+		effect = {
+			if = {
+				limit = {
+					tag = CHN
+					FROM = { tag = EQS }
+				}
+				CHN = {
+					add_to_faction = JER
+				}
+			}
+		}
+	}
 	#Sunset's Counteroffensive
 	on_state_control_changed = {
 		effect = {

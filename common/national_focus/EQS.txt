@@ -1815,6 +1815,30 @@ shared_focus = {
 		}
 	}
 }
+shared_focus = {
+	id = EoF_EQS_offensive_1
+	icon = GFX_goal_generic_equestria
+	cost = 9
+	prerequisite = {
+		focus = War_Plan
+	}
+	x = 26
+	y = 7
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = EoF_EQS_offensive_2
+	icon = GFX_goal_generic_equestria
+	cost = 9
+	prerequisite = {
+		focus = EoF_EQS_offensive_1
+	}
+	x = 26
+	y = 8
+	completion_reward = {
+	}
+}
 #EoF Changes
 shared_focus = {
 	id = War_Plan
@@ -1950,7 +1974,7 @@ shared_focus = {
 	continue_if_invalid = yes
 	available = {
 	}
-	x = 27
+	x = 28
 	y = 7
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus EQS_WMD"
@@ -2385,7 +2409,7 @@ shared_focus = {
 			}
 		}
 	}
-	x = 27
+	x = 28
 	y = 8
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus Nuclear_Power"

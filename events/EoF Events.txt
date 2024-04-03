@@ -8,6 +8,7 @@ country_event = {
 		EQS = {
 			add_to_faction = CRY
 			add_to_faction = STG
+			add_to_faction = HIP
 		}
 		CHN = {
 			add_to_faction = PLB

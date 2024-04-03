@@ -27,9 +27,9 @@ set_politics = {
 }
 add_ideas = {
 	detached_country
-	holy_order
 	griffon_race
 	EoF_neutral_country
+	EoF_neutral_trade
 }
 
 set_stability = 0.50

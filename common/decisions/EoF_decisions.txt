@@ -28,6 +28,26 @@ political_actions = {
 			}
 		}
 	}
+	EoF_JER_invade_equestria_mission = {
+		icon = GFX_decision_generic_naval
+		allowed = {
+			original_tag = JER
+		}
+		activation = {
+			has_completed_focus = EoF_invade_equestria
+		}
+		available = {
+			always = no
+		}
+		war_with_on_timeout = EQS
+		days_mission_timeout = 365
+		timeout_effect = {
+			declare_war_on = {
+				target = EQS
+				type = annex_everything
+			}
+		}
+	}
 }
 EoF_great_war_category_CHN = {
 	EoF_declare_winter_offensive = {
