@@ -1,0 +1,50 @@
+political_actions = {
+	form_JER_domination = {
+		icon = generic_form_nation
+		fire_only_once = yes
+		cost = 100
+		allowed = {
+			original_tag = JER
+		}
+		available = {
+			controls_state = 208
+			controls_state = 390
+			controls_state = 381
+			controls_state = 658
+			controls_state = 659
+			controls_state = 660
+			controls_state = 1209
+			controls_state = 360
+			controls_state = 361
+			controls_state = 362
+			controls_state = 363
+			controls_state = 364
+			controls_state = 365
+			controls_state = 675
+			controls_state = 676
+		}
+
+		visible = {
+			has_completed_focus = EoF_eastern_domination
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = EoF_JER_DOMINATION
+			208 = { add_core_of = JER }
+			390 = { add_core_of = JER }
+			381 = { add_core_of = JER }
+			658 = { add_core_of = JER }
+			659 = { add_core_of = JER }
+			660 = { add_core_of = JER }
+			1209 = { add_core_of = JER }
+			360 = { add_core_of = JER }
+			361 = { add_core_of = JER }
+			362 = { add_core_of = JER }
+			363 = { add_core_of = JER }
+			364 = { add_core_of = JER }
+			365 = { add_core_of = JER }
+			675 = { add_core_of = JER }
+			676 = { add_core_of = JER }
+		}
+	}
+}

@@ -333,3 +333,19 @@ EoF_HIP_army_mission:0 "Army Mobilization Directive"
 EoF_HIP_directive_navy_tt:0 "Spawns in a powerful fleet comprised of three §YGuardian Class§! battleships, four §YFirework Class§! heavy cruisers and twelve §YWakefish Class§! destroyers."
 EoF_HIP_directive_air_tt:0 "Researching better modules and airframes will improve the quality of the §YP-32 Corvus§! fighter and §YA-60 Thundercloud§! CAS."
 EoF_HIP_directive_army_tt:0 "Spawns in four 28 width §YHeavy Artillery Divisions§! as well as preparing eighteen 14 width §YHome Guard Divisions§! in case of an invasion."
+
+EoF_JER_DOMINATION_neutrality:0 "Greater Aquileian Republic"
+EoF_JER_DOMINATION_neutrality_ADJ:0 "Aquileian"
+EoF_JER_DOMINATION_neutrality_DEF:0 "The Greater Aquileian Republic"
+
+EoF_JER_DOMINATION_fascism:0 "Greater Aquileian Republic"
+EoF_JER_DOMINATION_fascism_ADJ:0 "Aquileian"
+EoF_JER_DOMINATION_fascism_DEF:0 "The Greater Aquileian Republic"
+
+EoF_JER_DOMINATION_communism:0 "Greater Aquileian Republic"
+EoF_JER_DOMINATION_communism_ADJ:0 "Aquileian"
+EoF_JER_DOMINATION_communism_DEF:0 "The Greater Aquileian Republic"
+
+EoF_JER_DOMINATION_democratic:0 "Greater Aquileian Republic"
+EoF_JER_DOMINATION_democratic_ADJ:0 "Aquileian"
+EoF_JER_DOMINATION_democratic_DEF:0 "The Greater Aquileian Republic"

@@ -127,7 +127,8 @@ focus_tree = {
 shared_focus = {
 	id = EoF_invade_equestria
 	icon = GFX_goal_JER_liberation_ships
-	x = 24
+	relative_position_id = JER_fight_for_freedom
+	x = 5
 	y = 0
 	cost = 5
 	available = {
@@ -145,6 +146,27 @@ shared_focus = {
 				add_to_faction = HIP
 			}
 		}
+	}
+}
+shared_focus = {
+	id = EoF_eastern_domination
+	icon = GFX_goal_jer_republicanism
+	prerequisite = { focus = EoF_invade_equestria }
+	relative_position_id = EoF_invade_equestria
+	x = 0
+	y = 1
+	cost = 5
+	available = {
+		controls_state = 208
+		controls_state = 390
+		controls_state = 381
+	}
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EoF_griffonian_contender
+			add_idea = EoF_griffonian_dominator
+		}
+		unlock_decision_tooltip = form_JER_domination
 	}
 }
 #EoF Changes

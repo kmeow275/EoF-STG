@@ -766,6 +766,7 @@ ideas = {
 							tag = event_target:equestria
 						}
 						NOT = { has_country_flag = economic_laws_blocked }
+						has_war_with = CHN
 					}
 					if = {
 						limit = {
