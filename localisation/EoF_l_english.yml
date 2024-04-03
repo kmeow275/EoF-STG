@@ -326,3 +326,10 @@ EoF_halberd_spear:0 "Halberd Spear"
 
 EoF_polyphony_category:0 "Project Polyphony"
 EoF_polyphony_decision:0 "Activate Resonance"
+
+EoF_HIP_navy_mission:0 "Naval Production Directive"
+EoF_HIP_air_mission:0 "Airforce Modernization Directive"
+EoF_HIP_army_mission:0 "Army Mobilization Directive"
+EoF_HIP_directive_navy_tt:0 "Spawns in a powerful fleet comprised of three §YGuardian Class§! battleships, four §YFirework Class§! heavy cruisers and twelve §YWakefish Class§! destroyers."
+EoF_HIP_directive_air_tt:0 "Researching better modules and airframes will improve the quality of the §YP-32 Corvus§! fighter and §YA-60 Thundercloud§! CAS."
+EoF_HIP_directive_army_tt:0 "Spawns in four 28 width §YHeavy Artillery Divisions§! as well as preparing eighteen 14 width §YHome Guard Divisions§! in case of an invasion."
