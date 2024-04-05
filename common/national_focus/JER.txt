@@ -141,7 +141,7 @@ shared_focus = {
 			days = 365
 		}
 		hidden_effect = {
-			add_threat = 10
+			add_threat = 20
 		}
 	}
 }
@@ -811,15 +811,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JER_royal_academy"
-			if = {
-				limit = {
-					amount_research_slots < 5
-				}
-				add_research_slot = 1
-			}
-			else = {
-				add_political_power = 150
-			}
+			add_research_slot = 1
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -1987,6 +1979,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JER_fight_for_freedom"
 			add_political_power = 50
+			add_war_support = 10
 			country_event = aquileia.17
 			custom_effect_tooltip = available_political_advisor
 		    show_ideas_tooltip = JER_advisor_34
@@ -3406,15 +3399,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JER_republican_national_academy"
-			if = {
-				limit = {
-					amount_research_slots < 5
-				}
-				add_research_slot = 1
-			}
-			else = {
-				add_political_power = 150
-			}
+			add_research_slot = 1
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -6686,15 +6671,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus JER_aquileian_academy_of_science"
-			if = {
-				limit = {
-					amount_research_slots < 5
-				}
-				add_research_slot = 1
-			}
-			else = {
-				add_political_power = 150
-			}
+			add_research_slot = 1
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -6993,6 +6970,8 @@ shared_focus = {
 			army_experience = 25
 			navy_experience = 25
 			air_experience = 25
+			add_ideas = war_economy
+			add_political_power = -150
 		}
 		search_filters = { FOCUS_FILTER_NAVY_BONUS FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_AIRFORCE_BONUS }
 	}

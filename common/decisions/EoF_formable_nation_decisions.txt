@@ -14,6 +14,12 @@ political_actions = {
 			controls_state = 659
 			controls_state = 660
 			controls_state = 1209
+			controls_state = 354
+			controls_state = 355
+			controls_state = 356
+			controls_state = 357
+			controls_state = 358
+			controls_state = 359
 			controls_state = 360
 			controls_state = 361
 			controls_state = 362
@@ -37,6 +43,12 @@ political_actions = {
 			659 = { add_core_of = JER }
 			660 = { add_core_of = JER }
 			1209 = { add_core_of = JER }
+			354 = { add_core_of = JER }
+			355 = { add_core_of = JER }
+			356 = { add_core_of = JER }
+			357 = { add_core_of = JER }
+			358 = { add_core_of = JER }
+			359 = { add_core_of = JER }
 			360 = { add_core_of = JER }
 			361 = { add_core_of = JER }
 			362 = { add_core_of = JER }

@@ -18,11 +18,11 @@ horst_host_country = {
 	# 	text = "Republic"
 	# 	desc = ""
 	# }
-	# option = {
-	# 	name = JER
-	# 	text = "Aquilea"
-	# 	desc = ""
-	# }
+	option = {
+		name = JER
+		text = "Aquilea"
+		desc = ""
+	}
 	# option = {
 	# 	name = TRD
 	# 	text = "Skyfall"
@@ -128,11 +128,11 @@ horst_host_country = {
 	# 	text = "Asterion"
 	# 	desc = ""
 	# }
-	# option = {
-	# 	name = HIP
-	# 	text = "Hippogryphia"
-	# 	desc = ""
-	# }
+	option = {
+		name = HIP
+		text = "Hippogryphia"
+		desc = ""
+	}
 	# option = {
 	# 	name = OLE
 	# 	text = "Olenia"

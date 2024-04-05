@@ -14,10 +14,10 @@ on_actions = {
 			# 	limit = {has_game_rule = { rule = horst_host_country option = FAT} }
 			# 	set_variable = { host = FAT.id }
 			# }
-			# else_if = {
-			# 	limit = {has_game_rule = { rule = horst_host_country option = JER} }
-			# 	set_variable = { host = JER.id }
-			# }
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = JER} }
+				set_variable = { host = JER.id }
+			}
 			# else_if = {
 			# 	limit = {has_game_rule = { rule = horst_host_country option = TRD} }
 			# 	set_variable = { host = TRD.id }
@@ -102,10 +102,10 @@ on_actions = {
 			# 	limit = {has_game_rule = { rule = horst_host_country option = MIT} }
 			# 	set_variable = { host = MIT.id }
 			# }
-			# 			else_if = {
-			# 	limit = {has_game_rule = { rule = horst_host_country option = HIP} }
-			# 	set_variable = { host = HIP.id }
-			# }
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = HIP} }
+				set_variable = { host = HIP.id }
+			}
 			# 			else_if = {
 			# 	limit = {has_game_rule = { rule = horst_host_country option = OLE} }
 			# 	set_variable = { host = OLE.id }

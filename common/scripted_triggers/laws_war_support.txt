@@ -33,7 +33,7 @@ has_unsupported_economic_law = {
 			has_idea = war_economy
 		}
 		has_idea = war_economy
-		has_war_support < 0.25
+		has_war_support < 0.5
 	}
 	else_if = {
 		limit = {
