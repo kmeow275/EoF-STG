@@ -827,9 +827,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = HIP_long_distance_friendship_idea
-			EQS = {
-				add_to_faction = HIP
-			}
 		}
 	}
 	shared_focus = {

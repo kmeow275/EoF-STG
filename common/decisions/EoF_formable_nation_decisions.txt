@@ -1,5 +1,5 @@
 political_actions = {
-	form_JER_domination = {
+	EoF_JER_form_domination = {
 		icon = generic_form_nation
 		fire_only_once = yes
 		cost = 100

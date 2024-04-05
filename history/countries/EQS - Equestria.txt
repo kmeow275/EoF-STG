@@ -441,6 +441,7 @@ set_politics = {
 }
 
 add_ideas = {
+	EoF_EQS_southern_island_campaign_5
 	home_of_ponies
 	alicorn_sisters
 	friendly_harmony
@@ -610,6 +611,7 @@ create_faction = "All_ponies_front"
 add_to_faction = CRY
 add_to_faction = EQC
 add_to_faction = PCB
+add_to_faction = HIP
 
 set_rule = {
 	can_generate_female_aces = yes

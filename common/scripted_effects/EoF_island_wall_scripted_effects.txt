@@ -1074,3 +1074,97 @@ decrease_northern_equus_invasion_terrain = {
 		}
 	}
 }
+increase_southern_equus_invasion_idea = {
+	if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_0 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_0
+				add_idea = EoF_EQS_southern_island_campaign_1
+			}
+		}
+	}
+	else_if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_1 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_1
+				add_idea = EoF_EQS_southern_island_campaign_2
+			}
+		}
+	}
+	else_if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_2 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_2
+				add_idea = EoF_EQS_southern_island_campaign_3
+			}
+		}
+	}
+	else_if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_3 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_3
+				add_idea = EoF_EQS_southern_island_campaign_4
+			}
+		}
+	}
+	else_if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_4 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_4
+				add_idea = EoF_EQS_southern_island_campaign_5
+			}
+		}
+	}
+}
+decrease_southern_equus_invasion_idea = {
+	if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_1 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_1
+				add_idea = EoF_EQS_southern_island_campaign_0
+			}
+		}
+	}
+	else_if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_2 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_2
+				add_idea = EoF_EQS_southern_island_campaign_1
+			}
+		}
+	}
+	else_if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_3 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_3
+				add_idea = EoF_EQS_southern_island_campaign_2
+			}
+		}
+	}
+	else_if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_4 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_4
+				add_idea = EoF_EQS_southern_island_campaign_3
+			}
+		}
+	}
+	else_if = {
+		limit = { EQS = { has_idea = EoF_EQS_southern_island_campaign_5 } }
+		EQS = {
+			swap_ideas = {
+				remove_idea = EoF_EQS_southern_island_campaign_5
+				add_idea = EoF_EQS_southern_island_campaign_4
+			}
+		}
+	}
+}

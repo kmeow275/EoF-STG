@@ -39,6 +39,21 @@ on_actions = {
 			67 = {
 				set_state_flag = EQS_controls
 			}
+			1195 = {
+				set_state_flag = EQS_controls_1
+			}
+			1193 = {
+				set_state_flag = EQS_controls_1
+			}
+			328 = {
+				set_state_flag = EQS_controls_1
+			}
+			4 = {
+				set_state_flag = EQS_controls_1
+			}
+			7 = {
+				set_state_flag = EQS_controls_1
+			}
 			678 = {
 				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
 			}

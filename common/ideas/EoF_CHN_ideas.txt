@@ -69,8 +69,8 @@ ideas = {
 			removal_cost = -1
 			picture = YUG_federal_defense_council
 			modifier = {
-				army_core_attack_factor = 0.75
-				army_core_defence_factor = 0.75
+				army_core_attack_factor = 0.5
+				army_core_defence_factor = 0.5
 			}
 			custom_effect_tooltip = EoF_CHN_core_buff_tt
 		}

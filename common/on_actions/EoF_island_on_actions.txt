@@ -56,4 +56,65 @@ on_actions = {
 			}
 		}
 	}
+	#South Equus Island Hopping
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { 
+						OR = { 
+							is_in_faction_with = EQS  
+							tag = EQS
+						} 
+					}
+					ROOT = { 
+						OR = { 
+							is_in_faction_with = JER 
+							tag = JER
+						} 
+					}
+					FROM.FROM = {
+						has_state_flag = EQS_controls_1
+					}
+				}
+				FROM.FROM = {  
+				 	set_state_flag = JER_controls_1
+				 	clr_state_flag = EQS_controls_1
+				}
+			 	EQS = { 
+					decrease_southern_equus_invasion_idea = yes
+			 	}
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						OR = { 
+							is_in_faction_with = JER
+							tag = JER
+						}
+					}
+					ROOT = { 
+						OR = { 
+							is_in_faction_with = EQS
+							tag = EQS 
+						}	 
+					}
+					FROM.FROM = {
+						has_state_flag = JER_controls_1
+					}
+				}
+				FROM.FROM = { 
+				 	set_state_flag = EQS_controls_1
+				 	clr_state_flag = JER_controls_1
+				}
+		 		EQS = {
+					increase_southern_equus_invasion_idea = yes
+				}
+			}
+		}
+	}
 }

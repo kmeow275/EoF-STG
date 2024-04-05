@@ -142,9 +142,6 @@ shared_focus = {
 		}
 		hidden_effect = {
 			add_threat = 10
-			EQS = {
-				add_to_faction = HIP
-			}
 		}
 	}
 }
@@ -166,7 +163,7 @@ shared_focus = {
 			remove_idea = EoF_griffonian_contender
 			add_idea = EoF_griffonian_dominator
 		}
-		unlock_decision_tooltip = form_JER_domination
+		unlock_decision_tooltip = EoF_JER_form_domination
 	}
 }
 #EoF Changes

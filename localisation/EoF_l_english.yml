@@ -16,6 +16,7 @@ EoF_production_conductor:0 "Conductor of Production"
 EoF_busy_reforming_trait:0 "Leading Reform"
 
 EoF_neutral_country:0 "Neutral Country"
+EoF_neutral_trade:0 "Neutral Trade"
 
 light_of_kemerkai:0 "Light of Kemerkai"
 shadow_of_kemerkai:0 "Shadow of Kemerkai"
@@ -349,3 +350,29 @@ EoF_JER_DOMINATION_communism_DEF:0 "The Greater Aquileian Republic"
 EoF_JER_DOMINATION_democratic:0 "Greater Aquileian Republic"
 EoF_JER_DOMINATION_democratic_ADJ:0 "Aquileian"
 EoF_JER_DOMINATION_democratic_DEF:0 "The Greater Aquileian Republic"
+
+EoF_griffonian_contender:0 "Griffonian Contender"
+EoF_griffonian_dominator:0 "Griffonian Dominator"
+
+EoF_invasion_preparation:0 "Preparing Equestrian Invasion"
+
+EoF_JER_form_domination:0 "Declare the Greater Aquileian Republic"
+EoF_JER_invade_equestria_mission:0 "Invasion of Equestria"
+
+EoF_southern_equus_invasion_terrain:0 "Unsuitable Landing Terrain"
+EoF_northern_equus_invasion_terrain_0:0 "Eastern Invasion Wall"
+EoF_northern_equus_invasion_terrain_1:0 "Eastern Invasion Wall"
+EoF_northern_equus_invasion_terrain_2:0 "Eastern Invasion Wall"
+EoF_northern_equus_invasion_terrain_3:0 "Eastern Invasion Wall"
+EoF_northern_equus_invasion_terrain_4:0 "Eastern Invasion Wall"
+EoF_northern_equus_invasion_terrain_5:0 "Eastern Invasion Wall"
+EoF_northern_equus_invasion_terrain_6:0 "Eastern Invasion Wall"
+EoF_northern_equus_invasion_terrain_7:0 "Eastern Invasion Wall"
+EoF_northern_equus_invasion_terrain_8:0 "Eastern Invasion Wall"
+
+EoF_EQS_southern_island_campaign_0:0 "Celestial Sea Islands: §RCatastrophic§!"
+EoF_EQS_southern_island_campaign_1:0 "Celestial Sea Islands: §tVery Dangerous§!"
+EoF_EQS_southern_island_campaign_2:0 "Celestial Sea Islands: §ODangerous§!"
+EoF_EQS_southern_island_campaign_3:0 "Celestial Sea Islands: §YHeavily Threatened§!"
+EoF_EQS_southern_island_campaign_4:0 "Celestial Sea Islands: §7Threatened§!"
+EoF_EQS_southern_island_campaign_5:0 "Celestial Sea Islands: §GNormal§!"
