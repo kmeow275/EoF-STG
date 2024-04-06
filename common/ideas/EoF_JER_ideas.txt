@@ -4,18 +4,20 @@ ideas = {
 			removal_cost = -1
 			picture = FRA_la_deluge
 			modifier = {
-				stability_factor = 0.2
-				war_support_factor = 0.2
+				conscription = 0.03
+				stability_factor = 0.1
+				war_support_factor = 0.1
 				consumer_goods_factor = -0.1
 				production_factory_max_efficiency_factor = 0.1
-				production_speed_industrial_complex_factor = 0.2
-				production_speed_dockyard_factor = 0.5
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_dockyard_factor = 0.3
 			}
 		}
 		EoF_griffonian_dominator = {
 			removal_cost = -1
 			picture = FRA_la_deluge
 			modifier = {
+				conscription = 0.03
 				stability_factor = 0.2
 				war_support_factor = 0.2
 				consumer_goods_factor = -0.25
