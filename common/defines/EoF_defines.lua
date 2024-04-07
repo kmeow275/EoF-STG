@@ -68,6 +68,8 @@ NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 0	-- XP cost for convert
 NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0	-- XP cost for removing an equipment module and leaving the slot empty when creating an equipment variant.
 
 NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_VALUE = 0		-- The minimum number of factories we have to put on consumer goods, by value.
+NDefines.NProduction.BASE_LICENSE_IC_COST = 0			-- Base IC cost for lended license
+NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0		-- IC cost equipment for every year of equipment after 1936
 
 NDefines.NCountry.AIR_VOLUNTEER_PLANES_RATIO = 0		-- Ratio for volunteer planes available for sending in relation to sender air force
 NDefines.NCountry.AIR_VOLUNTEER_BASES_CAPACITY_LIMIT = 1	-- Ratio for volunteer planes available for sending in relation to receiver air base capacity
@@ -102,3 +104,5 @@ NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0			-- Chances one ship get damage ea
 
 NDefines.NNavy.HIT_PROFILE_MULT = 50.0				-- multiplies hit profile of every ship
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 5.0		-- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+
+
