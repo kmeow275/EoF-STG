@@ -1,4 +1,5 @@
 add_namespace = EoF
+add_namespace = EoF.news
 
 country_event = {
 	id = EoF.1
@@ -268,5 +269,29 @@ country_event = {
 	hidden = yes
 	immediate = {
 		remove_ideas = EoF_CHN_core_buff 
+	}
+}
+country_event = {
+	id = EoF.8
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		add_named_threat = {
+			threat = 8
+			name = EoF_GRF_volcano_tension
+		}
+	}
+}
+
+news_event = {
+	id = EoF.news.1
+	title = EoF.news.1.t
+	desc = EoF.news.1.d
+	picture = GFX_GRF_volcano
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EoF.news.1.a
 	}
 }

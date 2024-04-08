@@ -3,6 +3,8 @@ on_actions = {
 		effect = {
 			HLR = {
 				country_event = { id = EoF.1 days = 1460 }
+				country_event = { id = EoF.8 days = 10 }
+				news_event = { id = EoF.news.1 days = 10 }
 			}
 			PLB = {
 				country_event = { id = northern_protectorate.99 }
