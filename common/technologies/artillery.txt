@@ -1358,15 +1358,18 @@ technologies = {
 
 		anti_tank = {
 			hard_attack = -0.1
-			soft_attack = 3.0
+			ap_attack = -0.1
+			soft_attack = 2.5
 		}
 		anti_tank_brigade = {
 			hard_attack = -0.1
-			soft_attack = 3.0
+			ap_attack = -0.1
+			soft_attack = 2.5
 		}
 		mot_anti_tank_brigade = {
 			hard_attack = -0.1
-			soft_attack = 3.0
+			ap_attack = -0.1
+			soft_attack = 2.5
 		}
 
 		enable_equipment_modules = {

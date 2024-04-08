@@ -348,7 +348,7 @@ set_stability = 0.6
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment_0
-	amount = 40000
+	amount = 25000
 	producer = CHN
 }
 
