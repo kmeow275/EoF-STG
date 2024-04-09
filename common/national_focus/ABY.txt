@@ -1,0 +1,11 @@
+focus_tree = {
+	id = EoF_ABY
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ABY
+		}
+
+	}
+}

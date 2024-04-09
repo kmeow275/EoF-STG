@@ -873,5 +873,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9042;103;impassable;-1;-1;-1;-1;-1;;STG-GRF Front
 3069;103;impassable;-1;-1;-1;-1;-1;;STG-GRF Front
 3069;6079;impassable;-1;-1;-1;-1;-1;;STG-GRF Front
-
 -1;-1;;-1;-1;-1;-1;-1;-1

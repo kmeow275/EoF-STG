@@ -7,12 +7,12 @@ state={
 		crystals=8.000
 	}
 	history={
-		owner = HLR
+		owner = ABY
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = HLR
+		add_core_of = ABY
 		victory_points = {
 			15819 3
 		}
