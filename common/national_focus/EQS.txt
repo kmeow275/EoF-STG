@@ -3715,12 +3715,13 @@ shared_focus = {
 		focus = Preemptive_attack
 	}
 	available = {
-		has_war = yes
+		always = no
 	}
 	relative_position_id = Preemptive_attack
 	x = 0
 	y = 4
 	completion_reward = {
+		country_event = EoF_great_war.6
 	}
 }
 shared_focus = {
@@ -4164,8 +4165,11 @@ shared_focus = {
 		add_trait = {
 			character = EQS_princess_luna
 			trait = EoF_busy_reforming_trait
-	   }
-	   army_experience = 20
+		}
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_3
+			add_idea = EoF_EQS_army_incompetence_2
+		}
 	}
 }
 
@@ -4195,6 +4199,10 @@ shared_focus = {
 			uses = 2
 			category = air_equipment
 		}
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_2
+			add_idea = EoF_EQS_army_incompetence_1
+		}
 	}
 }
 
@@ -4210,6 +4218,10 @@ shared_focus = {
 	y = 1
 	completion_reward = {
 		add_ideas = EoF_luna_reform_1
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_1
+			add_idea = EoF_EQS_army_incompetence_0
+		}
 	}
 }
 
@@ -4271,7 +4283,8 @@ shared_focus = {
 		remove_trait = {
 			character = EQS_princess_luna
 			trait = EoF_busy_reforming_trait
-	   }
+		}
+		remove_ideas = EoF_EQS_army_incompetence_0
 	}
 }
 
@@ -4296,8 +4309,11 @@ shared_focus = {
 		add_trait = {
 			character = EQS_prince_blueblood
 			trait = EoF_busy_reforming_trait
-	   }
-	   army_experience = 20
+		}
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_3
+			add_idea = EoF_EQS_army_incompetence_2
+		}
 	}
 }
 
@@ -4313,6 +4329,10 @@ shared_focus = {
 	y = 1
 	completion_reward = {
 		add_ideas = EoF_blueblood_reform_1
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_2
+			add_idea = EoF_EQS_army_incompetence_1
+		}
 	}
 }
 
@@ -4330,6 +4350,10 @@ shared_focus = {
 		swap_ideas = {
 			remove_idea = EoF_blueblood_reform_1
 			add_idea = EoF_blueblood_reform_2
+		}
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_1
+			add_idea = EoF_EQS_army_incompetence_0
 		}
 	}
 }
@@ -4352,7 +4376,8 @@ shared_focus = {
 		remove_trait = {
 			character = EQS_prince_blueblood
 			trait = EoF_busy_reforming_trait
-	   }
+	   	}
+		remove_ideas = EoF_EQS_army_incompetence_0
 	}
 }
 
@@ -4388,7 +4413,10 @@ shared_focus = {
 	x = 0
 	y = 1
 	completion_reward = {
-		army_experience = 20
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_3
+			add_idea = EoF_EQS_army_incompetence_2
+		}
 	}
 }
 
@@ -4404,6 +4432,10 @@ shared_focus = {
 	y = 1
 	completion_reward = {
 		add_ideas = EoF_ember_reform_1
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_2
+			add_idea = EoF_EQS_army_incompetence_1
+		}
 	}
 }
 
@@ -4421,6 +4453,10 @@ shared_focus = {
 		swap_ideas = {
 			remove_idea = EoF_ember_reform_1
 			add_idea = EoF_ember_reform_2
+		}
+		swap_ideas = {
+			remove_idea = EoF_EQS_army_incompetence_1
+			add_idea = EoF_EQS_army_incompetence_0
 		}
 	}
 }
@@ -4440,6 +4476,7 @@ shared_focus = {
 			remove_idea = EoF_ember_reform_2
 			add_idea = EoF_ember_reform_3
 		}
+		remove_ideas = EoF_EQS_army_incompetence_0
 	}
 }
 

@@ -21,6 +21,8 @@ EoF_neutral_trade:0 "Neutral Trade"
 light_of_kemerkai:0 "Light of Kemerkai"
 shadow_of_kemerkai:0 "Shadow of Kemerkai"
 
+EoF_ABY_cat_therine_earnshaw:0 "Cat Earnshaw"
+
 EoF_GRF_border_war_mission:0 "Demand the Village Up North"
 EoF_GRF_border_war_mission_desc:0 "The Village Up North has long been a reminder of Equestria's blatent disregard for our nation. By demanding its annexation we will finally send a message that we are not to be taken lightly."
 GRF_border_war.1.t:0 "Nova Griffonia Demands Village Up North"
@@ -105,6 +107,14 @@ EoF_great_war.5.a:0 "Luna."
 EoF_great_war.5.b:0 "Blueblood."
 EoF_great_war.5.c:0 "Twilight?"
 
+EoF_great_war.6.t:0 "Army Incompetence"
+EoF_great_war.6.desc:0 "In the face of the Changeling offensive, our troops are proving themselves unable to handle sustained combat. Divisonal commanders complain of incompetent officers and poor training, while reports reach high command daily of generals ordering unplanned retreats and failing to communicate. If this does not change quickly, all of our previous effects to modernize and prepare our army will have been for naught."
+EoF_great_war.6.a:0 "We must convene a meeting immediately."
+
+EoF_EQS_army_incompetence_3:0 "Army Incompetence"
+EoF_EQS_army_incompetence_2:0 "Army Incompetence"
+EoF_EQS_army_incompetence_1:0 "Army Incompetence"
+EoF_EQS_army_incompetence_0:0 "Army Incompetence"
 
 EoF_EQS_warplan_1:0 "War Plan"
 EoF_EQS_warplan_2:0 "War Plan"

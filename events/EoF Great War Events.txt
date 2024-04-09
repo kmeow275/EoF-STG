@@ -220,3 +220,13 @@ country_event = {
 		set_country_flag = EoF_twilight_objection_flag
 	}
 }
+country_event = {
+	id = EoF_great_war.6
+	title = EoF_great_war.6.t
+	desc = EoF_great_war.6.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF_great_war.6.a
+		add_ideas = EoF_EQS_army_incompetence_3
+	}
+}

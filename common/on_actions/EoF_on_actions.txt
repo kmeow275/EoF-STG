@@ -517,6 +517,9 @@ on_actions = {
 				CHN = {
 					add_to_faction = JER
 				}
+				EQS = {
+					complete_national_focus = EoF_war_begins
+				}
 			}
 		}
 	}
