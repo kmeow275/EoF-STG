@@ -233,7 +233,7 @@ sub_units = {
 		}
 		battalion_mult = {
 			category = category_all_artillery
-			soft_attack = 0.1
+			soft_attack = 0.05
 		}
 		
 

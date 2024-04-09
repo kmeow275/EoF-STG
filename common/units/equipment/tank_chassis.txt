@@ -577,7 +577,7 @@ equipments = {
 		module_slots = inherit
 		armor_value = 40
 		build_cost_ic = 2
-		reliability = 0.8
+		reliability = 0.9
 		maximum_speed = 5
 		resources = {
 			steel = 1
@@ -1786,9 +1786,9 @@ equipments = {
 
 		fuel_consumption = 0
 		maximum_speed = 3
-		build_cost_ic = 20
+		build_cost_ic = 40
 		reliability = 1
-		armor_value = 150
+		armor_value = 120
 		breakthrough = 12
 		hardness = 1.0
 		
