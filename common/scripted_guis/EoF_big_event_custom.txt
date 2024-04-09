@@ -23,4 +23,29 @@ scripted_gui = {
 			}
 		}
 	}
+
+	#great war
+	EoF_big_event_great_war_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE WW_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EoF_big_event_great_war_custom_window"
+
+		visible = {
+			has_country_flag = EoF_big_event_custom_great_war ### this global flag triggers the #superevent
+		}
+	}
+
+	EoF_big_event_frame_great_war_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE WW_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EoF_big_event_frame_great_war_custom"
+
+		visible = {
+			has_country_flag = EoF_big_event_custom_great_war
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = EoF_big_event_custom_great_war ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
 }

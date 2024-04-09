@@ -12,4 +12,17 @@ on_actions = {
 			}
 		}
 	}
+	on_declare_war = { #Great War
+	effect = {
+		if = {
+			limit = {
+				tag = CHN
+				FROM = { tag = EQS }
+			}
+			every_country = {
+				set_country_flag = EoF_big_event_custom_great_war
+			}
+		}
+	}
+}
 }
