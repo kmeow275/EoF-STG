@@ -1,0 +1,15 @@
+on_actions = {
+	on_declare_war = { #Celestial Sea War
+		effect = {
+			if = {
+				limit = {
+					tag = JER
+					FROM = { tag = EQS }
+				}
+				every_country = {
+					set_country_flag = EoF_big_event_custom_island_war
+				}
+			}
+		}
+	}
+}
