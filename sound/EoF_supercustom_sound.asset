@@ -8,3 +8,8 @@ sound = {
 	file = "customsound/When_johnny_comes_marching_home.wav" ## location of the sound file
 	always_load = no
 }
+sound = {
+	name = "sunset_bigevent_sound" #name you're using for the sound
+	file = "customsound/Iron_lotus.wav" ## location of the sound file
+	always_load = no
+}
