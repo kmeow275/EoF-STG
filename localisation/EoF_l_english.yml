@@ -14,6 +14,7 @@ EoF_big_division_decision:0 "Add a 48w Template"
 EoF_dandan:0 "Narcoleptic Genius"
 EoF_production_conductor:0 "Conductor of Production"
 EoF_busy_reforming_trait:0 "Leading Reform"
+EoF_Fluttershy:0 "Element of Kindness"
 
 EoF_neutral_country:0 "Neutral Country"
 EoF_neutral_trade:0 "Neutral Trade"
@@ -80,6 +81,7 @@ EoF_sunset_shimmer:0 "Sunset Shimmer"
 EoF_sunset_trait:0 "Otherworldly Experience"
 EoF_sunset_trait_desc:0 "§LThis general was long absent from the land, and has only recently returned. During their time abroad they picked up several quirks that some call unsettling and even alien, but which also make them a more effective commander.§!"
 EoF_sunset_shimmer_stats_tp:0 "§YSunset Shimmer§! becomes a Field Marshal.\n§gLevel§!: §Y6§!, (£trait_attack §Y9§! £trait_defense §Y3§!, £trait_planning §Y2§!, £trait_logistics §Y5§!)\n§gTraits§!: §C$EoF_sunset_trait$§!, §C$adaptable$§!, §C$panzer_leader$§!\n\n"
+
 
 EoF_equestrian_army_decision:0 "Recruit Local Conscripts"
 EoF_locals_conscripted:0 "Locals Conscripted"
@@ -320,6 +322,7 @@ EoF_CHN_warplan_long_2:0 "Resilient War Industry"
 EoF_war_measures:0 "War Measures"
 EoF_immortal_swarm:0 "The Immortal Swarm"
 
+EoF_fluttershy_desc:0 "Fluttershy is the Element of Kindness and a caretaker of animals. She is known for her shyness, but also her beauty and hidden assertiveness that is revealed whenever her friends are threatened. Now she is interested in heading a research department for developing healing spells."
 
 EoF_luna_reform_flag:0 "Luna Leads the Reform"
 EoF_luna_reform_1:0 "Luna's Reform"

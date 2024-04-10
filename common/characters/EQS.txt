@@ -1484,7 +1484,7 @@ characters={
 		
 		advisor = {
 			slot = theorist
-			idea_token = fluttershy
+			idea_token = EoF_fluttershy
 			ledger = army
 			cost = 100
 			
@@ -1492,14 +1492,6 @@ characters={
 				original_tag = EQS
 			}
 			available = {
-				if = {
-					limit = { is_original_EQS = yes }
-					has_completed_focus = EQS_WMD
-				}
-				if = {
-					limit = { is_EQS_SOL = yes }
-					has_global_flag = EQS_completed_EQS_WMD
-				}
 				if = {
 					limit = { NOT = { tag = event_target:solar_empire } }
 					has_government = democratic
@@ -1522,11 +1514,7 @@ characters={
 					has_country_flag = EQS_HIP_elements_sent
 				}
 			}
-			research_bonus = {
-				nuclear = 0.15
-			}
-
-			traits = { nuclear_scientist }
+			traits = { EoF_Fluttershy }
 		}
 		gender = female
 	}
