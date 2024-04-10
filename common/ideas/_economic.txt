@@ -113,27 +113,32 @@ ideas = {
 							has_civil_war = yes
 						}
 					}
-					every_country = {
-						limit = {
-							OR = {
-								original_tag = HIE
-								original_tag = ZUM
-								original_tag = BAT
-								original_tag = CTH
-								original_tag = CVA
-								original_tag = TBK
-								original_tag = ZAR
-								original_tag = WAR
-								original_tag = TRO
-								original_tag = HIP
-								original_tag = CDR
-								original_tag = CGI
-								original_tag = WNG
-								original_tag = EQS
-								original_tag = NLR
-							}
+					# every_country = {
+					# 	limit = {
+					# 		OR = {
+					# 			original_tag = HIE
+					# 			original_tag = ZUM
+					# 			original_tag = BAT
+					# 			original_tag = CTH
+					# 			original_tag = CVA
+					# 			original_tag = TBK
+					# 			original_tag = ZAR
+					# 			original_tag = WAR
+					# 			original_tag = TRO
+					# 			original_tag = HIP
+					# 			original_tag = CDR
+					# 			original_tag = CGI
+					# 			original_tag = WNG
+					# 			original_tag = EQS
+					# 			original_tag = NLR
+					# 		}
+					# 	}
+					# 	news_event = hippogriff_news.7
+					# }
+					hidden_effect = {
+						every_country = {
+							set_country_flag = EoF_big_event_custom_mountain
 						}
-						news_event = hippogriff_news.7
 					}
 				set_global_flag = HIP_mountain_awakes_global_flag
 				}

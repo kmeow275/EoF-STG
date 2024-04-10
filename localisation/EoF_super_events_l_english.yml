@@ -4,9 +4,13 @@ ISLAND_WAR_D:0 "Naval battles require consent.\n-Alexander Kemerkai"
 ISLAND_WAR_A:0 "Rule the Waves"
 
 GREAT_WAR_T:0 "THE GREAT WAR"
-GREAT_WAR_D:0 "The damage done by a thousand years of peace to\nthe Equestrian spirit is incomprehensible.\n-Alexander Kemerkai"
+GREAT_WAR_D:0 "The damage done by a thousand years of peace to\nthe Equestrian spirit is incomprehensible.\n-Halberd Spear"
 GREAT_WAR_A:0 "The Changelings March"
 
 SUNSET_T:0 "SUNSET COUNTEROFFENSIVE"
 SUNSET_D:0 "Be prepared; for today, an empire shall be gone.\n-Sunset Shimmer"
 SUNSET_A:0 "Two Worlds at War"
+
+MOUNTAIN_T:0 "MOUNTAIN AWAKENS"
+MOUNTAIN_D:0 "Whoever rules the sky, rules the world.\n-Jonathan Rubber"
+MOUNTAIN_A:0 "A New Dawn"

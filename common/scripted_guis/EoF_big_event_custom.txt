@@ -73,4 +73,29 @@ scripted_gui = {
 			}
 		}
 	}
+
+	#mountain
+	EoF_big_event_mountain_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME NAME AS #IN THE WW_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EoF_big_event_mountain_custom_window"
+
+		visible = {
+			has_country_flag = EoF_big_event_custom_mountain ### this global flag triggers the #superevent
+		}
+	}
+
+	EoF_big_event_frame_mountain_custom = { ### VERY IMPORTANT MAKE SURE THIS USES THE SAME #NAME AS IN THE WW_BigEvent_custom.gui FILE OR YOU'RE GONNA GET A CRASH
+		context_type = player_context
+		window_name = "EoF_big_event_frame_mountain_custom"
+
+		visible = {
+			has_country_flag = EoF_big_event_custom_mountain
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = EoF_big_event_custom_mountain ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
+			}
+		}
+	}
 }

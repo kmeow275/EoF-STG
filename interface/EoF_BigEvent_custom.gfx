@@ -31,4 +31,8 @@ spriteTypes = { ##### THIS FILE DEFINES THE PICTURE FOR EACH SUPER EVENT
 		name = "GFX_superevent_custom_sunset"
 		textureFile = "gfx//superevent_pictures//sunset_custom.tga"
 	}
+	spriteType = {
+		name = "GFX_superevent_custom_mountain"
+		textureFile = "gfx//superevent_pictures//mountain_custom.tga"
+	}
 }
