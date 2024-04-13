@@ -445,10 +445,10 @@ ideas = {
 			modifier = {
 				stability_weekly = -0.002
 				war_support_weekly = -0.002
-				research_speed_factor = 0.05
-				industrial_capacity_factory = 0.05
-				production_speed_buildings_factor = 0.05
-				army_org_factor = 0.05
+				research_speed_factor = 0.075
+				industrial_capacity_factory = 0.075
+				production_speed_buildings_factor = 0.075
+				army_org_factor = 0.075
 			}
 		}
 		EoF_talent_utilization = {
@@ -465,18 +465,18 @@ ideas = {
 			removal_cost = -1
 			picture = pony_army
 			modifier = {
-				army_org_factor = -0.1
-				army_attack_factor = -0.1
-				army_defence_factor = -0.1
+				army_org_factor = -0.15
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
 			}	
 		}
 		EoF_EQS_army_incompetence_2 = {
 			removal_cost = -1
 			picture = pony_army
 			modifier = {
-				army_org_factor = -0.075
-				army_attack_factor = -0.075
-				army_defence_factor = -0.075
+				army_org_factor = -0.1
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
 			}		
 		}
 		EoF_EQS_army_incompetence_1 = {

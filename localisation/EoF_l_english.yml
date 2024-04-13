@@ -322,6 +322,10 @@ EoF_CHN_warplan_long_2:0 "Resilient War Industry"
 EoF_war_measures:0 "War Measures"
 EoF_immortal_swarm:0 "The Immortal Swarm"
 
+EoF_CHN_winter_fighting:0 "Winter Fighting Experience"
+EoF_winter_offensive_selected:0 "Winter Offensive Selected"
+EoF_summer_offensive_selected:0 "Summer Offensive Selected"
+
 EoF_fluttershy_desc:0 "Fluttershy is the Element of Kindness and a caretaker of animals. She is known for her shyness, but also her beauty and hidden assertiveness that is revealed whenever her friends are threatened. Now she is interested in heading a research department for developing healing spells."
 
 EoF_luna_reform_flag:0 "Luna Leads the Reform"

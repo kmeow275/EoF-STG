@@ -906,7 +906,7 @@ focus_tree = {
 					instant_build = yes
 				} 
 			}
-			add_named_threat = { threat = 3 name = pressure_olenia }
+			add_named_threat = { threat = 5 name = pressure_olenia }
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_ANNEXATION }
 	}
@@ -1368,7 +1368,6 @@ focus_tree = {
 			country_event = {
 				id = changelings.20 days = 1
 			}
-			unlock_decision_category_tooltip = EoF_great_war_category_CHN
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 	}
@@ -2358,7 +2357,7 @@ focus_tree = {
 	focus = {
 		id = EoF_winter_of_1011
 		icon = GFX_goal_chn_swords
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = demand_equestria
 		}
@@ -2373,49 +2372,68 @@ focus_tree = {
 	focus = {
 		id = EoF_winter_fighting_experience
 		icon = GFX_goal_chn_man_magic
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = EoF_winter_of_1011
 		}
 		mutually_exclusive = {
 			focus = EoF_summer_offensive
 		}
+		available = {
+			has_country_flag EoF_winter_offensive_selected
+		}
 		relative_position_id = EoF_winter_of_1011
 		x = -1
 		y = 1
 		completion_reward = {
+			add_ideas = EoF_CHN_winter_fighting
 		}
 	}
 
 	focus = {
 		id = EoF_summer_offensive
 		icon = GFX_goal_chn_man_pop_boil
-		cost = 1
+		cost = 5
 		prerequisite = {
 			focus = EoF_winter_of_1011
 		}
 		mutually_exclusive = {
 			focus = EoF_winter_fighting_experience
 		}
+		available = {
+			has_country_flag EoF_summer_offensive_selected
+		}
+		bypass = {
+			date > 1012.07.01
+		}
 		relative_position_id = EoF_winter_of_1011
 		x = 1
 		y = 1
 		completion_reward = {
+			unlock_decision_tooltip = EoF_declare_summer_offensive_1
 		}
 	}
 
 	focus = {
 		id = EoF_lessons_of_war
 		icon = GFX_goal_chn_man_boffin
-		cost = 1
+		cost = 10
 		prerequisite = {
 			focus = EoF_winter_fighting_experience
 			focus = EoF_summer_offensive
+		}
+		available = {
+			date >
 		}
 		relative_position_id = EoF_winter_fighting_experience
 		x = 1
 		y = 1
 		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 

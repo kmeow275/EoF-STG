@@ -130,7 +130,7 @@ shared_focus = {
 	relative_position_id = JER_fight_for_freedom
 	x = 5
 	y = 0
-	cost = 5
+	cost = 4.3
 	available = {
 		date > 1009.05.01
 	}
