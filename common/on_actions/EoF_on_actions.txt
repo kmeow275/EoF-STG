@@ -529,7 +529,7 @@ on_actions = {
 			if = {
 				limit = {
 					EQS = {
-						surrender_progress > 0.2
+						surrender_progress > 0.1
 					}
 					FROM = {
 						OR = {
