@@ -263,7 +263,7 @@ spriteTypes = {
 		name = "GFX_improved_assault_weapons_medium"
 		texturefile = "gfx/interface/technologies/assault_equipment_2.dds"
 	}
-	###Events###
+	###Pictures###
 	spriteType = {
 		name = "GFX_GRF_border_war"
 		texturefile = "gfx/event_pictures/GRF_border_war.dds"
@@ -271,6 +271,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GRF_volcano"
 		texturefile = "gfx/event_pictures/GRF_volcano.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_picture_EoF_academy"
+		texturefile = "gfx/interface/decisions/EoF_academy.dds"
 	}
 	###Units###
 	spriteType = {

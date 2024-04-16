@@ -24,6 +24,31 @@ shadow_of_kemerkai:0 "Shadow of Kemerkai"
 
 EoF_ABY_cat_therine_earnshaw:0 "█████ ████████"
 
+decision_cost_army_xp_10_pp_30:0 "£army_experience  §Y10§! £pol_power  §Y30§!"
+decision_cost_army_xp_10_pp_30_blocked:0 "£army_experience  §R10§! £pol_power  §R30§!"
+decision_cost_army_xp_10_pp_30_tooltip:0 "It costs £army_experience  §Y10§! £pol_power  §Y30§! to take the decision"
+
+EoF_academy_category:0 "Doki Doki General Academy"
+EoF_academy_category_desc:0 "Welcome to the General Academy! It's always been a dream of mine to make something special out of the things I love. Now that you're an academy member, you can help me make that dream come true. I'm super excited for you to make friends with everyone and help the General Academy become a more intimate place for all my members. But I can tell already that you're a sweetheart—will you promise to spend the most time with me?"
+
+EoF_academy_in_progress:0 "Academy in Progress"
+
+EoF_academy_organizer:0 "Organization Training"
+EoF_academy_panzer_leader:0 "Armour Command Training"
+EoF_academy_cavalry_leader:0 "Motorized Command Training"
+EoF_academy_trait_engineer:0 "Engineering Training"
+EoF_academy_infantry_leader:0 "Infantry Command Training"
+EoF_academy_naval_invader:0 "Naval Invasion Training"
+EoF_academy_commando:0 "Commando Training"
+EoF_academy_trickster:0 "Tactical Training"
+EoF_academy_skilled_staffer:0 "Staff Management Training"
+EoF_academy_artillery_specialist:0 "Artillery Command Training"
+
+EoF_academy_trait:0 "Academy Training"
+EoF_academy_trait_desc:0 "Selected for additional training at the General Academy."
+
+
+
 EoF_GRF_border_war_mission:0 "Demand the Village Up North"
 EoF_GRF_border_war_mission_desc:0 "The Village Up North has long been a reminder of Equestria's blatent disregard for our nation. By demanding its annexation we will finally send a message that we are not to be taken lightly."
 GRF_border_war.1.t:0 "Nova Griffonia Demands Village Up North"
