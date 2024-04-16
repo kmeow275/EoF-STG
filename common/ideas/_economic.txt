@@ -135,12 +135,17 @@ ideas = {
 					# 	}
 					# 	news_event = hippogriff_news.7
 					# }
+					set_global_flag = HIP_mountain_awakes_global_flag
+				}
+				if = {
+					limit = {
+						original_tag = HIP
+					}
 					hidden_effect = {
 						every_country = {
 							set_country_flag = EoF_big_event_custom_mountain
 						}
 					}
-				set_global_flag = HIP_mountain_awakes_global_flag
 				}
 			}
 			

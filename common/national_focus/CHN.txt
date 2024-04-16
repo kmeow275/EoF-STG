@@ -1271,15 +1271,13 @@ focus_tree = {
 	focus = {
 		id = demand_equestria
 		icon = GFX_goal_chn_lead_the_army
-		cost = 0
+		cost = 1
 		cancel_if_invalid = yes
 		prerequisite = {
 			focus = prepare_for_war
 		}
 		available = {
-			has_government = fascism
-			is_subject = no
-			date > 1011.11.01
+			always = no
 		}
 		select_effect = {
 			hidden_effect = {

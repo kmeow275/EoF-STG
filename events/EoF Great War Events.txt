@@ -253,3 +253,12 @@ country_event = {
 		add_ideas = EoF_EQS_army_incompetence_3
 	}
 }
+country_event = {
+	id = EoF_great_war.7
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	immediate = {
+		complete_national_focus = demand_equestria
+	}
+}
