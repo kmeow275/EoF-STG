@@ -1483,7 +1483,7 @@ characters={
 		}
 		
 		advisor = {
-			slot = theorist
+			slot = political_advisor
 			idea_token = EoF_fluttershy
 			ledger = army
 			cost = 100
