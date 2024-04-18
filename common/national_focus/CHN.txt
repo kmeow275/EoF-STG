@@ -1092,17 +1092,17 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus national_resources"
 			add_resource = {
 				type = steel
-				amount = 21
+				amount = 14
 				state = 301
 			}
 			add_resource = {
 				type = steel
-				amount = 33
+				amount = 13
 				state = 300
 			}
 			add_resource = {
 				type = steel
-				amount = 28
+				amount = 24
 				state = 292
 			}
 			add_tech_bonus = {

@@ -1,5 +1,12 @@
 ﻿l_english:
 STATE_1209:0 "Griffbraltar"
+STATE_1210:0 "Dazzhip Island"
+DAZZHIP_STRAIT:0 "Dazzhip Strait"
+NORTH_SEAQUESTRIAN_STRAIT:0 "North Seaquestrian Strait"
+SOUTH_SEAQUESTRIAN_STRAIT:0 "South Seaquestrian Strait"
+
+VICTORY_POINTS_10222:0 "El Alamane"
+
 ABILITY_ARTILLERY_BOMBARDMENT:0 "Artillery Bombardment"
 ABILITY_ARTILLERY_BOMBARDMENT_DESC:0 "Your units will bombard the enemy, but leave themselves vulnerable to counterattack."
 
@@ -27,6 +34,10 @@ EoF_ABY_cat_therine_earnshaw:0 "█████ ████████"
 decision_cost_army_xp_10_pp_30:0 "£army_experience  §Y10§! £pol_power  §Y30§!"
 decision_cost_army_xp_10_pp_30_blocked:0 "£army_experience  §R10§! £pol_power  §R30§!"
 decision_cost_army_xp_10_pp_30_tooltip:0 "It costs £army_experience  §Y10§! £pol_power  §Y30§! to take the decision"
+
+decision_cost_army_xp_30_pp_100:0 "£army_experience  §Y30§! £pol_power  §Y100§!"
+decision_cost_army_xp_30_pp_100_blocked:0 "£army_experience  §R30§! £pol_power  §R100§!"
+decision_cost_army_xp_30_pp_100_tooltip:0 "It costs £army_experience  §Y30§! £pol_power  §Y100§! to take the decision"
 
 EoF_academy_category:0 "Doki Doki General Academy"
 EoF_academy_category_desc:0 "Welcome to the General Academy! It's always been a dream of mine to make something special out of the things I love. Now that you're an academy member, you can help me make that dream come true. I'm super excited for you to make friends with everyone and help the General Academy become a more intimate place for all my members. But I can tell already that you're a sweetheart—will you promise to spend the most time with me?"
