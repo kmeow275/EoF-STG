@@ -691,7 +691,7 @@ ideas = {
 					limit = {
 						tag = EQS
 					}
-					has_country_flag = EoF_great_war_began
+					has_global_flag = EoF_great_war_began
 				}
 				if = {
 					limit = {
@@ -780,7 +780,7 @@ ideas = {
 						limit = {
 							tag = EQS
 						}
-						has_country_flag = EoF_great_war_began
+						has_global_flag = EoF_great_war_began
 					}
 					if = {
 						limit = {
