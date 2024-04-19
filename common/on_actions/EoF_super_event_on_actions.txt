@@ -58,4 +58,17 @@ on_actions = {
 			}
 		}
 	}
+	on_declare_war = { #North Zebrica War
+		effect = {
+			if = {
+				limit = {
+					tag = ABY
+					FROM = { tag = HIP }
+				}
+				every_country = {
+					set_country_flag = EoF_big_event_custom_zebrica
+				}
+			}
+		}
+	}
 }
