@@ -11,7 +11,6 @@ on_actions = {
 			}
 			CHN = {
 				country_event = { id = EoF_great_war.7 days = 1764 }
-				country_event = { id = EoF_great_war.8 days = 1276 }
 				country_event = { id = EoF.7 days = 2190 }
 			}
 		}
@@ -20,43 +19,67 @@ on_actions = {
 	on_startup = {
 		effect = {
 			381 = {
-				set_state_flag = EQS_controls
+				set_state_flag = SOUTH_controls_0
 			}
 			390 = {
-				set_state_flag = EQS_controls
+				set_state_flag = SOUTH_controls_0
 			}
 			658 = {
-				set_state_flag = EQS_controls
+				set_state_flag = SOUTH_controls_0
 			}
 			660 = {
-				set_state_flag = EQS_controls
+				set_state_flag = SOUTH_controls_0
 			}
 			659 = {
-				set_state_flag = EQS_controls
+				set_state_flag = SOUTH_controls_0
 			}
 			1209 = {
-				set_state_flag = EQS_controls
+				set_state_flag = SOUTH_controls_0
 			}
 			333 = {
-				set_state_flag = EQS_controls
+				set_state_flag = SOUTH_controls_0
 			}
 			67 = {
-				set_state_flag = EQS_controls
+				set_state_flag = SOUTH_controls_0
 			}
 			1195 = {
-				set_state_flag = EQS_controls_1
+				set_state_flag = SOUTH_controls_1
 			}
 			1193 = {
-				set_state_flag = EQS_controls_1
+				set_state_flag = SOUTH_controls_1
 			}
 			328 = {
-				set_state_flag = EQS_controls_1
+				set_state_flag = SOUTH_controls_1
 			}
 			4 = {
-				set_state_flag = EQS_controls_1
+				set_state_flag = SOUTH_controls_1
 			}
 			7 = {
-				set_state_flag = EQS_controls_1
+				set_state_flag = SOUTH_controls_1
+			}
+			1199 = {
+				set_state_flag = SOUTH_controls_2
+			}
+			1210 = {
+				set_state_flag = SOUTH_controls_2
+			}
+			687 = {
+				set_state_flag = SOUTH_controls_2
+			}
+			694 = {
+				set_state_flag = SOUTH_controls_2
+			}
+			693 = {
+				set_state_flag = SOUTH_controls_2
+			}
+			696 = {
+				set_state_flag = SOUTH_controls_2
+			}
+			697 = {
+				set_state_flag = SOUTH_controls_2
+			}
+			733 = {
+				set_state_flag = SOUTH_controls_2
 			}
 			678 = {
 				add_dynamic_modifier = { modifier = EoF_northern_equus_invasion_terrain_8 }	
@@ -180,6 +203,27 @@ on_actions = {
 			}
 			28 = {
 				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
+			}
+			683 = {
+				add_dynamic_modifier = { modifier = EoF_HIP_invasion_terrain_8 }	
+			}
+			685 = {
+				add_dynamic_modifier = { modifier = EoF_HIP_invasion_terrain_8 }	
+			}
+			686 = {
+				add_dynamic_modifier = { modifier = EoF_HIP_invasion_terrain_8 }	
+			}
+			1164 = {
+				add_dynamic_modifier = { modifier = EoF_HIP_invasion_terrain_8 }	
+			}
+			1202 = {
+				add_dynamic_modifier = { modifier = EoF_HIP_invasion_terrain_8 }	
+			}
+			1203 = {
+				add_dynamic_modifier = { modifier = EoF_HIP_invasion_terrain_8 }	
+			}
+			1204 = {
+				add_dynamic_modifier = { modifier = EoF_HIP_invasion_terrain_8 }	
 			}
 		}
 	}

@@ -689,10 +689,7 @@ ideas = {
 				}
 				if = {
 					limit = {
-						OR = {
-							tag = EQS
-							tag = CRY							
-						}
+						tag = EQS
 					}
 					has_country_flag = EoF_great_war_began
 				}
@@ -781,10 +778,7 @@ ideas = {
 					}
 					if = {
 						limit = {
-							OR = {
-								tag = EQS
-								tag = CRY							
-							}
+							tag = EQS
 						}
 						has_country_flag = EoF_great_war_began
 					}

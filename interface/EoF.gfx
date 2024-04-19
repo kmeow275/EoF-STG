@@ -282,6 +282,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/GRF_volcano.dds"
 	}
 	spriteType = {
+		name = "GFX_ABY_encampment"
+		texturefile = "gfx/event_pictures/ABY_encampment.dds"
+	}
+	spriteType = {
 		name = "GFX_decision_category_picture_EoF_academy"
 		texturefile = "gfx/interface/decisions/EoF_academy.dds"
 	}

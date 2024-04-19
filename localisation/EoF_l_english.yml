@@ -60,8 +60,6 @@ EoF_academy_artillery_specialist:0 "Artillery Command Training"
 EoF_academy_trait:0 "Academy Training"
 EoF_academy_trait_desc:0 "Selected for additional training at the General Academy."
 
-
-
 EoF_GRF_border_war_mission:0 "Demand the Village Up North"
 EoF_GRF_border_war_mission_desc:0 "The Village Up North has long been a reminder of Equestria's blatent disregard for our nation. By demanding its annexation we will finally send a message that we are not to be taken lightly."
 GRF_border_war.1.t:0 "Nova Griffonia Demands Village Up North"
@@ -84,6 +82,11 @@ EoF.news.1.t:0 "Snowy Mountain Eruption"
 EoF.news.1.d:0 "[This.GetNewspaperHeader] A giant fucking volcano erupted on the Nova-Stalliongrad Border. Even though this has basically no political implications whatsoever, everyone around the world is tense for some reason. Observers do comment; however, that this is incredibly convenient if a war were to break out between the countries of Northern Equus and Southern Equus to prevent either of the bordering countries from being rolled over instantly."
 EoF.news.1.a:0 "So that's why it's impassable."
 EoF_GRF_volcano_tension:0 "Snowy Mountain Eruption"
+
+EoF.news.2.t:0 "Rising Tensions in North Zebrica"
+EoF.news.2.d:0 "[This.GetNewspaperHeader] Recent Abyssinian war camps have been spotted close to the border around El Alamane. Although no aggressive actions have been taken yet, the movement of additional troops and stockpiling of supplies in the region lends credence to theories of a possible attack in the future. Equally importantly, it is as of yet unknown whether the Abyssianian government is undertaking this operation alone, or is doing so under the orders of the Changelings. Though with their head of government currently missing, it seems likely that the Abyssinian military is recieving orders from elsewhere."
+EoF.news.2.a:0 "Who was in charge again?"
+EoF_ABY_war_tension:0 "Abyssinian Buildup"
 
 EoF_YAK_JAK_civil_war:0 "Yak-Jak Civil War"
 EoF_YAK_JAK_civil_war_volunteers_1:0 "Yak-Jak Civil War Volunteers"
@@ -396,6 +399,13 @@ EoF_HIP_directive_navy_tt:0 "Spawns in a powerful fleet comprised of three §YGu
 EoF_HIP_directive_air_tt:0 "Researching better modules and airframes will improve the quality of the §YP-32 Corvus§! fighter and §YA-60 Thundercloud§! CAS."
 EoF_HIP_directive_army_tt:0 "Spawns in four 28 width §YHeavy Artillery Divisions§! as well as preparing eighteen 14 width §YHome Guard Divisions§! in case of an invasion."
 
+EoF_HIP_armed_citizens:0 "Citizen Militias"
+EoF_HIP_situation_stable_army:0 "Defensive Posture"
+EoF_HIP_situation_good_army:0 "Offensive Posture"
+EoF_HIP_naval_focused:0 "Naval Arms Race"
+EoF_HIP_primo_victoria_initial:0 "Might of Hippogriffia"
+EoF_HIP_primo_victoria_final:0 "Primo Victoria"
+
 EoF_JER_DOMINATION_neutrality:0 "Greater Aquileian Republic"
 EoF_JER_DOMINATION_neutrality_ADJ:0 "Aquileian"
 EoF_JER_DOMINATION_neutrality_DEF:0 "The Greater Aquileian Republic"
@@ -412,6 +422,22 @@ EoF_JER_DOMINATION_democratic:0 "Greater Aquileian Republic"
 EoF_JER_DOMINATION_democratic_ADJ:0 "Aquileian"
 EoF_JER_DOMINATION_democratic_DEF:0 "The Greater Aquileian Republic"
 
+EoF_HIP_DOMINATION_neutrality:0 "Greater Hippogriffia"
+EoF_HIP_DOMINATION_neutrality_ADJ:0 "Hippogriffian"
+EoF_HIP_DOMINATION_neutrality_DEF:0 "Greater Hippogriffia"
+
+EoF_HIP_DOMINATION_fascism:0 "Greater Hippogriffia"
+EoF_HIP_DOMINATION_fascism_ADJ:0 "Hippogriffian"
+EoF_HIP_DOMINATION_fascism_DEF:0 "Greater Hippogriffia"
+
+EoF_HIP_DOMINATION_communism:0 "Greater Hippogriffia"
+EoF_HIP_DOMINATION_communism_ADJ:0 "Hippogriffian"
+EoF_HIP_DOMINATION_communism_DEF:0 "Greater Hippogriffia"
+
+EoF_HIP_DOMINATION_democratic:0 "Greater Hippogriffia"
+EoF_HIP_DOMINATION_democratic_ADJ:0 "Hippogriffian"
+EoF_HIP_DOMINATION_democratic_DEF:0 "Greater Hippogriffia"
+
 EoF_JER_armament:0 "Aquileian Five Year Plan"
 
 EoF_griffonian_contender:0 "Griffonian Contender"
@@ -420,6 +446,8 @@ EoF_griffonian_dominator:0 "Griffonian Dominator"
 EoF_invasion_preparation:0 "Preparing Equestrian Invasion"
 
 EoF_JER_form_domination:0 "Declare the Greater Aquileian Republic"
+EoF_HIP_form_domination:0 "Declare Greater Hippogriffia"
+
 EoF_JER_invade_equestria_mission:0 "Invasion of Equestria"
 
 EoF_southern_equus_invasion_terrain:0 "Unsuitable Landing Terrain"
@@ -432,6 +460,16 @@ EoF_northern_equus_invasion_terrain_5:0 "Eastern Invasion Wall"
 EoF_northern_equus_invasion_terrain_6:0 "Eastern Invasion Wall"
 EoF_northern_equus_invasion_terrain_7:0 "Eastern Invasion Wall"
 EoF_northern_equus_invasion_terrain_8:0 "Eastern Invasion Wall"
+
+EoF_HIP_invasion_terrain_0:0 "§RCatastrophic§! Invasion Wall"
+EoF_HIP_invasion_terrain_1:0 "§RVery Dangerous§! Invasion Wall"
+EoF_HIP_invasion_terrain_2:0 "§RDangerous§! Invasion Wall"
+EoF_HIP_invasion_terrain_3:0 "§OHeavily Threatened§! Invasion Wall"
+EoF_HIP_invasion_terrain_4:0 "§OThreatened§! Invasion Wall"
+EoF_HIP_invasion_terrain_5:0 "§OSlightly Threatened§! Invasion Wall"
+EoF_HIP_invasion_terrain_6:0 "§GAcceptable§! Invasion Wall"
+EoF_HIP_invasion_terrain_7:0 "§GNormal§! Invasion Wall"
+EoF_HIP_invasion_terrain_8:0 "§GStrong§! Invasion Wall"
 
 EoF_EQS_southern_island_campaign_0:0 "Celestial Sea Islands: §RCatastrophic§!"
 EoF_EQS_southern_island_campaign_1:0 "Celestial Sea Islands: §tVery Dangerous§!"

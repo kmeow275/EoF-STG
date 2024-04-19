@@ -859,10 +859,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7978;20212;;-1;-1;-1;-1;-1;SOUTH_SEAQUESTRIAN_STRAIT;South Seaquestrian Strait
 7978;20213;;-1;-1;-1;-1;-1;SOUTH_SEAQUESTRIAN_STRAIT;South Seaquestrian Strait
 
-5552;5457;;-1;-1;-1;-1;-1;DAZZHIP_STRAIT;Dazzhip Strait
-5552;5576;;-1;-1;-1;-1;-1;DAZZHIP_STRAIT;Dazzhip Strait
-8661;5576;;-1;-1;-1;-1;-1;DAZZHIP_STRAIT;Dazzhip Strait
-
+5457;5552;;-1;-1;-1;-1;-1;DAZZHIP_STRAIT;Dazzhip Strait
+5457;8661;;-1;-1;-1;-1;-1;DAZZHIP_STRAIT;Dazzhip Strait
 
 6398;6279;impassable;-1;-1;-1;-1;-1;;STG-GRF Front
 6398;3346;impassable;-1;-1;-1;-1;-1;;STG-GRF Front

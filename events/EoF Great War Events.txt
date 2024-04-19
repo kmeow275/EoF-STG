@@ -272,15 +272,3 @@ country_event = {
 		}
 	}
 }
-country_event = {
-	id = EoF_great_war.8
-	is_triggered_only = yes
-	fire_only_once = yes
-	hidden = yes
-	immediate = {
-		declare_war_on = {
-			target = HIP
-			type = annex_everything
-		}
-	}
-}
