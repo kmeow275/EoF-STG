@@ -51,6 +51,7 @@ spriteTypes = {
 	
 		legacy_lazy_load = no
 	}
+
 	###Tank Modules###
 	spriteType = {
 		name = "GFX_EMI_advanced_medium_tank_turret"
@@ -202,6 +203,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_heavyartillery6_medium"
 		textureFile = "gfx/interface/technologies/artillery5.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyartillery7_medium"
+		textureFile = "gfx/interface/technologies/artillery4.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyartillery8_medium"
+		textureFile = "gfx/interface/technologies/artillery4.dds"
 	}
 	SpriteType = {
 		name = "GFX_fieldgun1_medium"

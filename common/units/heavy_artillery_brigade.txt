@@ -68,7 +68,7 @@ sub_units = {
 		}
 
 		amphibious = {
-			attack = -0.4
+			attack = -0.8
 		}
 	}
 	mech_heavy_artillery_brigade = {
@@ -147,7 +147,7 @@ sub_units = {
 		}
 
 		amphibious = {
-			attack = -0.4
+			attack = -0.8
 		}
 	}
 }

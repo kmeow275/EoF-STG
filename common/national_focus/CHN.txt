@@ -1289,13 +1289,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5000
 		}
-		bypass = {
-			OR = {
-				has_war_with = EQS
-				has_war_with = NLR
-				has_war_with = event_target:equestria
-			}
-		}
+		# bypass = {
+		# 	OR = {
+		# 		has_war_with = EQS
+		# 		has_war_with = NLR
+		# 		has_war_with = event_target:equestria
+		# 	}
+		# }
 		will_lead_to_war_with = EQS
 		will_lead_to_war_with = CRY
 		will_lead_to_war_with = NLR

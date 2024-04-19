@@ -537,6 +537,10 @@ technologies = {
 			leads_to_tech = heavyartillery5
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = heavyartillery7
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 
 		folder = {
@@ -553,13 +557,15 @@ technologies = {
 	heavyartillery5 = {
 
 		heavy_artillery = {
-			soft_attack = 0.1			
+			soft_attack = 0.05
 		}
 		heavy_artillery_brigade = {
-			soft_attack = 0.1
+			soft_attack = 0.05
+			maximum_speed = -0.1
 		}
 		mech_heavy_artillery_brigade = {
-			soft_attack = 0.1
+			soft_attack = 0.05
+			maximum_speed = -0.1
 		}
 
 		start_year = 1013
@@ -569,9 +575,13 @@ technologies = {
 		}
 		research_cost = 1
 
+		XOR = {
+			heavyartillery7
+		}
+
 		folder = {
 			name = artillery_folder
-			position = { x = -4 y = 10 }
+			position = { x = -5 y = 10 }
 		}
 
 		categories = {
@@ -583,13 +593,15 @@ technologies = {
 	heavyartillery6 = {
 
 		heavy_artillery = {
-			soft_attack = 0.1			
+			soft_attack = 0.05		
 		}
 		heavy_artillery_brigade = {
-			soft_attack = 0.1
+			soft_attack = 0.05
+			maximum_speed = -0.1
 		}
 		mech_heavy_artillery_brigade = {
-			soft_attack = 0.1
+			soft_attack = 0.05
+			maximum_speed = -0.1
 		}
 
 		start_year = 1014
@@ -597,7 +609,7 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -4 y = 12 }
+			position = { x = -5 y = 12 }
 		}
 
 		categories = {
@@ -605,6 +617,55 @@ technologies = {
 			mio_cat_all_artillery_equipment
 		}
 	}
+
+	heavyartillery7 = {
+
+		heavy_artillery_brigade = {
+			maximum_speed = 0.15
+		}
+
+		start_year = 1013
+		path = {
+			leads_to_tech = heavyartillery8
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+
+		XOR = {
+			heavyartillery5
+		}
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 10 }
+		}
+
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+		}
+	}
+
+	heavyartillery8 = {
+
+		heavy_artillery_brigade = {
+			maximum_speed = 0.15
+		}
+
+		start_year = 1014
+		research_cost = 1
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 12 }
+		}
+
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+		}
+	}
+
 	
 	###------> X <><> <><> <><> <><> <><>
 
