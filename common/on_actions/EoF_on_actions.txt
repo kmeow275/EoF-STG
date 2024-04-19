@@ -10,8 +10,9 @@ on_actions = {
 				country_event = { id = northern_protectorate.99 }
 			}
 			CHN = {
-				country_event = { id = EoF_great_war.7 days = 1764}
-				country_event = { id = EoF.7 days = 2190}
+				country_event = { id = EoF_great_war.7 days = 1764 }
+				country_event = { id = EoF_great_war.8 days = 1276 }
+				country_event = { id = EoF.7 days = 2190 }
 			}
 		}
 	}
@@ -179,20 +180,6 @@ on_actions = {
 			}
 			28 = {
 				add_dynamic_modifier = { modifier = EoF_southern_equus_invasion_terrain } 
-			}
-		}
-	}
-	#GRF Helping PLB Against PNG
-	on_declare_war = { 
-		effect = {
-			if = {
-				limit = {
-					tag = PLB
-					FROM = { tag = PNG }
-				}
-				PLB = {
-					country_event = EoF.5
-				}
 			}
 		}
 	}
@@ -507,23 +494,6 @@ on_actions = {
 				GRF = {
 					remove_ideas = EoF_YAK_JAK_civil_war_volunteers_1
 					country_event = EoF.3
-				}
-			}
-		}
-	}
-	#CHN Attack Unlocks EQS Tree
-	on_declare_war = { 
-		effect = {
-			if = {
-				limit = {
-					tag = CHN
-					FROM = { tag = EQS }
-				}
-				CHN = {
-					add_to_faction = JER
-				}
-				EQS = {
-					complete_national_focus = EoF_war_begins
 				}
 			}
 		}

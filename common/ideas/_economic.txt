@@ -689,6 +689,15 @@ ideas = {
 				}
 				if = {
 					limit = {
+						OR = {
+							tag = EQS
+							tag = CRY							
+						}
+					}
+					has_country_flag = EoF_great_war_began
+				}
+				if = {
+					limit = {
 						original_tag = HIP
 					}
 					NOT = {
@@ -770,13 +779,20 @@ ideas = {
 						}
 						surrender_progress > 0.5
 					}
-
+					if = {
+						limit = {
+							OR = {
+								tag = EQS
+								tag = CRY							
+							}
+						}
+						has_country_flag = EoF_great_war_began
+					}
 					if = {
 						limit = {
 							tag = event_target:equestria
 						}
 						NOT = { has_country_flag = economic_laws_blocked }
-						has_war_with = CHN
 					}
 					if = {
 						limit = {
