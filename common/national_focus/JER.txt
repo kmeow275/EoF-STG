@@ -156,7 +156,7 @@ shared_focus = {
 	available = {
 		controls_state = 208
 		controls_state = 390
-		controls_state = 381
+		controls_state = 362
 	}
 	completion_reward = {
 		swap_ideas = {

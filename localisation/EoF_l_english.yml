@@ -411,6 +411,8 @@ EoF_JER_DOMINATION_democratic:0 "Greater Aquileian Republic"
 EoF_JER_DOMINATION_democratic_ADJ:0 "Aquileian"
 EoF_JER_DOMINATION_democratic_DEF:0 "The Greater Aquileian Republic"
 
+EoF_JER_armament:0 "Aquileian Five Year Plan"
+
 EoF_griffonian_contender:0 "Griffonian Contender"
 EoF_griffonian_dominator:0 "Griffonian Dominator"
 
