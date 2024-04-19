@@ -20728,9 +20728,9 @@
 20727;129;76;55;land;true;plains;1
 20728;181;48;88;land;true;jungle;5
 20729;111;229;202;land;true;plains;5
-20730;201;135;224;land;true;plains;5
+20730;201;135;224;land;true;hills;5
 20731;203;234;64;land;true;plains;5
-20732;73;184;188;land;true;plains;5
-20733;82;167;142;land;true;plains;5
-20734;159;79;137;land;true;plains;5
+20732;73;184;188;land;true;hills;5
+20733;82;167;142;land;true;hills;5
+20734;159;79;137;land;true;hills;5
 20735;37;131;102;land;true;plains;5
