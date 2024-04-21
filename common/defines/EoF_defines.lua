@@ -105,7 +105,6 @@ NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.1 				-- this scr
 NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.05 				-- this capital ratio to num convoys is needed for full screening beyond screen line
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0			-- Chances one ship get damage each hour while on training
 
-NDefines.NNavy.HIT_PROFILE_MULT = 25.0				-- multiplies hit profile of every ship
-NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 2.5		-- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+NDefines.NNavy.HIT_PROFILE_MULT = 50.0				-- multiplies hit profile of every ship
 
 

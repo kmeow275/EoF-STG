@@ -495,7 +495,7 @@ equipment_modules = {
 		dismantle_cost_ic = 1
 		add_stats = {
 			maximum_speed = -0.4
-			build_cost_ic = 3.5
+			build_cost_ic = 5.5
 			breakthrough = 8
 		}
 		multiply_stats = {
@@ -524,7 +524,7 @@ equipment_modules = {
 		xp_cost = 0
 		add_stats = {
 			maximum_speed = -0.6
-			build_cost_ic = 4
+			build_cost_ic = 6
 			breakthrough = 15
 		}
 	}
@@ -556,7 +556,7 @@ equipment_modules = {
 		xp_cost = 0
 		add_stats = {
 			maximum_speed = -0.6
-			build_cost_ic = 3.5
+			build_cost_ic = 5.5
 			reliability = 0.2
 			defense = 3
 		}

@@ -1390,11 +1390,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
-		start_year = 1011
+		research_cost = 2.5
+		start_year = 1012
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 8 y = @1011 }
+			position = { x = 8 y = @1012 }
 		}
 
 		ai_will_do = {

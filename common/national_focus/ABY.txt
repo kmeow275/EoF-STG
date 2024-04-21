@@ -31,6 +31,13 @@ shared_focus = {
 				province = 12234
 			}
 		}
+		build_railway = {
+			level = 3
+			fallback = yes
+			path = { 15710 15819 15863 15870 15837 15769 12234 }
+			start_province = 15710
+			target_province = 12234
+		}
 		hidden_effect = {
 			add_named_threat = {
 				threat = 10

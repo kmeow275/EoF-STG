@@ -1001,7 +1001,7 @@ focus_tree = {
 	shared_focus = {
 		id = HIP_the_mountain_awakes
 		icon = GFX_HIP_gawake
-		cost = 6
+		cost = 10
 		x = 1
 		y = 1
 		relative_position_id = HIP_leand_lease
@@ -1059,48 +1059,6 @@ focus_tree = {
 			OR = {
 				has_war = yes
 				has_completed_focus = HIP_stirring_from_slumber
-				any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
-				AND = {
-					has_guaranteed = WAR
-					WAR = {
-						any_of_potential_and_current_enemies_justifying_or_has_wargoal_on_THIS = yes
-					}
-				}
-				custom_trigger_tooltip = {
-					tooltip = HIP_mountain_awakes_trigger_tt
-					AND = {
-						TBK = {
-							OR = {
-								exists = no
-								is_subject_of = BAT
-								is_subject_of = CTH
-							}
-						}
-						ZAR = {
-							OR = {
-								exists = no
-								is_subject_of = BAT
-								is_subject_of = CTH
-								is_subject_of = TBK
-							}
-						}
-						WAR = {
-							OR = {
-								AND = {
-									exists = no
-									NOT = {
-										743 = {
-											is_owned_and_controlled_by = HIP
-										}
-									}
-								}
-								is_subject_of = BAT
-								is_subject_of = CTH
-								is_subject_of = TBK
-							}
-						}
-					}
-				}
 			}
 		}
 
@@ -2638,7 +2596,7 @@ focus_tree = {
 	shared_focus = {
 		id = HIP_stirring_from_slumber
 		icon = GFX_goal_stirring_from_slumber
-		cost = 5
+		cost = 10
 		x = 1
 		y = 1
 		relative_position_id = HIP_expand_refugee_zone
@@ -2653,16 +2611,7 @@ focus_tree = {
 		}
 
 		available = {
-			OR = {
-				has_war_support > 0.50
-				EQS = {
-					OR = {
-						has_war_with = CHN
-						exists = no
-						has_government = fascism
-					}
-				}
-			}
+			date > 1010.01.01
 		}
 
 		cancel_if_invalid = yes

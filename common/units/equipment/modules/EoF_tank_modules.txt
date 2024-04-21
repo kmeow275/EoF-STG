@@ -49,7 +49,7 @@ equipment_modules = {
 		}
 		add_stats = {
 			maximum_speed = -0.6
-			build_cost_ic = 5
+			build_cost_ic = 7
 			breakthrough = 18
 		}
 		multiply_stats = {

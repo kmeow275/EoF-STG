@@ -1409,13 +1409,13 @@ focus_tree = {
 				factor = 10
 			}
 		}
-		bypass = {
-			OR = {
-				has_war_with = EQS
-				has_war_with = NLR
-				has_war_with = event_target:equestria
-			}
-		}
+		# bypass = {
+		# 	OR = {
+		# 		has_war_with = EQS
+		# 		has_war_with = NLR
+		# 		has_war_with = event_target:equestria
+		# 	}
+		# }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_great_war_beginning"
 			add_political_power = 10
@@ -1471,13 +1471,13 @@ focus_tree = {
 				factor = 10
 			}
 		}
-		bypass = {
-			OR = {
-				has_war_with = EQS
-				has_war_with = NLR
-				has_war_with = event_target:equestria
-			}
-		}
+		# bypass = {
+		# 	OR = {
+		# 		has_war_with = EQS
+		# 		has_war_with = NLR
+		# 		has_war_with = event_target:equestria
+		# 	}
+		# }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus prepare_for_war2"
 			add_war_support = 0.025
@@ -1573,13 +1573,13 @@ focus_tree = {
 				factor = 10
 			}
 		}
-		bypass = {
-			OR = {
-				has_war_with = EQS
-				has_war_with = NLR
-				has_war_with = event_target:equestria
-			}
-		}
+		# bypass = {
+		# 	OR = {
+		# 		has_war_with = EQS
+		# 		has_war_with = NLR
+		# 		has_war_with = event_target:equestria
+		# 	}
+		# }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus prepare_for_war3"
 			add_war_support = 0.025
@@ -1666,13 +1666,13 @@ focus_tree = {
 			#just a dummy thing to make it uncancellable
 			set_temp_variable = { aaaaa = 1 }
 		}
-		bypass = {
-			OR = {
-				has_war_with = EQS
-				has_war_with = NLR
-				has_war_with = event_target:equestria
-			}
-		}
+		# bypass = {
+		# 	OR = {
+		# 		has_war_with = EQS
+		# 		has_war_with = NLR
+		# 		has_war_with = event_target:equestria
+		# 	}
+		# }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus prepare_for_war"
 			add_war_support = 0.2
