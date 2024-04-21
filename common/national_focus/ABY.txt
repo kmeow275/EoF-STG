@@ -33,9 +33,33 @@ shared_focus = {
 		}
 		build_railway = {
 			level = 3
-			fallback = yes
-			path = { 15710 15819 15863 15870 15837 15769 12234 }
 			start_province = 15710
+			target_province = 15819
+		}
+		build_railway = {
+			level = 3
+			start_province = 15819
+			target_province = 15863
+		}
+		build_railway = {
+			level = 3
+			start_province = 15863
+			target_province = 15870
+		}
+		build_railway = {
+			level = 3
+			start_province = 15870
+			target_province = 15837
+		}
+		build_railway = {
+			level = 3
+			
+			start_province = 15837
+			target_province = 15769
+		}
+		build_railway = {
+			level = 3
+			start_province = 15769
 			target_province = 12234
 		}
 		hidden_effect = {
