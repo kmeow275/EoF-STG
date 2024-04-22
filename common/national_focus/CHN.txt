@@ -2465,28 +2465,28 @@ focus_tree = {
 		}
 		available = {
 			date > 1013.01.01
-			NOT = {
+			OR = {
 				14 = {
 					controller = {
 						OR = {
-							is_in_faction_with = CHN
-							tag = CHN
+							is_in_faction_with = EQS
+							tag = EQS
 						}
 					}
 				}
-				54 = {
+				175 = {
 					controller = {
 						OR = {
-							is_in_faction_with = CHN
-							tag = CHN
+							is_in_faction_with = EQS
+							tag = EQS
 						}
 					}
 				}
 				138 = {
 					controller = {
 						OR = {
-							is_in_faction_with = CHN
-							tag = CHN
+							is_in_faction_with = EQS
+							tag = EQS
 						}
 					}
 				}
