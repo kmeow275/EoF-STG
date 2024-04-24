@@ -163,6 +163,11 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spall_liner.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_EMI_special_ammunition"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_apcr.dds"
+		legacy_lazy_load = no
+	}
 	###Technologies###
 	spriteType = {
 		name = "GFX_technology_artillery_folder_small_branch_item_bg"

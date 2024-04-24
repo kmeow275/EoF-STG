@@ -1607,6 +1607,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			tank_high_velocity_cannon_2
+			special_ammunition
 		}
 		anti_tank = {
 			hard_attack = 0.1
@@ -1800,6 +1801,9 @@ technologies = {
 
 	heavyantitank3 = {
 
+		enable_equipment_modules = {
+			special_ammunition
+		}
 		heavy_anti_tank = {
 			hard_attack = 0.1
 			ap_attack = 0.1			
