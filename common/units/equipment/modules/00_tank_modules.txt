@@ -2370,12 +2370,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
+			soft_attack = 3
 			build_cost_ic = 1
-			soft_attack = 2
 			maximum_speed = -0.2
 		}
 		xp_cost = 0
 		multiply_stats = {
+			build_cost_ic = 0.05
 		}
 	}
 
@@ -2385,15 +2386,15 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			soft_attack = 3
-			hard_attack = 1
+			soft_attack = 2
+			hard_attack = 2
 			build_cost_ic = 3
 			reliability = -0.1
-			breakthrough = 2
 			maximum_speed = -0.5
 		}
 		xp_cost = 0
 		multiply_stats = {
+			build_cost_ic = 0.1
 		}
 	}
 
@@ -2402,12 +2403,14 @@ equipment_modules = {
 		category = tank_secondary_turret
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
-			soft_attack = 5
-			hard_attack = 1
-			build_cost_ic = 4
-			reliability = -0.1
-			breakthrough = 2
+			soft_attack = 4
+			hard_attack = 2
+			build_cost_ic = 5
+			reliability = -0.2
 			maximum_speed = -0.5
+		}
+		multiply_stats = {
+			build_cost_ic = 0.15
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 0

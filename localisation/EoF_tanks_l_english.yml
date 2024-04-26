@@ -15,6 +15,7 @@ EQ_MOD_CAT_tank_advanced_medium_main_armament_TITLE:0 "Advanced Medium Armaments
 EQ_MOD_CAT_tank_advanced_heavy_main_armament_TITLE:0 "Advanced Heavy Armaments"
 EQ_MOD_CAT_tank_simplification_module_TITLE:0 "Wartime Simplification"
 EQ_MOD_CAT_tank_cupola_module_TITLE:0 "Cupolas"
+EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "Coaxial Armaments"
 EQ_MOD_CAT_tank_optics_type_TITLE:0 "Optics"
 
 advanced_medium_tank_turret:0 "Advanced Medium Turret"
@@ -61,6 +62,17 @@ spall_liner_desc:0 "Several layers of fragmentation resistant materials applied 
 
 special_ammunition:0 "Special Ammunition"
 special_ammunition_desc:0 "Specialized ammunition made from extreme hardness materials offers unprecedented penetration potential. However, the rarity of the materials needed for their production limit the amount that can be issued to each vehicle."
+
+coaxial_lmg:0 "Coaxial Light Machine Gun"
+coaxial_lmg_desc:0 "The coaxial weapon mount is an effective method of increasing the firepower and flexibility of an armoured vehicle. Aimed concurrently with the main gun, a coaxial light machine gun allows the tank to engage a diverse set of targets unsuitable for the main gun."
+coaxial_hmg:0 "Coaxial Heavy Machine Gun"
+coaxial_hmg_desc:0 "The coaxial weapon mount is an effective method of increasing the firepower and flexibility of an armoured vehicle. Aimed concurrently with the main gun, a coaxial heavy machine gun allows the tank to engage a diverse set of targets unsuitable for the main gun."
+coaxial_autocannon:0 "Coaxial Automatic Cannon"
+coaxial_autocannon_desc:0 "The coaxial weapon mount is an effective method of increasing the firepower and flexibility of an armoured vehicle. Aimed concurrently with the main gun, a coaxial automatic cannon allows the tank to engage a diverse set of targets unsuitable for the main gun."
+coaxial_small_cannon:0 "Coaxial Small Cannon"
+coaxial_small_cannon_desc:0 "The coaxial weapon mount is an effective method of increasing the firepower and flexibility of an armoured vehicle. Aimed concurrently with the main gun, a coaxial small cannon allows the tank to engage a diverse set of targets unsuitable for the main gun."
+coaxial_close_support_gun:0 "Coaxial Close Support Gun"
+coaxial_close_support_gun_desc:0 "The coaxial weapon mount is an effective method of increasing the firepower and flexibility of an armoured vehicle. Aimed concurrently with the main gun, a coaxial close support gun allows the tank to engage a diverse set of targets unsuitable for the main gun."
 
 gun_tech_1:0 "37mm Gun Mount"
 gun_tech_1_desc:0 "Modifications to the turret allowing guns up to 30mm to be fitted"
