@@ -16,6 +16,7 @@ EQ_MOD_CAT_tank_advanced_heavy_main_armament_TITLE:0 "Advanced Heavy Armaments"
 EQ_MOD_CAT_tank_simplification_module_TITLE:0 "Wartime Simplification"
 EQ_MOD_CAT_tank_cupola_module_TITLE:0 "Cupolas"
 EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "Coaxial Armaments"
+EQ_MOD_CAT_tank_rocket_module_TITLE:0 "Rocket Launchers"
 EQ_MOD_CAT_tank_optics_type_TITLE:0 "Optics"
 
 advanced_medium_tank_turret:0 "Advanced Medium Turret"
@@ -50,6 +51,10 @@ tank_bino_optics_1:0 "Basic Binocular Optics"
 tank_bino_optics_1_desc:0 "Binocular optics allow for a greater field of vision improving the ability of the gunner to acquire multiple targets."
 tank_bino_optics_2:0 "Improved Binocular Optics"
 tank_bino_optics_2_desc:0 "Improved binocular optics allow for a greater field of vision improving the ability of the gunner to acquire multiple targets while incorportating advanced features from other gunsights."
+tank_periscope_optics_1:0 "Basic Periscopic Optics"
+tank_periscope_optics_1_desc:0 "Periscopic optics allow for rangefinding of targets outide of traditional lines-of-sight. Especially useful for acquiring targets using indirect fire methods from behind cover."
+tank_periscope_optics_2:0 "Improved Periscopic Optics"
+tank_periscope_optics_2_desc:0 "Improved periscopic optics incorporate extendable vision ports allowing for even further vision without the need to greatly increase the height of the tank as well as additional markings to more accurately adjust indirect fire."
 cupola_1:0 "Basic Cupola"
 cupola_1_desc:0 "A basic cupola which grants the commander vision outside of the tank without the to expose himself to fire."
 cupola_2:0 "Improved Cupola"
@@ -62,6 +67,9 @@ spall_liner_desc:0 "Several layers of fragmentation resistant materials applied 
 
 special_ammunition:0 "Special Ammunition"
 special_ammunition_desc:0 "Specialized ammunition made from extreme hardness materials offers unprecedented penetration potential. However, the rarity of the materials needed for their production limit the amount that can be issued to each vehicle."
+
+ventilation_system:0 "Ventilation System"
+ventilation_system_desc:0 "A series of fans, connected to vents leading outside the tank, provide the crew additional comfort improving their performance during combat."
 
 coaxial_lmg:0 "Coaxial Light Machine Gun"
 coaxial_lmg_desc:0 "The coaxial weapon mount is an effective method of increasing the firepower and flexibility of an armoured vehicle. Aimed concurrently with the main gun, a coaxial light machine gun allows the tank to engage a diverse set of targets unsuitable for the main gun."
