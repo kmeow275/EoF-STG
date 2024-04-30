@@ -1,0 +1,12 @@
+animation = {
+	name = "EoF_artillery_idle_anim"
+	file = "EoF_artillery_idle.anim"
+}
+animation = {
+	name = "EoF_artillery_move_anim"
+	file = "EoF_artillery_move.anim"
+}
+animation = {
+	name = "EoF_artillery_attack_anim"
+	file = "EoF_artillery_attack.anim"
+}
