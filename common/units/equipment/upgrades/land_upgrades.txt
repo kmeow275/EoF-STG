@@ -96,8 +96,9 @@ upgrades = {
 		add_stats = {
 			maximum_speed = -0.1
 			breakthrough = 1
+			defense = 0.5
 			hardness = 0.01
-			build_cost_ic = 0.1
+			build_cost_ic = 0.2
 			armor_value = 2.5
 
 		}
@@ -130,15 +131,23 @@ upgrades = {
 
 		resource_cost_thresholds = {
 			1 = {
+				tungsten = 1
+			}
+			3 = {
 				steel = 1
+				tungsten = 1
+			}
+			5 = {
+				steel = 1
+				tungsten = 2
 			}
 		}
 		reliability = -0.015
-		soft_attack = 0.05
-		hard_attack = 0.05
-		ap_attack = 0.03
+		soft_attack = 0.03
+		hard_attack = 0.03
+		ap_attack = 0.05
 		add_stats = {
-			build_cost_ic = 0.5
+			build_cost_ic = 1
 		}
 	}
 

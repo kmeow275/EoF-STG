@@ -21,7 +21,7 @@ sub_units = {
 			category_all_artillery
 		}
 
-		combat_width = 1
+		combat_width = 1.5
 
 		need = {
 			heavy_artillery_equipment = 36
@@ -93,7 +93,7 @@ sub_units = {
 			category_all_artillery
 		}
 
-		combat_width = 1
+		combat_width = 1.5
 		transport = mechanized_equipment
 		manpower = 500
 
