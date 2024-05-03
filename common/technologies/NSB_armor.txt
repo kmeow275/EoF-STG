@@ -842,7 +842,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1013
 
 		folder = {
@@ -1273,7 +1273,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1
+		research_cost = 1.5
 		start_year = 1013
 
 		folder = {
