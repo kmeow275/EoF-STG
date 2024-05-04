@@ -225,6 +225,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_EMI_wartime_simplification_general"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/simplification.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_EMI_secondary_turret_autocannon"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/aaturret1.dds"
 		legacy_lazy_load = no

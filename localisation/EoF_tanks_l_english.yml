@@ -75,6 +75,8 @@ wartime_simplification_chromium:0 "Chromium Simplification"
 wartime_simplification_chromium_desc:0 "Reducing the amount of high quality chromium required in the construction of our armoured vehicles will simplify the production process at a small cost to effectiveness."
 wartime_simplification_tungsten:0 "Tungsten Simplification"
 wartime_simplification_tungsten_desc:0 "Reducing the amount of high quality tungsten required in the construction of our armoured vehicles will simplify the production process at a small cost to effectiveness."
+wartime_simplification_general:0 "General Simplification"
+wartime_simplification_general_desc:0 "Reducing the amount of high quality components required in the construction of our armoured vehicles will simplify the production process and improve overall reliability."
 
 tank_optics_1:0 "Basic Tank Optics"
 tank_optics_1_desc:0 "A basic gunsight with range markers to allow for more accurate fire at a distance."

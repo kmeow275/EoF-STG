@@ -284,6 +284,19 @@ equipment_modules = {
 		}
 		xp_cost = 50
 	}
+	wartime_simplification_general = {
+		abbreviation = "simpg"
+		category = tank_simplification_module
+		sfx = sfx_ui_sd_module_turret
+
+		add_stats ={
+			reliability = 0.1			
+		}
+		multiply_stats = {
+			build_cost_ic = -0.075
+		}
+		xp_cost = 50
+	}
 	secondary_turret_autocannon = {
 		abbreviation = "tac"
 		category = tank_secondary_turret

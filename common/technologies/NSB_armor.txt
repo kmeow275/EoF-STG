@@ -73,6 +73,7 @@ technologies = {
 			wartime_simplification_steel
 			wartime_simplification_tungsten
 			wartime_simplification_chromium
+			wartime_simplification_general
 		}
 		enable_subunits = {
 			light_armor
