@@ -430,6 +430,9 @@ recruit_character = CHN_spymaster
 recruit_character = CHN_midas_the_golden_lord
 
 create_faction = changeling_hegemony
+add_to_faction = PLB
+add_to_faction = GRF
+add_to_faction = FAT
 
 set_rule = {
 	can_generate_female_aces = yes

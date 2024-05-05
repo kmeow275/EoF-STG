@@ -47,6 +47,9 @@ political_actions = {
 				target = EQS
 				type = annex_everything
 			}
+			CHN = {
+				add_to_faction = JER
+			}
 		}
 	}
 }

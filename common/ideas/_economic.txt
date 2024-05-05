@@ -721,6 +721,12 @@ ideas = {
 						has_country_flag = ZES_pasarinha_economy_block
 					}
 				}
+				if = {
+					limit = {
+						tag = WNG
+					}
+					always = no
+				}
 			}
 
 			cost = 150
@@ -828,6 +834,12 @@ ideas = {
 					NOT = {
 						has_country_flag = ZES_pasarinha_economy_block
 					}
+				}
+				if = {
+					limit = {
+						tag = WNG
+					}
+					always = no
 				}
 			}
 
