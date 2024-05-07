@@ -401,3 +401,27 @@ news_event = {
 		name = EoF.news.2.a
 	}
 }
+news_event = {
+	id = EoF.news.3
+	title = EoF.news.3.t
+	desc = EoF.news.3.d
+	picture = GFX_JER_equestrian_threat
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EoF.news.3.a
+	}
+}
+news_event = {
+	id = EoF.news.4
+	title = EoF.news.4.t
+	desc = EoF.news.4.d
+	picture = GFX_JER_wingbardy_threat
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EoF.news.4.a
+	}
+}

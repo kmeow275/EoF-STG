@@ -725,7 +725,7 @@ ideas = {
 					limit = {
 						tag = WNG
 					}
-					always = no
+					has_global_flag = EoF_tarrin_war_threat
 				}
 			}
 
@@ -839,7 +839,7 @@ ideas = {
 					limit = {
 						tag = WNG
 					}
-					always = no
+					has_global_flag = EoF_tarrin_war_threat
 				}
 			}
 

@@ -90,6 +90,14 @@ EoF.news.2.d:0 "[This.GetNewspaperHeader] Recent Abyssinian war camps have been 
 EoF.news.2.a:0 "Who was in charge again?"
 EoF_ABY_war_tension:0 "Abyssinian Buildup"
 
+EoF.news.3.t:0 "Aquileia Threatens Equestria"
+EoF.news.3.d:0 "[This.GetNewspaperHeader] Aquileian delegates have recently returned from a diplomatic mission to Equestria. Reportedly, the delegates demanded that Equestrian territory in Fezera, New Mareland and Skyfall be handed over to Aquileian control as they presented 'legitimate security concerns'. In response, Equestrian officials have made it clear that despite any grievances the Aquileian government may have, these territories will forevermore remain under the protection of Equestria and her allies."
+EoF.news.3.a:0 "War is Looming."
+
+EoF.news.4.t:0 "Aquileia Threatens Wingbardy"
+EoF.news.4.d:0 "[This.GetNewspaperHeader] Following a stunning series of victories against Equestria, Aquileia has officially called into question the validity of the Treaty of Tarrin. Meanwhile in Karthin, Wingbardian officials responded decisively with a unilaterial denouncement of Aquileian aggression, as well as passing several unprecedented laws that would see the first fulltime remilitarization of Wingbardy since its unification years ago."
+EoF.news.4.a:0 "Wingbardy will be tested."
+
 EoF_YAK_JAK_civil_war:0 "Yak-Jak Civil War"
 EoF_YAK_JAK_civil_war_volunteers_1:0 "Yak-Jak Civil War Volunteers"
 EoF_YAK_JAK_civil_war_volunteers_2:0 "Yak-Jak Civil War Volunteers"
@@ -451,6 +459,13 @@ EoF_JER_form_domination:0 "Declare the Greater Aquileian Republic"
 EoF_HIP_form_domination:0 "Declare Greater Hippogriffia"
 
 EoF_JER_invade_equestria_mission:0 "Invasion of Equestria"
+EoF_JER_invade_wingbardy_mission:0 "Invasion of Wingbardy"
+
+EoF_tarrin_war_threat:0 "Tarrin War Threatened"
+
+EoF_WNG_treaty:0 "Treaty of Tarrin"
+EoF_WNG_militarization:0 "Fury of Karthin"
+EoF_WNG_militarization_desc:0 "The treacherous Aquileians have mistaken our unwillingness to fully commit to this war as a sign of weakness. Let them face the fury of Karthin, reserved for those who have forsaken all honour."
 
 EoF_southern_equus_invasion_terrain:0 "Unsuitable Landing Terrain"
 EoF_northern_equus_invasion_terrain_0:0 "Eastern Invasion Wall"

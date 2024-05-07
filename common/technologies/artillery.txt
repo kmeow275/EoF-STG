@@ -1549,8 +1549,8 @@ technologies = {
 		enable_equipment_modules = {
 			tank_large_medium_cannon
 		}
-		research_cost = 2
-		start_year = 1012
+		research_cost = 2.5
+		start_year = 1011
 
 		categories = {
 			artillery
@@ -1799,8 +1799,8 @@ technologies = {
 		enable_equipment_modules = {
 			tank_large_heavy_cannon
 		}
-		research_cost = 2
-		start_year = 1012
+		research_cost = 2.5
+		start_year = 1011
 
 		categories = {
 			artillery
