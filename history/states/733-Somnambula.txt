@@ -15,7 +15,7 @@ state={
 			arms_factory = 1
 			dockyard = 2
 			7321 = {
-				naval_base = 3
+				naval_base = 5
 			}
 		}
 	}

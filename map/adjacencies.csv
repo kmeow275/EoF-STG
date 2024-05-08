@@ -23,7 +23,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4305;6057;sea;8557;-1;-1;-1;-1;;PinPegasus2
 11104;6015;sea;8482;-1;-1;-1;-1;;Griffons
 9328;9089;sea;8482;-1;-1;-1;-1;;Griffons2
-3301;11361;sea;2448;-1;-1;-1;-1;;Trottingham
 11361;3369;sea;8865;-1;-1;-1;-1;;Trottingham2
 11406;6526;sea;8865;-1;-1;-1;-1;;Trottingham3
 9833;11829;sea;4213;-1;-1;-1;-1;;Dragons
@@ -43,8 +42,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11575;9604;sea;422;-1;-1;-1;-1;;GiantGriffonLake-Islands
 11575;753;sea;422;-1;-1;-1;-1;;GiantGriffonLake-Shore
 8101;11213;sea;5812;-1;-1;-1;-1;;New Manehattan-Aquilia
-10882;7107;sea;5890;-1;-1;-1;-1;;New Manehattan-Talononte
-6275;8360;sea;8262;-1;-1;-1;-1;;Northern-Island
 9055;12142;sea;5838;-1;-1;-1;-1;;Southern-Islands-Mainland
 9055;9045;sea;5838;-1;-1;-1;-1;;Southern-Islands-IslandSouth
 12142;9045;sea;5838;-1;-1;-1;-1;;Mainland-IslandSouth
@@ -882,6 +879,38 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9042;103;impassable;-1;-1;-1;-1;-1;;STG-GRF Front
 3069;103;impassable;-1;-1;-1;-1;-1;;STG-GRF Front
 3069;6079;impassable;-1;-1;-1;-1;-1;;STG-GRF Front
+
+3465;12558;impassable;-1;-1;-1;-1;-1;;Griffbraltar
+3465;4314;impassable;-1;-1;-1;-1;-1;;Griffbraltar
+
+1544;7151;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+1733;7151;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+1733;12679;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4366;12679;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4366;10834;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4806;10834;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4806;10633;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+1327;10633;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+10825;10633;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+1418;10633;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+7874;10633;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+7874;12616;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+1391;12616;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+1391;12546;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+12285;12546;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+12285;10696;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+12285;12257;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+12285;4281;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4250;12257;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4250;12115;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4250;13218;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4250;4281;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4333;4281;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+4333;4309;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+7741;4309;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+7741;1276;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+3086;1276;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+84;6166;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
 
 10457;15863;sea;2285;1898;1961;1898;1961;;CHN-ABY Front
 -1;-1;;-1;-1;-1;-1;-1;-1
