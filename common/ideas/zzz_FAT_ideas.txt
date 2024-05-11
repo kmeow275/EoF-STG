@@ -2621,67 +2621,67 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			available = {
-				OR = {
-					GRD = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-					FEA = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-					STW = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-					ANG = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-					PYT = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-					ROU = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-					KAT = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-					BRZ = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-					YAL = {
-						exists = yes
-						NOT = {
-							is_subject_of = ROOT
-						}
-					}
-				}
-				NOT = {
-				    has_country_flag = JER_puppet
-				}
-			}
+			# available = {
+			# 	OR = {
+			# 		GRD = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 		FEA = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 		STW = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 		ANG = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 		PYT = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 		ROU = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 		KAT = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 		BRZ = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 		YAL = {
+			# 			exists = yes
+			# 			NOT = {
+			# 				is_subject_of = ROOT
+			# 			}
+			# 		}
+			# 	}
+			# 	NOT = {
+			# 	    has_country_flag = JER_puppet
+			# 	}
+			# }
 			removal_cost = -1
 			modifier = {
 				war_support_factor = 0.1
@@ -2781,17 +2781,17 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			available = {
-				GRD = {
-					exists = yes
-					NOT = {
-						is_subject_of = ROOT
-					}
-				}
-				NOT = {
-				    has_country_flag = JER_puppet
-				}
-			}
+			# available = {
+			# 	GRD = {
+			# 		exists = yes
+			# 		NOT = {
+			# 			is_subject_of = ROOT
+			# 		}
+			# 	}
+			# 	NOT = {
+			# 	    has_country_flag = JER_puppet
+			# 	}
+			# }
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = -0.2

@@ -910,6 +910,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7741;4309;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
 7741;1276;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
 3086;1276;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
+84;1276;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
 84;6166;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
 
 10457;15863;sea;2285;1898;1961;1898;1961;;CHN-ABY Front

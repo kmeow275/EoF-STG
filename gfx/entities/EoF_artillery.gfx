@@ -11,3 +11,4 @@ pdxmesh = {
 		animation = { id = "retreat"  		type = "EoF_artillery_retreat_anim" }
 		animation = { id = "training"  		type = "EoF_artillery_training_anim" }
 	}
+}

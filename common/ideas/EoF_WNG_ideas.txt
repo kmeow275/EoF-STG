@@ -1,6 +1,9 @@
 ideas = {
 	country = {
 		EoF_WNG_treaty = {
+			allowed_civil_war = {
+				always = yes
+			}
 			removal_cost = -1
 			picture = HUN_treaty_of_triannon
 			modifier = {
