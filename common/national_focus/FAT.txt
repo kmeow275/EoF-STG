@@ -2705,15 +2705,8 @@ shared_focus = {
 	id = FAT_industrialization
 	icon = GFX_goal_construction_engineering
 	available = {
-		custom_trigger_tooltip = {
-			tooltip = FAT_industrialization_requirements
-			NOT = {
-				OR = {
-					has_idea = FAT_Chaos_idea
-					has_idea = FAT_Chaos_idea1
-					has_idea = FAT_Chaos_idea2
-				}
-			}
+		NOT = {
+			has_idea = GRW_risk_of_famine
 		}
 		485 = {
 			owner = {
@@ -2805,15 +2798,8 @@ shared_focus = {
 	id = FAT_literacy_campaign
 	icon = GFX_goal_supremacy_of_will
 	available = {
-		custom_trigger_tooltip = {
-			tooltip = FAT_industrialization_requirements
-			NOT = {
-				OR = {
-					has_idea = FAT_Chaos_idea
-					has_idea = FAT_Chaos_idea1
-					has_idea = FAT_Chaos_idea2
-				}
-			}
+		NOT = {
+			has_idea = GRW_risk_of_famine
 		}
 	}
 	bypass = {
@@ -2911,7 +2897,7 @@ shared_focus = {
 	x = 1
 	y = 3
 	relative_position_id = FAT_industrialization
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 50
 	}
@@ -2987,7 +2973,7 @@ shared_focus = {
 	x = -2
 	y = 2
 	relative_position_id = FAT_industrialization
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 40
 	}
@@ -3047,7 +3033,7 @@ shared_focus = {
 	x = 3
 	y = 3
 	relative_position_id = FAT_industrialization
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 50
 	}
@@ -3085,7 +3071,7 @@ shared_focus = {
 	x = 2
 	y = 4
 	relative_position_id = FAT_industrialization
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 40
 	}
@@ -3128,7 +3114,7 @@ shared_focus = {
 	x = 4
 	y = 4
 	relative_position_id = FAT_industrialization
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 40
 	}
@@ -3167,7 +3153,7 @@ shared_focus = {
 	x = 2
 	y = 5
 	relative_position_id = FAT_industrialization
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 40
 	}
@@ -3187,7 +3173,7 @@ shared_focus = {
 	x = -1
 	y = 3
 	relative_position_id = FAT_industrialization
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 40
 	}
@@ -3219,7 +3205,7 @@ shared_focus = {
 	x = 0
 	y = 4
 	relative_position_id = FAT_industrialization
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 40
 	}
@@ -3265,7 +3251,7 @@ shared_focus = {
 	x = 1
 	y = 1
 	relative_position_id = FAT_republican_college
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 60
 	}
@@ -3291,7 +3277,7 @@ shared_focus = {
 	x = -4
 	y = 0
 	relative_position_id = FAT_institute_of_applied_science
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 30
 	}
@@ -3326,7 +3312,7 @@ shared_focus = {
 	x = -1
 	y = 1
 	relative_position_id = FAT_institute_of_applied_science
-	cost = 7.2
+	cost = 5
 	ai_will_do = {
 		factor = 30
 	}
@@ -11616,8 +11602,6 @@ shared_focus = {
 		focus = FAT_superior_4
 		focus = FAT_grand_4
 		focus = FAT_mass_4
-	}
-	prerequisite = {
 		focus = FAT_radar
 		focus = FAT_heavy_tanks
 	}
