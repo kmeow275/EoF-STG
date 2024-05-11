@@ -7,3 +7,15 @@ EoF_cat_eq_all_tank_artillery = {
 		modern_tank_artillery_chassis
 	}
 }
+EoF_cat_eq_all_artillery = {
+	equipment_type = {
+		artillery_equipment
+		heavy_artillery_equipment
+	}
+}
+EoF_cat_eq_all_anti_tank = {
+	equipment_type = {
+		anti_tank_equipment
+		heavy_anti_tank_equipment
+	}
+}
