@@ -272,3 +272,13 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = EoF_great_war.8
+	title = EoF_great_war.8.t
+	desc = EoF_great_war.8.desc
+	picture = GFX_EoF_fire
+	is_triggered_only = yes
+	option = {
+		name = EoF_great_war.8.a
+	}
+}

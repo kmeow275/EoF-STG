@@ -32,6 +32,10 @@ ideas = {
 				trade_cost_for_target_factor = 1
 			}
 			targeted_modifier = {
+				tag = WNG
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
 				tag = CHN
 				trade_cost_for_target_factor = 1
 			}
@@ -41,6 +45,10 @@ ideas = {
 			}
 			targeted_modifier = {
 				tag = GRF
+				trade_cost_for_target_factor = 1
+			}
+			targeted_modifier = {
+				tag = FAT
 				trade_cost_for_target_factor = 1
 			}
 			targeted_modifier = {
