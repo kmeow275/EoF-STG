@@ -79,6 +79,9 @@ technologies = {
 			light_armor
 			medium_armor
 			heavy_armor
+			reinforced_light_armor
+			reinforced_medium_armor
+			reinforced_heavy_armor
 		}
 		dependencies = {
 			infantry_weapons = 1
@@ -976,6 +979,7 @@ technologies = {
 		}
 		enable_subunits = {
 			modern_armor
+			reinforced_modern_armor
 		}
 
 		research_cost = 2.5

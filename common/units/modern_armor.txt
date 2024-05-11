@@ -12,7 +12,7 @@ sub_units = {
 			armor
 		}
 
-		group = armor
+		group = extra
 
 		categories = {
 			category_tanks
