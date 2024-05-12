@@ -13,11 +13,11 @@ horst_host_country = {
 	# 	text = "Empire"
 	# 	desc = ""
 	# }
-	# option = {
-	# 	name = FAT
-	# 	text = "Republic"
-	# 	desc = ""
-	# }
+	option = {
+		name = FAT
+		text = "Republic"
+		desc = ""
+	}
 	option = {
 		name = JER
 		text = "Aquilea"
@@ -88,11 +88,11 @@ horst_host_country = {
 	# 	text = "New Mareland"
 	# 	desc = ""
 	# }
-	# option = {
-	# 	name = WNG
-	# 	text = "Wingbardy"
-	# 	desc = ""
-	# }
+	option = {
+		name = WNG
+		text = "Wingbardy"
+		desc = ""
+	}
 	# option = {
 	# 	name = GRY
 	# 	text = "Evi"
