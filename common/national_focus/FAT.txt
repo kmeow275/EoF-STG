@@ -2705,9 +2705,6 @@ shared_focus = {
 	id = FAT_industrialization
 	icon = GFX_goal_construction_engineering
 	available = {
-		NOT = {
-			has_idea = GRW_risk_of_famine
-		}
 		485 = {
 			owner = {
 				controls_state = PREV
@@ -2798,9 +2795,6 @@ shared_focus = {
 	id = FAT_literacy_campaign
 	icon = GFX_goal_supremacy_of_will
 	available = {
-		NOT = {
-			has_idea = GRW_risk_of_famine
-		}
 	}
 	bypass = {
 		has_idea = no_lack_of_scientists

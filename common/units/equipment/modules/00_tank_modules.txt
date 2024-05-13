@@ -335,6 +335,9 @@ equipment_modules = {
 			tank_medium_main_armament = armor
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
+			tank_medium_main_armament = rocket
+			tank_heavy_main_armament = rocket
+			tank_super_heavy_main_armament = rocket
 		}
 
 		xp_cost = 0
@@ -457,6 +460,10 @@ equipment_modules = {
 		forbid_equipment_type_exact_match_for_category = {
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
+			tank_advanced_heavy_main_armament = armor
+			tank_heavy_main_armament = rocket
+			tank_super_heavy_main_armament = rocket
+			tank_advanced_heavy_main_armament = rocket
 		}
 
 		xp_cost = 0
@@ -554,6 +561,7 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match_for_category = {
 			tank_super_heavy_main_armament = armor
+			tank_super_heavy_main_armament = rocket
 		}
 		dismantle_cost_ic = 1
 		xp_cost = 0
@@ -682,6 +690,7 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match_for_category = {
 			tank_super_heavy_main_armament = armor
+			tank_super_heavy_main_armament = rocket
 		}
 
 		dismantle_cost_ic = 1

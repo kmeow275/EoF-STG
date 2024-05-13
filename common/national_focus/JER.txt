@@ -180,7 +180,7 @@ shared_focus = {
 		WNG = {
 			add_timed_idea = {
 				idea = EoF_WNG_militarization
-				days = 730
+				days = 600
 			}
 		}
 		hidden_effect = {
