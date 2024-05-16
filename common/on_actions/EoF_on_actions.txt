@@ -685,7 +685,7 @@ on_actions = {
 						}
 					}
 					HIP = {
-						has_country_flag = WW_HIP_home_guard
+						has_country_flag = EoF_HIP_home_guard
 					}
 				}
 				HIP = {
@@ -696,11 +696,13 @@ on_actions = {
 							infantry = { x = 0 y = 1 }
 							infantry = { x = 0 y = 2 }
 							infantry = { x = 0 y = 3 }
+							infantry = { x = 0 y = 4 }
 							
 	    	   		 		infantry = { x = 1 y = 0 }
 							infantry = { x = 1 y = 1 }
 							infantry = { x = 1 y = 2 }
-
+							infantry = { x = 1 y = 3 }
+							infantry = { x = 1 y = 4 }
 						}
 						support = {
 							engineer = { x = 0 y = 0 }
@@ -806,7 +808,7 @@ on_actions = {
 							owner = HIP
 						}
 					}
-					clr_country_flag = WW_HIP_home_guard
+					clr_country_flag = EoF_HIP_home_guard
 
 				}
 

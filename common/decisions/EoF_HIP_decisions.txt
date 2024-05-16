@@ -19,7 +19,7 @@ EoF_category = {
 				archetype = ship_hull_light
 			}
 		}
-		days_mission_timeout = 1460
+		days_mission_timeout = 1307
 		fire_only_once = yes
 		is_good = no
 		complete_effect = {
@@ -81,7 +81,7 @@ EoF_category = {
 		}
 		available = {
 			has_deployed_air_force_size = {
-				size > 599
+				size > 799
 				type = fighter
 			}
 			has_deployed_air_force_size = {
@@ -93,7 +93,7 @@ EoF_category = {
 				type = naval_bomber
 			}
 		}
-		days_mission_timeout = 1276
+		days_mission_timeout = 1307
 		fire_only_once = yes
 		is_good = no
 		complete_effect = {
@@ -115,7 +115,7 @@ EoF_category = {
 						engine_type_slot = engine_3_1x
 						special_type_slot_1 = armor_plate_small
 						special_type_slot_2 = self_sealing_fuel_tanks_small
-						special_type_slot_3 = drop_tanks
+						special_type_slot_3 = fuel_tanks_small
 					}
 					icon = "GFX_USA_fighter2_medium"
 				}
@@ -184,7 +184,6 @@ EoF_category = {
 					modules = {
 						fixed_main_weapon_slot = tank_buster_2
 						fixed_auxiliary_weapon_slot_1 = small_bomb_bay
-						fixed_auxiliary_weapon_slot_2 = small_bomb_bay
 						engine_type_slot = engine_3_1x
 						special_type_slot_1 = dive_brakes_small
 					}
@@ -240,12 +239,12 @@ EoF_category = {
 
 			add_equipment_to_stockpile = {
 				type = small_plane_airframe
-				amount = 200
+				amount = 400
 				variant_name = "P-32 Corvus"
 			}
 			add_equipment_to_stockpile = {
 				type = small_plane_cas_airframe
-				amount = 200
+				amount = 400
 				variant_name = "A-60 Thundercloud"
 			}
 			add_equipment_to_stockpile = {
@@ -266,7 +265,7 @@ EoF_category = {
 		}
 		available = {
 			has_army_manpower = {
-				size > 400000
+				size > 600000
 			}
 			has_equipment = {
     			infantry_equipment > 29999
@@ -278,7 +277,7 @@ EoF_category = {
 				artillery_equipment > 999
 			}
 		}
-		days_mission_timeout = 1276
+		days_mission_timeout = 1307
 		fire_only_once = yes
 		is_good = no
 		complete_effect = {
@@ -289,31 +288,36 @@ EoF_category = {
 					infantry = { x = 0 y = 1 }
 					infantry = { x = 0 y = 2 }
 					infantry = { x = 0 y = 3 }
-					
+					infantry = { x = 0 y = 4 }
 			
 	    	   		infantry = { x = 1 y = 0 }
 					infantry = { x = 1 y = 1 }
 					infantry = { x = 1 y = 2 }
 					infantry = { x = 1 y = 3 }
+					infantry = { x = 1 y = 4 }
 					
-
 					infantry = { x = 2 y = 0 }
 					infantry = { x = 2 y = 1 }
 					infantry = { x = 2 y = 2 }
+					infantry = { x = 2 y = 3 }
+					infantry = { x = 2 y = 4 }
 
-					artillery_brigade = { x = 3 y = 0 }
-					artillery_brigade = { x = 3 y = 1 }
-					artillery_brigade = { x = 3 y = 2 }
-					artillery_brigade = { x = 3 y = 3 }
+					heavy_artillery_brigade = { x = 3 y = 0 }
+					heavy_artillery_brigade = { x = 3 y = 1 }
+					heavy_artillery_brigade = { x = 3 y = 2 }
+					heavy_artillery_brigade = { x = 3 y = 3 }
+					heavy_artillery_brigade = { x = 3 y = 4 }
 
 					heavy_artillery_brigade = { x = 4 y = 0 }
 					heavy_artillery_brigade = { x = 4 y = 1 }
 					heavy_artillery_brigade = { x = 4 y = 2 }
 					heavy_artillery_brigade = { x = 4 y = 3 }
-					}
+					heavy_artillery_brigade = { x = 4 y = 4 }
+				}
 				support = {
-					engineer = { x = 0 y = 0 }
-					heavy_artillery = { x = 0 y = 1 }
+					heavy_artillery = { x = 0 y = 0 }
+					artillery = { x = 0 y = 1 }
+					engineer = { x = 0 y = 2 }
 				}
 			}
 			random_owned_controlled_state = {
@@ -324,6 +328,14 @@ EoF_category = {
 				}
 				create_unit = {
 					division = "name = \"2nd Heavy Artillery Division\" division_template = \"Heavy Artillery Division\" start_experience_factor = 1.0" 
+					owner = HIP
+				}
+				create_unit = {
+					division = "name = \"3rd Heavy Artillery Division\" division_template = \"Heavy Artillery Division\" start_experience_factor = 1.0" 
+					owner = HIP
+				}
+				create_unit = {
+					division = "name = \"4th Heavy Artillery Division\" division_template = \"Heavy Artillery Division\" start_experience_factor = 1.0" 
 					owner = HIP
 				}
 				create_unit = {

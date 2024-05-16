@@ -321,7 +321,10 @@ equipment_modules = {
 		abbreviation = "lfs"
 		category = tank_light_turret_type
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_air
+			rocket
+		}
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -335,10 +338,8 @@ equipment_modules = {
 			tank_medium_main_armament = armor
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
-			tank_medium_main_armament = rocket
-			tank_heavy_main_armament = rocket
-			tank_super_heavy_main_armament = rocket
 		}
+		
 
 		xp_cost = 0
 		dismantle_cost_ic = 0.5
@@ -443,7 +444,10 @@ equipment_modules = {
 		abbreviation = "mfs"
 		category = tank_medium_turret_type
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_air
+			rocket
+		}
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -461,10 +465,8 @@ equipment_modules = {
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
 			tank_advanced_heavy_main_armament = armor
-			tank_heavy_main_armament = rocket
-			tank_super_heavy_main_armament = rocket
-			tank_advanced_heavy_main_armament = rocket
 		}
+
 
 		xp_cost = 0
 		dismantle_cost_ic = 1
@@ -543,7 +545,10 @@ equipment_modules = {
 		abbreviation = "hfs"
 		category = tank_heavy_turret_type
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_air
+			rocket
+		}
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -561,8 +566,8 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match_for_category = {
 			tank_super_heavy_main_armament = armor
-			tank_super_heavy_main_armament = rocket
 		}
+
 		dismantle_cost_ic = 1
 		xp_cost = 0
 		add_stats = {
@@ -674,7 +679,10 @@ equipment_modules = {
 		abbreviation = "mbfs"
 		category = tank_modern_turret_type
 		sfx = sfx_ui_sd_module_turret
-		forbid_equipment_type = anti_air
+		forbid_equipment_type = {
+			anti_air
+			rocket
+		}
 
 		allowed_module_categories = {
 			main_armament_slot = {
@@ -690,7 +698,6 @@ equipment_modules = {
 		}
 		forbid_equipment_type_exact_match_for_category = {
 			tank_super_heavy_main_armament = armor
-			tank_super_heavy_main_armament = rocket
 		}
 
 		dismantle_cost_ic = 1

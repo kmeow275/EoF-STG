@@ -3923,11 +3923,6 @@ focus_tree = {
 			has_government = democratic
 		}
 		prerequisite = {
-			focus = WNG_unite_the_south
-			focus = WNG_the_republican_cause
-			focus = WNG_rebuild_the_pact
-		}
-		prerequisite = {
 			focus = WNG_the_rise_of_the_republic
 		}
 		completion_reward = {
