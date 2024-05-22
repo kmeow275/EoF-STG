@@ -103,7 +103,7 @@ EoF_category = {
 					has_tech = engines_3
 					has_tech = aa_hmg
 					has_tech = survivability_studies
-					has_tech = range_improvement
+					has_tech = range_improvements
 				}
 				create_equipment_variant = {
 					name = "P-32 Corvus" 
@@ -184,7 +184,8 @@ EoF_category = {
 					modules = {
 						fixed_main_weapon_slot = tank_buster_2
 						fixed_auxiliary_weapon_slot_1 = small_bomb_bay
-						engine_type_slot = engine_3_1x
+						fixed_auxiliary_weapon_slot_2 = small_bomb_bay
+						engine_type_slot = engine_3_2x
 						special_type_slot_1 = dive_brakes_small
 					}
 					icon = "GFX_USA_CAS2_medium"
@@ -201,7 +202,7 @@ EoF_category = {
 					modules = {
 						fixed_main_weapon_slot = small_bomb_bay
 						fixed_auxiliary_weapon_slot_1 = small_bomb_bay
-						fixed_auxiliary_weapon_slot_2 = bomb_locks
+						fixed_auxiliary_weapon_slot_2 = small_bomb_bay
 						engine_type_slot = engine_3_1x
 						special_type_slot_1 = dive_brakes_small
 					}
