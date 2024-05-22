@@ -670,13 +670,13 @@ ideas = {
 				always = yes
 			}
 			research_bonus = {
-				magical_tech = 0.06
+				magical_tech = 0.05
 			}
 
 			removal_cost = -1
 			picture = EQS_unicorn_academy
 			modifier = {
-				research_speed_factor = 0.10
+				research_speed_factor = 0.15
 			}
 		}
 	}
@@ -691,14 +691,14 @@ ideas = {
 			}
 			research_bonus = {
 				magical_tech = 0.05
-				race_tech = 0.03
+				race_tech = 0.1
 			}
 
 			removal_cost = -1
 			picture = EQS_unicorn_academy
 			modifier = {
-				research_speed_factor = 0.1
-				political_power_gain = -0.06
+				research_speed_factor = 0.15
+				political_power_gain = -0.1
 			}
 		}
 	}

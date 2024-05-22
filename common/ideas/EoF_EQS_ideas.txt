@@ -1,5 +1,12 @@
 ideas = {
 	country = {
+		EoF_CRY_university = {
+			removal_cost = -1
+			picture = generic_research_bonus
+			research_bonus = {
+				industry = 0.075
+			}			
+		}
 		EoF_EQS_southern_island_campaign_0 = {
 			removal_cost = -1
 			picture = undisturbed_isolation

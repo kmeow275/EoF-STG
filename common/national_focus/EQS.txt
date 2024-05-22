@@ -537,7 +537,7 @@ shared_focus = {
 shared_focus = {
 	id = industry_manehattan
 	icon = GFX_goal_generic_construct_civ_factory
-	cost = 10.00
+	cost = 7
 	ai_will_do = { factor = 100 }
 	prerequisite = {
 		focus = examine_the_situation
@@ -583,9 +583,15 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus transequestrian_raillines"
 			build_railway = {
-                level = 2
+                level = 5
 				start_province = 9887
                 target_province = 11754
+                build_only_on_allied = yes
+            }
+			build_railway = {
+                level = 5
+				start_province = 179
+                target_province = 9806
                 build_only_on_allied = yes
             }
 	}
@@ -627,7 +633,7 @@ shared_focus = {
 shared_focus = {
 	id = manehattan_line
 	icon = GFX_goal_generic_construct_infrastructure
-	cost = 10.00
+	cost = 3
 	ai_will_do = { factor = 70 }
 	prerequisite = {
 		focus = mil_industry_fillydelphia
@@ -677,7 +683,7 @@ shared_focus = {
 shared_focus = {
 	id = industry_las_pegasus
 	icon = GFX_goal_generic_consumer_goods
-	cost = 10.00
+	cost = 7
 	ai_will_do = { factor = 75 }
 	prerequisite = {
 		focus = transequestrian_raillines
@@ -752,7 +758,7 @@ shared_focus = {
 shared_focus = {
 	id = Fund_public_schools
 	icon = GFX_goal_eqs_public_schools
-	cost = 10.00
+	cost = 7
 	ai_will_do = { factor = 75 }
 	prerequisite = {
 		focus = luna_nova_academy
@@ -783,11 +789,6 @@ shared_focus = {
 	}
 	available = {
 		eqs_not_has_civil_war = yes
-		has_tech = tech_unicorn
-		OR = {
-			has_tech = tech_pony_magical_infantry
-			has_tech = tech_pony_unicorns
-		}
 	}
 	x = 18
 	y = 5
@@ -806,7 +807,7 @@ shared_focus = {
 shared_focus = {
 	id = CTL_center_of_research
 	icon = GFX_goal_eqs_canterlot
-	cost = 10.00
+	cost = 7
 	dynamic = yes
 	ai_will_do = { factor = 200 }
 	prerequisite = {
@@ -2026,7 +2027,7 @@ shared_focus = {
 shared_focus = {
 	id = Support_aircraft_research
 	icon = GFX_goal_Equestrian_Royal_Air_Force_1
-	cost = 10.00
+	cost = 5
 	ai_will_do = { factor = 41 }
 	prerequisite = {
 		focus = Hire_Generals
@@ -2076,7 +2077,7 @@ shared_focus = {
 shared_focus = {
 	id = Bomber_research
 	icon = GFX_goal_generic_air_bomber
-	cost = 10.00
+	cost = 5
 	ai_will_do = { factor = 41 }
 	prerequisite = {
 		focus = Support_aircraft_research
@@ -2117,7 +2118,7 @@ shared_focus = {
 shared_focus = {
 	id = Artillery_research
 	icon = GFX_goal_generic_army_artillery2
-	cost = 10.00
+	cost = 5
 	ai_will_do = { factor = 41 }
 	prerequisite = {
 		focus = Bomber_research
@@ -2251,7 +2252,7 @@ shared_focus = {
 shared_focus = {
 	id = Tank_research
 	icon = GFX_goal_eqs_comet
-	cost = 10.00
+	cost = 5
 	ai_will_do = { factor = 73 }
 	prerequisite = {
 		focus = Bomber_research
@@ -2331,7 +2332,7 @@ shared_focus = {
 shared_focus = {
 	id = Infantry_weapons
 	icon = GFX_goal_generic_army_artillery
-	cost = 10.00
+	cost = 5
 	ai_will_do = { factor = 80 }
 	prerequisite = {
 		focus = Bomber_research
@@ -2544,7 +2545,7 @@ shared_focus = {
 shared_focus = {
 	id = eqs_southern_roads
 	icon = GFX_goal_rct_train
-	cost = 10.00
+	cost = 5
 	ai_will_do = {
 		factor = 50
 	}
@@ -2622,7 +2623,7 @@ shared_focus = {
 shared_focus = {
 	id = southern_industry
 	icon = GFX_goal_further_oil
-	cost = 10.00
+	cost = 5
 	prerequisite = {
 		focus = eqs_southern_roads
 	}
@@ -2694,7 +2695,7 @@ shared_focus = {
 shared_focus = {
 	id = EQS_industry_of_the_south
 	icon = GFX_goal_solar_military_factory
-	cost = 10.00
+	cost = 5
 	ai_will_do = {
 		factor = 80
 	}
@@ -2786,7 +2787,7 @@ shared_focus = {
 shared_focus = {
 	id = tenochtitlan_state_university
 	icon = GFX_goal_tfv_generic_tech_sharing
-	cost = 10
+	cost = 7
 	ai_will_do = {
 		factor = 200
 	}
@@ -2954,7 +2955,7 @@ shared_focus = {
 shared_focus = {
 	id = EQS_infrastructure_of_jungles
 	icon = GFX_goal_KTG_Jungle_Railroad
-	cost = 10
+	cost = 3
 	ai_will_do = {
 		factor = 25
 		modifier = {
@@ -3019,7 +3020,7 @@ shared_focus = {
 shared_focus = {
 	id = EQS_portland_fishing_port
 	icon = GFX_goal_generic_coastal_navy
-	cost = 10
+	cost = 3
 	ai_will_do = {
 		factor = 25
 	}
@@ -4817,20 +4818,15 @@ shared_focus = {
 	y = 1
 	completion_reward = {
 		CRY = {
-			add_equipment_subsidy = {
-				cic = 10000
-				equipment_type = small_plane_airframe
-				seller_tags = { EQS }
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = EQS
 			}
-			add_equipment_subsidy = {
-				cic = 10000
-				equipment_type = artillery_equipment
-				seller_tags = { EQS } 
-			}
-			add_equipment_subsidy = {
-				cic = 10000
-				equipment_type = infantry_equipment
-				seller_tags = { EQS } 
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 1500
+				producer = EQS
 			}
 		}
 	}
@@ -4848,20 +4844,35 @@ shared_focus = {
 	completion_reward = {
 		CRY = {
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = infantry_weapons
 			}
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = artillery
 			}
 			add_tech_bonus = {
-				bonus = 0.5
+				bonus = 1
 				uses = 1
 				category = armor
 			}
+		}
+		add_tech_bonus = {
+			bonus = 0.25
+			uses = 1
+			category = infantry_weapons
+		}
+		add_tech_bonus = {
+			bonus = 0.25
+			uses = 1
+			category = artillery
+		}
+		add_tech_bonus = {
+			bonus = 0.25
+			uses = 1
+			category = armor
 		}
 	}
 }
@@ -4907,7 +4918,7 @@ shared_focus = {
 shared_focus = {
 	id = EoF_industrialize_CRY_1
 	icon = GFX_goal_cryacademy
-	cost = 7
+	cost = 5
 	prerequisite = {
 		focus = EoF_crystal_speech
 	}
@@ -4921,17 +4932,18 @@ shared_focus = {
 		CRY = {
 			add_tech_bonus = {
 				name = industrial_bonus
-				bonus = 0.75
+				bonus = 0.5
 				uses = 1
 				category = industry
 			}
+			add_ideas = EoF_CRY_university
 		}
 	}
 }
 shared_focus = {
 	id = EoF_industrialize_CRY_2
 	icon = GFX_goal_rainbow_falls
-	cost = 7
+	cost = 5
 	prerequisite = {
 		focus = EoF_industrialize_CRY_1
 	}
@@ -4941,10 +4953,10 @@ shared_focus = {
 	completion_reward = {
 		CRY = {
 			98 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -4954,7 +4966,7 @@ shared_focus = {
 shared_focus = {
 	id = EoF_industrialize_CRY_3
 	icon = GFX_goal_cry_factory_cel
-	cost = 7
+	cost = 5
 	prerequisite = {
 		focus = EoF_industrialize_CRY_2
 	}

@@ -133,7 +133,6 @@ EoF_sunset_trait:0 "Otherworldly Experience"
 EoF_sunset_trait_desc:0 "§LThis general was long absent from the land, and has only recently returned. During their time abroad they picked up several quirks that some call unsettling and even alien, but which also make them a more effective commander.§!"
 EoF_sunset_shimmer_stats_tp:0 "§YSunset Shimmer§! becomes a Field Marshal.\n§gLevel§!: §Y6§!, (£trait_attack §Y9§! £trait_defense §Y3§!, £trait_planning §Y2§!, £trait_logistics §Y5§!)\n§gTraits§!: §C$EoF_sunset_trait$§!, §C$adaptable$§!, §C$panzer_leader$§!\n\n"
 
-
 EoF_equestrian_army_decision:0 "Recruit Local Conscripts"
 EoF_locals_conscripted:0 "Locals Conscripted"
 
@@ -167,6 +166,9 @@ EoF_great_war.6.a:0 "We must convene a meeting immediately."
 EoF_great_war.8.t:0 "Starlight's Counteroffensive"
 EoF_great_war.8.desc:0 "My dear, soviet comrades. I bring grave news. Equestria is at war, nay, Equus itself is on fire. If we are to succeed here and defeat our sole nemesis, this dark thing, we must try hard. Some might have heard the Changelings deny or reject my ability to turn the tide. To that I say only this, nah I'm a pro."
 EoF_great_war.8.a:0 "Hearts of Iron."
+
+EoF_CRY_university:0 "University of Technical Innovation"
+EoF_CRY_university_desc:0 ""
 
 EoF_EQS_army_incompetence_3:0 "Army Incompetence"
 EoF_EQS_army_incompetence_2:0 "Army Incompetence"

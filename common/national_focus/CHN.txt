@@ -466,7 +466,7 @@ focus_tree = {
 	focus = {
 		id = CHN_develop_ditrysium
 		icon = GFX_goal_chn_hive_dockyards
-		cost = 10.00
+		cost = 8
 		prerequisite = {
 			focus = CHN_develop_vesalipolis
 		}
@@ -513,7 +513,7 @@ focus_tree = {
 	focus = {
 		id = CHN_develop_vraks
 		icon = GFX_goal_chn_industry_of_hives
-		cost = 10.00
+		cost = 8
 		prerequisite = {
 			focus = CHN_develop_vesalipolis
 		}
@@ -567,7 +567,7 @@ focus_tree = {
 	focus = {
 		id = Expansion_of_newhives
 		icon = GFX_goal_chn_city_hives2
-		cost = 10.00
+		cost = 8
 		prerequisite = {
 			focus = CHN_develop_vraks
 			focus = CHN_develop_ditrysium
@@ -584,7 +584,7 @@ focus_tree = {
 	focus = {
 		id = CHN_soryth
 		icon = GFX_goal_chn_crystals
-		cost = 7
+		cost = 3
 		prerequisite = {
 			focus = CHN_develop_vraks
 			focus = CHN_develop_ditrysium
@@ -612,7 +612,7 @@ focus_tree = {
 	focus = {
 		id = CHN_modern_cities2
 		icon = GFX_goal_chn_swamp_train
-		cost = 10
+		cost = 8
 		prerequisite = {
 			focus = CHN_develop_vraks
 			focus = CHN_develop_ditrysium
@@ -751,14 +751,10 @@ focus_tree = {
 	focus = {
 		id = technology_centre
 		icon = GFX_goal_chn_research
-		cost = 10
+		cost = 8
 		prerequisite = {
 			focus = Expansion_of_newhives
-		}
-		prerequisite = {
 			focus = CHN_modern_cities2
-		}
-		prerequisite = {
 			focus = CHN_soryth
 		}
 		relative_position_id = Expansion_of_newhives
@@ -774,7 +770,7 @@ focus_tree = {
 	focus = {
 		id = CHN_modern_cities
 		icon = GFX_goal_chn_city_hives
-		cost = 10
+		cost = 8
 		prerequisite = {
 			focus = technology_centre
 		}
@@ -810,7 +806,7 @@ focus_tree = {
 	focus = {
 		id = CHN_vesalipolis_protection
 		icon = GFX_goal_chn_vesalipolis_defence
-		cost = 10
+		cost = 3
 		prerequisite = {
 			focus = technology_centre
 		}
@@ -1245,7 +1241,7 @@ focus_tree = {
 	focus = {
 		id = CHN_queens_island_facility
 		icon = GFX_goal_chn_research
-		cost = 10.00
+		cost = 8
 		prerequisite = {
 			focus = CHN_modern_cities
 			focus = CHN_vesalipolis_protection
@@ -3124,7 +3120,7 @@ focus_tree = {
 	focus = {
 		id = war_academy
 		icon = GFX_goal_chn_helmet
-		cost = 3.7
+		cost = 1
 		x = 14
 		y = 0
 		ai_will_do = { 
@@ -3210,7 +3206,7 @@ focus_tree = {
 	focus = {
 		id = CHN_high_command_cabinet_1
 		icon = GFX_goal_chn_high_command_hat
-		cost = 3.7
+		cost = 1
 		x = -1
 		y = 1
 		relative_position_id = war_academy
@@ -3243,7 +3239,7 @@ focus_tree = {
 	focus = {
 		id = CHN_high_command_cabinet_2
 		icon = GFX_goal_chn_officer_hat
-		cost = 3.7
+		cost = 1
 		x = 1
 		y = 1
 		relative_position_id = war_academy
@@ -3276,7 +3272,7 @@ focus_tree = {
 	focus = {
 		id = CHN_high_command_cabinet_3
 		icon = GFX_focus_changeling_army
-		cost = 5
+		cost = 1
 		x = 0
 		y = 2
 		relative_position_id = war_academy
@@ -3303,7 +3299,7 @@ focus_tree = {
 	focus = {
 		id = CHN_griffon_school_of_war
 		icon = GFX_goal_chn_griffon_doctrine
-		cost = 3.7
+		cost = 1
 		x = 1
 		y = 3
 		relative_position_id = war_academy
@@ -3325,7 +3321,7 @@ focus_tree = {
 	focus = {
 		id = CHN_changeling_school_of_war
 		icon = GFX_goal_chn_changeling_army
-		cost = 3.7
+		cost = 1
 		x = -1
 		y = 3
 		relative_position_id = war_academy
@@ -4550,14 +4546,9 @@ focus_tree = {
 		id = CHN_Dedicated_Panzer_Production
 		icon = GFX_goal_chn_panzer_iii
 		cost = 8
-		mutually_exclusive = { focus = CHN_Dedicated_Motorized_Production focus = CHN_Infantry_Academy }
 		prerequisite = {
 			focus = CHN_Blitzkrieg_2
-		}
-		prerequisite = {
 			focus = CHN_Motorized_2
-		}
-		prerequisite = {
 			focus = CHN_Support_Companies_1
 		}
 		relative_position_id = CHN_Army
@@ -4605,14 +4596,9 @@ focus_tree = {
 		id = CHN_Dedicated_Motorized_Production
 		icon = GFX_goal_chn_man_panzergrenadier
 		cost = 8
-		mutually_exclusive = { focus = CHN_Dedicated_Panzer_Production focus = CHN_Infantry_Academy }
 		prerequisite = {
 			focus = CHN_Blitzkrieg_2
-		}
-		prerequisite = {
 			focus = CHN_Motorized_2
-		}
-		prerequisite = {
 			focus = CHN_Support_Companies_1
 		}
 		relative_position_id = CHN_Army
@@ -4629,14 +4615,9 @@ focus_tree = {
 		id = CHN_Infantry_Academy
 		icon = GFX_goal_chn_man_parade
 		cost = 8
-		mutually_exclusive = { focus = CHN_Dedicated_Panzer_Production focus = CHN_Dedicated_Motorized_Production }
 		prerequisite = {
 			focus = CHN_Blitzkrieg_2
-		}
-		prerequisite = {
 			focus = CHN_Motorized_2
-		}
-		prerequisite = {
 			focus = CHN_Support_Companies_1
 		}
 		relative_position_id = CHN_Army
