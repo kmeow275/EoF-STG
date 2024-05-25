@@ -2355,6 +2355,9 @@ focus_tree = {
 		prerequisite = {
 			focus = demand_equestria
 		}
+		bypass = {
+			date > 1012.01.01
+		}
 		relative_position_id = demand_equestria
 		x = 0
 		y = 1
@@ -2376,6 +2379,15 @@ focus_tree = {
 		available = {
 			has_country_flag = EoF_winter_offensive_selected
 		}
+		bypass = {
+			date > 1012.01.01
+			NOT = {
+				has_country_flag = EoF_winter_offensive_selected
+			}
+			NOT = {
+				has_country_flag = EoF_summer_offensive_selected
+			}
+		}
 		relative_position_id = EoF_winter_of_1011
 		x = -1
 		y = 1
@@ -2396,15 +2408,31 @@ focus_tree = {
 		}
 		available = {
 			has_country_flag = EoF_summer_offensive_selected
+			date > 1012.04.01
 		}
-		bypass = {
+		bypass = {	
 			date > 1012.07.01
 		}
 		relative_position_id = EoF_winter_of_1011
 		x = 1
 		y = 1
 		completion_reward = {
-			unlock_decision_tooltip = EoF_declare_summer_offensive_1
+			add_timed_idea = {
+				idea = EoF_summer_offensive_1
+				days = 60
+			}
+			PLB = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_1
+					days = 60
+				}
+			}
+			GRF = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_1
+					days = 60
+				}
+			}
 		}
 	}
 
@@ -2439,13 +2467,31 @@ focus_tree = {
 			focus = EoF_failure_of_1012
 		}
 		available = {
-			date > 1013.01.01
+			date > 1013.04.01
+		}
+		bypass = {
+			date > 1013.07.01
 		}
 		relative_position_id = EoF_lessons_of_war
 		x = -1
 		y = 1
 		completion_reward = {
-			unlock_decision_tooltip = EoF_declare_summer_offensive_2
+			add_timed_idea = {
+				idea = EoF_summer_offensive_1
+				days = 60
+			}
+			PLB = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_1
+					days = 60
+				}
+			}
+			GRF = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_1
+					days = 60
+				}
+			}
 		}
 	}
 
@@ -2460,7 +2506,7 @@ focus_tree = {
 			focus = EoF_new_offensive
 		}
 		available = {
-			date > 1013.01.01
+			date > 1013.04.01
 			OR = {
 				14 = {
 					controller = {
@@ -2488,11 +2534,29 @@ focus_tree = {
 				}
 			}
 		}
+		bypass = {
+			date > 1013.07.01
+		}
 		relative_position_id = EoF_lessons_of_war
 		x = 1
 		y = 1
 		completion_reward = {
-			unlock_decision_tooltip = EoF_declare_summer_offensive_3
+			add_timed_idea = {
+				idea = EoF_summer_offensive_2
+				days = 90
+			}
+			PLB = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_2
+					days = 90
+				}
+			}
+			GRF = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_2
+					days = 90
+				}
+			}
 		}
 	}
 

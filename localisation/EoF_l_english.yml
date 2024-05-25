@@ -386,6 +386,16 @@ EoF_fluttershy_desc:0 "Fluttershy is the Element of Kindness and a caretaker of 
 
 EoF_great_war_began:0 "Great War Has Began"
 
+EoF_winter_counteroffensive:0 "Winter Counteroffensive"
+EoF_prepared_defences:0 "Prepared Defences"
+
+EoF_great_war_category_EQS:0 "The Great War"
+EoF_fallback_decision_1:0 "Withdraw to Shire Line"
+EoF_fallback_decision_2:0 "Withdraw to Hope Line"
+EoF_fallback_1:0 "Withdrawn to Shire Line"
+EoF_fallback_2:0 "Withdrawn to Hope Line"
+EoF_EQS_fallback_terrain:0 "Abandoned Territory"
+
 EoF_luna_reform_flag:0 "Luna Leads the Reform"
 EoF_luna_reform_1:0 "Luna's Reform"
 EoF_luna_reform_2:0 "Luna's Reform"

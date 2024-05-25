@@ -15,8 +15,8 @@ spriteTypes = {
 		textureFile = "gfx//interface//div_subunit_item_bg_2.dds"
 	}
 	spriteType = {
-		name = "GFX_modifiers_EoF_YAK_JAK_civil_war_terrain_icon"
-		textureFile = "gfx/interface/modifiers_unplanned_offensive_icon.dds"
+		name = "GFX_modifiers_EoF_prepared_defences_icon"
+		textureFile = "gfx/interface/modifiers_EoF_prepared_defences_icon.dds"
 	}
 	spriteType = {
 		name = "GFX_trait_EoF_sunset_trait"

@@ -506,8 +506,8 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"	
 				}
 				iconType = {
-					name = "EoF_YAK_JAK_civil_war_terrain_icon"
-					spriteType = "GFX_modifiers_EoF_YAK_JAK_civil_war_terrain_icon"
+					name = "EoF_prepared_defences_icon"
+					spriteType = "GFX_modifiers_EoF_prepared_defences_icon"
 					position = { x = 0 y = 0 }
 					Orientation = "UPPER_LEFT"	
 				}

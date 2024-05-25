@@ -209,6 +209,27 @@ ideas = {
 				}
 			}
 		}
+		EoF_winter_counteroffensive = {
+			removal_cost = -1
+			picture = BAL_officer
+			modifier = {
+				supply_consumption_factor = -0.2
+				no_supply_grace	= 48.0
+				planning_speed = 1.0
+			}
+			targeted_modifier = {
+				tag = CHN
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = PLB
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = GRF
+				attack_bonus_against = 0.1
+			}
+		}
 		EoF_luna_reform_1 = {
 			removal_cost = -1
 			picture = TEM_nightmare_moon

@@ -114,7 +114,7 @@ tank_command_radio_1_desc:0 "Command radios feature additional channels that all
 tank_command_radio_2:0 "Improved Command Radio"
 tank_command_radio_2_desc:0 "Command radios feature additional channels that allow for communication to several other vehicles as well as high-power communications to battalion commanders."
 tank_command_radio_3:0 "Advanced Command Radio"
-tank_command_radio_4_desc:0 "Command radios feature additional channels that allow for communication to several other vehicles as well as high-power communications to battalion commanders."
+tank_command_radio_3_desc:0 "Command radios feature additional channels that allow for communication to several other vehicles as well as high-power communications to battalion commanders."
 
 coaxial_lmg:0 "Coaxial Light Machine Gun"
 coaxial_lmg_desc:0 "The coaxial weapon mount is an effective method of increasing the firepower and flexibility of an armoured vehicle. Aimed concurrently with the main gun, a coaxial light machine gun allows the tank to engage a diverse set of targets unsuitable for the main gun."
