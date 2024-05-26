@@ -942,7 +942,7 @@ ideas = {
 			picture = gre_schachtplan
 			modifier = {
 				consumer_goods_factor = -0.1
-				production_speed_buildings_factor = 0.15
+				production_speed_buildings_factor = 0.25
 			}
 		}
 		CHN_infiltrators_army = {

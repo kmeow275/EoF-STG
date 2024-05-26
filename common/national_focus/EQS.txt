@@ -4110,19 +4110,19 @@ shared_focus = {
 	available = {
 		has_country_flag =  EoF_fallback_1
 		controls_state = 174
-		controls_state = 132
-		controls_state = 155
-		controls_state = 169
 		controls_state = 131
+		controls_state = 169
+		controls_state = 132
+		controls_state = 130
 	}
 	bypass = {
 		NOT = {
 			AND = {
 				controls_state = 174
-				controls_state = 132
-				controls_state = 155
+				controls_state = 131
 				controls_state = 169
-				controls_state = 131	
+				controls_state = 132
+				controls_state = 130
 			}	
 		}
 	}
@@ -4743,23 +4743,12 @@ shared_focus = {
 		focus = EoF_perfect_tool
 	}
 	relative_position_id = EoF_perfect_tool
-	x = -2
+	x = 0
 	y = 1
 	completion_reward = {
-		if = {
-			limit = {
-				has_idea = EoF_luna_reform_3
-			}
-			swap_ideas = {
-				remove_idea = EoF_luna_reform_3
-				add_idea = EoF_luna_reform_4
-			}
-		}
-		else = {
-			swap_ideas = {
-				remove_idea = EoF_luna_reform_1
-				add_idea = EoF_luna_reform_2
-			}
+		swap_ideas = {
+			remove_idea = EoF_luna_reform_1
+			add_idea = EoF_luna_reform_2
 		}
 	}
 }
@@ -4769,26 +4758,15 @@ shared_focus = {
 	icon = GFX_focus_generic_combined_arms
 	cost = 10
 	prerequisite = {
-		focus = EoF_perfect_tool
+		focus = EoF_24_hour_army
 	}
-	relative_position_id = EoF_perfect_tool
+	relative_position_id = EoF_24_hour_army
 	x = 0
 	y = 1
 	completion_reward = {
-		if = {
-			limit = {
-				has_idea = EoF_luna_reform_2
-			}
-			swap_ideas = {
-				remove_idea = EoF_luna_reform_2
-				add_idea = EoF_luna_reform_4
-			}
-		}
-		else = {
-			swap_ideas = {
-				remove_idea = EoF_luna_reform_1
-				add_idea = EoF_luna_reform_3
-			}
+		swap_ideas = {
+			remove_idea = EoF_luna_reform_2
+			add_idea = EoF_luna_reform_4
 		}
 		remove_trait = {
 			character = EQS_princess_luna
@@ -4826,10 +4804,9 @@ shared_focus = {
 		}
 	}
 }
-
 shared_focus = {
-	id = EoF_develop_pieces
-	icon = GFX_goal_generic_army_doctrines
+	id = EoF_opening
+	icon = GFX_goal_pawns
 	cost = 5
 	prerequisite = {
 		focus = EoF_blueblood_reform
@@ -4843,6 +4820,19 @@ shared_focus = {
 			remove_idea = EoF_EQS_army_incompetence_2
 			add_idea = EoF_EQS_army_incompetence_1
 		}
+	}
+}
+shared_focus = {
+	id = EoF_develop_pieces
+	icon = GFX_goal_generic_army_doctrines
+	cost = 5
+	prerequisite = {
+		focus = EoF_opening
+	}
+	relative_position_id = EoF_opening
+	x = 0
+	y = 1
+	completion_reward = {
 	}
 }
 
