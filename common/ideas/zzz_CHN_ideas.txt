@@ -746,8 +746,8 @@ ideas = {
 			removal_cost = -1
 			picture = CHN_construction_effort
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_infrastructure_factor = 0.1
+				production_speed_industrial_complex_factor = 0.25
+				production_speed_infrastructure_factor = 0.25
 			}
 		}
 		chn_ditrysium_construction_1 = {
@@ -759,7 +759,7 @@ ideas = {
 			removal_cost = -1
 			picture = CHN_naval_effort
 			modifier = {
-				production_speed_dockyard_factor = 0.15
+				production_speed_dockyard_factor = 0.25
 			}
 		}
 		chn_ditrysium_construction_2 = {
@@ -771,7 +771,7 @@ ideas = {
 			removal_cost = -1
 			picture = CHN_naval_effort
 			modifier = {
-				industrial_capacity_dockyard = 0.135
+				industrial_capacity_dockyard = 0.15
 			}
 		}
 		CHN_vraks_military_effort = {
@@ -782,7 +782,7 @@ ideas = {
 			removal_cost = -1
 			picture = CHN_vraks_military_effort
 			modifier = {
-				production_speed_arms_factory_factor = 0.1
+				production_speed_arms_factory_factor = 0.25
 			}
 		}
 		CHN_vraks_military_effort_2 = {
@@ -793,7 +793,7 @@ ideas = {
 			removal_cost = -1
 			picture = CHN_vraks_military_effort
 			modifier = {
-				industrial_capacity_factory = 0.1
+				industrial_capacity_factory = 0.15
 			}
 		}
 
@@ -1242,9 +1242,8 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				planning_speed = 0.1
-				max_planning = 0.15
-				supply_consumption_factor = -0.1
+				max_planning = 0.05
+				supply_consumption_factor = -0.05
 				army_speed_factor = 0.05
 				army_attack_factor = 0.05
 			}

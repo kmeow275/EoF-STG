@@ -458,7 +458,7 @@ focus_tree = {
 				state = 251
 			}
 			add_timed_idea = {
-				days = 70 idea = chn_vesalipolis_construction
+				days = 50 idea = chn_vesalipolis_construction
 			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY FOCUS_FILTER_RESEARCH }
@@ -1065,7 +1065,7 @@ focus_tree = {
 		icon = GFX_goal_chn_ole
 		cost = 10.00
 		prerequisite = {
-			focus = offer_puppet
+			# focus = offer_puppet
 			focus = conquest
 		}
 		relative_position_id = pressure_olenia
@@ -1115,7 +1115,7 @@ focus_tree = {
 		icon = GFX_goal_chn_ole_factories
 		cost = 8
 		prerequisite = {
-			focus = offer_puppet
+			# focus = offer_puppet
 			focus = conquest
 		}
 		relative_position_id = pressure_olenia
@@ -1372,16 +1372,7 @@ focus_tree = {
 		available = {
 			has_government = fascism
 			is_subject = no
-			OLE = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					is_in_faction_with = ROOT
-					has_capitulated = yes
-					is_in_faction_with = EQS
-					is_subject_of = EQS
-				}
-			}
+			date > 1011.01.01
 		}
 		x = 0
 		y = -3
@@ -1405,17 +1396,13 @@ focus_tree = {
 				factor = 10
 			}
 		}
-		# bypass = {
-		# 	OR = {
-		# 		has_war_with = EQS
-		# 		has_war_with = NLR
-		# 		has_war_with = event_target:equestria
-		# 	}
-		# }
+		bypass = {
+			has_global_flag = EoF_great_war_began
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_great_war_beginning"
 			add_political_power = 10
-			add_timed_idea = { idea = CHN_plan_east_prep days = 600 }
+			add_ideas = CHN_plan_east_prep
 			if = {
 				limit = {
 				has_dlc = "La Resistance"
@@ -1436,14 +1423,7 @@ focus_tree = {
 		available = {
 			has_government = fascism
 			is_subject = no
-			OLE = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					is_in_faction_with = ROOT
-					has_capitulated = yes
-				}
-			}
+			date > 1011.01.01
 		}
 		x = 1
 		y = -2
@@ -1467,13 +1447,9 @@ focus_tree = {
 				factor = 10
 			}
 		}
-		# bypass = {
-		# 	OR = {
-		# 		has_war_with = EQS
-		# 		has_war_with = NLR
-		# 		has_war_with = event_target:equestria
-		# 	}
-		# }
+		bypass = {
+			has_global_flag = EoF_great_war_began
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus prepare_for_war2"
 			add_war_support = 0.025
@@ -1539,14 +1515,7 @@ focus_tree = {
 		available = {
 			has_government = fascism
 			is_subject = no
-			OLE = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					is_in_faction_with = ROOT
-					has_capitulated = yes
-				}
-			}
+			date > 1011.01.01
 		}
 		x = -1
 		y = -2
@@ -1569,13 +1538,9 @@ focus_tree = {
 				factor = 10
 			}
 		}
-		# bypass = {
-		# 	OR = {
-		# 		has_war_with = EQS
-		# 		has_war_with = NLR
-		# 		has_war_with = event_target:equestria
-		# 	}
-		# }
+		bypass = {
+			has_global_flag = EoF_great_war_began
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus prepare_for_war3"
 			add_war_support = 0.025
@@ -1630,14 +1595,7 @@ focus_tree = {
 		available = {
 			has_government = fascism
 			is_subject = no
-			OLE = {
-				OR = {
-					exists = no
-					is_subject_of = ROOT
-					is_in_faction_with = ROOT
-					has_capitulated = yes
-				}
-			}
+			date > 1011.01.01
 		}
 		ai_will_do = {
 			factor = 50
@@ -1662,16 +1620,13 @@ focus_tree = {
 			#just a dummy thing to make it uncancellable
 			set_temp_variable = { aaaaa = 1 }
 		}
-		# bypass = {
-		# 	OR = {
-		# 		has_war_with = EQS
-		# 		has_war_with = NLR
-		# 		has_war_with = event_target:equestria
-		# 	}
-		# }
+		bypass = {
+			has_global_flag = EoF_great_war_began
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus prepare_for_war"
 			add_war_support = 0.2
+			add_ideas = EoF_CHN_final_army_expansion
 			hidden_effect = {
 				if = {
 					limit = { NOT = { has_war_with = EQS } }
@@ -5410,7 +5365,7 @@ focus_tree = {
 			modifier ={
 				add = 60
 				OR = {
-					has_completed_focus = offer_puppet
+					# has_completed_focus = offer_puppet
 					has_completed_focus = conquest
 				}
 				NOT = { has_war = yes }
