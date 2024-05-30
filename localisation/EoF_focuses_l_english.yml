@@ -142,6 +142,8 @@ EoF_GRF_mechanized_bonus_desc:0 ""
 
 EoF_GRF_naval_slot:0 "Dedicated Naval Research Institute"
 EoF_GRF_naval_slot_desc:0 ""
+EoF_GRF_air_slot:0 "Dedicated Aircraft Research Institute"
+EoF_GRF_air_slot_desc:0 ""
 
 EoF_crystal_speech:0 "Speech at the Crystal Fair"
 EoF_crystal_speech_desc:0 ""

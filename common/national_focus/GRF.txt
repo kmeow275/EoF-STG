@@ -8356,8 +8356,7 @@ focus_tree = {
 	focus = {
 		id = GRF_rule_the_skies
 		icon = GFX_goal_authority
-		prerequisite = { focus = GRF_paratroopers focus = GRF_heavy_fighter_focus }
-		prerequisite = { focus = GRF_jets }
+		prerequisite = { focus = GRF_paratroopers focus = GRF_heavy_fighter_focus focus = GRF_jets }
 		x = 60
 		y = 7
 		
@@ -8386,6 +8385,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRF_rule_the_skies"
 			add_ideas = GRF_trained_pilots
+			add_timed_idea = {
+				idea = EoF_air_expansion
+				days = 365
+			}
 		}
 		search_filters = { FOCUS_FILTER_AIRFORCE_BONUS }
 	}
@@ -9017,7 +9020,44 @@ focus_tree = {
 		prerequisite = { 
 			focus = GRF_massive_expansion
 		}
+		available = {
+			NOT = { has_completed_focus = EoF_GRF_air_slot }
+		}
 		x = 42
+		y = 8
+		
+		offset = {
+			x = -20
+			y = 0
+			trigger = {
+				has_completed_focus = GRF_highhill_junta
+			}
+		}
+		
+		offset = {
+			x = -12
+			y = 0
+			trigger = {
+				has_completed_focus = GRF_free_elections
+			}
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = EoF_GRF_air_slot
+		icon = GFX_focus_research
+		cost = 8.00
+		prerequisite = { 
+			focus = GRF_rule_the_skies
+		}
+		available = {
+			NOT = { has_completed_focus = EoF_GRF_naval_slot }
+		}
+		x = 60
 		y = 8
 		
 		offset = {
