@@ -3108,7 +3108,7 @@ shared_focus = {
 	id = Friendship_Games
 	icon = GFX_goal_crystal_heart
 	cost = 8
-	x = 16`
+	x = 16
 	y = 0
 	offset = {
 		y = 0
@@ -4926,6 +4926,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -4967,6 +4968,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -4998,6 +5000,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5029,6 +5032,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5091,6 +5095,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5121,6 +5126,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5151,6 +5157,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5182,6 +5189,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5244,6 +5252,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5276,6 +5285,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5307,6 +5317,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5338,6 +5349,7 @@ shared_focus = {
 		}
 		set_country_flag = {
 			flag = EoF_army_reforming
+			value = 1
 			days = 90
 		}
 	}
@@ -5739,7 +5751,9 @@ shared_focus = {
 		custom_effect_tooltip = EoF_regional_industry_tt
 		every_core_state = {
 			limit = {
-				controller = EQS
+				controller = {
+					tag = EQS
+				}
 				has_state_category = rural
 				industrial_complex > 0
 			}
