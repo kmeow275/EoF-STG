@@ -1,4 +1,7 @@
 ﻿l_english:
+EoF_cat_eq_all_tank_artillery:0 "SP Artillery"
+EoF_cat_eq_all_tank_destroyer:0 "Tank Destroyer"
+
 heavy_artillery_equipment:0 "Heavy Artillery"
 heavy_artillery_equipment_desc:0 ""
 heavy_artillery_equipment_1:0 "Basic Heavy Artillery"

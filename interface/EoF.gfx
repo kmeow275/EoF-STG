@@ -747,11 +747,19 @@ spriteTypes = {
 	}
 	###Ideas###
 	spriteType = {
+		name = "GFX_idea_sunset_conscription"
+		texturefile = "gfx/interface/ideas/idea_sunset_conscription.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_EoF_redacted"
 		texturefile = "gfx/interface/ideas/advisors/EoF_redacted.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_EoF_kemerkai"
 		texturefile = "gfx/interface/ideas/kemerkai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_EQS_ember_spark"
+		texturefile = "gfx/interface/ideas/Advisors/EQS_ember_spark.dds"
 	}
 }

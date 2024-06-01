@@ -120,7 +120,6 @@ characters={
 			}
 		}
 		field_marshal = {
-			character = EQS_princess_luna
 			traits = { goddess_of_the_night warrior_princess inspirational_leader pony_race_trait }
 			legacy_id = 9999
 			skill = 4
@@ -472,6 +471,7 @@ characters={
 			}
 
 			available = {
+				has_completed_focus = EoF_promote_industrialists
 				LSP = {
 					OR = {
 						exists = no
@@ -489,7 +489,7 @@ characters={
 					}
 				}
 			}
-			traits = { war_industrialists }
+			traits = { EoF_war_industrialists }
 		}
 	}
 	EQS_raven_inkwell = {
@@ -1806,6 +1806,21 @@ characters={
 			civilian = {
 				large = "gfx/leaders/EQS/Prez_Ember.tga"
 			}
+			army = {
+				large = "gfx/leaders/EQS/Prez_Ember.tga"	
+				small = "GFX_idea_EQS_ember_spark"	
+			}
+		}
+		field_marshal = {
+			traits = { panzer_leader pony_race_trait }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			visible = {
+				has_completed_focus = EoF_ember_reform
+			}
 		}
 	}
 
@@ -2961,9 +2976,6 @@ characters={
 				allowed = {
 					original_tag = EQS
 				}
-				allowed = {
-					original_tag = EQS
-				}
 				visible = {
 					has_country_flag = EQS_splinter_state_UESR_flag
 				}
@@ -2994,9 +3006,6 @@ characters={
 			advisor = {
 				slot = political_advisor
 				idea_token = UESR_lavender_berry_idea
-				allowed = {
-					original_tag = EQS
-				}
 				allowed = {
 					original_tag = EQS
 				}

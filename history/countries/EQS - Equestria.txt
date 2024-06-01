@@ -613,6 +613,7 @@ recruit_character = ERE_dandy_charms
 recruit_character = ERE_vinyl_scratch
 
 recruit_character = EoF_halberd_spear
+recruit_character = EoF_war_prep_board
 # recruit_character = EoF_sunset_shimmer
 
 create_faction = "All_ponies_front"

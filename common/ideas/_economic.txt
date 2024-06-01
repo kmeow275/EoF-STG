@@ -691,7 +691,7 @@ ideas = {
 					limit = {
 						tag = EQS
 					}
-					has_global_flag = EoF_great_war_began
+					has_completed_focus = EoF_wartime_economics
 				}
 				if = {
 					limit = {
@@ -786,7 +786,7 @@ ideas = {
 						limit = {
 							tag = EQS
 						}
-						has_global_flag = EoF_great_war_began
+						has_completed_focus = EoF_real_war_industry
 					}
 					if = {
 						limit = {

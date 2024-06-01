@@ -1693,7 +1693,7 @@ equipment_modules = {
 			weight = 8
 			air_agility = -15
 		}
-		xp_cost = 2
+		xp_cost = 0
 		allow_mission_type = {
 			cas
 			attack_logistics

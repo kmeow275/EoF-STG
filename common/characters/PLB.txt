@@ -1172,8 +1172,6 @@ characters={
 	}
 	PLB_council_of_worker_warriors = {
 		name = PLB_council_of_worker_warriors
-		portraits = {
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = PLB_council_of_worker_warriors
@@ -1194,8 +1192,6 @@ characters={
 	}
 	PLB_council_of_elites = {
 		name = PLB_council_of_elites
-		portraits = {
-		}
 		advisor = {
 			slot = political_advisor
 			idea_token = PLB_council_of_elites
@@ -1217,9 +1213,6 @@ characters={
 	
 	PLB_council_of_fishers = {
 		name = PLB_council_of_fishers
-		portraits = {
-		}
-		
 		advisor = {
 			slot = political_advisor
 			idea_token = PLB_council_of_fishers

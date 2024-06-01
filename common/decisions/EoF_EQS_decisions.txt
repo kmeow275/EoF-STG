@@ -336,3 +336,394 @@ EoF_polyphony_category = {
 		}
 	}
 }
+EoF_harmonic_war_industry_category = {
+	EoF_HWI_decision_0 = {
+		icon = GFX_decision_generic_decision
+		allowed = {
+			original_tag = EQS
+		}
+		visible = {
+			has_completed_focus = EoF_prepare_wartime_industry
+		}
+		days_remove = 365
+		cost = 30
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_0
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_0
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_1
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_1
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_2
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_2
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_3
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_3
+					days = -20
+				}
+			}
+		}
+	}
+	EoF_HWI_decision_1 = {
+		icon = GFX_decision_generic_research
+		allowed = {
+			original_tag = EQS
+		}
+		visible = {
+			has_completed_focus = EoF_prepare_wartime_industry
+		}
+		days_remove = 365
+		cost = 5
+		complete_effect = {
+			add_timed_idea = {
+				idea = EoF_EQS_industry_research_funding
+				days = 180
+			}		
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_0
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_0
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_1
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_1
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_2
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_2
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_3
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_3
+					days = -20
+				}
+			}
+		}
+	}
+	EoF_HWI_decision_2 = {
+		icon = GFX_decision_generic_construction
+		allowed = {
+			original_tag = EQS
+		}
+		visible = {
+			has_completed_focus = EoF_prepare_wartime_industry
+		}
+		days_remove = 365
+		cost = 5
+		complete_effect = {
+			add_timed_idea = {
+				idea = EoF_EQS_industry_construction_funding
+				days = 180
+			}	
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_0
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_0
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_1
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_1
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_2
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_2
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_3
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_3
+					days = -20
+				}
+			}
+		}
+	}
+	EoF_HWI_decision_3 = {
+		icon = GFX_decision_ger_military_buildup
+		allowed = {
+			original_tag = EQS
+		}
+		visible = {
+			has_completed_focus = EoF_prepare_wartime_industry
+		}
+		days_remove = 365
+		cost = 5
+		complete_effect = {
+			add_timed_idea = {
+				idea = EoF_EQS_industry_production_funding
+				days = 180
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_0
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_0
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_1
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_1
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_2
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_2
+					days = -20
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_3
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_3
+					days = -20
+				}
+			}
+		}
+	}
+	EoF_HWI_decision_4 = {
+		icon = GFX_decision_generic_decision
+		allowed = {
+			original_tag = EQS
+		}
+		available = {
+			has_completed_focus = EoF_appoint_war_prep_board
+			has_idea = board
+		}
+		visible = {
+			has_completed_focus = EoF_prepare_wartime_industry
+		}
+		days_remove = 365
+		cost = 5
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_0
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_0
+					days = -80
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_1
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_1
+					days = -80
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_2
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_2
+					days = -80
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_3
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_3
+					days = -80
+				}
+			}
+		}
+	}
+	EoF_HWI_decision_5 = {
+		icon = GFX_decision_generic_factory
+		allowed = {
+			original_tag = EQS
+		}
+		available = {
+			has_completed_focus = EoF_conversion_factories
+		}
+		visible = {
+			has_completed_focus = EoF_prepare_wartime_industry
+		}
+		days_remove = 30
+		cost = 5
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_0
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_0
+					days = -10
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_1
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_1
+					days = -10
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_2
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_2
+					days = -10
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_3
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_3
+					days = -10
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+				}
+				remove_building = {
+					type = arms_factory
+					level = 1
+				}
+			}
+		}
+	}
+	EoF_HWI_decision_6 = {
+		icon = GFX_decision_generic_factory
+		allowed = {
+			original_tag = EQS
+		}
+		available = {
+			has_completed_focus = EoF_conversion_factories
+		}
+		visible = {
+			has_completed_focus = EoF_prepare_wartime_industry
+		}
+		days_remove = 30
+		cost = 5
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_0
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_0
+					days = -10
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_1
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_1
+					days = -10
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_2
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_2
+					days = -10
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = EoF_EQS_industry_plan_3
+				}
+				modify_timed_idea = {
+					idea = EoF_EQS_industry_plan_3
+					days = -10
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+		}
+	}
+}

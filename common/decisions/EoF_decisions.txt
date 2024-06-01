@@ -114,9 +114,6 @@ EoF_category = {
 					infantry = { x = 5 y = 1 }
 					infantry = { x = 5 y = 2 }
 					infantry = { x = 5 y = 3 }
-
-					support = {
-					}
 				}
 			}
 		}

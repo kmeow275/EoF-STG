@@ -246,6 +246,11 @@ ideas = {
 					}
 				}
 			}
+			visible = {
+				NOT = {
+					has_completed_focus = EoF_nationalize_apple
+				}
+			}
 
 			traits = { agricultural_concern }
 			picture = EQS_sweet_apple_acres

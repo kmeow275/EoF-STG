@@ -38,9 +38,29 @@ characters={
 			}
 
 			available = {
-				has_completed_focus = EoF_real_war_industry
+				has_completed_focus = EoF_promote_industrialists
 			}
 			traits = { EoF_production_conductor }
+		}
+	}
+	EoF_war_prep_board = {
+		name = EoF_war_prep_board
+		portraits = {
+			civilian = {
+				small = "GFX_idea_EoF_redacted"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = board
+			cost = 50
+			allowed = {
+				original_tag = EQS
+			}
+			available = {
+				has_completed_focus = EoF_appoint_war_prep_board
+			}
+			traits = { EoF_board_of_war }
 		}
 	}
 }

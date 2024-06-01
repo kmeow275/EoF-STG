@@ -30,5 +30,33 @@ ideas = {
    			}
 		}
 	}
+	mobilization_laws = {
+		law = yes
+		use_list_view = yes
+		EoF_sunset_conscription = {
+
+			picture = sunset_conscription
+			level = 3
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.15
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_speed_buildings_factor = -0.05
+				training_time_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
 }
-		
