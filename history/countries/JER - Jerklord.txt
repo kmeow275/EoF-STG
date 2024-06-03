@@ -132,7 +132,7 @@ if = {
 actually_fix_weapon_techs = yes #THIS HAS TO BE CALLED IN EVERY HISTORY FILE RIGHT AFTER MAIN set_technology!
 
 add_manpower = 30000
-set_convoys = 70
+set_convoys = 269
 set_popularities = {
 	democratic = 20
 	fascism = 14
