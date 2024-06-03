@@ -89,8 +89,10 @@ NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100			-- Each level of airbase build
 
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 2.0			-- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction.
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 3.0			-- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction.
-NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 5.0		-- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
-NDefines.NNavy.CARRIER_STACK_PENALTY = 8			-- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
+NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 4.0		-- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+NDefines.NNavy.CARRIER_STACK_PENALTY = 0			-- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
+NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.02		-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
+
 NDefines.NNavy.MISSION_SUPREMACY_RATIOS = {
 		0.0, -- HOLD
 		1.0, -- PATROL
