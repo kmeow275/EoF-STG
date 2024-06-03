@@ -14,21 +14,21 @@ state={
 		add_core_of = JER
 		buildings = {
 			infrastructure = 0
-			20664 = {
-				naval_base = 1
-			}
-			20680 = {
-				naval_base = 1
-			}
-			20669 = {
-				naval_base = 1
-			}
-			20661 = {
-				naval_base = 1
-			}
-			20728 = {
-				naval_base = 1
-			}
+			# 20664 = {
+			# 	naval_base = 1
+			# }
+			# 20680 = {
+			# 	naval_base = 1
+			# }
+			# 20669 = {
+			# 	naval_base = 1
+			# }
+			# 20661 = {
+			# 	naval_base = 1
+			# }
+			# 20728 = {
+			# 	naval_base = 1
+			# }
 			20678 = {
 				naval_base = 2
 			}

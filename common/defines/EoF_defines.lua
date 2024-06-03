@@ -111,4 +111,42 @@ NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0			-- Chances one ship get damage ea
 
 NDefines.NNavy.HIT_PROFILE_MULT = 50.0				-- multiplies hit profile of every ship
 
+-- defines that are used for supply reach for built nodes
+NDefines.NSupply.NODE_INITIAL_SUPPLY_FLOW = 3.0
+NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.30
+NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.50
 
+-- defines that are used for supply reach for dockyards
+NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.0
+NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 1.1
+NDefines.NSupply.NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 0.50
+
+-- Node Flow (i.e. province caps) increase by this amount per railway level of the node's bottleneck
+NDefines.NSupply.NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.6
+
+-- defines that are used for supply reach for floating harbors
+NDefines.NSupply.FLOATING_HARBOR_INITIAL_SUPPLY_FLOW = 3.0
+NDefines.NSupply.FLOATING_HARBOR_STARTING_PENALTY_PER_PROVINCE = 0.8
+NDefines.NSupply.FLOATING_HARBOR_ADDED_PENALTY_PER_PROVINCE = 0.5
+
+NDefines.NSupply.FLOATING_HARBOR_BASE_SUPPLY = 15.0		-- supply given by a floating harbor
+NDefines.NSupply.FLOATING_HARBOR_BASE_DURATION = 21		-- duration of a full hp floating harbor
+NDefines.NSupply.FLOATING_HARBOR_DURATION_RATIO_AT_MIN_HP = 0.0					-- duration mult for a harbor that was reduced to 0 hp
+
+-- The range bonus added to a fully motorized hub. This supply is added on top of the XXX_INITIAL_SUPPLY_FLOW defined above.
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_BONUS = 3.0
+-- How many trucks does it cost to fully motorize a hub
+NDefines.NSupply.SUPPLY_HUB_FULL_MOTORIZATION_TRUCK_COST = 120.0
+-- For each additional level of motorization on a hub (i.e. contry with set motoriazation) reduce max bonus for next level by this amount
+NDefines.NSupply.SUPPLY_HUB_MOTORIZATION_MARGINAL_EFFECT_DECAY = 1.0
+
+
+-- used for calculating "flow" for railways.
+NDefines.NSupply.RAILWAY_BASE_FLOW = 15.0			-- how much base flow railway gives when a node connected to its capital/a naval node by a railway
+NDefines.NSupply.RAILWAY_FLOW_PER_LEVEL = 5.0			-- how much additional flow a railway level gives
+NDefines.NSupply.RAILWAY_FLOW_PENALTY_PER_DAMAGED = 3.0		-- penalty to flow per damaged railway
+NDefines.NSupply.RAILWAY_MIN_FLOW = 15.0			-- minimum railway flow can be reduced to
+
+-- used for calculating "flow" from a naval node to another naval node when it is connected via a convoy route
+NDefines.NSupply.NAVAL_BASE_FLOW = 10.0				-- max output/input of a naval node is limited by this base value + additional ratio for each level
+NDefines.NSupply.NAVAL_FLOW_PER_LEVEL = 3.0			-- max output/input of a naval node is limited by previous base value + this define per its level

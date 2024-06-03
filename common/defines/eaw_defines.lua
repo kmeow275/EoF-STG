@@ -113,17 +113,6 @@ NDefines.NSupply.CAPITAL_INITIAL_SUPPLY_FLOW = 5.0 -- starting supply from
 NDefines.NSupply.CAPITAL_STARTING_PENALTY_PER_PROVINCE = 0.5 -- starting penalty that will be added as supply moves away from its origin (modified by stuff like terrain) (Default is 0.5)
 NDefines.NSupply.CAPITAL_ADDED_PENALTY_PER_PROVINCE = 1.2 -- added penalty as we move away from origin (Default is 1.2)
 
--- defines that are used for supply reach for built nodes
-NDefines.NSupply.NODE_INITIAL_SUPPLY_FLOW = 2.8
-NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.30 -- default is 0.5
-NDefines.NSupply.NODE_ADDED_PENALTY_PER_PROVINCE = 0.50 -- default is 0.7
-
--- defines that are used for supply reach for dockyards
-NDefines.NSupply.NAVAL_BASE_INITIAL_SUPPLY_FLOW = 3.3
-NDefines.NSupply.NAVAL_BASE_STARTING_PENALTY_PER_PROVINCE = 0.84
-NDefines.NSupply.NAVAL_BASE_ADDED_PENALTY_PER_PROVINCE = 1.1
-
-
 NDefines.NTechnology.BASE_TECH_COST = 80					-- Base cost for a tech. multiplied with tech cost and ahead of time penalties. 100 in vanilla
 NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 3	-- Base year ahead penalty. Vanilla is 2
 

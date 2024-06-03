@@ -914,4 +914,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 84;6166;impassable;-1;-1;-1;-1;-1;;EQC-WNG Front
 
 10457;15863;sea;2285;1898;1961;1898;1961;;CHN-ABY Front
+
+6891;3838;sea;5275;-1;-1;-1;-1;;SpaIslands
+3838;11804;sea;5275;-1;-1;-1;-1;;SpaIslands
+9863;10917;sea;5250;-1;-1;-1;-1;;SpaIslands
 -1;-1;;-1;-1;-1;-1;-1;-1
