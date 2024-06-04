@@ -169,6 +169,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus FAT_chaos_in_the_countryside"
 		country_event = griffonRepublic.208
 		add_stability = 0.05
+		add_political_power = 150
 	}
 	search_filters = { FOCUS_FILTER_STABILITY }
 }
