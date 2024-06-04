@@ -1,11 +1,6 @@
 spriteTypes = {
 	###GUIs###
 	spriteType = {
-		name = "GFX_buildings_strip_2"
-		textureFile = "gfx/interface/buildings/building_icon_strip_2.dds"
-		noOfFrames = 14
-	}
-	spriteType = {
 		name = "GFX_division_designer_popup_bg_2"
 		textureFile = "gfx//interface//division_designer_popup_bg_2.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
