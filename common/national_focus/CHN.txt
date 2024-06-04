@@ -1024,10 +1024,7 @@ focus_tree = {
 			# 	type = annex_everything
 			# 	target = OLE
 			# }
-			annex_country = {
-				target = OLE
-				transfer_troops = yes
-			}
+			unlock_decision_tooltip = CHN_olenia_protectorate
 			hidden_effect = {
 				every_country_with_original_tag = {
 					original_tag_to_check = OLE

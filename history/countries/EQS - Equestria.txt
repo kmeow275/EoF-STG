@@ -19,7 +19,7 @@ if = {
 	}
 }
 
-set_research_slots = 4
+set_research_slots = 5
 starting_train_buffer = 4
 
 save_global_event_target_as = equestria

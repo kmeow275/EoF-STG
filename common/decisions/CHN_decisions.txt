@@ -1674,20 +1674,7 @@ CHN_protectorates = {
 		icon = deer
 		available = {
 			has_government = fascism
-			NOT = {
-				OLE = {
-					has_completed_focus = OLE_accept_servitude
-				}
-			}
-			OR = {
-				OLE = { is_subject_of = ROOT }
-				AND = {
-					NOT = { country_exists = OLE }
-					any_occupied_country = {
-						tag = OLE
-					}
-				}
-			}
+			has_completed_focus = conquest
 		}
 
 		cost = 15
@@ -1711,16 +1698,7 @@ CHN_protectorates = {
 
 		visible = {
 			has_government = fascism
-			NOT = { has_global_flag = OLE_agreed_on_puppet }
-			OR = {
-				OLE = { is_subject_of = ROOT }
-				AND = {
-					NOT = { country_exists = OLE }
-					any_occupied_country = {
-						tag = OLE
-					}
-				}
-			}
+			has_completed_focus = conquest
 		}
 
 		modifier = {

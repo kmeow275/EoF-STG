@@ -347,7 +347,7 @@ EoF_harmonic_war_industry_category = {
 		}
 		days_remove = 365
 		cost = 30
-		remove_effect = {
+		complete_effect = {
 			if = {
 				limit = {
 					has_idea = EoF_EQS_industry_plan_0
@@ -396,13 +396,10 @@ EoF_harmonic_war_industry_category = {
 		}
 		days_remove = 365
 		cost = 5
-		complete_effect = {
-			add_timed_idea = {
-				idea = EoF_EQS_industry_research_funding
-				days = 180
-			}		
+		modifier = {
+			research_speed_factor = -0.05
 		}
-		remove_effect = {
+		complete_effect = {
 			if = {
 				limit = {
 					has_idea = EoF_EQS_industry_plan_0
@@ -451,13 +448,10 @@ EoF_harmonic_war_industry_category = {
 		}
 		days_remove = 365
 		cost = 5
-		complete_effect = {
-			add_timed_idea = {
-				idea = EoF_EQS_industry_construction_funding
-				days = 180
-			}	
+		modifier = {
+			production_speed_buildings_factor = -0.05
 		}
-		remove_effect = {
+		complete_effect = {
 			if = {
 				limit = {
 					has_idea = EoF_EQS_industry_plan_0
@@ -506,13 +500,10 @@ EoF_harmonic_war_industry_category = {
 		}
 		days_remove = 365
 		cost = 5
-		complete_effect = {
-			add_timed_idea = {
-				idea = EoF_EQS_industry_production_funding
-				days = 180
-			}
+		modifier = {
+			production_factory_max_efficiency_factor = -0.03
 		}
-		remove_effect = {
+		complete_effect = {
 			if = {
 				limit = {
 					has_idea = EoF_EQS_industry_plan_0
@@ -564,8 +555,8 @@ EoF_harmonic_war_industry_category = {
 			has_completed_focus = EoF_prepare_wartime_industry
 		}
 		days_remove = 365
-		cost = 5
-		remove_effect = {
+		cost = 30
+		complete_effect = {
 			if = {
 				limit = {
 					has_idea = EoF_EQS_industry_plan_0
@@ -617,7 +608,7 @@ EoF_harmonic_war_industry_category = {
 		}
 		days_remove = 30
 		cost = 5
-		remove_effect = {
+		complete_effect = {
 			if = {
 				limit = {
 					has_idea = EoF_EQS_industry_plan_0
@@ -678,7 +669,7 @@ EoF_harmonic_war_industry_category = {
 		}
 		days_remove = 30
 		cost = 5
-		remove_effect = {
+		complete_effect = {
 			if = {
 				limit = {
 					has_idea = EoF_EQS_industry_plan_0
