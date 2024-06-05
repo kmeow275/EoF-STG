@@ -146,7 +146,7 @@ EoF_category = {
 		}
 		complete_effect = {
 			EQC = {
-				every_controlled_state = {
+				every_owned_state = {
 					limit = {
 						OR = {
 							state = 208
@@ -160,12 +160,20 @@ EoF_category = {
 							state = 362
 							state = 364
 							state = 365
-							state = 675
+							state = 675 
 							state = 676
 							state = 363
 						}
 					}
-					transfer_state_to = EQS
+					if = {
+						limit = {
+							is_fully_controlled_by = EQC
+						}
+						transfer_state_to = EQS
+					}
+					EQS = {
+						set_state_owner = PREV
+					}
 					add_core_of = EQS
 					remove_core_of = EQC
 				}
@@ -183,7 +191,7 @@ EoF_category = {
 		}
 		visible = {
 			EQC = {
-				is_ai = no
+				is_ai = yes
 			}
 			OR = {
 				208 = { is_controlled_by = EQS }
@@ -203,7 +211,11 @@ EoF_category = {
 			}
 		}
 		complete_effect = {
-			every_controlled_state = {
+			set_autonomy = {
+				target = EQC
+				autonomous_state = autonomy_dominion
+			}
+			every_owned_state = {
 				limit = {
 					OR = {
 						state = 208
@@ -222,13 +234,17 @@ EoF_category = {
 						state = 363
 					}
 				}
-				transfer_state_to = EQC
+				if = {
+					limit = {
+						is_fully_controlled_by = EQS
+					}
+					transfer_state_to = EQC
+				}
+				EQC = {
+					set_state_owner = PREV
+				}
 				add_core_of = EQC
 				remove_core_of = EQS
-			}
-			set_autonomy = {
-				target = EQC
-				autonomous_state = autonomy_dominion
 			}
 		}
 	}
