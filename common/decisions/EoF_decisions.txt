@@ -118,4 +118,442 @@ EoF_category = {
 			}
 		}
 	}
+	EoF_AI_EQC_decision = {
+		icon = GFX_decision_generic_break_treaty
+		allowed = {
+			original_tag = EQS
+		}
+		visible = {
+			EQC = {
+				is_ai = yes
+			}
+			OR = {
+				208 = { is_controlled_by = EQC }
+				390 = { is_controlled_by = EQC }
+				381 = { is_controlled_by = EQC }
+				658 = { is_controlled_by = EQC }
+				659 = { is_controlled_by = EQC }
+				660 = { is_controlled_by = EQC }
+				360 = { is_controlled_by = EQC }
+				361 = { is_controlled_by = EQC }
+				362 = { is_controlled_by = EQC }
+				363 = { is_controlled_by = EQC }
+				364 = { is_controlled_by = EQC }
+				365 = { is_controlled_by = EQC }
+				675 = { is_controlled_by = EQC }
+				676 = { is_controlled_by = EQC }
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					208 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				208 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					390 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				390 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					381 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				381 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					658 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				658 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					659 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				659 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					660 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				660 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					360 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				360 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					361 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				361 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					362 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				362 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					363 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				363 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					364 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				364 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					365 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				365 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					675 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				675 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			if = {
+				limit = {
+					676 = {
+						is_owned_and_controlled_by = EQC
+					}
+				}
+				676 = {
+					transfer_state_to = EQS
+					add_core_of = EQS
+					remove_core_of = EQC
+				}
+			}
+			set_autonomy = {
+				target = EQC
+				autonomous_state = autonomy_integrated_puppet
+			}
+		}
+	}
+	EoF_player_EQC_decision = {
+		icon = GFX_decision_eng_trade_unions_support
+		allowed = {
+			original_tag = EQS
+		}
+		visible = {
+			EQC = {
+				is_ai = no
+			}
+			OR = {
+				208 = { is_controlled_by = EQS }
+				390 = { is_controlled_by = EQS }
+				381 = { is_controlled_by = EQS }
+				658 = { is_controlled_by = EQS }
+				659 = { is_controlled_by = EQS }
+				660 = { is_controlled_by = EQS }
+				360 = { is_controlled_by = EQS }
+				361 = { is_controlled_by = EQS }
+				362 = { is_controlled_by = EQS }
+				363 = { is_controlled_by = EQS }
+				364 = { is_controlled_by = EQS }
+				365 = { is_controlled_by = EQS }
+				675 = { is_controlled_by = EQS }
+				676 = { is_controlled_by = EQS }
+			}
+		}
+		complete_effect = {
+			if = {
+				limit = {
+					208 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				208 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					390 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				390 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					381 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				381 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					658 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				658 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					659 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				659 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					660 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				660 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					360 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				360 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					361 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				361 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					362 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				362 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					363 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				363 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					364 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				364 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					365 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				365 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					675 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				675 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			if = {
+				limit = {
+					676 = {
+						is_owned_and_controlled_by = EQS
+					}
+				}
+				676 = {
+					transfer_state_to = EQC
+					add_core_of = EQC
+					remove_core_of = EQS
+				}
+			}
+			set_autonomy = {
+				target = EQC
+				autonomous_state = autonomy_dominion
+			}
+		}
+	}
+	EoF_AI_OLE_decision = {
+		icon = GFX_decision_generic_break_treaty
+		allowed = {
+			original_tag = CHN
+		}
+		visible = {
+			OLE = {
+				is_ai = yes
+				is_subject_of = CHN
+				has_idea = EoF_OLE_deal
+			}
+		}
+		complete_effect = {
+			OLE = {
+				remove_ideas = EoF_OLE_deal
+			}
+		}
+	}
+	EoF_player_OLE_decision = {
+		icon = GFX_decision_eng_trade_unions_support
+		allowed = {
+			original_tag = CHN
+		}
+		visible = {
+			OLE = {
+				is_ai = no
+				is_subject_of = CHN
+				NOT = { has_idea = EoF_OLE_deal }
+			}
+		}
+		complete_effect = {
+			OLE = {
+				add_ideas = EoF_OLE_deal
+			}
+		}
+	}
 }

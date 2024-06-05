@@ -72,6 +72,14 @@ ideas = {
 				custom_modifier_tooltip = EoF_CHN_core_buff_tt
 			}
 		}
+		EoF_OLE_deal = {
+			removal_cost = -1
+			picture = can_wartime_prices_and_trade_board
+			modifier = {
+				cic_to_overlord_factor = -0.75
+				mic_to_overlord_factor = -0.75
+			}
+		}
 		EoF_CHN_final_army_expansion = {
 			removal_cost = -1
 			picture = ARG_rapid_militarization
