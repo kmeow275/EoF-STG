@@ -145,169 +145,26 @@ EoF_category = {
 			}
 		}
 		complete_effect = {
-			if = {
-				limit = {
-					208 = {
-						is_owned_and_controlled_by = EQC
+			EQC = {
+				every_controlled_state = {
+					limit = {
+						OR = {
+							state = 208
+							state = 390
+							state = 381
+							state = 658
+							state = 659
+							state = 660
+							state = 360
+							state = 361
+							state = 362
+							state = 364
+							state = 365
+							state = 675
+							state = 676
+							state = 363
+						}
 					}
-				}
-				208 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					390 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				390 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					381 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				381 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					658 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				658 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					659 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				659 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					660 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				660 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					360 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				360 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					361 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				361 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					362 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				362 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					363 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				363 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					364 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				364 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					365 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				365 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					675 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				675 = {
-					transfer_state_to = EQS
-					add_core_of = EQS
-					remove_core_of = EQC
-				}
-			}
-			if = {
-				limit = {
-					676 = {
-						is_owned_and_controlled_by = EQC
-					}
-				}
-				676 = {
 					transfer_state_to = EQS
 					add_core_of = EQS
 					remove_core_of = EQC
@@ -346,173 +203,28 @@ EoF_category = {
 			}
 		}
 		complete_effect = {
-			if = {
+			every_controlled_state = {
 				limit = {
-					208 = {
-						is_owned_and_controlled_by = EQS
+					OR = {
+						state = 208
+						state = 390
+						state = 381
+						state = 658
+						state = 659
+						state = 660
+						state = 360
+						state = 361
+						state = 362
+						state = 364
+						state = 365
+						state = 675
+						state = 676
+						state = 363
 					}
 				}
-				208 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					390 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				390 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					381 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				381 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					658 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				658 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					659 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				659 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					660 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				660 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					360 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				360 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					361 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				361 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					362 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				362 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					363 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				363 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					364 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				364 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					365 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				365 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					675 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				675 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
-			}
-			if = {
-				limit = {
-					676 = {
-						is_owned_and_controlled_by = EQS
-					}
-				}
-				676 = {
-					transfer_state_to = EQC
-					add_core_of = EQC
-					remove_core_of = EQS
-				}
+				transfer_state_to = EQC
+				add_core_of = EQC
+				remove_core_of = EQS
 			}
 			set_autonomy = {
 				target = EQC
