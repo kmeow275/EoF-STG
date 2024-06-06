@@ -567,15 +567,13 @@ technologies = {
 	heavyartillery5 = {
 
 		heavy_artillery = {
-			soft_attack = 0.05
+			soft_attack = 0.1
 		}
 		heavy_artillery_brigade = {
-			soft_attack = 0.05
-			maximum_speed = -0.1
+			soft_attack = 0.1
 		}
 		mech_heavy_artillery_brigade = {
-			soft_attack = 0.05
-			maximum_speed = -0.1
+			soft_attack = 0.1
 		}
 
 		start_year = 1013
@@ -607,15 +605,13 @@ technologies = {
 		}
 
 		heavy_artillery = {
-			soft_attack = 0.05		
+			soft_attack = 0.1
 		}
 		heavy_artillery_brigade = {
-			soft_attack = 0.05
-			maximum_speed = -0.1
+			soft_attack = 0.1
 		}
 		mech_heavy_artillery_brigade = {
-			soft_attack = 0.05
-			maximum_speed = -0.1
+			soft_attack = 0.1
 		}
 
 		start_year = 1014
@@ -634,8 +630,15 @@ technologies = {
 
 	heavyartillery7 = {
 
+		heavy_artillery = {
+			soft_attack = 0.05		
+		}
 		heavy_artillery_brigade = {
+			soft_attack = 0.05
 			maximum_speed = 0.15
+		}
+		mech_heavy_artillery_brigade = {
+			soft_attack = 0.05
 		}
 
 		start_year = 1013
@@ -666,8 +669,15 @@ technologies = {
 			tank_heavy_howitzer_2
 		}
 
+		heavy_artillery = {
+			soft_attack = 0.05		
+		}
 		heavy_artillery_brigade = {
+			soft_attack = 0.05
 			maximum_speed = 0.15
+		}
+		mech_heavy_artillery_brigade = {
+			soft_attack = 0.05
 		}
 
 		start_year = 1014
