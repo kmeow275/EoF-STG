@@ -191,7 +191,7 @@ EoF_category = {
 		}
 		visible = {
 			EQC = {
-				is_ai = yes
+				is_ai = no
 			}
 			OR = {
 				208 = { is_controlled_by = EQS }
