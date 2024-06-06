@@ -21,6 +21,7 @@ NDefines.NMilitary.COMBAT_STACKING_EXTRA = 2                    -- extra stackin
 NDefines.NMilitary.COMBAT_STACKING_PENALTY = -0.1		-- how much stacking penalty per division
 
 NDefines.NMilitary.TRAINING_ATTRITION = 0		  	-- amount of extra attrition from being in training
+NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 6.0
 
 NDefines.NMilitary.SLOWEST_SPEED = 1
 
@@ -73,6 +74,8 @@ NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 0	-- XP cost for removing
 NDefines.NProduction.MINIMUM_NUMBER_OF_FACTORIES_TAKEN_BY_CONSUMER_GOODS_VALUE = 0		-- The minimum number of factories we have to put on consumer goods, by value.
 NDefines.NProduction.BASE_LICENSE_IC_COST = 0			-- Base IC cost for lended license
 NDefines.NProduction.LICENSE_IC_COST_YEAR_INCREASE = 0		-- IC cost equipment for every year of equipment after 1936
+
+NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 1000000	-- How many deployment lines minimum can be training
 
 NDefines.NCountry.AIR_SUPPLY_CONVERSION_SCALE = 0.1		-- Conversion scale for planes to air supply
 

@@ -56,6 +56,17 @@ ideas = {
 				trade_cost_for_target_factor = 1
 			}
 		}
+		EoF_peacetime_training = {
+			removal_cost = -1
+			picture = generic_army_war_college
+			cancel = {
+				has_war = yes
+			}
+			modifier = {
+				experience_gain_army = 0.25
+				training_time_army_factor = -0.5
+			}			
+		}
 		EoF_YAK_JAK_civil_war = {
 			removal_cost = -1
 			picture = YAK_yakistanks
