@@ -147,6 +147,7 @@ focus_tree = {
 			add_war_support = 0.025
 			remove_ideas = EoF_OLE_raising_dissent
 			custom_effect_tooltip = EoF_black_parade_tt
+			set_country_flag = OLE_situation_stable
 		}
 	}
 
@@ -169,7 +170,6 @@ focus_tree = {
 			remove_ideas = EoF_OLE_prepared_army
 			remove_ideas = EoF_OLE_gun_production
 			add_ideas = EoF_OLE_real_purpose
-			set_country_flag = OLE_situation_stable
 		}
 	}
 
