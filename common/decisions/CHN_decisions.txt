@@ -1764,6 +1764,7 @@ CHN_protectorates = {
 
 			OLE = {
 				hidden_effect = {
+					country_event = { id = EoF.ole.5 days = 1 }
 					add_ideas = EoF_OLE_deal
 					every_owned_state = {
 						limit = { has_state_flag = chn_claim }
