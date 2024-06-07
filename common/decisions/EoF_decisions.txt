@@ -263,6 +263,9 @@ EoF_category = {
 		complete_effect = {
 			OLE = {
 				remove_ideas = EoF_OLE_deal
+				transfer_navy = {
+					target = CHN
+				}
 			}
 		}
 	}
