@@ -463,13 +463,13 @@ country_event = {
 			custom_effect_tooltip = available_mio_tt
 			show_mio_tooltip = OLE_alda_gunworks_organization
 			mio:OLE_alda_gunworks_organization = {
-				add_mio_funds = 900
+				add_mio_funds = 700
 			}
 			mio:OLE_keisarillinen_organization = {
-				add_mio_funds = 900
+				add_mio_funds = 700
 			}
 			mio:OLE_korvensuu_organization = {
-				add_mio_funds = 900
+				add_mio_funds = 700
 			}
 		}
 		else = {
