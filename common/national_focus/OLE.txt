@@ -15,118 +15,199 @@ focus_tree = {
 	###------> Politics <><> <><> <><> <><> <><>
 
 	###NEW WW POLITICAL FOCUSES
+
 	focus = {
-		id = OLE_rally_against_changelings
+		available = {
+			is_subject = no
+		}
+		id = EoF_march_against_ultimate_threat
 		icon = GFX_focus_generic_strike_at_democracy1
 		x = 2
 		y = 0
-		cost = 6
+		cost = 7
 
 		ai_will_do = {
 			factor = 5
 			}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus OLE_rally_against_changelings"
 			add_political_power = 100
+			add_stability = 0.05
 		}
-
 	}
 
 	focus = {
-		id = OLE_patriotic_oligarchs
+		available = {
+			is_subject = no
+		}
+		id = EoF_patriotic_oligarchs
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = OLE_rally_against_changelings }
+		prerequisite = { focus = EoF_march_against_ultimate_threat }
 		x = -1
 		y = 1
-		cost = 6
-		relative_position_id = OLE_rally_against_changelings
+		cost = 7
+		relative_position_id = EoF_march_against_ultimate_threat
 
 		ai_will_do = {
 			factor = 5
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			custom_effect_tooltip = EoF_OLE_patriotic_oligarchs_tt
+			country_event = { id = EoF.ole.1 days = 1 }
 		}
-
 	}
 
 	focus = {
-		id = OLE_deluge_of_rifles
+		available = {
+			is_subject = no
+		}
+		id = EoF_deluge_of_rifles
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = OLE_patriotic_oligarchs }
+		prerequisite = { focus = EoF_patriotic_oligarchs }
 		x = 0
 		y = 1
-		cost = 6
-		relative_position_id = OLE_patriotic_oligarchs
+		cost = 7
+		relative_position_id = EoF_patriotic_oligarchs
 
 		ai_will_do = {
 			factor = 5
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			custom_effect_tooltip = EoF_deluge_of_rifles_tt
+			country_event = { id = EoF.ole.2 days = 1 }
 		}
-
 	}
 
 	focus = {
-		id = OLE_breathtaking_swell_of_patriotism
+		available = {
+			is_subject = no
+		}
+		id = EoF_breathtaking_swell_of_patriotism
 		icon = GFX_goal_LEC_monkey
-		prerequisite = { focus = OLE_rally_against_changelings }
+		prerequisite = { focus = EoF_march_against_ultimate_threat }
 		x = 1
 		y = 1
-		cost = 6
-		relative_position_id = OLE_rally_against_changelings
+		cost = 7
+		relative_position_id = EoF_march_against_ultimate_threat
 
 		ai_will_do = {
 			factor = 5
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			custom_effect_tooltip = EoF_breathtaking_swell_of_patriotism_tt
+			country_event = { id = EoF.ole.3 days = 1 }
 		}
-
 	}
 
 	focus = {
-		id = OLE_turn_country_into_inpenetrable_rock
+		available = {
+			is_subject = no
+		}
+		id = EoF_become_unconquerable
 		icon = GFX_goal_nested_fortifications
-		prerequisite = { focus = OLE_breathtaking_swell_of_patriotism }
+		prerequisite = { focus = EoF_breathtaking_swell_of_patriotism }
 		x = 0
 		y = 1
-		cost = 6
-		relative_position_id = OLE_breathtaking_swell_of_patriotism
+		cost = 7
+		relative_position_id = EoF_breathtaking_swell_of_patriotism
 
 		ai_will_do = {
 			factor = 5
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			custom_effect_tooltip = EoF_become_unconquerable_tt
+			country_event = { id = EoF.ole.4 days = 1 }
 		}
-
 	}
 
 	focus = {
-		id = OLE_grand_parade
-		icon = GFX_goal_nested_fortifications
-		prerequisite = { focus = OLE_turn_country_into_inpenetrable_rock }
-		prerequisite = { focus = OLE_deluge_of_rifles }
+		available = {
+			is_subject = no
+		}
+		id = EoF_black_parade
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = EoF_become_unconquerable }
+		prerequisite = { focus = EoF_deluge_of_rifles }
 		x = -1
 		y = 1
-		cost = 6
-		relative_position_id = OLE_turn_country_into_inpenetrable_rock
+		cost = 7
+		relative_position_id = EoF_become_unconquerable
 
 		ai_will_do = {
 			factor = 5
 		}
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.025
+			remove_ideas = EoF_OLE_raising_dissent
+			custom_effect_tooltip = EoF_black_parade_tt
+		}
+	}
+
+	focus = {
+		allow_branch = {
+			is_subject = yes
+		}
+		id = EoF_sort_out_olenian_mess
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 0
+		y = 1
+		cost = 7
+		relative_position_id = EoF_black_parade
+
+		ai_will_do = {
+			factor = 100
 		}
 
+		completion_reward = {
+			remove_ideas = EoF_OLE_prepared_army
+			remove_ideas = EoF_OLE_gun_production
+			add_ideas = EoF_OLE_real_purpose
+			set_country_flag = OLE_situation_stable
+		}
+	}
+
+	focus = {
+		id = EoF_sensible_anti_corruption_reform
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = EoF_sort_out_olenian_mess }
+		x = -1
+		y = 1
+		cost = 7
+		relative_position_id = EoF_sort_out_olenian_mess
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			unlock_decision_tooltip = EoF_OLE_reduce_corruption
+		}
+	}
+
+	focus = {
+		id = EoF_send_deer_to_the_mines
+		icon = GFX_goal_forced_con
+		prerequisite = { focus = EoF_sort_out_olenian_mess }
+		x = 1
+		y = 1
+		cost = 7
+		relative_position_id = EoF_sort_out_olenian_mess
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+			add_ideas = tot_economic_mobilisation
+			add_political_power = -150
+		}
 	}
 
 	##########OLENIA HARMONY/COMMUNISM BY PSODY DO NOT TOUCH OR I STAB YOU####################
@@ -2700,7 +2781,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = { factor = 8 }
-		x = 32
+		x = 9
 		y = 0
 		cost = 10
 		available_if_capitulated = no
@@ -2722,7 +2803,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		#bypass = {}
 		ai_will_do = { factor = 4 }
-		x = 35
+		x = 12
 		y = 1
 		prerequisite = { focus = OLE_industrial_incentives }
 		available = {
@@ -2751,7 +2832,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_infrastructure
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 34
+		x = 11
 		y = 2
 		available = {
 			OR = {
@@ -2803,7 +2884,7 @@ focus_tree = {
 		icon = GFX_goal_dam
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 37
+		x = 14
 		y = 2
 		prerequisite = { focus = OLE_public_works_fund }
 		available = {
@@ -2884,7 +2965,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 39
+		x = 16
 		y = 2
 		prerequisite = { focus = OLE_public_works_fund }
 		cost = 8
@@ -2942,7 +3023,7 @@ focus_tree = {
 				event_target:equestria = { has_government = democratic }
 			}
 		}
-		x = 38
+		x = 15
 		y = 3
 		prerequisite = { focus = OLE_the_great_northern_wall }
 		prerequisite = { focus = OLE_great_coastal_railroad }
@@ -2981,7 +3062,7 @@ focus_tree = {
 		icon = GFX_goal_generic_defence
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 40
+		x = 17
 		y = 3
 		prerequisite = { focus = OLE_the_great_northern_wall }
 		cost = 7
@@ -3002,7 +3083,7 @@ focus_tree = {
 			204 = { is_owned_and_controlled_by = ROOT }
 		}
 		ai_will_do = { factor = 3 }
-		x = 39
+		x = 16
 		y = 4
 		prerequisite = {
 			focus = OLE_national_defence_commitee
@@ -3080,7 +3161,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = 36
+		x = 13
 		y = 3
 		prerequisite = { focus = OLE_great_coastal_railroad }
 		cost = 10
@@ -3108,7 +3189,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 34
+		x = 11
 		y = 3
 		prerequisite = { focus = OLE_great_coastal_railroad }
 		prerequisite = { focus = OLE_cervus_industrial_district }
@@ -3161,7 +3242,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 34
+		x = 11
 		y = 5
 		prerequisite = { focus = OLE_great_iron_works }
 		mutually_exclusive = { focus = OLE_a_gun_for_every_buck }
@@ -3270,7 +3351,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production2
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 32
+		x = 9
 		y = 1
 		prerequisite = { focus = OLE_industrial_incentives }
 		available = {
@@ -3388,7 +3469,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_civ_factory
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 32
+		x = 9
 		y = 2
 		prerequisite = { focus = OLE_industrial_revolution }
 
@@ -3442,7 +3523,7 @@ focus_tree = {
 		icon = GFX_focus_research
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 31
+		x = 8
 		y = 3
 		prerequisite = { focus = OLE_cervus_industrial_district }
 		available = {
@@ -3471,7 +3552,7 @@ focus_tree = {
 		icon = GFX_focus_wonderweapons
 		#bypass = {}
 		ai_will_do = { factor = 1 }
-		x = 31
+		x = 8
 		y = 4
 		prerequisite = { focus = OLE_hjortland_institute_of_engineering }
 		cost = 10
@@ -3505,7 +3586,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		#bypass = {}
 		ai_will_do = { factor = 1.5 }
-		x = 29
+		x = 6
 		y = 1
 		prerequisite = { focus = OLE_industrial_incentives }
 		available = {
@@ -3557,7 +3638,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construct_mil_factory
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 29
+		x = 6
 		y = 2
 		prerequisite = { focus = OLE_invest_in_the_military }
 
@@ -3616,7 +3697,7 @@ focus_tree = {
 		icon = GFX_focus_generic_air_defense
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 29
+		x = 6
 		y = 3
 		prerequisite = { focus = OLE_alda_gunworks }
 		cost = 10
@@ -3721,7 +3802,7 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		#bypass = {}
 		ai_will_do = { factor = 3 }
-		x = 29
+		x = 6
 		y = 5
 		prerequisite = { focus = OLE_national_defence_fund }
 		mutually_exclusive = { focus = OLE_end_the_cottage_industry }
@@ -3906,7 +3987,7 @@ focus_tree = {
 		available = { OR = { has_war = yes has_country_flag = OLE_situation_stable } }
 		icon = GFX_goal_Olenian_Army_2
 		cost = 5.00
-		x = 48
+		x = 25
 		y = 0
 		ai_will_do = {
 			factor = 1.5
@@ -3929,7 +4010,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = OLE_army }
 		mutually_exclusive = { focus = OLE_doctrine_1 }
-		x = 51
+		x = 28
 		y = 1
 		cost = 8.00
 		ai_will_do = {
@@ -3959,7 +4040,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = OLE_army }
 		mutually_exclusive = { focus = OLE_doctrine_2 }
-		x = 45
+		x = 22
 		y = 1
 		cost = 8.00
 		ai_will_do = {
@@ -3988,7 +4069,7 @@ focus_tree = {
 		id = OLE_mot
 		icon = GFX_goal_generic_cavalry
 		prerequisite = { focus = OLE_doctrine_1 }
-		x = 44
+		x = 21
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -4008,7 +4089,7 @@ focus_tree = {
 	focus = {
 		id = OLE_mech
 		icon = GFX_goal_generic_army_motorized
-		x = 44
+		x = 21
 		y = 3
 		cost = 10
 		prerequisite = { focus = OLE_mot }
@@ -4032,7 +4113,7 @@ focus_tree = {
 		id = OLE_light_tank
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = OLE_doctrine_1 }
-		x = 46
+		x = 23
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -4058,7 +4139,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OLE_light_tank
 		}
-		x = 46
+		x = 23
 		y = 3
 		ai_will_do = {
 			factor = 1.5
@@ -4083,7 +4164,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1.5
 		}
-		x = 46
+		x = 23
 		y = 4
 		cost = 10
 		completion_reward = {
@@ -4105,7 +4186,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1.5
 		}
-		x = 45
+		x = 22
 		y = 5
 		cost = 10
 		completion_reward = {
@@ -4122,7 +4203,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1.5
 		}
-		x = 46
+		x = 23
 		y = 6
 		cost = 10
 		completion_reward = {
@@ -4140,7 +4221,7 @@ focus_tree = {
 		id = OLE_support
 		prerequisite = { focus = OLE_doctrine_2 }
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 50
+		x = 27
 		y = 2
 		ai_will_do = {
 			factor = 1.5
@@ -4164,7 +4245,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OLE_support
 		}
-		x = 50
+		x = 27
 		y = 3
 		ai_will_do = {
 			factor = 1.5
@@ -4190,7 +4271,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1.5
 		}
-		x = 50
+		x = 27
 		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_new_arty"
@@ -4213,7 +4294,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1.5
 		}
-		x = 52
+		x = 29
 		y = 2
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_computing"
@@ -4230,7 +4311,7 @@ focus_tree = {
 		id = OLE_focus_electronics
 		icon = GFX_goal_generic_radar
 		prerequisite = { focus = OLE_computing }
-		x = 52
+		x = 29
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -4263,7 +4344,7 @@ focus_tree = {
 		icon = GFX_goal_generic_army_artillery2
 		prerequisite = { focus = OLE_focus_electronics }
 		prerequisite = { focus = OLE_new_arty }
-		x = 51
+		x = 28
 		y = 5
 		cost = 10.00
 		ai_will_do = {
@@ -4282,7 +4363,7 @@ focus_tree = {
 		icon = GFX_focus_rocketry
 		cost = 10.0
 		prerequisite = { focus = OLE_better_arty }
-		x = 50
+		x = 27
 		y = 6
 
 		ai_will_do = {
@@ -4311,7 +4392,7 @@ focus_tree = {
 			factor = 1.5
 		}
 		prerequisite = { focus = OLE_rocketry focus = OLE_super_tank }
-		x = 48
+		x = 25
 		y = 7
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_military_academy"
@@ -4324,7 +4405,7 @@ focus_tree = {
 		available = { OR = { has_war = yes has_country_flag = OLE_situation_stable } }
 		id = OLE_navy_focus
 		icon = GFX_goal_Olenian_Navy_1
-		x = 58
+		x = 35
 		y = 0
 		cost = 8.00
 		ai_will_do = {
@@ -4367,7 +4448,7 @@ focus_tree = {
 			factor = 1
 		}
 		prerequisite = { focus = OLE_navy_focus }
-		x = 58
+		x = 35
 		y = 1
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_navy_academy"
@@ -4383,7 +4464,7 @@ focus_tree = {
 	focus = {
 		id = OLE_navy_base_1
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 58
+		x = 35
 		y = 3
 		cost = 8.00
 		ai_will_do = {
@@ -4410,7 +4491,7 @@ focus_tree = {
 	focus = {
 		id = OLE_navy_base_2
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 58
+		x = 35
 		y = 4
 		cost = 8.00
 		ai_will_do = {
@@ -4439,7 +4520,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite =  { focus = OLE_navy_academy  }
 		mutually_exclusive = { focus = OLE_navy_doctrine_2 }
-		x = 56
+		x = 33
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -4474,7 +4555,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_carrier
 		prerequisite =  { focus = OLE_navy_academy }
 		mutually_exclusive = { focus = OLE_navy_doctrine_1 }
-		x = 60
+		x = 37
 		y = 2
 		cost = 10
 		ai_will_do = {
@@ -4508,7 +4589,7 @@ focus_tree = {
 		id = OLE_heavy_cruiser_focus
 		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = OLE_navy_doctrine_1 }
-		x = 56
+		x = 33
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -4530,7 +4611,7 @@ focus_tree = {
 		id = OLE_naval_aviation
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = OLE_navy_doctrine_2 }
-		x = 60
+		x = 37
 		y = 3
 		cost = 10
 		ai_will_do = {
@@ -4571,7 +4652,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_anti_submarine
 		prerequisite = { focus = OLE_heavy_cruiser_focus }
 		prerequisite = { focus = OLE_navy_base_2 }
-		x = 57
+		x = 34
 		y = 5
 		cost = 10
 		ai_will_do = {
@@ -4594,7 +4675,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_submarine
 		prerequisite = { focus = OLE_navy_base_2 }
 		prerequisite = { focus = OLE_naval_aviation }
-		x = 59
+		x = 36
 		y = 5
 		cost = 10
 		ai_will_do = {
@@ -4615,7 +4696,7 @@ focus_tree = {
 		id = OLE_battleships
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = { focus = OLE_destroyers }
-		x = 57
+		x = 34
 		y = 6
 		cost = 10
 		ai_will_do = {
@@ -4643,7 +4724,7 @@ focus_tree = {
 		id = OLE_carriers
 		icon = GFX_goal_generic_navy_carrier
 		prerequisite = { focus = OLE_submarines }
-		x = 59
+		x = 36
 		y = 6
 		cost = 10
 		ai_will_do = {
@@ -4694,7 +4775,7 @@ focus_tree = {
 			factor = 1
 		}
 		prerequisite = { focus = OLE_carriers focus = OLE_battleships }
-		x = 58
+		x = 35
 		y = 7
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_rule_the_seas"
@@ -4711,7 +4792,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		x = 64
+		x = 41
 		y = 0
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_state_air"
@@ -4739,7 +4820,7 @@ focus_tree = {
 		id = OLE_airports
 		icon = GFX_goal_generic_air_production
 		cost = 8.00
-		x = 64
+		x = 41
 		y = 1
 		ai_will_do = {
 			factor = 1
@@ -4764,7 +4845,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_fighter
 		cost = 10.00
 		prerequisite = { focus = OLE_airports }
-		x = 63
+		x = 40
 		y = 2
 		ai_will_do = {
 			factor = 1
@@ -4798,7 +4879,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_bomber
 		cost = 10.00
 		prerequisite = { focus = OLE_fighters }
-		x = 63
+		x = 40
 		y = 3
 		ai_will_do = {
 			factor = 1
@@ -4837,7 +4918,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		x = 65
+		x = 42
 		y = 2
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_cas"
@@ -4879,7 +4960,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		x = 65
+		x = 42
 		y = 3
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_bombers"
@@ -4917,7 +4998,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-		x = 64
+		x = 41
 		y = 4
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus OLE_air_doctrine"
