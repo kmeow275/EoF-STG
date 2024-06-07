@@ -511,14 +511,10 @@ country_event = {
 		name = EoF.ole.4.a
 		add_ideas = EoF_OLE_prepared_army
 		191 = {
+			remove_building = { type = arms_factory  level = 1 } 
 			add_building_construction = {
 				type = arms_factory
 				level = 1
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = arms_factory
-				level = -1
 				instant_build = yes
 			}
 		}
