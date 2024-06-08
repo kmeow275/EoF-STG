@@ -351,6 +351,10 @@ ideas = {
 				attack_bonus_against = 0.1
 			}
 			targeted_modifier = {
+				tag = OLE
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
 				tag = PLB
 				attack_bonus_against = 0.1
 			}

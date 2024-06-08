@@ -2373,6 +2373,12 @@ focus_tree = {
 				idea = EoF_summer_offensive_1
 				days = 60
 			}
+			OLE = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_1
+					days = 60
+				}
+			}
 			PLB = {
 				add_timed_idea = {
 					idea = EoF_summer_offensive_1
@@ -2431,6 +2437,12 @@ focus_tree = {
 			add_timed_idea = {
 				idea = EoF_summer_offensive_1
 				days = 60
+			}
+			OLE = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_1
+					days = 60
+				}
 			}
 			PLB = {
 				add_timed_idea = {
@@ -2496,6 +2508,12 @@ focus_tree = {
 			add_timed_idea = {
 				idea = EoF_summer_offensive_2
 				days = 90
+			}
+			OLE = {
+				add_timed_idea = {
+					idea = EoF_summer_offensive_2
+					days = 90
+				}
 			}
 			PLB = {
 				add_timed_idea = {
