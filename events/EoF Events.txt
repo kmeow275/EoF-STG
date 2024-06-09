@@ -436,8 +436,6 @@ country_event = {
 	desc = EoF.ole.1.d
 	option = {
 		name = EoF.ole.1.a
-		add_political_power = 100
-		swap_ideas = { remove_idea = EoF_OLE_corrupt_government_2 add_idea = EoF_OLE_corrupt_government_1 }
 		69 = {
 			add_building_construction = {
 				type = industrial_complex
@@ -455,29 +453,6 @@ country_event = {
 	desc = EoF.ole.2.d
 	option = {
 		name = EoF.ole.2.a
-		add_ideas = EoF_OLE_gun_production
-		if = {
-			limit = {
-				has_dlc = "Arms Against Tyranny"
-			}    
-			custom_effect_tooltip = available_mio_tt
-			show_mio_tooltip = OLE_alda_gunworks_organization
-			mio:OLE_alda_gunworks_organization = {
-				add_mio_funds = 700
-			}
-			mio:OLE_keisarillinen_organization = {
-				add_mio_funds = 700
-			}
-			mio:OLE_korvensuu_organization = {
-				add_mio_funds = 700
-			}
-		}
-		else = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = OLE_alda_gunworks
-		}
-		add_ideas = low_economic_mobilisation
-
 	}
 }
 
@@ -488,12 +463,6 @@ country_event = {
 	desc = EoF.ole.3.d
 	option = {
 		name = EoF.ole.3.a
-		add_manpower = 73
-		add_equipment_to_stockpile = {
-			type = infantry_equipment_0
-			amount = 520
-			variant_name = "Lilia-Rifle"
-		}
 		add_equipment_to_stockpile = {
 			type = light_tank_chassis_0
 			amount = 2
@@ -509,25 +478,10 @@ country_event = {
 	desc = EoF.ole.4.d
 	option = {
 		name = EoF.ole.4.a
-		add_ideas = EoF_OLE_prepared_army
 		191 = {
 			remove_building = { type = arms_factory  level = 1 } 
 			add_building_construction = {
 				type = arms_factory
-				level = 1
-				instant_build = yes
-			}
-		}
-		224 = {
-			add_building_construction = {
-				type = bunker
-				province = 12304
-				level = 2
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = bunker
-				province = 11354
 				level = 1
 				instant_build = yes
 			}
