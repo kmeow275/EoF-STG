@@ -18,3 +18,7 @@ animation = {
 	name = "EoF_artillery_training_anim"
 	file = "EoF_artillery_training.anim"
 }
+animation = {
+	name = "volcanoparticle_idle_anim"
+	file = "volcanoparticle_idle.anim"
+}

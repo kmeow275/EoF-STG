@@ -1,0 +1,10 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "volcano_particle_spawn_mesh"
+		file = "gfx/models/units/EoF/volcano_particle_spawn.mesh"
+		scale = 1
+		
+		animation = { id = "idle"  			type = "volcano_particle_spawn_idle_anim" }
+	}
+}
