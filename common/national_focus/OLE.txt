@@ -31,7 +31,6 @@ focus_tree = {
 			}
 
 		completion_reward = {
-			add_political_power = 100
 			add_stability = 0.05
 		}
 	}
@@ -53,8 +52,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = EoF_OLE_patriotic_oligarchs_tt
-			country_event = { id = EoF.ole.1 days = 1 }
+			69 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 0
+					instant_build = yes
+				}
+			}
+			add_political_power = 200
+			swap_ideas = { remove_idea = EoF_OLE_corrupt_government_2 add_idea = EoF_OLE_corrupt_government_1 }
 		}
 	}
 
@@ -75,8 +81,28 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = EoF_deluge_of_rifles_tt
-			country_event = { id = EoF.ole.2 days = 1 }
+			add_ideas = EoF_OLE_gun_production
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}    
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = OLE_alda_gunworks_organization
+				mio:OLE_alda_gunworks_organization = {
+					add_mio_funds = 2000
+				}
+				mio:OLE_keisarillinen_organization = {
+					add_mio_funds = 2000
+				}
+				mio:OLE_korvensuu_organization = {
+					add_mio_funds = 2000
+				}
+			}
+			else = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = OLE_alda_gunworks
+			}
+			add_ideas = low_economic_mobilisation
 		}
 	}
 
@@ -97,8 +123,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = EoF_breathtaking_swell_of_patriotism_tt
-			country_event = { id = EoF.ole.3 days = 1 }
+			add_manpower = 40000
+			add_war_support = 0.05
 		}
 	}
 
@@ -119,8 +145,55 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			custom_effect_tooltip = EoF_become_unconquerable_tt
-			country_event = { id = EoF.ole.4 days = 1 }
+			add_war_support = 0.05
+			191 = {
+				remove_building = { type = arms_factory  level = 1 } 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			224 = {
+				add_building_construction = {
+					type = bunker
+					province = 11354
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 12304
+					level = 2
+					instant_build = yes
+				}
+			}
+			296 = {
+				add_building_construction = {
+					type = bunker
+					province = 12477
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13266
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 822
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3847
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -144,7 +217,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 50
 			add_stability = 0.05
-			add_war_support = 0.025
+			add_war_support = 0.05
 			remove_ideas = EoF_OLE_raising_dissent
 			custom_effect_tooltip = EoF_black_parade_tt
 			set_country_flag = OLE_situation_stable
@@ -152,7 +225,7 @@ focus_tree = {
 	}
 
 	focus = {
-		allow_branch = {
+		available = {
 			is_subject = yes
 		}
 		id = EoF_sort_out_olenian_mess
@@ -167,7 +240,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = EoF_OLE_prepared_army
 			remove_ideas = EoF_OLE_gun_production
 			add_ideas = EoF_OLE_real_purpose
 		}
@@ -209,6 +281,8 @@ focus_tree = {
 			add_political_power = -150
 		}
 	}
+
+	#### new focus Ends ####
 
 	##########OLENIA HARMONY/COMMUNISM BY PSODY DO NOT TOUCH OR I STAB YOU####################
 
