@@ -378,6 +378,23 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = EoF.10
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		create_entity = {
+			entity = volcanoparticle_entity
+			id = 57
+			province = 6365
+			x = -1.1
+			y = 5
+            z = 2.5
+        	scale = 1
+        	min_zoom = 3000.0
+        }
+	}
+}
 news_event = {
 	id = EoF.news.1
 	title = EoF.news.1.t
