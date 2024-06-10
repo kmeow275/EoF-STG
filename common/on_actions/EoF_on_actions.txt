@@ -13,6 +13,28 @@ on_actions = {
 				country_event = { id = EoF_great_war.7 days = 1764 }
 				country_event = { id = EoF.7 days = 2190 }
 			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = CHN
+						tag = OLE
+						tag = PLB
+						tag = GRF
+						tag = FAT
+						tag = JER
+						#tag = GRI
+						tag = EQS
+						tag = CRY
+						tag = STG
+						tag = EQC
+						tag = HIP
+						tag = WNG
+						#tag = RCT
+						#tag = FEA
+					}
+				}
+				add_ideas = EoF_peacetime_training
+			}
 		}
 	}
 	#All Starting Dynamic Modifiers Here

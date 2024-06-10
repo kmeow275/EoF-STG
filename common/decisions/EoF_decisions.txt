@@ -191,7 +191,7 @@ EoF_category = {
 		}
 		visible = {
 			EQC = {
-				is_ai = yes
+				is_ai = no
 			}
 			OR = {
 				208 = { is_controlled_by = EQS }
@@ -263,6 +263,9 @@ EoF_category = {
 		complete_effect = {
 			OLE = {
 				remove_ideas = EoF_OLE_deal
+				transfer_navy = {
+					target = CHN
+				}
 			}
 		}
 	}

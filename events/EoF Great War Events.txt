@@ -237,6 +237,12 @@ country_event = {
 			idea = EoF_winter_offensive
 			days = 90
 		}
+		OLE = {
+			add_timed_idea = {
+				idea = EoF_winter_offensive
+				days = 90
+			}			
+		}	
 		PLB = {
 			add_timed_idea = {
 				idea = EoF_winter_offensive
