@@ -395,6 +395,36 @@ country_event = {
         }
 	}
 }
+
+country_event = {
+	id = EoF.11
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		destroy_entity = 57
+		destroy_entity = 56
+	}
+}
+
+country_event = {
+	id = EoF.12
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		create_entity = {
+			entity = volcano_lava_entity
+			id = 56
+			province = 6365
+			x = -1.25
+			y = 0
+			z = 0.8
+			scale = 1.1
+			min_zoom = 100.0
+		}
+	}
+}
+
+
 news_event = {
 	id = EoF.news.1
 	title = EoF.news.1.t

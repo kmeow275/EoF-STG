@@ -12,3 +12,15 @@ entity = {
 		
 	}
 }
+
+entity = {
+	name = "volcano_lava_entity"
+	pdxmesh = "volcano_lava_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = idle looping = no }
+	
+	game_data = {
+		texture_anim_speed = 0.001
+	}
+}
