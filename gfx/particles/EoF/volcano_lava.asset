@@ -2,7 +2,7 @@ particle={
 	name="volcano_lava_file"
 	subsystem={
 														name="lava"
-		max_amount=600
+		max_amount=700
 		slave_particles=2
 		sort = "depth"
 		
@@ -20,15 +20,15 @@ particle={
 		
 		
 		texture={
-			file="gfx/particles/EoF/lava.dds"
+			file="gfx/particles/EoF/lava_02.dds"
 			x=1
 			y=1
 			shader="ParticleAdditive" #"ParticleAlphaBlend"
 		}
 		color={
 			x=255
-			y=230
-			z=225
+			y=245
+			z=240
 			alpha=255,fade_particles
 		}
 		position={
@@ -86,8 +86,8 @@ particle={
 		}
 		color={
 			x=255
-			y=200
-			z=195
+			y=255
+			z=255
 			alpha=255,fade_particles
 		}
 		position={
