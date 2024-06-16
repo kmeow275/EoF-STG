@@ -6586,6 +6586,7 @@ focus_tree = {
 		}
 
 		allow_branch = {
+			always = no
 			NOT = {
 				OR = {
 					has_completed_focus = HIP_import_the_revolution
@@ -12082,6 +12083,7 @@ shared_focus = {
 		}
 
 		allow_branch = {
+			always = no
 			NOT = {
 				has_completed_focus = HIP_hippogriffia_first
 				has_completed_focus = HIP_harmony_above_all
