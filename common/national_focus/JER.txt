@@ -4235,6 +4235,7 @@ shared_focus = {
 								FLO = {
 									OR = {
 										is_subject_of = JER
+										is_in_faction_with = ROOT
 										is_guaranteed_by = JER
 									}
 								}
@@ -6040,15 +6041,28 @@ shared_focus = {
 				        }
 				    }
 				}
-				hidden_effect = {
+				if = {
+					limit = {
+						AVI = {
+							is_neighbor_of = ROOT
+						}
+					}
+					declare_war_on = {
+						type = annex_everything
+						target = AVI
+					}
+					hidden_effect = {
+						create_wargoal = {
+							type = annex_everything
+							target = AVI
+						}
+					}
+				}
+				else = {
 					create_wargoal = {
 						type = annex_everything
 						target = AVI
 					}
-				}
-				declare_war_on = {
-					type = annex_everything
-					target = AVI
 				}
 			}
 			if = {
@@ -6062,15 +6076,28 @@ shared_focus = {
 				        }
 				    }
 				}
-				hidden_effect = {
+				if = {
+					limit = {
+						ERI = {
+							is_neighbor_of = ROOT
+						}
+					}
+					declare_war_on = {
+						type = annex_everything
+						target = ERI
+					}
+					hidden_effect = {
+						create_wargoal = {
+							type = annex_everything
+							target = ERI
+						}
+					}
+				}
+				else = {
 					create_wargoal = {
 						type = annex_everything
 						target = ERI
 					}
-				}
-				declare_war_on = {
-					type = annex_everything
-					target = ERI
 				}
 			}
 			AVI = {

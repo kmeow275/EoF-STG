@@ -2711,6 +2711,27 @@ characters={
 			}
 		}
 	}
+	EQS_SOL_red_rocket = {
+		name = EQS_SOL_red_rocket
+		portraits = {
+			army = {
+				large = "gfx/leaders/SOL/Red_Rocket.tga"
+				small = "gfx/interface/ideas/Advisors/EQS/EQS_SOL_red_rocket.tga"
+			}
+		}
+		corps_commander = {
+			traits = { pony_race_trait artillery_officer harsh_leader }
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			visible = {
+				is_EQS_SOL = yes
+				has_country_flag = SOL_new_generals_flag
+			}
+		}
+	}
 	EQS_maekt_ix = {
 		name = EQS_maekt_ix
 		portraits = {
@@ -2976,6 +2997,9 @@ characters={
 				allowed = {
 					original_tag = EQS
 				}
+				allowed = {
+					original_tag = EQS
+				}
 				visible = {
 					has_country_flag = EQS_splinter_state_UESR_flag
 				}
@@ -3006,6 +3030,9 @@ characters={
 			advisor = {
 				slot = political_advisor
 				idea_token = UESR_lavender_berry_idea
+				allowed = {
+					original_tag = EQS
+				}
 				allowed = {
 					original_tag = EQS
 				}
