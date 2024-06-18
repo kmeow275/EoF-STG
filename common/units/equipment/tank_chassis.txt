@@ -2169,6 +2169,12 @@ equipments = {
 				}
 			}
 
+			advanced_main_armament_slot = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
