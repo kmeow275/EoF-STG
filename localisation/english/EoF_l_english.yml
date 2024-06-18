@@ -582,6 +582,26 @@ EoF_OLE_gun_production:0 "Massive Small Arms Effort"
 EoF_OLE_prepared_army:0 "Ready to Die for Glory"
 EoF_OLE_real_purpose:0 "Real Purpose"
 
+EoF.ole.1.t:0 "Industrialist Donations" 
+EoF.ole.1.d:0 "Everyone knows that the countries richest people have the biggest vesting interest in countries well being. We shall take the donations thay have so generously provided, add some at the top, repackage it, and give back in a form of government tenders for industrial development. Since they have already proven their dedication, we do not need to provide unnesesary oversight."
+EoF.ole.1.a:0 "Surely, defence industries will flourish now!"
+
+EoF.ole.2.t:0 "Military Industrial Complex"
+EoF.ole.2.d:0 "The only way to win wars is to have botomless warehouses. Investment into critical assets should provide us with plenty."
+EoF.ole.2.a:0 "A gun for every buck!"
+
+EoF.ole.3.t:0 "Our Brave Volunteers"
+EoF.ole.3.d:0 "The volunteers just keep coming! The donations just keep rolling in! We even have some brave engineers to produce tanks from home workshops. How can you ever defeat a country like that?"
+EoF.ole.3.a:0 "Olenia needs you!"
+
+EoF.ole.4.t:0 "Defensive Buildup"
+EoF.ole.4.d:0 "We have assigned massive funds that were given to local royal representatives charged with fortification projects. Even king was impressed after visit, declaring them 'impressive and impregnable'. We pity tose fools who would try and attack our nation."
+EoF.ole.4.a:0 "Changelings now know who they are dealing with!"
+
+EoF.ole.5.t:0 "Unpleasant News"
+EoF.ole.5.d:0 "A lavish state dinner has been ended in an extremely rude manner by a runner bursting in and announcing that the Changelings have ACTUALLY declared war on them. Surprisingly, instead of panic, the room was just filled with disbelef and stupification. The only sound was of foreign minister murmuring 'They can just do that?'. Needless to say, the hastily written unconditional capitulation message written on top of unused press release was delivered along with kings letter pleading Crysallis personally to spare his life."
+EoF.ole.5.a:0 "She won't."
+
 EoF_OLE_deal_with_oligarchs_category:0 "Just Shoot Them"
 EoF_OLE_deal_with_oligarchs_category_desc:0 "Subtle approach has its merits, bit consider this. We have prevented formation of any organised resistance in Olenia, ensuring they have no one to run to. They are not well liked by average olenian. We have a long line of changeling replacements for them (those guys are just as corrupt, but in a way that benefits us). Those 3 factors ensure that the rich of Olenia have absolutely no leverage over us, they are simply yet to get it. With enough examples provided, the less thick headed among them will realise the only way they have to save their hide and their wealth. The more thick skulled are, of course, on the top of the examples list already. Make sure to bring armor piercing bullets!"
 EoF_OLE_reduce_corruption:0 "Deal With Corruption"

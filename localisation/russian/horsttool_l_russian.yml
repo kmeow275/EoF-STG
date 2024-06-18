@@ -1,0 +1,64 @@
+﻿l_russian:
+ 
+ ST_STATE_MARK_FOR_TRANSFER:0 "§HОтметьте регион для передачи§!\nВыберает регион, чтобы его можно было передать \n"
+ ST_STATE_UNMARK_FOR_TRANSFER:0 "§HСнимите выбор с региона§!\nСнимает выбор с данного региона\n"
+ mark_state_yes:0 ""
+ mark_state_no:0 "\n  §RПомечено!§!"
+ 
+ OBSERVER:0 "§HНаблюдать§!\nПеремещает игрока в режим наблюдателя\n\n"
+ OBSERVER_DELAYED:0 ""
+ 
+ WHITEPEACE:0 "§HБелый мир§!\nСтрана подпишет белый мир со всеми врагами в войне\n\n"
+ WHITEPEACE_DELAYED:0 ""
+ 
+ CLEAR_ALL_MARKINGS:0 "§HСнять все метки§!\nВсе метки на карте будут убраны\n\n"
+ CLEAR_ALL_MARKINGS_DELAYED:0 ""
+
+ TRANSFER_STATES:0 "§HПередать регионы§!\nПередаёт отмеченные регионы стране [This.Owner.GetName]\n\n"
+ TRANSFER_STATES_DELAYED:0 ""
+ 
+ ADD_CORES:0 "§HДобавить национальные территории§!\nДобавляет статус национализированных выделенным территориям стране [This.Owner.GetName]\n\n"
+ ADD_CORES_DELAYED:0 ""
+ 
+ ANNEX_COUNTRY:0 "§HАннексия§!\n[This.Owner.GetName] аннексирует все территории выбранного государства\n\n"
+ ANNEX_COUNTRY_DELAYED:0 ""
+ 
+ PUPPET_COUNTRY:0 "§HСделать марионеткой§!\n[This.Owner.GetName] делает марионеткой выбранное государство\n\n"
+ PUPPET_COUNTRY_DELAYED:0 ""
+ 
+ ADD_CHEAT:0 "§HЧиты§!\nВыбранной стране даётся выбор\n\n"
+ ADD_CHEAT_DELAYED:0 ""
+
+ ST_TOOLTIP_on:0 "§HАктивировать "инструмент хоста"§!"
+ ST_TOOLTIP_off:0 "§HДеактивировать "инструмент хоста"§!"
+transfer_states_on:0 "Host Tool:£trigger_no"
+transfer_states_off:0 "Host Tool:£trigger_yes"
+
+ CHEAT_SELECT:0   "Выберите чит"
+ CHEAT1:0   "+1 военный завод вне карты"
+ CHEAT2:0   "-1 военный завод вне карты"
+ CHEAT3:0   "+1 фабрика вне карты"
+ CHEAT4:0   "-1 фабрика вне карты"
+ CHEAT5:0   "+1 верфь вне карты"
+ CHEAT6:0   "-1 верфь вне карты"
+ CHEAT7:0   "+50 политической власти"
+ CHEAT8:0   "+10 стабильности"
+ CHEAT9:0   "+10 поддержки войны"
+ CHEAT10:0  "+100k пони ресурсов"
+ CHEAT11:0  "+10% атаки и защиты"
+ CHEAT12:0  "-10% атаки и защиты"
+ CHEAT13:0  "+Шаблон танковой дивизии"
+ CHEAT14:0  "+1 танк"
+ CHEAT15:0  "+50% базовая эффективность производства"
+ CHEAT16:0  "-50% базовая эффективность производства"
+ CHEAT17:0  "+20% эффективность верфей"
+ CHEAT18:0  "-20% эффективность верфей"
+ CHEAT19:0  "+50 опыта армии"
+ CHEAT20:0  "+50 опыта авиации"
+ CHEAT21:0  "+50 опыта флота"
+ mark_status_marked:0   "     Развыбрать регион "
+ mark_status_unmarked:0 "      Выбрать регион  "
+ disable_resources:0 "Нажмите эту кнопку или воспользуйтесь следующим сочетанием клавиш, чтобы включить или выключить отображение ресурсов на верхней панели."
+ DISABLE_LOBBY_PARASITES:0 "Lobby Parasites"
+
+ 

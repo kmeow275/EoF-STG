@@ -1,0 +1,24 @@
+﻿l_russian:
+EoF_cat_eq_all_tank_artillery:0 "Самоходная артиллерия"
+EoF_cat_eq_all_tank_destroyer:0 "ПТ"
+
+heavy_artillery_equipment:0 "Тяжёлая артиллерия"
+heavy_artillery_equipment_desc:0 ""
+heavy_artillery_equipment_1:0 "Базовая тяжёлая артиллерия"
+heavy_artillery_equipment_2:0 "Улучшенная тяжёлая артиллерия"
+heavy_anti_tank_equipment:0 "Тяжёлое ПТО"
+heavy_anti_tank_equipment_desc:0 ""
+heavy_anti_tank_equipment_1:0 "Базовое тяжёлое ПТО"
+heavy_anti_tank_equipment_2:0 "Улучшенное тяжёлое ПТО"
+
+heavy_artillery:0 "Тяжёлая артиллерия поддержки"
+heavy_artillery_brigade:0 "Тяжёлая артиллерия"
+mech_heavy_artillery_brigade:0 "Механизированная тяжёлая артиллерия"
+heavy_anti_tank:0 "Тяжёлое ПТО поддержки"
+heavy_anti_tank_brigade:0 "Тяжёлое ПТО"
+mech_heavy_anti_tank_brigade:0 "Механизированное тяжёлое ПТО"
+
+assault_equipment_1:0 "Базовое штурмовое снаряжение
+assault_equipment_1_desc:0 "Специализированное оружие, такое как огнеметы и гранаты, значительно улучшает способность пехоты сражаться в ближнем бою. Отдельные подразделения могут быть оснащены этим штурмовым оружием, заменяющим их обычное снаряжение, что значительно повышает их прорывной потенциал."
+assault_equipment_2:0 "Улучшенное штурмовое снаряжение"
+assault_equipment_2_desc:0 "Специализированное оружие, такое как огнеметы и гранаты, значительно улучшает способность пехоты сражаться в ближнем бою. Отдельные подразделения могут быть оснащены этим штурмовым оружием, заменяющим их обычное снаряжение, что значительно повышает их прорывной потенциал."
