@@ -31,7 +31,7 @@ spriteTypes = {
 #		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 		effectFile = "gfx/FX/buttonstate.lua"		
 		animation = {
-			animationmaskfile = "gfx/interface/abilitylist/artillery_bombardment.dds"
+			animationmaskfile = "gfx/interface/abilitylist/ability_artillery_bombardment.dds"
 			animationtexturefile = "gfx/interface/focusview/titlebar/focus_completed_texture.dds" 	# <- the animated file
 			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = yes			# yes or no ;)
@@ -756,5 +756,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_EQS_ember_spark"
 		texturefile = "gfx/interface/ideas/Advisors/EQS_ember_spark.dds"
+	}
+	
+	### Advisors ###
+	
+	spriteType = {
+		name = "GFX_advisor_orb_of_chital"
+		texturefile = "gfx/interface/ideas/advisors/orb_of_chital_small.tga"
+	}
+	spriteType = {
+		name = "GFX_orb_of_chital_event"
+		texturefile = "gfx/event_pictures/GRF_hope_master.dds"
 	}
 }
