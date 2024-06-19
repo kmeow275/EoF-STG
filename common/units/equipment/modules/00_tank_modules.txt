@@ -1654,7 +1654,6 @@ equipment_modules = {
 		category = tank_super_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = anti_tank
-		parent = tank_naval_cannon
 
 		add_stats = {
 			soft_attack = 32

@@ -14,6 +14,7 @@ state = {
 		owner = FAT
 		add_core_of = FAT
 		add_claim_by = FAT
+		victory_points = { 11087 2 }
 
 		buildings = {
 			infrastructure = 1

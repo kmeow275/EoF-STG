@@ -1,0 +1,13 @@
+objectTypes = {
+
+	pdxparticle = {
+		name = "volcano_smoke_particle"
+		type = "volcano_smoke_file"
+		scale = 1
+	}
+	pdxparticle = {
+		name = "volcano_lava_particle"
+		type = "volcano_lava_file"
+		scale = 1
+	}
+}

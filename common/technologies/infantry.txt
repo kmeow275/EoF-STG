@@ -3710,11 +3710,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1014
 
-		folder = {
-			name = infantry_folder
-			position = { x = -2 y = @1014 }
-		}
-
 		categories = {
 			motorized_equipment
 			mio_cat_tech_all_motorized_mechanized

@@ -69,6 +69,12 @@ equipments = {
 				}
 			}
 
+			advanced_main_armament_slot = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
@@ -481,6 +487,12 @@ equipments = {
 				}
 			}
 
+			advanced_main_armament_slot = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
@@ -796,6 +808,12 @@ equipments = {
 				}
 			}
 
+			main_armament_slot = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
@@ -966,6 +984,12 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_optics_type
+				}
+			}
+
+			advanced_main_armament_slot = {
+				required = no
+				allowed_module_categories = {
 				}
 			}
 
@@ -1287,6 +1311,12 @@ equipments = {
 				}
 			}
 
+			main_armament_slot = {
+				required = no
+				allowed_module_categories = {
+				}
+			}
+
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
@@ -1459,6 +1489,12 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_optics_type
+				}
+			}
+
+			advanced_main_armament_slot = {
+				required = no
+				allowed_module_categories = {
 				}
 			}
 
@@ -1788,6 +1824,12 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_optics_type
+				}
+			}
+
+			advanced_main_armament_slot = {
+				required = no
+				allowed_module_categories = {
 				}
 			}
 
@@ -2124,6 +2166,12 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_optics_type
+				}
+			}
+
+			advanced_main_armament_slot = {
+				required = no
+				allowed_module_categories = {
 				}
 			}
 

@@ -1203,6 +1203,7 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_3
+			guided_anti_ship_missile
 		}
 
 		rocket_artillery = {
@@ -1671,6 +1672,7 @@ technologies = {
 			level = 7
 		}
 		coordination_bonus = 0.01
+		static_anti_air_hit_chance_factor = 0.2
 
 		path = {
 			leads_to_tech = future_radar_2
@@ -1697,6 +1699,7 @@ technologies = {
 			level = 8
 		}	
 		coordination_bonus = 0.01
+		static_anti_air_hit_chance_factor = 0.2
 		enable_equipment_modules = {
 			tank_radio_4
 			ship_radar_5
@@ -1734,6 +1737,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		coordination_bonus = 0.01
+		static_anti_air_hit_chance_factor = 0.2
 
 		enable_equipment_modules = {
 			tank_radio_5
@@ -1760,6 +1764,7 @@ technologies = {
 		air_detection = 0.05
 		naval_detection = 0.05
 		coordination_bonus = 0.01
+		static_anti_air_hit_chance_factor = 0.2
 
 		research_cost = 1.75
 		start_year = 1026
@@ -2135,7 +2140,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			rocket_engine_4
-			guided_anti_ship_missile
 		}
 
 		rocket_artillery = {
@@ -2151,7 +2155,6 @@ technologies = {
 		motorized_rocket_brigade = {
 			soft_attack = 0.05
 		}
-		static_anti_air_hit_chance_factor = 0.1
 		static_anti_air_damage_factor = 0.1
 		navy_anti_air_attack_factor = 0.10
 
@@ -2213,7 +2216,6 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		static_anti_air_hit_chance_factor = 0.1
 		static_anti_air_damage_factor = 0.1
 		navy_anti_air_attack_factor = 0.10
 
@@ -2257,6 +2259,7 @@ technologies = {
 	basic_encryption_lar = {
 
 		# encryption 1
+		enemy_operative_detection_chance = 0.02
 		crypto_strength = 2
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2290,6 +2293,7 @@ technologies = {
 	improved_encryption_lar = {
 	
 		# encryption 2
+		enemy_operative_detection_chance = 0.02
 		crypto_strength = 2
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2323,6 +2327,7 @@ technologies = {
 	advanced_encryption_lar = {
 	
 		# encryption 3
+		enemy_operative_detection_chance = 0.02
 		crypto_strength = 2
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2356,6 +2361,7 @@ technologies = {
 	basic_decryption_lar = {
 	
 		# decryption 1
+		own_operative_detection_chance = -0.02
 		decryption_power = 25
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2393,6 +2399,7 @@ technologies = {
 	improved_decryption_lar = {
 	
 		# decryption 2
+		own_operative_detection_chance = -0.02
 		decryption_power = 20
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2430,6 +2437,7 @@ technologies = {
 	advanced_decryption_lar = {
 	
 		# decryption 3
+		own_operative_detection_chance = -0.02
 		decryption_power = 15
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2467,6 +2475,7 @@ technologies = {
 	future_encryption_lar = {
 	
 		# encryption 3
+		enemy_operative_detection_chance = 0.01
 		crypto_strength = 1
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2487,6 +2496,7 @@ technologies = {
 	future_decryption_lar = {
 	
 		# decryption 3
+		own_operative_detection_chance = -0.01
 		decryption_power = 10
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2510,6 +2520,7 @@ technologies = {
 	future_encryption_2_lar = {
 	
 		# encryption 3
+		enemy_operative_detection_chance = 0.01
 		crypto_strength = 1
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2530,6 +2541,7 @@ technologies = {
 	future_decryption_2_lar = {
 	
 		# decryption 3
+		own_operative_detection_chance = -0.01
 		decryption_power = 5
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2554,6 +2566,7 @@ technologies = {
 	future_encryption_3_lar = {
 	
 		# encryption 3
+		enemy_operative_detection_chance = 0.01
 		crypto_strength = 1
 		allow_branch = {
 			has_dlc = "La Resistance"
@@ -2574,6 +2587,7 @@ technologies = {
 	future_decryption_3_lar = {
 	
 		# decryption 3
+		own_operative_detection_chance = -0.01
 		decryption_power = 5
 		allow_branch = {
 			has_dlc = "La Resistance"

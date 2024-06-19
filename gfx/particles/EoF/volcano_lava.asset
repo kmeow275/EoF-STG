@@ -1,0 +1,280 @@
+particle={
+	name="volcano_lava_file"
+	subsystem={
+														name="lava"
+		max_amount=700
+		slave_particles=2
+		sort = "depth"
+		
+		emitter_type="box"
+		box_emitter_x = { 1.25 -1.25 }
+		box_emitter_y = { 0.2 0 }
+		box_emitter_z = { 1.25 -1.25 }
+		
+		
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		
+		
+		texture={
+			file="gfx/particles/EoF/lava_02.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive" #"ParticleAlphaBlend"
+		}
+		color={
+			x=255
+			y=245
+			z=240
+			alpha=255,fade_particles
+		}
+		position={
+			x=-3.5
+			y=-1.5
+			z=-1.5
+		}
+		
+		start=0
+		duration=0.25
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		
+		velocity_pitch={ 0 0 }
+		velocity_yaw={ 0 0 }
+		velocity={ 0,explosion_stop 0,explosion_stop }
+		
+		life={ 4 1.25 }
+		emission={ 10000 }
+		size={ 2 0.75 }
+		
+		rotation={ 0 180 }
+		rotation_speed={ 25 8 }
+		
+		force = gravity,explosion_stop
+		#force = explosion_side
+		force = explosion_point,explosion
+		force = explosion_up
+	}
+	
+	subsystem={
+														name="lava_particles"
+		max_amount=300
+		slave_particles=0
+		sort = "depth"
+		
+		emitter_type="box"
+		box_emitter_x = { 1.25 -1.25 }
+		box_emitter_y = { 0.2 0 }
+		box_emitter_z = { 1.25 -1.25 }
+		
+		
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=yes
+		hide=no
+		
+		
+		texture={
+			file="gfx/particles/EoF/lava.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive" #"ParticleAlphaBlend"
+		}
+		color={
+			x=255
+			y=255
+			z=255
+			alpha=255,fade_particles
+		}
+		position={
+			x=-3.5
+			y=-1.5
+			z=-1.5
+		}
+		
+		start=0
+		duration=0.25
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		
+		velocity_pitch={ 0 0 }
+		velocity_yaw={ 0 0 }
+		velocity={ 0,explosion_stop 0,explosion_stop }
+		
+		life={ 5 4 }
+		emission={ 10000 }
+		size={ 0.5	0.25 }
+		
+		rotation={ 0	180 }
+		rotation_speed={ 25	8 }
+		
+		force = gravity,explosion_stop
+		#force = explosion_side
+		force = explosion_point_particle,explosion
+		force = explosion_up_particle
+	}
+	
+	subsystem={
+		name="blast"
+		max_amount=1
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/blast.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=255
+			y=235
+			z=205
+			alpha=215,fade_particles
+		}
+		position={
+			x=0
+			y=7
+			z=0
+		}
+		start=0.050
+		duration=0.100
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 20 0 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 3.75 0 }
+		emission=100
+		size={ 1000,blast_grow 0 }
+		particle_yaw={ 0 0 }
+		particle_pitch={ 90 0 }
+	}
+
+	animation={
+		name="fade_particles"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0.100 0.100 1 0.600 1 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	
+	animation={
+		name="explosion"
+		start=0.1
+		duration=0.5
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 		1
+			0.5		0.5
+			1		0 
+		}
+		op="MUL"
+		#time="life"
+	}
+	
+	animation={
+		name="explosion_01"
+		start=0
+		duration=0.5
+		repeat=no
+		minValue=0.125
+		maxValue=1
+		curve={
+			0		1
+			0.600	0.5
+			0		0.125		
+		}
+		op="MUL"
+		#time="life"
+	}
+	
+	animation={
+		name="explosion_stop"
+		start=8
+		duration=12
+		repeat=no
+		minValue=0
+		maxValue=0
+		curve={
+			0	0
+			1 	0	
+		}
+		op="MUL"
+		#time="life"
+	}
+
+	animation={
+		name="blast_grow"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0.0125 
+			0.6 0.625
+			1 1 
+		}
+		op="MUL"
+		time="life"
+	}
+
+	force = {
+	type = "planar"
+	name = "gravity"
+	direction = { 0 -1 0 }
+	amount = 5
+	}
+
+	force = {
+		type = "turbulence"
+		name = "explosion_side"
+		amount = 8,explosion_01
+	}
+	
+	force = {
+	type = "planar"
+	name = "explosion_up"
+	direction = { 0 1 0 }
+	amount = 20,explosion
+	}
+	
+	force = {
+	type = "planar"
+	name = "explosion_up_particle"
+	direction = { 0 1 0 }
+	amount = 36,explosion
+	}
+	
+	force = {
+		type = "point"
+		name = "explosion_point"
+		position = { -0.1 -1.5 -4.6 }
+		amount = 10,explosion
+	}
+	
+	force = {
+		type = "point"
+		name = "explosion_point_particle"
+		position = { -0.1 -2.25 -4.6 }
+		amount = 18,explosion
+	}
+}

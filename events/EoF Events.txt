@@ -378,6 +378,53 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = EoF.10
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		create_entity = {
+			entity = volcanoparticle_entity
+			id = 57
+			province = 6365
+			x = -1.1
+			y = 5
+            z = 2.5
+        	scale = 1
+        	min_zoom = 3000.0
+        }
+	}
+}
+
+country_event = {
+	id = EoF.11
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		destroy_entity = 57
+		destroy_entity = 56
+	}
+}
+
+country_event = {
+	id = EoF.12
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		create_entity = {
+			entity = volcano_lava_entity
+			id = 56
+			province = 6365
+			x = -1.25
+			y = 0
+			z = 0.8
+			scale = 1.1
+			min_zoom = 100.0
+		}
+	}
+}
+
+
 news_event = {
 	id = EoF.news.1
 	title = EoF.news.1.t
@@ -424,123 +471,5 @@ news_event = {
 
 	option = {
 		name = EoF.news.4.a
-	}
-}
-
-###Olenia
-
-country_event = {
-	id = EoF.ole.1
-	is_triggered_only = yes
-	title = EoF.ole.1.t
-	desc = EoF.ole.1.d
-	option = {
-		name = EoF.ole.1.a
-		add_political_power = 100
-		swap_ideas = { remove_idea = EoF_OLE_corrupt_government_2 add_idea = EoF_OLE_corrupt_government_1 }
-		69 = {
-			add_building_construction = {
-				type = industrial_complex
-				level = 0
-				instant_build = yes
-			}
-		}
-	}
-}
-
-country_event = {
-	id = EoF.ole.2
-	is_triggered_only = yes
-	title = EoF.ole.2.t
-	desc = EoF.ole.2.d
-	option = {
-		name = EoF.ole.2.a
-		add_ideas = EoF_OLE_gun_production
-		if = {
-			limit = {
-				has_dlc = "Arms Against Tyranny"
-			}    
-			custom_effect_tooltip = available_mio_tt
-			show_mio_tooltip = OLE_alda_gunworks_organization
-			mio:OLE_alda_gunworks_organization = {
-				add_mio_funds = 700
-			}
-			mio:OLE_keisarillinen_organization = {
-				add_mio_funds = 700
-			}
-			mio:OLE_korvensuu_organization = {
-				add_mio_funds = 700
-			}
-		}
-		else = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = OLE_alda_gunworks
-		}
-		add_ideas = low_economic_mobilisation
-
-	}
-}
-
-country_event = {
-	id = EoF.ole.3
-	is_triggered_only = yes
-	title = EoF.ole.3.t
-	desc = EoF.ole.3.d
-	option = {
-		name = EoF.ole.3.a
-		add_manpower = 73
-		add_equipment_to_stockpile = {
-			type = infantry_equipment_0
-			amount = 520
-			variant_name = "Lilia-Rifle"
-		}
-		add_equipment_to_stockpile = {
-			type = light_tank_chassis_0
-			amount = 2
-			variant_name = "Haakon Tyyppii-2"
-		}
-	}
-}
-
-country_event = {
-	id = EoF.ole.4
-	is_triggered_only = yes
-	title = EoF.ole.4.t
-	desc = EoF.ole.4.d
-	option = {
-		name = EoF.ole.4.a
-		add_ideas = EoF_OLE_prepared_army
-		191 = {
-			remove_building = { type = arms_factory  level = 1 } 
-			add_building_construction = {
-				type = arms_factory
-				level = 1
-				instant_build = yes
-			}
-		}
-		224 = {
-			add_building_construction = {
-				type = bunker
-				province = 12304
-				level = 2
-				instant_build = yes
-			}
-			add_building_construction = {
-				type = bunker
-				province = 11354
-				level = 1
-				instant_build = yes
-			}
-		}
-	}
-}
-
-country_event = {
-	id = EoF.ole.5
-	is_triggered_only = yes
-	title = EoF.ole.5.t
-	desc = EoF.ole.5.d
-	option = {
-		name = EoF.ole.5.a
 	}
 }

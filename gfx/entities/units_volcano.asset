@@ -1,0 +1,26 @@
+entity = {
+	name = "volcanoparticle_entity"
+	pdxmesh = "volcanoparticle_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = idle looping = no
+	
+		event = { node = "volcano_base" time = 0.25 light = volcano_light sound = { soundeffect = "nuke" } }
+		event = { time = 0.25 particle = "volcano_lava_particle" keep_particle = yes }
+		event = { node = "volcano_base" time = 0.3 light = volcano_lava_light }
+		event = { time = 0.4 particle = "volcano_smoke_particle" keep_particle = yes }
+		
+	}
+}
+
+entity = {
+	name = "volcano_lava_entity"
+	pdxmesh = "volcano_lava_mesh"
+	
+	default_state = "idle"
+	state = { name = "idle" animation = idle looping = no }
+	
+	game_data = {
+		texture_anim_speed = 0.001
+	}
+}
