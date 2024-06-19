@@ -64,12 +64,9 @@ political_actions = {
 			always = no
 		}
 		war_with_on_timeout = EQS
-		days_mission_timeout = 600
+		days_mission_timeout = 365
 		fire_only_once = yes
 		timeout_effect = {
-			WNG = {
-				remove_ideas = EoF_WNG_treaty
-			}
 			hidden_effect = {
 				every_country = {
 					set_country_flag = EoF_big_event_custom_tarrin

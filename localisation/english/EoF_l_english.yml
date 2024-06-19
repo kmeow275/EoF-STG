@@ -523,7 +523,8 @@ EoF_HIP_DOMINATION_democratic:0 "Greater Hippogriffia"
 EoF_HIP_DOMINATION_democratic_ADJ:0 "Hippogriffian"
 EoF_HIP_DOMINATION_democratic_DEF:0 "Greater Hippogriffia"
 
-EoF_JER_armament:0 "Aquileian Five Year Plan"
+EoF_JER_first_plan:0 "First Aquileian Three Year Plan"
+EoF_JER_second_plan:0 "Second Aquileian Three Year Plan"
 
 EoF_griffonian_contender:0 "Griffonian Contender"
 EoF_griffonian_dominator:0 "Griffonian Dominator"
