@@ -333,6 +333,7 @@ if = {
 			rear_1_custom_slot = ship_heavy_battery_2
 		}
 	}
+	set_naval_oob = "GRI_1007_naval"
 }
 if = {
 	limit = {

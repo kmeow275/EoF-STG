@@ -41,6 +41,33 @@ on_actions = {
 				}
 				add_ideas = EoF_peacetime_training
 			}
+			668 = {
+				cancel_resistance = yes
+			}
+			669 = {
+				cancel_resistance = yes
+			}
+			670 = {
+				cancel_resistance = yes
+			}
+			579 = {
+				cancel_resistance = yes
+			}
+			412 = {
+				cancel_resistance = yes
+			}
+			578 = {
+				cancel_resistance = yes
+			}
+			413 = {
+				cancel_resistance = yes
+			}
+			558 = {
+				cancel_resistance = yes			
+			}
+			680 = {
+				cancel_resistance = yes
+			}
 		}
 	}
 	#All Starting Dynamic Modifiers Here

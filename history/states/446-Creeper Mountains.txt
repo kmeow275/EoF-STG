@@ -11,10 +11,10 @@ state={
 	buildings_max_level_factor=1.00
 
 	history={
-		owner = GRY
-		add_core_of = GRY
-		add_claim_by = CYA
-		add_claim_by = MIT
+		owner = HLR
+		add_core_of = HLR
+		add_claim_by = HLR
+		add_claim_by = HLR
 
 		victory_points = { 12433 1 }
 	}

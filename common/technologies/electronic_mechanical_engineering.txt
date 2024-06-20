@@ -879,10 +879,6 @@ technologies = {
 
 		research_cost = 1
 		start_year = 1013
-		# folder = {
-		# 	name = electronics_folder
-		# 	position = { x = 0 y = 16 }
-		# }
 		
 		ai_will_do = {
 			factor = 0.75
@@ -913,10 +909,6 @@ technologies = {
 
 		research_cost = 1
 		start_year = 1015
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 20 }
-		}
 		
 		ai_will_do = {
 			factor = 0.75
@@ -947,10 +939,6 @@ technologies = {
 
 		research_cost = 1
 		start_year = 1018
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 24 }
-		}
 		
 		ai_will_do = {
 			factor = 0.75
