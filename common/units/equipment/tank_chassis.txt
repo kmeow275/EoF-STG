@@ -291,6 +291,7 @@ equipments = {
 					tank_special_module
 					tank_simplification_module
 					tank_cupola_module
+					tank_coaxial_module
 					tank_special_module_maintenance
 					tank_special_module_stabilizer
 					tank_special_module_skirts
@@ -304,6 +305,7 @@ equipments = {
 					tank_special_module
 					tank_simplification_module
 					tank_cupola_module
+					tank_coaxial_module
 					tank_special_module_maintenance
 					tank_special_module_stabilizer
 					tank_special_module_skirts
@@ -338,6 +340,7 @@ equipments = {
 					tank_special_module
 					tank_simplification_module
 					tank_cupola_module
+					tank_coaxial_module
 					tank_special_module_maintenance
 					tank_special_module_stabilizer
 					tank_special_module_skirts
@@ -351,6 +354,7 @@ equipments = {
 					tank_special_module
 					tank_simplification_module
 					tank_cupola_module
+					tank_coaxial_module
 					tank_special_module_maintenance
 					tank_special_module_stabilizer
 					tank_special_module_skirts
@@ -364,6 +368,7 @@ equipments = {
 					tank_special_module
 					tank_simplification_module
 					tank_cupola_module
+					tank_coaxial_module
 					tank_special_module_maintenance
 					tank_special_module_stabilizer
 					tank_special_module_skirts
@@ -377,6 +382,7 @@ equipments = {
 					tank_special_module
 					tank_simplification_module
 					tank_cupola_module
+					tank_coaxial_module
 					tank_special_module_maintenance
 					tank_special_module_stabilizer
 					tank_special_module_skirts
