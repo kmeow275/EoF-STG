@@ -219,6 +219,16 @@ entity = {
 
 entity = {
 	clone = "PONY_infantry_entity"
+	name = "SOV_infantry_2_entity"
+}
+
+entity = {
+	clone = "PONY_infantry_entity"
+	name = "SOV_infantry_3_entity"
+}
+
+entity = {
+	clone = "PONY_infantry_entity"
 	name = "STG_infantry_entity"
 }
 
@@ -283,6 +293,56 @@ entity = {
 entity = {
 	clone = "CHN_bug_entity"
 	name = "jager_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "GER_infantry_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "GER_infantry_2_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "GER_infantry_3_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "CHN_mountaineers_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "CHN_paratrooper_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "CHN_marine_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "CCN_mountaineers_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "CCN_paratrooper_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "CCN_marine_entity"
+}
+
+entity = {
+	clone = "CHN_bug_entity"
+	name = "GER_vehicle_infantry_rifle_entity"
 }
 
 entity = {
