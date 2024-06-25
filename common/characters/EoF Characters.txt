@@ -15,7 +15,6 @@ characters={
 			defense_skill = 3
 			planning_skill = 2
 			logistics_skill = 5
-			legacy_id = 34
 			desc = EQS_sunset_shimmer_desc
 			visible = {
 				has_country_flag = EoF_sunset_counteroffensive
@@ -75,7 +74,12 @@ characters={
 			idea_token = orbital
 			cost = 75
 			allowed = {
-				original_tag = GRF
+				original_tag = STG
+			}
+			available = {
+				CRY = {
+				has_capitulated = no
+				}
 			}
 			desc = EoF_orb_of_chital_desc
 			traits = { EoF_orbital }
