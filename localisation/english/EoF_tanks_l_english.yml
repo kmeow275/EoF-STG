@@ -16,7 +16,9 @@ EQ_MOD_CAT_tank_simplification_module_TITLE:0 "Wartime Simplification"
 EQ_MOD_CAT_tank_cupola_module_TITLE:0 "Cupolas"
 EQ_MOD_CAT_tank_coaxial_module_TITLE:0 "Coaxial Armaments"
 EQ_MOD_CAT_tank_rocket_module_TITLE:0 "Rocket Launchers"
+EQ_MOD_CAT_tank_computer_module_TITLE:0 "Integrated Computers"
 EQ_MOD_CAT_tank_optics_type_TITLE:0 "Optics"
+
 
 advanced_medium_tank_turret:0 "Advanced Medium Turret"
 advanced_medium_tank_turret_desc:0 "An evolution of the previous generation of three-man turrets. The additional space allows the crew to better perform their tasks, as well as enabling advanced armaments to be equipped on large enough chassis."
@@ -108,6 +110,18 @@ special_ammunition_desc:0 "Specialized ammunition made from extreme hardness mat
 
 ventilation_system:0 "Ventilation System"
 ventilation_system_desc:0 "A series of fans, connected to vents leading outside the tank, provide the crew additional comfort improving their performance during combat."
+
+rangefinder:0 "Rangefinder"
+rangefinder_desc:0 "An coincidence rangerfinder which can accurately determine the range of a target via matching two images generated from either end of the device."
+
+fire_control_computer:0 "Fire Control Computer"
+fire_control_computer_desc:0 "An experimental electromechanical fire control computer which both elevates the gun and tracks the movement of targets to a limited degree automatically."
+
+supercharger:0 "Supercharger"
+supercharger_desc:0 "A supercharger system which compresses the air entering the engine to improve performance. However, the additional power comes at the cost of fuel inefficiency."
+
+fire_suppression_system:0 "Fire Suppression System"
+fire_suppression_system_desc:0 "An automatic fire suppression system that releases foam upon the detection of an engine fire. While effective at preventing the spread of fire, the additional space requirements limit the size of the engine."
 
 coaxial_lmg:0 "Coaxial Light Machine Gun"
 coaxial_lmg_desc:0 "The coaxial weapon mount is an effective method of increasing the firepower and flexibility of an armoured vehicle. Aimed concurrently with the main gun, a coaxial light machine gun allows the tank to engage a diverse set of targets unsuitable for the main gun."

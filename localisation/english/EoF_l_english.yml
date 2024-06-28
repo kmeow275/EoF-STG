@@ -17,6 +17,11 @@ modifier_production_cost_arms_factory_factor_desc:0 "Modifies the cost of Civili
 modifier_production_cost_dockyard_factor:0 "£construction_speed_dockyard_texticon  §YDockyard§! construction cost"
 modifier_production_cost_dockyard_factor_desc:0 "Modifies the cost of Dockyard construction."
 
+EoF_CHN_mio_trait_breakthrough_tanks:0 "Breakthrough Tanks"
+EoF_CHN_mio_trait_long_range_guns:0 "Long Range Guns"
+EoF_CHN_mio_trait_large_turrets:0 "Large Turrets"
+EoF_CHN_mio_trait_simple_variants:0 "Simplified Variants"
+
 STG_economic_policy:0 "War Communism"
 
 EoF_category:0 "Game Decisions"
@@ -439,10 +444,6 @@ EoF_HWI_decision_3:0 "Divert Production Funding"
 EoF_HWI_decision_4:0 "Enact War Board Reforms"
 EoF_HWI_decision_5:0 "Dedicate Military Conversion Factory"
 EoF_HWI_decision_6:0 "Dedicate Civilian Conversion Factory"
-
-EoF_EQS_industry_research_funding:0 "Technical Experts Reassigned"
-EoF_EQS_industry_construction_funding:0 "Construction Materials Diverted"
-EoF_EQS_industry_production_funding:0 "Production Funding Diverted"
 
 EoF_EQS_sweet_apple_acres:0 "Sweet Apple Acres"
 EoF_apple:0 "National Apple Concern"

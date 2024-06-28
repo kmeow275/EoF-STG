@@ -25,27 +25,6 @@ ideas = {
 				industry = 0.075
 			}			
 		}
-		EoF_EQS_industry_research_funding = {
-			removal_cost = -1
-			picture = generic_research_reduction
-			research_bonus = {
-				industry = -0.05
-			}	
-		}
-		EoF_EQS_industry_construction_funding = {
-			removal_cost = -1
-			picture = POL_disjointed_industry
-			modifier = {
-				production_speed_buildings_factor = -0.05
-			}		
-		}
-		EoF_EQS_industry_production_funding = {
-			removal_cost = -1
-			picture = capital_outflow
-			modifier = {
-				production_factory_max_efficiency_factor = -0.05
-			}		
-		}
 		EoF_EQS_southern_island_campaign_0 = {
 			removal_cost = -1
 			picture = undisturbed_isolation
@@ -192,7 +171,7 @@ ideas = {
 			picture = SOV_second_five_year_plan
 			modifier = {
 				stability_factor = -0.1
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.05
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = -0.15
 			}

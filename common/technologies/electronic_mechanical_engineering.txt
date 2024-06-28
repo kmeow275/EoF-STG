@@ -489,6 +489,10 @@ technologies = {
 
 		# small boost to research speed
 		research_speed_factor = 0.08
+		enable_equipment_modules = {
+			fire_control_computer
+			stabilizer_2
+		}
 		path = {
 			leads_to_tech = advanced_encryption
 			research_cost_coeff = 1
@@ -1825,7 +1829,6 @@ technologies = {
 		# small boost to research speed
 		research_speed_factor = 0.05
 		enable_equipment_modules = {
-			stabilizer_2
 			bomb_sights_3
 		}
 		path = {

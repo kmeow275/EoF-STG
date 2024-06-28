@@ -203,6 +203,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_EMI_tank_optics_type"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/optics.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_EMI_tank_optics_1"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_optics_1.dds"
 		legacy_lazy_load = no
@@ -305,6 +310,31 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_EMI_ventilation_system"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/vents.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_rangefinder"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/rangefinder.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_computer_module"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/fire_control_computer.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_fire_control_computer"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/fire_control_computer.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_supercharger"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/supercharger.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_fire_suppression_system"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/fire_suppression_system.dds"
 		legacy_lazy_load = no
 	}
 	spriteType = {
