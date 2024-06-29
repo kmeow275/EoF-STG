@@ -222,6 +222,14 @@ JER_loup_shipping_organization = {
 		}
 	}
 }
+EoF_JER_aeb_organization = {
+	include = generic_task_force_ship_organization
+	icon = GFX_idea_FRA_aeb
+	allowed = {	
+		original_tag = JER 
+		has_dlc = "Arms Against Tyranny"
+	}
+}
 JER_fer_de_lance_organization = {
 	name = fer_de_lance
 	include = generic_mobile_tank_organization
