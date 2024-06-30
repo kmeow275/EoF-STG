@@ -354,26 +354,6 @@ country_event = {
 					division = "name = \"Special Marine Division\" division_template = \"Special Marine Corps\" start_experience_factor = 1"
 					owner = HIP
 				}
-				create_unit = {
-					division = "name = \"Special Marine Division\" division_template = \"Special Marine Corps\" start_experience_factor = 1"
-					owner = HIP
-				}
-				create_unit = {
-					division = "name = \"Special Marine Division\" division_template = \"Special Marine Corps\" start_experience_factor = 1"
-					owner = HIP
-				}
-				create_unit = {
-					division = "name = \"Special Marine Division\" division_template = \"Special Marine Corps\" start_experience_factor = 1"
-					owner = HIP
-				}
-				create_unit = {
-					division = "name = \"Special Marine Division\" division_template = \"Special Marine Corps\" start_experience_factor = 1"
-					owner = HIP
-				}
-				create_unit = {
-					division = "name = \"Special Marine Division\" division_template = \"Special Marine Corps\" start_experience_factor = 1"
-					owner = HIP
-				}
 			}
 		}
 	}
