@@ -34,7 +34,7 @@ NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.8	-- Balancing valu
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.90	-- Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.3				-- Higher value = more shot down planes
-NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 5			-- same as above but used inside naval combat for carrier battles
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 30			-- same as above but used inside naval combat for carrier battles
 
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_ON_SOFT_DICE_SIZE = 2	-- extra damage dice if our armor outclasses enemy
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6	-- extra damage dice if our armor outclasses enemy
@@ -98,6 +98,9 @@ NDefines.NBuildings.AIRBASE_CAPACITY_MULT = 100			-- Each level of airbase build
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_STR = 2.0			-- Balancing value to convert damage ( naval_strike_attack * hits ) to Strength reduction.
 NDefines.NAir.NAVAL_STRIKE_DAMAGE_TO_ORG = 3.0			-- Balancing value to convert damage ( naval_strike_attack * hits ) to Organisation reduction.
 NDefines.NAir.NAVAL_STRIKE_CARRIER_MULTIPLIER = 4.0		-- damage bonus when planes are in naval combat where their carrier is present (and can thus sortie faster and more effectively)
+
+NDefines.NNavy.BASE_CARRIER_SORTIE_EFFICIENCY = 0.3		-- factor of planes that can sortie by default from a carrier
+
 NDefines.NNavy.CARRIER_STACK_PENALTY = 0			-- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
 NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.02		-- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
 
@@ -113,8 +116,14 @@ NDefines.NNavy.MISSION_SUPREMACY_RATIOS = {
 		0.0, -- RESERVE_FLEET
 		0.1, -- NAVAL_INVASION_SUPPORT
 	}
-NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.1 				-- this screen ratio to num convoys is needed for full screening beyond screen line
-NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.05 				-- this capital ratio to num convoys is needed for full screening beyond screen line
+
+NDefines.NNavy.BASE_POSITIONING = 0.8				-- base value for positioning
+
+NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CAPITALS = 3.0				-- this screen ratio to num capital/carriers is needed for full screening beyond screen line
+NDefines.NNavy.SCREEN_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.2				-- this screen ratio to num convoys is needed for full screening beyond screen line
+NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CARRIERS = 4.0				-- this capital ratio to num carriers is needed for full screening beyond screen line
+NDefines.NNavy.CAPITAL_RATIO_FOR_FULL_SCREENING_FOR_CONVOYS = 0.1				-- this capital ratio to num convoys is needed for full screening beyond screen line
+
 NDefines.NNavy.TRAINING_ACCIDENT_CHANCES = 0			-- Chances one ship get damage each hour while on training
 
 NDefines.NNavy.HIT_PROFILE_MULT = 50.0				-- multiplies hit profile of every ship

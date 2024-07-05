@@ -3942,13 +3942,7 @@ focus_tree = {
 		x = 16
 		y = 0
 		available = {
-			OLE = {
-				OR = {
-					exists = no
-					is_subject_of = CHN
-					has_war_with = CHN
-				}
-			}
+			threat > 0.25
 		}
 		completion_reward = {
 			EQS = {

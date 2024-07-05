@@ -13,9 +13,9 @@ ideas = {
 				consumer_goods_factor = 0.3
 				stability_factor = -0.2
 				war_support_factor = -0.1
-				production_factory_max_efficiency_factor = -0.2
-				industrial_capacity_factory = -0.15
-				production_speed_buildings_factor = -0.25
+				production_factory_max_efficiency_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.2
 			}
 		}
 		EoF_OLE_corrupt_government_2 = {
@@ -24,9 +24,9 @@ ideas = {
 				consumer_goods_factor = 0.225
 				stability_factor = -0.15
 				war_support_factor = -0.075
-				production_factory_max_efficiency_factor = -0.15
-				industrial_capacity_factory = -0.1125
-				production_speed_buildings_factor = -0.1875
+				production_factory_max_efficiency_factor = -0.075
+				industrial_capacity_factory = -0.075
+				production_speed_buildings_factor = -0.15
 			}
 		}
 		EoF_OLE_corrupt_government_3 = {
@@ -35,9 +35,9 @@ ideas = {
 				consumer_goods_factor = 0.15
 				stability_factor = -0.1
 				war_support_factor = -0.05
-				production_factory_max_efficiency_factor = -0.1
-				industrial_capacity_factory = -0.075
-				production_speed_buildings_factor = -0.125
+				production_factory_max_efficiency_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.1
 			}
 		}
 		EoF_OLE_corrupt_government_4 = {
@@ -46,9 +46,9 @@ ideas = {
 				consumer_goods_factor = 0.075
 				stability_factor = -0.05
 				war_support_factor = -0.025
-				production_factory_max_efficiency_factor = -0.05
-				industrial_capacity_factory = -0.0375
-				production_speed_buildings_factor = -0.0625
+				production_factory_max_efficiency_factor = -0.025
+				industrial_capacity_factory = -0.025
+				production_speed_buildings_factor = -0.05
 			}
 		}
 		
@@ -57,7 +57,7 @@ ideas = {
 			picture = man_five_year_plan_industry
 			equipment_bonus = {
 				infantry_equipment = {
-					build_cost_ic = -0.2
+					build_cost_ic = -0.1
 					instant = yes
 				}
 			}
@@ -71,8 +71,22 @@ ideas = {
 		}
 		EoF_OLE_real_purpose = {
 			picture = generic_exploit_mines
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+			}
 			research_bonus = {
 				excavation_tech = 0.20
+			}
+		}
+		EoF_OLE_deal = {
+			removal_cost = -1
+			picture = can_wartime_prices_and_trade_board
+			modifier = {
+				cic_to_overlord_factor = -0.75
+				mic_to_overlord_factor = -0.75
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
 			}
 		}
 
