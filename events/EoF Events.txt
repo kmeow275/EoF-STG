@@ -404,6 +404,34 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = EoF.13
+	title = EoF.13.t
+	desc = EoF.13.desc
+	is_triggered_only = yes
+	option = {
+		name = EoF.13.a
+		swap_ideas = {
+			remove_idea = EoF_naval_academy_developing
+			add_idea = EoF_naval_academy_support
+		}
+	}
+	option = {
+		name = EoF.13.b
+		swap_ideas = {
+			remove_idea = EoF_naval_academy_developing
+			add_idea = EoF_naval_academy_supremacy
+		}
+	}
+	option = {
+		name = EoF.13.c
+		swap_ideas = {
+			remove_idea = EoF_naval_academy_developing
+			add_idea = EoF_naval_academy_speed
+		}
+	}
+}
+
 
 news_event = {
 	id = EoF.news.1

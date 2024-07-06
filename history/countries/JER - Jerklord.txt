@@ -263,6 +263,13 @@ recruit_character = JER_archon_arcturius
 ### Trubach ###
 recruit_character = JER_count_trubach
 
+#EoF
+recruit_character = EoF_jean_luc_pierre
+recruit_character = EoF_thierry_ranoux
+recruit_character = EoF_blind_obsession
+recruit_character = EoF_tiffany_sortier
+recruit_character = EoF_marin_bataille
+
 create_faction = Aquileia
 add_to_faction = JER
 add_to_faction = JFT

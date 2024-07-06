@@ -28,13 +28,13 @@ NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 6.0
 
 NDefines.NMilitary.SLOWEST_SPEED = 1
 
-NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.01		-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
-NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.005		-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
-NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 1.8	-- Balancing value to convert equipment stat anti_air_attack to the damage reduction modifier apply to incoming air attacks against units with AA.
+NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.1		-- Balancing value to determine the chance of ground AA hitting an attacking airplane, affecting both the effective average damage done by AA to airplanes, and the reduction of damage done by airplanes due to AA support
+NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.001		-- Balancing value to convert equipment stat anti_air_attack to the random % value of airplanes being hit.
+NDefines.NAir.ANTI_AIR_ATTACK_TO_DAMAGE_REDUCTION_FACTOR = 0.18	-- Balancing value to convert equipment stat anti_air_attack to the damage reduction modifier apply to incoming air attacks against units with AA.
 NDefines.NAir.ANTI_AIR_MAXIMUM_DAMAGE_REDUCTION_FACTOR = 0.90	-- Maximum damage reduction factor applied to incoming air attacks against units with AA.
 
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.3				-- Higher value = more shot down planes
-NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 30			-- same as above but used inside naval combat for carrier battles
+NDefines.NAir.COMBAT_DAMAGE_SCALE_CARRIER = 20			-- same as above but used inside naval combat for carrier battles
 
 NDefines.NMilitary.LAND_COMBAT_STR_ARMOR_ON_SOFT_DICE_SIZE = 2	-- extra damage dice if our armor outclasses enemy
 NDefines.NMilitary.LAND_COMBAT_ORG_ARMOR_ON_SOFT_DICE_SIZE = 6	-- extra damage dice if our armor outclasses enemy

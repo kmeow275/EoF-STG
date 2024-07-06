@@ -143,6 +143,12 @@ EoF.6.desc:0 "The Polar Bears have requested we join them in an attack against P
 EoF.6.a:0 "I'm sure our allies can handle themselves."
 EoF.6.b:0 "A good chance to practice at war."
 
+EoF.13.t:0 "Our New Naval Strategy"
+EoF.13.desc:0 "After several months of rapid fire research and testing at the École Navale, our premier theorists and admirals have presented us with several options addressing different actions our fleet may be required to conduct. Which of these should take precedent over the others?"
+EoF.13.a:0 "Support."
+EoF.13.b:0 "Supremacy."
+EoF.13.c:0 "Speed."
+
 EoF_great_war.1.t:0 "Sunset's Counteroffensive"
 EoF_great_war.1.desc:0 "In our darkest hour, an unexpected ally has appeared to help us. Despite being gone for several years, Sunset Shimmer has recently returned to help Equestria defend against the Changeling attack, and she did not return alone. Over the past week, hundreds of thousands of volunteer soldiers from alternate dimensions have arrived along with heavy equipment and integrated themselves within our armed forces."
 EoF_great_war.1.a:0 "This war now spans more than one world..."
@@ -477,6 +483,12 @@ EoF_talent_utilization:0 "Bureau of Talent Utilization"
 EoF_halberd_spear:0 "Halberd Spear"
 EoF_war_prep_board:0 "War Preparation Board"
 
+EoF_jean_luc_pierre:0 "Jean-Luc Pierre"
+EoF_thierry_ranoux:0 "Thierry Ranoux"
+EoF_blind_obsession:0 "Blind Obsession"
+EoF_tiffany_sortier:0 "Tiffany Sortier"
+EoF_marin_bataille:0 "Marin Bataille"
+
 EoF_polyphony_category:0 "Project Polyphony"
 EoF_polyphony_decision:0 "Activate Resonance"
 
@@ -533,6 +545,20 @@ EoF_griffonian_contender:0 "Griffonian Contender"
 EoF_griffonian_dominator:0 "Griffonian Dominator"
 
 EoF_invasion_preparation:0 "Preparing Equestrian Invasion"
+
+EoF_naval_academy:0 "École Navale"
+EoF_naval_academy_developing:0 "École Navale"
+EoF_naval_academy_support:0 "École Navale"
+EoF_naval_academy_supremacy:0 "École Navale"
+EoF_naval_academy_speed:0 "École Navale"
+
+EoF_gday_marines:0 "Marines Stratégiques"
+
+EoF_supply_stockpile:0 "Supply Stockpile"
+
+EoF_funding_naval_mio:0 "Funding Naval Companies"
+mio_policy_JER_quantity:0 "Quantitative Overmatch"
+mio_policy_JER_quality:0 "Qualitative Overmatch"
 
 EoF_JER_form_domination:0 "Declare the Greater Aquileian Republic"
 EoF_HIP_form_domination:0 "Declare Greater Hippogriffia"

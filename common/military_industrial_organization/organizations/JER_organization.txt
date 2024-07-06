@@ -180,6 +180,9 @@ JER_mistral_organization = {
 		owner = {
 			owns_state = 377
 		}
+		owner = {
+			has_completed_focus = EoF_JER_naval_companies
+		}
 	}
 	initial_trait = {
 		limit_to_equipment_type = { ship_hull_carrier ship_hull_heavy } 
@@ -214,6 +217,9 @@ JER_loup_shipping_organization = {
 		owner = {
 			owns_state = 377
 		}
+		owner = {
+			has_completed_focus = EoF_JER_naval_companies
+		}
 	}
 	initial_trait = {
 		limit_to_equipment_type = { mio_cat_eq_all_destroyer submarine } 
@@ -229,7 +235,29 @@ EoF_JER_aeb_organization = {
 		original_tag = JER 
 		has_dlc = "Arms Against Tyranny"
 	}
+	available = {
+		owner = {
+			has_completed_focus = EoF_JER_naval_companies
+		}
+	}
 }
+EoF_JER_acl_organization = {
+	include = generic_battle_line_ship_organization
+	icon = GFX_idea_FRA_acl
+	allowed = {	
+		original_tag = JER 
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+EoF_JER_acf_organization = {
+	include = generic_raider_ship_organization
+	icon = GFX_idea_FRA_acf
+	allowed = {	
+		original_tag = JER 
+		has_dlc = "Arms Against Tyranny"
+	}
+}
+
 JER_fer_de_lance_organization = {
 	name = fer_de_lance
 	include = generic_mobile_tank_organization

@@ -1173,10 +1173,10 @@ entity = {
 	name = "CHN_nav_bomber_equipment_1_entity"
 	clone = "GER_nav_bomber_equipment_1_entity"
 }
-entity = {
-	name = "CHN_fighter_equipment_3_entity"
-	clone = "GER_fighter_equipment_3_entity"
-}
+# entity = {
+# 	name = "CHN_fighter_equipment_3_entity"
+# 	clone = "GER_fighter_equipment_3_entity"
+# }
 entity = {
 	name = "CHN_nav_bomber_equipment_2_entity"
 	clone = "GER_nav_bomber_equipment_2_entity"
@@ -1221,10 +1221,10 @@ entity = {
 #	name = "CHN_fighter_equipment_2_entity"
 #	clone = "GER_fighter_equipment_2_entity"
 #}
-#entity = {
-#	name = "CHN_strat_bomber_equipment_3_entity"
-#	clone = "GER_strat_bomber_equipment_3_entity"
-#}
+entity = {
+	name = "CHN_strat_bomber_equipment_3_entity"
+	clone = "GER_strat_bomber_equipment_3_entity"
+}
 entity = {
 	name = "CHN_cv_CAS_equipment_1_entity"
 	clone = "GER_cv_CAS_equipment_1_entity"

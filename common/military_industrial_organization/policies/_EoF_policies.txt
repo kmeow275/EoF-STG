@@ -1,0 +1,81 @@
+mio_policy_JER_quantity = {
+	icon = GFX_mio_policy_cutting_corners
+	allowed = {
+		OR ={
+			has_mio_equipment_type = capital_ship
+			has_mio_equipment_type = screen_ship
+			has_mio_equipment_type = submarine
+			has_mio_equipment_type = carrier
+			has_mio_equipment_type = mio_cat_eq_all_carrier
+			has_mio_equipment_type = mio_cat_eq_all_cruiser
+			has_mio_equipment_type = mio_cat_eq_all_destroyer
+			has_mio_equipment_type = mio_cat_eq_all_battleship
+		}
+		owner = {
+			original_tag = JER
+		}
+	}
+	visible = {
+		owner = {
+			has_completed_focus = EoF_JER_quantity_companies
+		}
+	}
+	available = {
+		has_mio_size > 5
+	}
+	equipment_bonus = {
+		ship_hull_carrier = {
+			carrier_size = -1
+			build_cost_ic = -0.25
+			production_resource_need_factor = -0.1
+		}
+		capital_ship = {
+			build_cost_ic = -0.1
+			production_resource_need_factor = -0.1
+		}
+		screen_ship = {
+			build_cost_ic = -0.1
+			production_resource_need_factor = -0.1
+		}
+	}
+}
+mio_policy_JER_quality = {
+	icon = GFX_mio_policy_casting_specialists
+	allowed = {
+		OR ={
+			has_mio_equipment_type = capital_ship
+			has_mio_equipment_type = screen_ship
+			has_mio_equipment_type = submarine
+			has_mio_equipment_type = carrier
+			has_mio_equipment_type = mio_cat_eq_all_carrier
+			has_mio_equipment_type = mio_cat_eq_all_cruiser
+			has_mio_equipment_type = mio_cat_eq_all_destroyer
+			has_mio_equipment_type = mio_cat_eq_all_battleship
+		}
+		owner = {
+			original_tag = JER
+		}
+	}
+	visible = {
+		owner = {
+			has_completed_focus = EoF_JER_quality_companies
+		}
+	}
+	available = {
+		has_mio_size > 5
+	}
+	equipment_bonus = {
+		ship_hull_carrier = {
+			max_strength = 0.25
+			build_cost_ic = 0.05
+		}
+		capital_ship = {
+			max_strength = 0.15
+			build_cost_ic = 0.05
+		}
+		screen_ship = {
+			max_strength = 0.15
+			build_cost_ic = 0.05
+		}
+	}
+}

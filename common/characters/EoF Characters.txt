@@ -18,7 +18,6 @@ characters={
 			desc = EQS_sunset_shimmer_desc
 			visible = {
 				has_country_flag = EoF_sunset_counteroffensive
-
 			}
 		}
 	}
@@ -83,6 +82,80 @@ characters={
 			}
 			desc = EoF_orb_of_chital_desc
 			traits = { EoF_orbital }
+		}
+	}
+	EoF_jean_luc_pierre = {
+		name = EoF_jean_luc_pierre
+		portraits = {
+			army = {
+				large="gfx/leaders/Asia/Unknown_Griffon.dds"
+				small="GFX_idea_unknown_advisor_griffon"
+			}
+		}
+	}
+	EoF_thierry_ranoux = {
+		name = EoF_thierry_ranoux
+		portraits={
+			army = {
+				large="gfx/leaders/Asia/Unknown_Griffon.dds"
+				small="GFX_idea_unknown_advisor_griffon"
+			}
+		}
+	}
+	EoF_blind_obsession = {
+		name = EoF_blind_obsession
+		portraits = {
+			army = {
+				large="gfx/leaders/Pony/unknown_pony.dds"
+				small="GFX_idea_unknown_advisor"
+			}
+		}
+	}
+	EoF_tiffany_sortier = {
+		name=EoF_tiffany_sortier
+		portraits={
+			army={
+				small="GFX_idea_unknown_advisor_griffon"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = tiffany
+			ledger = navy
+			cost = 50
+			allowed = {
+				original_tag = JER
+			}
+			visible = {
+				has_completed_focus = EoF_JER_new_naval_staff
+			}
+			traits = {
+				navy_carrier_1 
+			}
+		}
+		gender = female
+	}
+	EoF_marin_bataille = {
+		name=EoF_marin_bataille
+		portraits={
+			army={
+				small="GFX_idea_unknown_advisor_griffon"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = marin
+			ledger = navy
+			cost = 100
+			allowed = {
+				original_tag = JER
+			}
+			visible = {
+				has_completed_focus = EoF_JER_new_naval_staff
+			}
+			traits = {
+				navy_capital_ship_2 
+			}
 		}
 	}
 }

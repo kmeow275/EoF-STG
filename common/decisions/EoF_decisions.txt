@@ -50,6 +50,15 @@ political_actions = {
 			CHN = {
 				add_to_faction = JER
 			}
+			if = {
+				limit = {
+					has_country_flag = EoF_taifunkrieg_active
+				}
+				add_timed_idea = {
+					idea = EoF_taifunkrieg
+					days = 80
+				}
+			}
 		}
 	}
 	EoF_JER_invade_wingbardy_mission = {

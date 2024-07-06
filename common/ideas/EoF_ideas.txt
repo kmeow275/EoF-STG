@@ -167,6 +167,15 @@ ideas = {
 				consumer_goods_factor = 0.1
 			}
 		}
+		EoF_taifunkrieg = {
+			removal_cost = -1
+			picture = generic_navy_carrier_bonus
+			modifier = {
+				port_strike = 1
+				carrier_capacity_penalty_reduction = -0.5
+				sortie_efficiency = 0.5
+			}			
+		}
 	}
 	hidden_ideas = {
 		EoF_continuous_infantry_production = {
