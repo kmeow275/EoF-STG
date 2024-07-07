@@ -451,6 +451,14 @@ on_actions = {
 							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
 							owner = JAK
 						}
+						create_unit = {
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
+							owner = JAK
+						}
+						create_unit = {
+							division = "name = \"Clan Hussars\" division_template = \"Clan Hussars\" start_experience_factor = 0 start_equipment_factor = 1"
+							owner = JAK
+						}
 					}
 					every_controlled_state = {
 						add_dynamic_modifier = { modifier = EoF_YAK_JAK_civil_war_terrain }

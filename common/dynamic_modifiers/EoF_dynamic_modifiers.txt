@@ -167,7 +167,7 @@ EoF_superindustrial_zone = {
 
 	local_building_slots = 3
 	local_factories	= 0.5
-	state_production_speed_buildings_factor = 0.3
+	state_production_speed_buildings_factor = -0.3
 }
 EoF_supply_stockpile = {
 	icon = GFX_idea_generic_supply_depot
