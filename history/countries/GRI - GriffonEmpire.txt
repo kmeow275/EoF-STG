@@ -375,43 +375,6 @@ add_ideas = {
 }
 add_manpower = 45000
 set_major = yes
-set_autonomy = {
-	target = YAL
-	autonomy_state = autonomy_nominal_vassal
-}
-set_autonomy = {
-	target = ANG
-	autonomy_state = autonomy_nominal_vassal
-}
-set_autonomy = {
-	target = KAT
-	autonomy_state = autonomy_nominal_vassal
-}
-set_autonomy = {
-	target = ROU
-	autonomy_state = autonomy_autonomous_vassal
-}
-set_autonomy = {
-	target = BRZ
-	autonomy_state = autonomy_nominal_vassal
-}
-set_autonomy = {
-	target = STW
-	autonomy_state = autonomy_nominal_vassal
-}
-set_autonomy = {
-	target = FEA
-	autonomy_state = autonomy_nominal_vassal
-}
-set_autonomy = {
-	target = PYT
-	autonomy_state = autonomy_nominal_vassal
-}
-set_autonomy = {
-	target = MNC
-	autonomy_state = autonomy_nominal_vassal
-}
-
 
 set_stability = 0.45
 set_war_support = 0.50
@@ -493,6 +456,7 @@ country_event = {
 save_global_event_target_as = griffonian_empire
 set_variable = { global.griffonian_empire_var = THIS }
 create_faction = reichspakt
+add_to_faction = JER
 
 if = {
 	limit = {

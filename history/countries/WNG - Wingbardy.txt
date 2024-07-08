@@ -190,7 +190,6 @@ set_politics = {
 }
 add_ideas = {
 	WNG_garibald_talonuel_iii
-	EoF_WNG_treaty
 	WNG_political_deadlock
 	WNG_economic_crisis
 	WNG_stilted_education

@@ -270,13 +270,6 @@ recruit_character = EoF_blind_obsession
 recruit_character = EoF_tiffany_sortier
 recruit_character = EoF_marin_bataille
 
-create_faction = Aquileia
-add_to_faction = JER
-add_to_faction = JFT
-add_to_faction = VIN
-add_to_faction = JRR
-add_to_faction = JEB
-add_to_faction = MER
 if = {
 	limit = {
 		has_dlc = "Together for Victory"

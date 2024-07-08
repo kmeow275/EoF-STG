@@ -721,12 +721,6 @@ ideas = {
 						has_country_flag = ZES_pasarinha_economy_block
 					}
 				}
-				if = {
-					limit = {
-						tag = WNG
-					}
-					has_global_flag = EoF_tarrin_war_threat
-				}
 			}
 
 			cost = 150
@@ -834,12 +828,6 @@ ideas = {
 					NOT = {
 						has_country_flag = ZES_pasarinha_economy_block
 					}
-				}
-				if = {
-					limit = {
-						tag = WNG
-					}
-					has_global_flag = EoF_tarrin_war_threat
 				}
 			}
 

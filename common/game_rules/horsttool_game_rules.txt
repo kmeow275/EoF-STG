@@ -8,11 +8,11 @@ horst_host_country = {
 		desc = ""
 	}
 
-	# option = {
-	# 	name = GRI
-	# 	text = "Empire"
-	# 	desc = ""
-	# }
+	option = {
+		name = GRI
+		text = "Empire"
+		desc = ""
+	}
 	option = {
 		name = FAT
 		text = "Republic"
@@ -83,11 +83,11 @@ horst_host_country = {
 		text = "Stalliongrad"
 		desc = ""
 	}
-	# option = {
-	# 	name = EQC
-	# 	text = "New Mareland"
-	# 	desc = ""
-	# }
+	option = {
+		name = EQC
+		text = "New Mareland"
+		desc = ""
+	}
 	option = {
 		name = WNG
 		text = "Wingbardy"
@@ -133,15 +133,20 @@ horst_host_country = {
 		text = "Hippogryphia"
 		desc = ""
 	}
-	# option = {
-	# 	name = OLE
-	# 	text = "Olenia"
-	# 	desc = ""
-	# }
+	option = {
+		name = OLE
+		text = "Olenia"
+		desc = ""
+	}
 	# option = {
 	# 	name = OLV
 	# 	text = "Austurland"
 	# 	desc = ""
 	# }
+	option = {
+		name = MCW
+		text = "Macawia"
+		desc = ""
+	}
 }
 

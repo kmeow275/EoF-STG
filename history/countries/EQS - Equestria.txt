@@ -623,6 +623,7 @@ add_to_faction = EQC
 add_to_faction = PCB
 add_to_faction = HIP
 add_to_faction = WNG
+add_to_faction = MCW
 
 set_rule = {
 	can_generate_female_aces = yes

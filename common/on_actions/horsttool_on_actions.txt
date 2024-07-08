@@ -6,10 +6,10 @@ on_actions = {
 				limit = {has_game_rule = { rule = horst_host_country option = CHN} }
 				set_variable = { host = CHN.id }
 			}
-			# else_if = {
-			# 	limit = {has_game_rule = { rule = horst_host_country option = GRI} }
-			# 	set_variable = { host = GRI.id }
-			# }
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = GRI} }
+				set_variable = { host = GRI.id }
+			}
 			else_if = {
 				limit = {has_game_rule = { rule = horst_host_country option = FAT} }
 				set_variable = { host = FAT.id }
@@ -66,10 +66,10 @@ on_actions = {
 				limit = {has_game_rule = { rule = horst_host_country option = STG} }
 				set_variable = { host = STG.id }
 			}
-			# else_if = {
-			# 	limit = {has_game_rule = { rule = horst_host_country option = EQC} }
-			# 	set_variable = { host = EQC.id }
-			# }
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = EQC} }
+				set_variable = { host = EQC.id }
+			}
 			else_if = {
 				limit = {has_game_rule = { rule = horst_host_country option = WNG} }
 				set_variable = { host = WNG.id }
@@ -106,14 +106,18 @@ on_actions = {
 				limit = {has_game_rule = { rule = horst_host_country option = HIP} }
 				set_variable = { host = HIP.id }
 			}
-			# 			else_if = {
-			# 	limit = {has_game_rule = { rule = horst_host_country option = OLE} }
-			# 	set_variable = { host = OLE.id }
-			# }
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = OLE} }
+				set_variable = { host = OLE.id }
+			}
 			# 			else_if = {
 			# 	limit = {has_game_rule = { rule = horst_host_country option = OLV} }
 			# 	set_variable = { host = OLV.id }
 			# }
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = MCW} }
+				set_variable = { host = MCW.id }
+			}
 			var:host = {
 				set_variable = { marked_states = 0 }
 				set_country_flag = host

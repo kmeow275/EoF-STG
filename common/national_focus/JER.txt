@@ -6457,32 +6457,6 @@ focus_tree = {
 			unlock_decision_tooltip = EoF_JER_form_domination
 		}
 	}
-	shared_focus = {
-		id = EoF_invade_wingbardy
-		icon = GFX_goal_JER_strike_at_karthin
-		prerequisite = { focus = EoF_invade_equestria }
-		relative_position_id = EoF_invade_equestria
-		x = 1
-		y = 1
-		cost = 5
-		available = {
-			has_war_with = EQS
-		}
-		completion_reward = {
-			activate_mission_tooltip = EoF_JER_invade_wingbardy_mission
-			WNG = {
-				remove_ideas = EoF_WNG_treaty
-				add_timed_idea = {
-					idea = EoF_WNG_militarization
-					days = 365
-				}
-			}
-			hidden_effect = {
-				news_event = EoF.news.4
-				set_global_flag = EoF_tarrin_war_threat
-			}
-		}
-	}
 	#EoF Changes
 
 	### At long last I am free of politics and may do the industrial tree ###
