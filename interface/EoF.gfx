@@ -503,6 +503,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/JER_wingbardy_threat.dds"
 	}
 	spriteType = {
+		name = "GFX_GRI_shore_expansionism"
+		texturefile = "gfx/event_pictures/GRI_shore_expansionism.dds"
+	}
+	spriteType = {
 		name = "GFX_EoF_fire"
 		texturefile = "gfx/event_pictures/EoF_fire.dds"
 	}

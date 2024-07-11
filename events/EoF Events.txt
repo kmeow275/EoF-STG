@@ -432,6 +432,23 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = EoF.14
+	title = EoF.14.t
+	desc = EoF.14.desc
+	picture = GFX_event_celestia_poster
+	is_triggered_only = yes
+	option = {
+		name = EoF.14.a
+		add_timed_idea = {
+			idea = EoF_payment
+			days = 180
+		}
+		379 = {
+			transfer_state_to = GRI
+		}
+	}
+}
 
 news_event = {
 	id = EoF.news.1
@@ -479,5 +496,17 @@ news_event = {
 
 	option = {
 		name = EoF.news.4.a
+	}
+}
+news_event = {
+	id = EoF.news.5
+	title = EoF.news.5.t
+	desc = EoF.news.5.d
+	picture = GFX_GRI_shore_expansionism
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = EoF.news.5.a
 	}
 }

@@ -23,6 +23,8 @@ EoF_CHN_mio_trait_large_turrets:0 "Large Turrets"
 EoF_CHN_mio_trait_simple_variants:0 "Simplified Variants"
 
 EoF_JER_aeb_organization:0 "AEB"
+EoF_JER_acl_organization:0 "ACL"
+EoF_JER_acf_organization:0 "ACF"
 
 STG_economic_policy:0 "War Communism"
 
@@ -98,6 +100,8 @@ GRF_border_war.5.t:0 "Village Up North Lost"
 GRF_border_war.5.desc:0 "Despite heroic resistance, Nova Griffonian forces were able to reach the town and take up positions within buildings. Without adequete forces to counter-attack our forces were forced to withdraw."
 GRF_border_war.5.a:0 "Evacuate the civilians."
 
+EoF_GRI_border_war_decision:0 "Sieze Skyfallian Territory"
+
 EoF.news.1.t:0 "Snowy Mountain Eruption"
 EoF.news.1.d:0 "[This.GetNewspaperHeader] A giant fucking volcano erupted on the Nova-Stalliongrad Border. Even though this has basically no political implications whatsoever, everyone around the world is tense for some reason. Observers do comment; however, that this is incredibly convenient if a war were to break out between the countries of Northern Equus and Southern Equus to prevent either of the bordering countries from being rolled over instantly."
 EoF.news.1.a:0 "So that's why it's impassable."
@@ -115,6 +119,10 @@ EoF.news.3.a:0 "War is Looming."
 EoF.news.4.t:0 "Aquileia Threatens Wingbardy"
 EoF.news.4.d:0 "[This.GetNewspaperHeader] Following a stunning series of victories against Equestria, Aquileia has officially called into question the validity of the Treaty of Tarrin. Meanwhile in Karthin, Wingbardian officials responded decisively with a unilaterial denouncement of Aquileian aggression, as well as passing several unprecedented laws that would see the first fulltime remilitarization of Wingbardy since its unification years ago."
 EoF.news.4.a:0 "Wingbardy will be tested."
+
+EoF.news.5.t:0 "Imperial Naval Expansion"
+EoF.news.5.d:0 "[This.GetNewspaperHeader] The Griffonian Empire, renowned for its formidable land-based military prowess, is now setting its sights on the seas. With a small but strategic shoreline, the Empire has launched an ambitious project to expand its dockyard capacity. Officials announced the initiative aims to bolster naval capabilities, supporting both defense and trade. The expansion signifies a pivotal shift in Griffonia's strategic focus, reflecting growing maritime ambitions and a commitment to securing its coastal borders."
+EoF.news.5.a:0 "More coast is needed..."
 
 EoF_YAK_JAK_civil_war:0 "Yak-Jak Civil War"
 EoF_YAK_JAK_civil_war_volunteers_1:0 "Yak-Jak Civil War Volunteers"
@@ -148,6 +156,10 @@ EoF.13.desc:0 "After several months of rapid fire research and testing at the É
 EoF.13.a:0 "Support."
 EoF.13.b:0 "Supremacy."
 EoF.13.c:0 "Speed."
+
+EoF.14.t:0 "Grover's Birthday Present"
+EoF.14.desc:0 "Dear Princess Celestia,\nHi! It's me, Grover. My birthday is coming up, and I was wondering if you could give me the city of Skyfall as a present? It would be amazing!\nThank you,\nGrover\n\nDear Princess Celestia,\nHello again! Just a reminder about my birthday. I really, really want Skyfall as my present. It’s my dream to have it!\nBest wishes,\nGrover\n\nDear Princess Celestia,\nIt’s Grover. My birthday is soon, and I’m hoping you’ll give me Skyfall. It’s the best gift I could ever ask for!\nThanks a lot,\nGrover\n\nDear Princess Celestia,\nIt’s almost my birthday, and I just wanted to say how much I want Skyfall as my present. Please, it would make me so happy!\nThank you so much,\nGrover"
+EoF.14.a:0 "I hate kids."
 
 EoF_great_war.1.t:0 "Sunset's Counteroffensive"
 EoF_great_war.1.desc:0 "In our darkest hour, an unexpected ally has appeared to help us. Despite being gone for several years, Sunset Shimmer has recently returned to help Equestria defend against the Changeling attack, and she did not return alone. Over the past week, hundreds of thousands of volunteer soldiers from alternate dimensions have arrived along with heavy equipment and integrated themselves within our armed forces."
@@ -555,6 +567,9 @@ EoF_naval_academy_speed:0 "École Navale"
 EoF_gday_marines:0 "Marines Stratégiques"
 
 EoF_supply_stockpile:0 "Supply Stockpile"
+
+EoF_taifunkrieg:0 "Taifunkrieg"
+EoF_payment:0 "Industrial Payments"
 
 EoF_funding_naval_mio:0 "Funding Naval Companies"
 mio_policy_JER_quantity:0 "Quantitative Overmatch"

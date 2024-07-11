@@ -1,4 +1,5 @@
 add_namespace = GRF_border_war
+add_namespace = GRI_border_war
 
 country_event = {
 	id = GRF_border_war.1
@@ -12,14 +13,14 @@ country_event = {
 			change_state_after_war = no
 			attacker = {
 				state = 338
-				num_provinces = 1
+				num_provinces = 2
 				on_win = GRF_border_war.2
 				on_cancel = GRF_border_war.3
 				on_lose = GRF_border_war.3
 			}
 			defender = {
 				state = 241
-				num_provinces = 1
+				num_provinces = 2
 				on_win = GRF_border_war.4
 				on_cancel = GRF_border_war.4
 				on_lose = GRF_border_war.5
@@ -30,7 +31,12 @@ country_event = {
 		set_border_war_data = {
 			attacker = 338
 			defender = 241
-			attacker_modifier = 0.8
+			attacker_modifier = 0.5
+		}
+		hidden_effect = {
+			GRF = {
+				add_threat = 15
+			}
 		}
 	}
 }
@@ -43,7 +49,6 @@ country_event = {
 	option = {
 		name = GRF_border_war.2.a
 		add_stability = 0.05
-		add_war_support = 0.05
 		army_experience = 30
 		241 = {
 			transfer_state_to = GRF
@@ -68,11 +73,8 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = GRF_border_war.4.a
-		add_war_support = 0.05
+		add_stability = 0.05
 		army_experience = 30
-		hidden_effect = {
-			add_war_support = 0.005
-		}
 	}
 }
 country_event = {
@@ -83,10 +85,22 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = GRF_border_war.5.a
-		add_stability = -0.05
-		add_war_support = 0.05
-		hidden_effect = {
-			add_war_support = 0.005
+	}
+}
+country_event = {
+	id = GRI_border_war.1
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		379 = {
+			transfer_state_to = GRI
 		}
+	}
+}
+country_event = {
+	id = GRI_border_war.2
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {	
 	}
 }
