@@ -481,6 +481,22 @@ spriteTypes = {
 		name = "GFX_improved_assault_weapons_medium"
 		texturefile = "gfx/interface/technologies/assault_equipment_2.dds"
 	}
+	SpriteType = {
+		name = "GFX_tech_headquarters_medium"
+		texturefile = "gfx/interface/technologies/tech_headquarters.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_headquarters2_medium"
+		texturefile = "gfx/interface/technologies/tech_headquarters2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_headquarters3_medium"
+		texturefile = "gfx/interface/technologies/tech_headquarters3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_headquarters4_medium"
+		texturefile = "gfx/interface/technologies/tech_headquarters4.dds"
+	}
 	###Pictures###
 	spriteType = {
 		name = "GFX_GRF_border_war"
@@ -688,6 +704,28 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_amphibious_heavy_armor_icon_medium_white"
 		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_heavy_amphibious_tank_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_medium_tank_recon_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_medium_armored_recon_icon.dds"
+		noOfFrames = 2	
+	}
+	spriteType = {
+		name = "GFX_unit_medium_tank_recon_icon_small"
+		texturefile = "gfx/texticons/support_medium_armored_recon.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_headquarters_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/support_unit_headquarters_icon.dds"
+		noOfFrames = 2	
+	}
+	spriteType = {
+		name = "GFX_unit_headquarters_icon_small"
+		texturefile = "gfx/texticons/support_headquarters_small.dds"
+		legacy_lazy_load = no
 		noOfFrames = 2
 	}
 	###Ideas###
