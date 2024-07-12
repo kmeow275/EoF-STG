@@ -31,6 +31,9 @@ NDefines.NMilitary.COMBAT_STACKING_PENALTY = -0.1		-- how much stacking penalty 
 NDefines.NMilitary.TRAINING_ATTRITION = 0		  	-- amount of extra attrition from being in training
 NDefines.NMilitary.TRAINING_EXPERIENCE_SCALE = 6.0
 
+NDefines.NMilitary.RECON_SKILL_IMPACT = 10				-- how many skillpoints is a recon advantage worth when picking a tactic.
+NDefines.NMilitary.INITIATIVE_PICK_COUNTER_ADVANTAGE_FACTOR  = 1	-- advantage per leader level for picking a counter
+
 NDefines.NMilitary.SLOWEST_SPEED = 1
 
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.3		-- effect on defense due to enemy air superiorty
