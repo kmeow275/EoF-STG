@@ -3900,106 +3900,6 @@ shared_focus = {
 		}
 	}
 }
-#EoF Changes
-shared_focus = {
-	id = EoF_expand_our_shores
-	icon = GFX_goal_Attack_Skyfall
-	x = 1
-	y = 2
-	relative_position_id = GRI_submarines_and_long_lance
-	cost = 3
-	completion_reward = {
-		add_threat = 5
-		news_event = EoF.news.5
-		433 = {
-			add_dynamic_modifier = {
-				modifier = EoF_superindustrial_zone
-			}
-		}
-	}
-}
-shared_focus = {
-	id = EoF_princess_kaiser
-	icon = GFX_goal_grover_vi
-	prerequisite = { focus = EoF_expand_our_shores }
-	x = -1
-	y = 1
-	relative_position_id = EoF_expand_our_shores
-	cost = 3
-	mutually_exclusive = {
-		focus = EoF_show_our_strength
-	}
-	completion_reward = {
-		EQS = {
-			country_event = EoF.14
-		}
-	}
-}
-shared_focus = {
-	id = EoF_show_our_strength
-	icon = GFX_goal_national_artillery
-	prerequisite = { focus = EoF_expand_our_shores }
-	x = 1
-	y = 1
-	relative_position_id = EoF_expand_our_shores
-	cost = 3
-	mutually_exclusive = {
-		focus = EoF_princess_kaiser
-	}
-	completion_reward = {
-		add_threat = 3
-		unlock_decision_tooltip = EoF_GRI_border_war_decision
-	}
-}
-shared_focus = {
-	id = EoF_olenian_purchase
-	icon = GFX_focus_generic_treaty_black
-	prerequisite = { focus = EoF_princess_kaiser focus = EoF_show_our_strength }
-	x = 1
-	y = 1
-	relative_position_id = EoF_princess_kaiser
-	cost = 3
-	completion_reward = {
-		if = {
-			limit = {
-				OLE = {
-					is_ai = yes
-				}
-			}
-			CHN = {
-				add_timed_idea = {
-					idea = EoF_payment
-					days = 180
-				}
-			}
-		}
-		else = {
-			OLE = {
-				add_timed_idea = {
-					idea = EoF_payment
-					days = 180
-				}
-			}			
-		}
-		558 = {
-			transfer_state_to = GRI
-			add_core_of = GRI
-		}
-		578 = {
-			transfer_state_to = GRI
-			add_core_of = GRI
-		}
-		413 = {
-			transfer_state_to = GRI
-			add_core_of = GRI
-		}
-		680 = {
-			transfer_state_to = GRI
-			add_core_of = GRI
-		}
-	}
-}
-#EoF Changes
 
 ### Industrial ###
 
@@ -5214,6 +5114,107 @@ shared_focus = {
 	}
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 }
+
+#EoF Changes
+shared_focus = {
+	id = EoF_expand_our_shores
+	icon = GFX_goal_Attack_Skyfall
+	x = 1
+	y = 2
+	relative_position_id = GRI_submarines_and_long_lance
+	cost = 3
+	completion_reward = {
+		add_threat = 5
+		news_event = EoF.news.5
+		433 = {
+			add_dynamic_modifier = {
+				modifier = EoF_superindustrial_zone
+			}
+		}
+	}
+}
+shared_focus = {
+	id = EoF_princess_kaiser
+	icon = GFX_goal_grover_vi
+	prerequisite = { focus = EoF_expand_our_shores }
+	x = -1
+	y = 1
+	relative_position_id = EoF_expand_our_shores
+	cost = 3
+	mutually_exclusive = {
+		focus = EoF_show_our_strength
+	}
+	completion_reward = {
+		EQS = {
+			country_event = EoF.14
+		}
+	}
+}
+shared_focus = {
+	id = EoF_show_our_strength
+	icon = GFX_goal_national_artillery
+	prerequisite = { focus = EoF_expand_our_shores }
+	x = 1
+	y = 1
+	relative_position_id = EoF_expand_our_shores
+	cost = 3
+	mutually_exclusive = {
+		focus = EoF_princess_kaiser
+	}
+	completion_reward = {
+		add_threat = 3
+		unlock_decision_tooltip = EoF_GRI_border_war_decision
+	}
+}
+shared_focus = {
+	id = EoF_olenian_purchase
+	icon = GFX_focus_generic_treaty_black
+	prerequisite = { focus = EoF_princess_kaiser focus = EoF_show_our_strength }
+	x = 1
+	y = 1
+	relative_position_id = EoF_princess_kaiser
+	cost = 3
+	completion_reward = {
+		if = {
+			limit = {
+				OLE = {
+					is_ai = yes
+				}
+			}
+			CHN = {
+				add_timed_idea = {
+					idea = EoF_payment
+					days = 180
+				}
+			}
+		}
+		else = {
+			OLE = {
+				add_timed_idea = {
+					idea = EoF_payment
+					days = 180
+				}
+			}			
+		}
+		558 = {
+			transfer_state_to = GRI
+			add_core_of = GRI
+		}
+		578 = {
+			transfer_state_to = GRI
+			add_core_of = GRI
+		}
+		413 = {
+			transfer_state_to = GRI
+			add_core_of = GRI
+		}
+		680 = {
+			transfer_state_to = GRI
+			add_core_of = GRI
+		}
+	}
+}
+#EoF Changes
 
 ### Army ###
 

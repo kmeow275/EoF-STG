@@ -358,13 +358,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_opinion_modifier = { target = JER modifier = sworn_enemies }
-add_opinion_modifier = { target = WNG modifier = sworn_enemies }
-add_opinion_modifier = { target = FAT modifier = sworn_enemies }
-reverse_add_opinion_modifier = { target = JER modifier = sworn_enemies }
-reverse_add_opinion_modifier = { target = WNG modifier = sworn_enemies }
-reverse_add_opinion_modifier = { target = FAT modifier = sworn_enemies }
-
 add_ideas = {
 	outdated_industry
 	GRI_bureaucracy

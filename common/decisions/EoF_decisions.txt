@@ -95,6 +95,10 @@ political_actions = {
 				add_to_faction = JER
 				add_to_faction = GRI
 			}
+			EQS = {
+				add_to_faction = WNG
+				add_to_faction = MCW
+			}
 			if = {
 				limit = {
 					has_country_flag = EoF_taifunkrieg_active
