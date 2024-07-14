@@ -100,7 +100,7 @@ GRF_border_war.5.t:0 "Village Up North Lost"
 GRF_border_war.5.desc:0 "Despite heroic resistance, Nova Griffonian forces were able to reach the town and take up positions within buildings. Without adequete forces to counter-attack our forces were forced to withdraw."
 GRF_border_war.5.a:0 "Evacuate the civilians."
 
-EoF_GRI_border_war_decision:0 "Sieze Skyfallian Territory"
+EoF_GRI_border_war_decision:0 "Seize Skyfallian Territory"
 
 EoF.news.1.t:0 "Snowy Mountain Eruption"
 EoF.news.1.d:0 "[This.GetNewspaperHeader] A giant fucking volcano erupted on the Nova-Stalliongrad Border. Even though this has basically no political implications whatsoever, everyone around the world is tense for some reason. Observers do comment; however, that this is incredibly convenient if a war were to break out between the countries of Northern Equus and Southern Equus to prevent either of the bordering countries from being rolled over instantly."

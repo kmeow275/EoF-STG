@@ -1677,7 +1677,8 @@ technologies = {
 		headquarters = {
 			battalion_mult = {
 				category = category_army
-				max_organisation = 0.05
+				max_organisation = 1
+				add = yes
 			}
 		}
 
@@ -1686,8 +1687,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.25
-		start_year = 1007
+		research_cost = 1.5
+		start_year = 1010
 		folder = {
 			name = support_folder
 			position = { x = 14 y = @1010 }
@@ -1704,7 +1705,8 @@ technologies = {
 		headquarters = {
 			battalion_mult = {
 				category = category_army
-				max_organisation = 0.05
+				max_organisation = 1
+				add = yes
 			}
 		}
 
@@ -1713,8 +1715,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.25
-		start_year = 1007
+		research_cost = 2
+		start_year = 1013
 		folder = {
 			name = support_folder
 			position = { x = 14 y = @1013 }
@@ -1731,12 +1733,13 @@ technologies = {
 		headquarters = {
 			battalion_mult = {
 				category = category_army
-				max_organisation = 0.05
+				max_organisation = 1
+				add = yes
 			}
 		}
 
-		research_cost = 1.25
-		start_year = 1007
+		research_cost = 2
+		start_year = 1016
 		folder = {
 			name = support_folder
 			position = { x = 14 y = @1016 }
