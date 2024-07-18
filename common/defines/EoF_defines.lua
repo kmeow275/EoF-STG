@@ -147,6 +147,28 @@ NDefines.NNavy.SHORE_BOMBARDMENT_CAP = 0.5			-- Vanilla is 0.25
 NDefines.NNavy.HEAVY_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.01	-- heavy gun attack value is divided by this value * 100 and added to shore bombardment modifier
 NDefines.NNavy.LIGHT_GUN_ATTACK_TO_SHORE_BOMBARDMENT = 0.005	-- light gun attack value is divided by this value * 100 and added to shore bombardment modifier
 
+-- defines that control submarine visibility
+NDefines.NNavy.NAVAL_COMBAT_SUB_DETECTION_FACTOR = 1.0			-- balance value for sub detection in combat by ships
+NDefines.NNavy.SUBMARINE_HIDE_TIMEOUT = 20				-- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide.
+NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 16				-- Amount of in-game-hours that makes the submarine visible if it is on the defender side.
+NDefines.NNavy.SUBMARINE_REVEAL_BASE_CHANCE = 100			-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
+NDefines.NNavy.SUBMARINE_REVEAL_POW = 2.0				-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
+NDefines.NNavy.SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE = 0.035		-- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection
+
+-- those two work together in the formula f(x) = Y(x/(x+X)) where Y is MAX and X is SLOPE
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_MAX = 10.0
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_SLOPE = 10.0		-- lower means sharper curve (ramps up very fast, then flatten out very fast). Must be >0
+
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_EXTERNAL_FACTOR = 1.0				-- Factor applied to the stats of external air planes
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_INTERNAL_EFFICIENCY_FACTOR = 1.0			-- Factor of Carrier's sortie efficiency on the stats bellow
+NDefines.NNavy.NAVAL_COMBAT_AIR_AGILITY_TO_SUB_DETECTION = 0.0					-- Factor to apply to the agility of air planes active in a naval combat to deduce their contibution to sub detection
+NDefines.NNavy.NAVAL_COMBAT_AIR_STRIKE_ATTACK_TO_SUB_DETECTION = 0.0				-- Same, but for strike attack (aka naval attack)
+NDefines.NNavy.NAVAL_COMBAT_AIR_STRIKE_TARGETING_TO_SUB_DETECTION = 0.0				-- Same, but for strike targeting (aka naval targeting)
+NDefines.NNavy.NAVAL_COMBAT_AIR_MAX_SPEED_TO_SUB_DETECTION = 0.0				-- Same, but for Max Speed
+NDefines.NNavy.NAVAL_COMBAT_AIR_PLANE_COUNT_TO_SUB_DETECTION = 1.0				-- Factor applied to the number of active plane in a naval combat to deduce their contribution to sub detection
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_DECAY_RATE = 1.0					-- Factor to decay the value of sub detection contributed by planes on the last hour. Note: the maximum value between the decayed value and the newly computed one is taken into account. A decay rate of 1 means that nothing is carried over, the previous value is zerod out. A decay rate of 0 means that the previous value is carried over as is.
+NDefines.NNavy.NAVAL_COMBAT_AIR_SUB_DETECTION_FACTOR = 0.0					-- A global factor that applies after all others, right before the sub detection contributed by plane is added to the global sub detection of a combatant
+
 -- defines that are used for supply reach for built nodes
 NDefines.NSupply.NODE_INITIAL_SUPPLY_FLOW = 3.0
 NDefines.NSupply.NODE_STARTING_PENALTY_PER_PROVINCE = 0.30
