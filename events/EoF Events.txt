@@ -450,6 +450,17 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = EoF.15
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		every_country = {
+			set_country_flag = EoF_big_event_custom_tarrin
+		}
+	}
+}
+
 news_event = {
 	id = EoF.news.1
 	title = EoF.news.1.t
