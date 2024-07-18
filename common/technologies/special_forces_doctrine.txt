@@ -793,7 +793,7 @@ technologies = {
 			}
 		}
 		
-		shore_bombardment_bonus = 0.15
+		shore_bombardment_bonus = 0.10
 		special_forces_attack_factor = 0.10
 			
 		doctrine = yes	

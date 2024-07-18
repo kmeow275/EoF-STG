@@ -571,6 +571,9 @@ EoF_supply_stockpile:0 "Supply Stockpile"
 EoF_taifunkrieg:0 "Taifunkrieg"
 EoF_payment:0 "Industrial Payments"
 
+EoF_CTH_service_exemption:0 "Colthaginian Service Exemption"
+EoF_CTH_service_exemption_desc:0 "Despite being considered full citizens of Macawia, the political and economic turmoil of the North Zebrican War have made the recruitment of Colthaginian citizens into the armed forces nonviable."
+
 EoF_funding_naval_mio:0 "Funding Naval Companies"
 mio_policy_JER_quantity:0 "Quantitative Overmatch"
 mio_policy_JER_quality:0 "Qualitative Overmatch"
