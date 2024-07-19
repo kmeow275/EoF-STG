@@ -12,7 +12,7 @@ state={
 
 	history = {
 		owner = WNG
-		add_claim_by = JER
+		add_core_of = JER
 
 		victory_points = { 10817 3 }
 
