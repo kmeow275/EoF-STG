@@ -75,9 +75,6 @@ ideas = {
 		EoF_CHN_final_army_expansion = {
 			removal_cost = -1
 			picture = ARG_rapid_militarization
-			cancel = {
-				has_global_flag = EoF_great_war_began
-			}
 			modifier = {
 				production_factory_max_efficiency_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.1
