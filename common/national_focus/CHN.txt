@@ -2606,6 +2606,25 @@ focus_tree = {
 	}
 
 	focus = {
+		id = EoF_pax_chrysalia
+		icon = GFX_goal_chn_equus
+		cost = 10
+		prerequisite = {
+			focus = EoF_fall_dunkelgrun
+			focus = EoF_fall_hellgrun
+			focus = EoF_fall_rosa
+		}
+		available = {
+			always = no
+		}
+		relative_position_id = EoF_fall_hellgrun
+		x = 0
+		y = 2`
+		completion_reward = {
+		}
+	}
+
+	focus = {
 		id = EoF_our_war_plan
 		icon = GFX_goal_chn_man_textbooks
 		cost = 5

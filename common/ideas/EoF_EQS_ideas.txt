@@ -636,5 +636,14 @@ ideas = {
 				army_defence_factor = -0.04
 			}		
 		}
+		EoF_operation_vegetarian_stockpile = {
+			removal_cost = -1
+			picture = HIP_pink_constitution
+			modifier = {
+				political_power_cost = 0.1
+				military_factory_donations = -2
+				war_support_weekly = -0.002 
+			}			
+		}
 	}
 }
