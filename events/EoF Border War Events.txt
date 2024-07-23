@@ -17,6 +17,9 @@ country_event = {
 				on_win = GRF_border_war.2
 				on_cancel = GRF_border_war.3
 				on_lose = GRF_border_war.3
+				dig_in_factor = 0
+				terrain_factor = 0
+				modifier = 0.5
 			}
 			defender = {
 				state = 241
@@ -24,14 +27,9 @@ country_event = {
 				on_win = GRF_border_war.4
 				on_cancel = GRF_border_war.4
 				on_lose = GRF_border_war.5
+				dig_in_factor = 0
+				terrain_factor = 0
 			}
-			dig_in_factor = 0
-			terrain_factor = 0
-		}
-		set_border_war_data = {
-			attacker = 338
-			defender = 241
-			attacker_modifier = 0.5
 		}
 		hidden_effect = {
 			GRF = {

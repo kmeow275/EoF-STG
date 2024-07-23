@@ -5118,7 +5118,7 @@ shared_focus = {
 #EoF Changes
 shared_focus = {
 	id = EoF_expand_our_shores
-	icon = GFX_goal_Attack_Skyfall
+	icon = GFX_goal_feathasia_navy
 	x = 1
 	y = 2
 	relative_position_id = GRI_submarines_and_long_lance
@@ -5137,7 +5137,7 @@ shared_focus = {
 	id = EoF_princess_kaiser
 	icon = GFX_goal_grover_vi
 	prerequisite = { focus = EoF_expand_our_shores }
-	x = -1
+	x = -2
 	y = 1
 	relative_position_id = EoF_expand_our_shores
 	cost = 3
@@ -5152,9 +5152,9 @@ shared_focus = {
 }
 shared_focus = {
 	id = EoF_show_our_strength
-	icon = GFX_goal_national_artillery
+	icon = GFX_goal_Attack_Skyfall
 	prerequisite = { focus = EoF_expand_our_shores }
-	x = 1
+	x = 0
 	y = 1
 	relative_position_id = EoF_expand_our_shores
 	cost = 3
@@ -5164,6 +5164,23 @@ shared_focus = {
 	completion_reward = {
 		add_threat = 3
 		unlock_decision_tooltip = EoF_GRI_border_war_decision
+	}
+}
+shared_focus = {
+	id = EoF_imperial_coast
+	icon = GFX_goal_trade_with_nova_griffonia
+	prerequisite = { focus = EoF_expand_our_shores }
+	x = 2
+	y = 1
+	relative_position_id = EoF_expand_our_shores
+	cost = 8
+	completion_reward = {
+		GRF = {
+			swap_ideas = {
+				remove_idea = GRF_colonial_economy
+				add_idea = GRF_stagnated_economy
+			}
+		}
 	}
 }
 shared_focus = {

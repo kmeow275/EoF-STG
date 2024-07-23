@@ -58,6 +58,8 @@ political_actions = {
 					on_win = GRI_border_war.1
 					on_cancel = GRI_border_war.2
 					on_lose = GRI_border_war.2
+					dig_in_factor = 0
+					terrain_factor = 0
 				}
 				defender = {
 					state = 379
@@ -65,9 +67,9 @@ political_actions = {
 					on_win = GRI_border_war.2
 					on_cancel = GRI_border_war.2
 					on_lose = GRI_border_war.2
+					dig_in_factor = 0
+					terrain_factor = 0
 				}
-				dig_in_factor = 0
-				terrain_factor = 0
 			}
 		}
 	}
