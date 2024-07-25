@@ -4226,35 +4226,53 @@ shared_focus = {
 	ai_will_do = { factor = 8 }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GRI_northern_roads"
-		if = {
-			limit = {
-				NOT = {
-					OR = {
-						any_owned_state = {
-							is_core_of = FEA
-						}
-						any_owned_state = {
-							is_core_of = STW
-						}
-						any_owned_state = {
-							is_core_of = PYT
-						}
-						any_owned_state = {
-							is_core_of = BRZ
-						}
-					}
-				}
-			}
-			custom_effect_tooltip = GRI_northern_roads_tp
-		}
-		else = {
+		# if = {
+			# limit = {
+				# NOT = {
+					# OR = {
+						# any_owned_state = {
+							# is_core_of = FEA
+						# }
+						# any_owned_state = {
+							# is_core_of = STW
+						# }
+						# any_owned_state = {
+							# is_core_of = PYT
+						# }
+						# any_owned_state = {
+							# is_core_of = BRZ
+						# }
+					# }
+				# }
+			# }
+			# custom_effect_tooltip = GRI_northern_roads_tp
+		# }
+		# else = {
 			every_owned_state = {
 				limit = {
 					OR = {
-						is_core_of = FEA
-						is_core_of = STW
-						is_core_of = PYT
-						is_core_of = BRZ
+						state = 433
+						state = 538
+						state = 498
+						state = 497
+						state = 520
+						state = 434
+						state = 441
+						state = 440
+						state = 666
+						state = 378
+						state = 399
+						state = 447
+						state = 486
+						state = 546
+						state = 458
+						state = 545
+						state = 443
+						state = 539
+						state = 492
+						state = 568
+						state = 479
+						state = 424
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -4264,7 +4282,7 @@ shared_focus = {
 					instant_build = yes
 				}
 			}
-		}
+		# }
 	}
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 }
@@ -4423,35 +4441,42 @@ shared_focus = {
 	ai_will_do = { factor = 8 }
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GRI_southern_roads"
-		if = {
-			limit = {
-				NOT = {
-					OR = {
-						any_owned_state = {
-							is_core_of = ANG
-						}
-						any_owned_state = {
-							is_core_of = KAT
-						}
-						any_owned_state = {
-							is_core_of = ROU
-						}
-						any_owned_state = {
-							is_core_of = YAL
-						}
-					}
-				}
-			}
-			custom_effect_tooltip = GRI_southern_roads_tp
-		}
-		else = {
+		# if = {
+			# limit = {
+				# NOT = {
+					# OR = {
+						# any_owned_state = {
+							# is_core_of = ANG
+						# }
+						# any_owned_state = {
+							# is_core_of = KAT
+						# }
+						# any_owned_state = {
+							# is_core_of = ROU
+						# }
+						# any_owned_state = {
+							# is_core_of = YAL
+						# }
+					# }
+				# }
+			# }
+			# custom_effect_tooltip = GRI_southern_roads_tp
+		# }
+		# else = {
 			every_owned_state = {
 				limit = {
 					OR = {
-						is_core_of = ANG
-						is_core_of = KAT
-						is_core_of = ROU
-						is_core_of = YAL
+						state = 674
+						state = 665
+						state = 439
+						state = 402
+						state = 398
+						state = 423
+						state = 554
+						state = 506
+						state = 411
+						state = 547
+						state = 422
 					}
 				}
 				add_extra_state_shared_building_slots = 1
@@ -4461,7 +4486,7 @@ shared_focus = {
 					instant_build = yes
 				}
 			}
-		}
+		# }
 	}
 	search_filters = { FOCUS_FILTER_INDUSTRY }
 }
