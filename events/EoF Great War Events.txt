@@ -507,6 +507,12 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = EoF_great_war.9.a
+		unlock_decision_tooltip = EoF_operation_vegetarian_decision
+		add_timed_idea = {
+			idea = EoF_operation_vegetarian_stockpile
+			days = 180
+		}
+		set_country_flag = EoF_operation_vegetarian_flag
 	}
 }
 country_event = {
