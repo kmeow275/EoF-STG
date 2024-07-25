@@ -100,6 +100,12 @@ GRF_border_war.5.t:0 "Village Up North Lost"
 GRF_border_war.5.desc:0 "Despite heroic resistance, Nova Griffonian forces were able to reach the town and take up positions within buildings. Without adequete forces to counter-attack our forces were forced to withdraw."
 GRF_border_war.5.a:0 "Evacuate the civilians."
 
+GRF_border_war.8.t:0 "An Artillery Officer"
+GRF_border_war.8.desc:0 "In the dimly lit throne room of her hive, Queen Chrysalis of the Changelings reclined on her twisted, thorn-covered throne, her eyes gleaming with malevolent intelligence. The air was thick with the hum of her subjects, all awaiting her command. A messenger drone, smaller and more nervous than the others, approached her cautiously, clutching a rolled parchment.\n\n"Your Majesty," the drone began, bowing low. "We have received an urgent report from our spies in the northern regions."\n\nChrysalis motioned for the drone to continue, her expression unreadable. The drone unfurled the parchment and read aloud, its voice trembling slightly.\n\n"Nova Griffonia has launched a counter-attack against the Polar Bears, seizing back their territory. The border war has intensified rapidly, with the Griffons pushing deeper into Polar Bear lands."\n\nQueen Chrysalis, with a glint of ruthless determination in her eyes, summoned her generals forwards. "The time for subtlety is over," she declared, her voice echoing through the chamber. "Nova Griffonia has gone unchecked for too long. We shall strike while they are entangled in their border conflict. Mobilize the armies; I want every soldier ready for an all-out assault. We will crush Nova Griffonia beneath our...\n\n"No, you will not," a voice from the end of the hallway rang out."Your arrogance and foolishness in supporting Bjornling has nearly undone over thirty years of progress. I personally ensure that the Polar Bear-Nova conflict is contained and you will not interrupt the plan with any more childish outbursts. Is that clear?""
+GRF_border_war.8.a:0 "How dare... fine..."
+
+EoF_GRF_border_war_decision_1:0 "Retake Frosthill"
+EoF_GRF_border_war_decision_2:0 "Retake Tsasbaatar"
 EoF_GRI_border_war_decision:0 "Seize Skyfallian Territory"
 
 EoF.news.1.t:0 "Snowy Mountain Eruption"
@@ -146,10 +152,10 @@ EoF.5.t:0 "Request Nova Griffonian Assistance"
 EoF.5.desc:0 "While our army is more than capable of handing the pathetic Penguins alone, the approach to Amundsen is devoid of infrastructure as well as bordered by both mountains and sea. By asking the Nova Griffonians to join us in this endeavour we will soldify our friendship and speed up our conquest of Pingland."
 EoF.5.a:0 "Send the request."
 
-EoF.6.t:0 "Joint Military Operation With the Polar Bears"
-EoF.6.desc:0 "The Polar Bears have requested we join them in an attack against Pingland. Certainly this would be a good opertunity to test our armed forces as well as a useful political maneuver to prepare our people for war; however, it is nonetheless an undertaking with some risks."
-EoF.6.a:0 "I'm sure our allies can handle themselves."
-EoF.6.b:0 "A good chance to practice at war."
+EoF.6.t:0 "Wesslandia Award"
+EoF.6.desc:0 "The Polar Bears have requested we arbitrate a transfer of territorial ownership within the former Griffon Frontier. Bjornling argues that these historical lands were wrongfully colonized during the height of the Griffonian Empire but have now been left in a sordid state by the incompetent Nova Griffonian government. Thusly, he claims, that under Polar Bear management the full potential of these lands may be utilized for the greater good of the Changeling Hegemony."
+EoF.6.a:0 "He has a point, but Nova Griffonia is still an ally."
+EoF.6.b:0 "Bjornling is right, they are weak."
 
 EoF.13.t:0 "Our New Naval Strategy"
 EoF.13.desc:0 "After several months of rapid fire research and testing at the École Navale, our premier theorists and admirals have presented us with several options addressing different actions our fleet may be required to conduct. Which of these should take precedent over the others?"
@@ -213,6 +219,7 @@ EoF_great_war.10.a:0 "Ruthlessness is mercy upon ourselves."
 
 EoF_operation_vegetarian_stockpile:0 "Operation Vegetarian Preparation"
 EoF_operation_vegetarian_decision:0 "Enact Operation Vegetarian"
+EoF_operation_vegetarian_flag:0 "Operation Vegetarian Permitted"
 
 EoF_ant_thrax_CHN:0 "Dense Ant-Thrax"
 EoF_ant_thrax_EQS:0 "Sparse Ant-Thrax"

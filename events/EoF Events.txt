@@ -248,20 +248,51 @@ country_event = {
 	id = EoF.6
 	title = EoF.6.t
 	desc = EoF.6.desc
+	picture = GFX_event_polar_camp_ruins
 	is_triggered_only = yes
 	option = {
 		name = EoF.6.a
-		add_stability = 0.05
-		add_political_power = 50
+		add_threat = 5
+		283 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = GRF
+		}
+		277 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = GRF
+		}
+		GRF = {
+			set_country_flag = EoF_small_wesslandia_award
+		}
 	}
 	option = {
 		name = EoF.6.b
-		add_war_support = 0.05
-		declare_war_on = {
-			target = PNG
-    			type = annex_everything
+		add_threat = 8
+		283 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = GRF
 		}
-		add_threat = 5
+		277 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = GRF
+		}
+		281 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = GRF
+		}
+		278 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = GRF
+		}
+		GRF = {
+			set_country_flag = EoF_big_wesslandia_award
+		}
 	}
 }
 country_event = {

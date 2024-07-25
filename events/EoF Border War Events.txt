@@ -86,6 +86,78 @@ country_event = {
 	}
 }
 country_event = {
+	id = GRF_border_war.6
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		277 = {
+			transfer_state_to = GRF
+			add_core_of = GRF
+			remove_core_of = PLB
+		}
+		283 = {
+			transfer_state_to = GRF
+			add_core_of = GRF
+			remove_core_of = PLB
+		}
+		CHN = {
+			country_event = GRF_border_war.8
+			add_to_faction = GRF
+		}
+	}
+}
+country_event = {
+	id = GRF_border_war.7
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		277 = {
+			transfer_state_to = GRF
+			add_core_of = GRF
+			remove_core_of = PLB
+		}
+		283 = {
+			transfer_state_to = GRF
+			add_core_of = GRF
+			remove_core_of = PLB
+		}
+		278 = {
+			transfer_state_to = GRF
+			add_core_of = GRF
+			remove_core_of = PLB
+		}
+		281 = {
+			transfer_state_to = GRF
+			add_core_of = GRF
+			remove_core_of = PLB
+		}
+		CHN = {
+			country_event = GRF_border_war.8
+			add_to_faction = GRF
+		}
+	}
+}
+country_event = {
+	id = GRF_border_war.8
+	title = GRF_border_war.8.t
+	desc = GRF_border_war.8.desc
+	picture = GFX_EoF_kemerkai_event
+	is_triggered_only = yes
+	option = {
+		name = GRF_border_war.8.a
+	}
+}
+country_event = {
+	id = GRF_border_war.9
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		CHN = {
+			add_to_faction = GRF
+		}
+	}
+}
+country_event = {
 	id = GRI_border_war.1
 	is_triggered_only = yes
 	hidden = yes
@@ -93,12 +165,5 @@ country_event = {
 		379 = {
 			transfer_state_to = GRI
 		}
-	}
-}
-country_event = {
-	id = GRI_border_war.2
-	is_triggered_only = yes
-	hidden = yes
-	immediate = {	
 	}
 }

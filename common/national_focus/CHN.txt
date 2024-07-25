@@ -5433,12 +5433,61 @@ focus_tree = {
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
+	#EoF Changes
+	focus = {
+		id = EoF_polar_relations
+		icon = GFX_goal_chn_plb_strike
+		cost = 3
+		prerequisite = {
+			focus = unite_the_people
+		}
+		x = 3
+		y = 7
+		completion_reward = {
+			country_event = EoF.6
+		}
+	}
+	focus = {
+		id = EoF_polar_aid
+		icon = GFX_goal_chn_plb_threat
+		cost = 3
+		prerequisite = {
+			focus = EoF_polar_relations
+		}
+		relative_position_id = EoF_polar_relations
+		x = 0
+		y = 1
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 2
+				}
+				remove_building = {
+					type = arms_factory
+					level = 2
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 2
+				}
+				remove_building = {
+					type = industrial_complex
+					level = 2
+				}
+			}
+		}
+	}
+	#EoF Changes
 
 	############# PUPPET POLAR BEARS #############################
 	focus = {
 		id = CHN_polar_bear_envoy
 		icon = GFX_goal_chn_plb
 		cost = 4
+		allow_branch = {
+			always = no
+		}
 		prerequisite = {
 			focus = unite_the_people
 		}

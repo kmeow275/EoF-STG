@@ -9,12 +9,137 @@ on_actions = {
 				country_event = { id = EoF.12 days = 1 }
 				news_event = { id = EoF.news.1 days = 10 }
 			}
-			PLB = {
-				country_event = { id = northern_protectorate.99 }
-			}
 			CHN = {
 				country_event = { id = EoF_great_war.7 days = 1764 }
 				country_event = { id = EoF.7 days = 2190 }
+			}
+			PLB = {
+				hidden_effect = {
+					set_country_flag = PLB_northern_protectorate
+					add_popularity = {
+						ideology = fascism
+						popularity = -1
+					}
+					remove_ideas = trade_relations_with_stalliongrad_close
+				}
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+				}
+				promote_character = PLB_bjornling
+				set_party_name = {
+					ideology = fascism
+					long_name = PLB_bjornling_party_long
+					name = PLB_bjornling_party
+				}
+				add_ideas = PLB_NP_schizophrenia
+				if = {
+					limit = {
+							has_country_flag = war_economy_only_flag
+						}
+					clr_country_flag = war_economy_only_flag
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = PLB_volsungr_destroyed_flag
+						}
+					}
+					280 = { set_demilitarized_zone = yes }
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = PLB_svartpels_destroyed_flag
+						}
+					}
+					265 = { set_demilitarized_zone = yes }
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = PLB_destruction_alliance
+						}
+					}
+					272 = { set_demilitarized_zone = yes }
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = PLB_lords_massacred
+							AND = {
+								has_country_flag = PLB_kane_destroyed_flag
+								has_country_flag = PLB_gotlung_destroyed_flag
+								has_country_flag = PLB_rozenkrantz_destroyed_flag
+							}
+						}
+					}
+					289 = { set_demilitarized_zone = yes }
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = PLB_scyfling_destroyed_flag
+						}
+					}
+					290 = { set_demilitarized_zone = yes }
+				}
+				62 = { set_demilitarized_zone = yes }
+				PLB_paw_wellington = {
+					if = {
+						limit = { is_unit_leader = yes }
+						remove_unit_leader_role = yes
+					}
+					if = {
+						limit = {
+							is_advisor = yes
+						}
+						remove_advisor_role = { slot = navy_chief }
+					}
+				}
+				PLB_chairman_icebear = {
+					if = {
+						limit = {
+							is_advisor = yes
+						}
+					remove_advisor_role = {
+							slot = army_chief
+						}
+						remove_advisor_role = {
+							slot = navy_chief
+						}
+						remove_advisor_role = {
+						  slot = air_chief
+						}
+					}
+				}
+				PLB_chairwoman_snowbear = {
+						if = {
+							limit = { is_unit_leader = yes }
+							remove_unit_leader_role = yes
+							}
+						}
+				PLB_juche_bear_1 = {
+						retire = yes
+						}
+				PLB_juche_bear_2 = {
+						retire = yes
+						}
+				PLB_juche_bear_3 = {
+						retire = yes
+						}
+				PLB_juche_bear_4 = {
+						retire = yes
+						}
+				PLB_juche_bear_5 = {
+						retire = yes
+						}
+				PLB_juche_bear_6 = {
+						retire = yes
+						}
+				PLB_juche_bear_7 = {
+						retire = yes
+				}
 			}
 			every_country = {
 				limit = {
