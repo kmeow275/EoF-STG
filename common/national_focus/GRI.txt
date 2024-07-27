@@ -5198,12 +5198,28 @@ shared_focus = {
 	x = 2
 	y = 1
 	relative_position_id = EoF_expand_our_shores
-	cost = 8
+	cost = 5
 	completion_reward = {
 		GRF = {
 			swap_ideas = {
 				remove_idea = GRF_colonial_economy
 				add_idea = GRF_stagnated_economy
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 	}
@@ -5216,6 +5232,11 @@ shared_focus = {
 	y = 1
 	relative_position_id = EoF_princess_kaiser
 	cost = 3
+	available = {
+		OLE = {
+			is_subject_of = CHN
+		}
+	}
 	completion_reward = {
 		if = {
 			limit = {

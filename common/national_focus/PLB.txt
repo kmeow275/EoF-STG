@@ -32153,9 +32153,6 @@ shared_focus = {
 		prerequisite = {
 			focus = PLB_development_outwards
 		}
-		mutually_exclusive = {
-			focus = PLB_NP_own_industry
-		}
 		available = {
 			CHN = {
 				has_completed_focus = EoF_polar_aid
@@ -32394,10 +32391,6 @@ shared_focus = {
 		prerequisite = {
 			focus = PLB_development_outwards
 		}
-		mutually_exclusive = {
-			focus = PLB_welcome_changeling_aid
-		}
-
 
 		ai_will_do = {
 			factor = 10

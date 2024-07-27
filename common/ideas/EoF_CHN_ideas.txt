@@ -181,5 +181,14 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.15	
 			}
 		}
+		EoF_CHN_PLB_investment = {
+			removal_cost = -1
+			picture = generic_foreign_capital
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}	
+		}
 	}
 }

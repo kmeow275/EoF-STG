@@ -252,7 +252,6 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = EoF.6.a
-		add_threat = 5
 		283 = {
 			transfer_state_to = PLB
 			add_core_of = PLB
@@ -269,7 +268,6 @@ country_event = {
 	}
 	option = {
 		name = EoF.6.b
-		add_threat = 8
 		283 = {
 			transfer_state_to = PLB
 			add_core_of = PLB
@@ -488,6 +486,37 @@ country_event = {
 	immediate = {
 		every_country = {
 			set_country_flag = EoF_big_event_custom_tarrin
+		}
+	}
+}
+
+country_event = {
+	id = EoF.16
+	title = EoF.16.t
+	desc = EoF.16.desc
+	picture = GFX_event_polar_camp_ruins
+	is_triggered_only = yes
+	option = {
+		name = EoF.16.a
+		276 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = YAK
+		}
+		340 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = YAK
+		}
+		347 = {
+			transfer_state_to = PLB
+			add_core_of = PLB
+			remove_core_of = YAK
+		}
+		342 = {
+			transfer_state_to = GRF
+			add_core_of = GRF
+			remove_core_of = YAK
 		}
 	}
 }

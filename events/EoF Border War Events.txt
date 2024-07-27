@@ -145,6 +145,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = GRF_border_war.8.a
+		add_political_power = -50
 	}
 }
 country_event = {
