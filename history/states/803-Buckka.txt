@@ -17,7 +17,7 @@ state={
 		}
 	}
 	resources = {
-		oil=6.000
+		oil=60.000
 	}
 
 	provinces={

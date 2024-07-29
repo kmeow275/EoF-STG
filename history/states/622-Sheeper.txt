@@ -27,6 +27,6 @@ state={
 	}
 
 	resources={
-		chromium=6
+		chromium=60
 	}
 }

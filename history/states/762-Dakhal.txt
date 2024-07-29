@@ -3,7 +3,7 @@ state={
 	name="STATE_762"
 	impassable = yes
 	resources = {
-		aluminium = 12
+		aluminium=120
 	}
 	state_category = wasteland
 	history={

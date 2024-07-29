@@ -2,7 +2,7 @@ state={
 	id=1138
 	name="STATE_1138"
 	resources={
-		rubber=9
+		rubber=90
 	}
 	history={
 		owner = HLR

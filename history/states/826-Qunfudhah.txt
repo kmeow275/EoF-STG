@@ -15,7 +15,7 @@ state={
 		victory_points = { 14966 5 }
 	}
 	resources = {
-		oil = 10
+		oil=100
 	}
 	provinces={
 		14940 14946 14951 14966 14972 14997 14998 15010 

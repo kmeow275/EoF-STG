@@ -25,7 +25,7 @@ state={
 	}
 
 	resources={
-		steel=8
-		chromium=2
+		steel=80
+		chromium=20
 	}
 }

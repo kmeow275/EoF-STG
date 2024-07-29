@@ -3,7 +3,7 @@ state={
 	name="STATE_1112"
 	state_category = small_island
 	resources={
-		oil = 7 
+		oil=70 
 	}
 
 	history={

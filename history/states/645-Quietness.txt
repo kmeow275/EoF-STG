@@ -33,6 +33,6 @@ state={
 	}
 
 	resources={
-		steel=12.000
+		steel=120.000
 	}
 }

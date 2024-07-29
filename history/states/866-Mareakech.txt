@@ -3,7 +3,7 @@ state={
 	name="STATE_866"
 	state_category = city
 	resources={
-		steel=7
+		steel=70
 	}
 	history = {
 		owner = HLR

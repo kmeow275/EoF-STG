@@ -5,8 +5,8 @@ state={
 		13373 20256 20257 20258 20259 20260 20261 
 	}
 	resources={
-		oil = 4
-		rubber = 5
+		oil=40
+		rubber=50
 	}
 	history={
 		owner = HLR
