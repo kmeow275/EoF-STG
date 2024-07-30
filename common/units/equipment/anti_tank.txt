@@ -36,8 +36,8 @@ equipments = {
 
 		build_cost_ic = 4
 		resources = {
-			tungsten = 2
-			steel = 2
+			tungsten = 20
+			steel = 20
 		}
 	}
 
@@ -67,9 +67,9 @@ equipments = {
 		
 		build_cost_ic = 5
 		resources = {
-			tungsten = 2
-			chromium = 1
-			steel = 2
+			tungsten = 20
+			chromium = 10
+			steel = 20
 		}
 	}
 
@@ -90,9 +90,9 @@ equipments = {
 		
 		build_cost_ic = 6
 		resources = {
-			tungsten = 2
-			chromium = 1
-			steel = 3
+			tungsten = 20
+			chromium = 10
+			steel = 30
 		}
 		is_convertable = yes
 	}
@@ -116,9 +116,9 @@ equipments = {
 
 		build_cost_ic = 7
 		resources = {
-			tungsten = 3
-			chromium = 2
-			steel = 3
+			tungsten = 30
+			chromium = 20
+			steel = 30
 		}
 	}
 
@@ -139,9 +139,9 @@ equipments = {
 
 		build_cost_ic = 8
 		resources = {
-			tungsten = 3
-			chromium = 2
-			steel = 4
+			tungsten = 30
+			chromium = 20
+			steel = 40
 		}
 	}
 

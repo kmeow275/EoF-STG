@@ -41,7 +41,7 @@ equipments = {
 
 		build_cost_ic = 0.43
 		resources = {
-			steel = 2
+			steel = 20
 		}
 
 	}
@@ -68,7 +68,7 @@ equipments = {
 
 		build_cost_ic = 0.25
 		resources = {
-			steel = 1
+			steel = 10
 		}
 	}
 
@@ -93,7 +93,7 @@ equipments = {
 
 		build_cost_ic = 0.4
 		resources = {
-			steel = 1
+			steel = 10
 		}
 	}
 
@@ -162,7 +162,7 @@ equipments = {
 
 		build_cost_ic = 0.58
 		resources = {
-			steel = 3
+			steel = 30
 		}
 		is_convertable = yes
 	}
@@ -193,7 +193,7 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 0.69
 		resources = {
-			steel = 4
+			steel = 40
 		}
 		is_convertable = yes
 	}
@@ -218,7 +218,7 @@ equipments = {
 
 		build_cost_ic = 1.0
 		resources = {
-			steel = 3
+			steel = 30
 		}
 	}
 	assault_equipment_2 = {
@@ -242,7 +242,7 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 1.2
 		resources = {
-			steel = 4
+			steel = 40
 		}
 		is_convertable = yes
 	}
@@ -276,8 +276,8 @@ equipments = {
 		reliability = 0.85
 		build_cost_ic = 0.8
 		resources = {
-			steel = 5
-			tungsten = 1
+			steel = 50
+			tungsten = 10
 		}
 		is_convertable = yes
 	}
@@ -309,8 +309,8 @@ equipments = {
 		reliability = 0.9
 		build_cost_ic = 0.9
 		resources = {
-			steel = 6
-			tungsten = 1
+			steel = 60
+			tungsten = 10
 		}
 	}
 

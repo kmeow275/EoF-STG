@@ -33,9 +33,9 @@ equipments = {
 		
 		build_cost_ic = 12
 		resources = {
-			tungsten = 1
-			steel = 3
-			chromium = 1
+			tungsten = 10
+			steel = 30
+			chromium = 10
 		}
 	}
 
@@ -61,9 +61,9 @@ equipments = {
 
 		build_cost_ic = 15
 		resources = {
-			tungsten = 1
-			steel = 4
-			chromium = 1
+			tungsten = 10
+			steel = 40
+			chromium = 10
 		}
 	}
 }
