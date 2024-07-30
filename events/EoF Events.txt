@@ -513,11 +513,6 @@ country_event = {
 			add_core_of = PLB
 			remove_core_of = YAK
 		}
-		342 = {
-			transfer_state_to = GRF
-			add_core_of = GRF
-			remove_core_of = YAK
-		}
 	}
 }
 

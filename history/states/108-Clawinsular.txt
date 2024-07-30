@@ -15,5 +15,10 @@ state={
 		add_core_of = EQS
 
 		victory_points = { 4080 2 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
 	}
 }

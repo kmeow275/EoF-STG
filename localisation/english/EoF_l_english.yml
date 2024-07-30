@@ -17,10 +17,15 @@ modifier_production_cost_arms_factory_factor_desc:0 "Modifies the cost of Civili
 modifier_production_cost_dockyard_factor:0 "£construction_speed_dockyard_texticon  §YDockyard§! construction cost"
 modifier_production_cost_dockyard_factor_desc:0 "Modifies the cost of Dockyard construction."
 
+ADD_UNIT_MEDAL_DIV_EFFECT:0 "Add Unit Medal"
+
 EoF_CHN_mio_trait_breakthrough_tanks:0 "Breakthrough Tanks"
 EoF_CHN_mio_trait_long_range_guns:0 "Long Range Guns"
 EoF_CHN_mio_trait_large_turrets:0 "Large Turrets"
 EoF_CHN_mio_trait_simple_variants:0 "Simplified Variants"
+
+EoF_afrika_korps_medal:0 "Zebrika Korps"
+EoF_afrika_korps_history:0 "Assigned to the Zebrika Korps."
 
 EoF_JER_aeb_organization:0 "AEB"
 EoF_JER_acl_organization:0 "ACL"
@@ -59,12 +64,19 @@ decision_cost_army_xp_10_pp_30:0 "£army_experience  §Y10§! £pol_power  §Y30
 decision_cost_army_xp_10_pp_30_blocked:0 "£army_experience  §R10§! £pol_power  §R30§!"
 decision_cost_army_xp_10_pp_30_tooltip:0 "It costs £army_experience  §Y10§! £pol_power  §Y30§! to take the decision"
 
+decision_cost_army_xp_30_pp_50:0 "£army_experience  §Y30§! £pol_power  §Y50§!"
+decision_cost_army_xp_30_pp_50_blocked:0 "£army_experience  §R30§! £pol_power  §R50§!"
+decision_cost_army_xp_30_pp_50_tooltip:0 "It costs £army_experience  §Y30§! £pol_power  §Y50§! to take the decision"
+
 decision_cost_army_xp_30_pp_100:0 "£army_experience  §Y30§! £pol_power  §Y100§!"
 decision_cost_army_xp_30_pp_100_blocked:0 "£army_experience  §R30§! £pol_power  §R100§!"
 decision_cost_army_xp_30_pp_100_tooltip:0 "It costs £army_experience  §Y30§! £pol_power  §Y100§! to take the decision"
 
 EoF_academy_category:0 "Doki Doki General Academy"
 EoF_academy_category_desc:0 "Welcome to the General Academy! It's always been a dream of mine to make something special out of the things I love. Now that you're an academy member, you can help me make that dream come true. I'm super excited for you to make friends with everyone and help the General Academy become a more intimate place for all my members. But I can tell already that you're a sweetheart—will you promise to spend the most time with me?"
+
+EoF_advanced_academy_tt:0 "£army_level_texticon Develop §YAdvanced Academy Training§!"
+EoF_advanced_academy:0 "Developed Advanced Academy Training"
 
 EoF_academy_in_progress:0 "Academy in Progress"
 
@@ -78,6 +90,16 @@ EoF_academy_commando:0 "Commando Training"
 EoF_academy_trickster:0 "Tactical Training"
 EoF_academy_skilled_staffer:0 "Staff Management Training"
 EoF_academy_artillery_specialist:0 "Artillery Command Training"
+EoF_academy_heat_specialist:0 "Heat Specialist Training"
+EoF_academy_desert_fox:0 "Desert Specialist Training"
+EoF_academy_swamp_fox:0 "Swamp Specialist Training"
+EoF_academy_trait_mountaineer:0 "Mountain Specialist Training"
+EoF_academy_hill_fighter:0 "Hill Specialist Training"
+EoF_academy_jungle_rat:0 "Jungle Specialist Training"
+EoF_academy_ranger:0 "Forest Specialist Training"
+EoF_academy_urban_assault_specialist:0 "Urban Specialist Training"
+EoF_academy_winter_specialist:0 "Cold Specialist Training"
+EoF_academy_cancel:0 "Cancel Training"
 
 EoF_academy_trait:0 "Academy Training"
 EoF_academy_trait_desc:0 "Selected for additional training at the General Academy."
@@ -546,6 +568,7 @@ EoF_HIP_situation_good_army:0 "Offensive Posture"
 EoF_HIP_naval_focused:0 "Naval Arms Race"
 EoF_HIP_primo_victoria_initial:0 "Might of Hippogriffia"
 EoF_HIP_primo_victoria_final:0 "Primo Victoria"
+EoF_HIP_primo_victoria_finaller:0 "Victoria Finalis"
 
 EoF_JER_DOMINATION_neutrality:0 "Greater Aquileian Republic"
 EoF_JER_DOMINATION_neutrality_ADJ:0 "Aquileian"

@@ -18,6 +18,10 @@ EoF_polar_aid_tt:0 "Unlocks focus §YWelcome Changeling Aid§! for Polar Bears"
 EoF_second_wesslandia_award:0 "Second Wesslandia Award"
 EoF_second_wesslandia_award_desc:0 ""
 
+EoF_afrika_korps:0 "Form the Zebrika Korps"
+EoF_afrika_korps_desc:0 ""
+EoF_afrika_korps_tt:0 "One random division in Ditrysium, Lyctida, Vesalipolis and Vraks will be assigned to the Zebrika Korps."
+
 EoF_winter_of_1011:0 "The Winter of 1011"
 EoF_winter_of_1011_desc:0 ""
 EoF_winter_fighting_experience:0 "Winter Fighting Experience"
@@ -292,6 +296,8 @@ EoF_HIP_counter_attack_desc:0 "The strength and skill of the Aquileians cannot b
 EoF_HIP_counter_attack_tt:0 "Spawns in five 40 width §YSpecial Marine Divisions§! if the situation is stable or ten 40 width §YSpecial Marine Divisions§! if the situation is good."
 EoF_HIP_primo_victoria:0 "Primo Victoria"
 EoF_HIP_primo_victoria_desc:0 "Through the gates of hell, as we make our way to heaven, through the enemy lines."
+EoF_HIP_victoria_finalis:0 "Victoria Finalis"
+EoF_HIP_victoria_finalis_desc:0 "Aiming for heaven though serving in hell, victory is ours their forces will fall."
 EoF_HIP_naval_race:0 "Win the Naval Race"
 EoF_HIP_naval_race_desc:0 "For the first time in history, our navy is in danger of being surpassed. By temporarily concentrating our effort on developing our coastline, we can free up space to massively expand existing dockyards. If the Aquileians want to challenge us, so be it, we will give them the race they want."
 

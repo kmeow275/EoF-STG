@@ -30794,6 +30794,40 @@ shared_focus = {
 	}
 }
 shared_focus = {
+	id = EoF_HIP_victoria_finalis
+	icon = GFX_goal_restore_friendship
+	cost = 10
+	x = 0
+	y = 1
+	relative_position_id = EoF_HIP_primo_victoria
+
+	prerequisite = {
+		focus = EoF_HIP_primo_victoria
+	}
+
+	available = {
+		OR = {
+			EQS = {
+				has_war = no
+			}
+			WNG = {
+				has_war = no
+			}
+		}
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = EoF_HIP_primo_victoria_final
+			add_idea = EoF_HIP_primo_victoria_finaller
+		}
+	}
+}
+shared_focus = {
 	id = EoF_HIP_naval_race
 	icon = GFX_focus_generic_refit_civilian_ships
 	cost = 5

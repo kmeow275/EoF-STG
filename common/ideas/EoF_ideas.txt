@@ -97,22 +97,24 @@ ideas = {
 			removal_cost = -1
 			picture = generic_volunteer_expedition_bonus
 			cancel = {
-				date > 1011.11.01
+				date > 1010.06.01
 			}
 			modifier = {
 				send_volunteer_size = 2
 				supply_consumption_factor = -0.8
+				weekly_casualties_war_support = 0.01
 			}
 		}
 		EoF_YAK_JAK_civil_war_volunteers_2 = {
 			removal_cost = -1
 			picture = generic_volunteer_expedition_bonus
 			cancel = {
-				date > 1011.11.01
+				date > 1010.06.01
 			}
 			modifier = {
 				send_volunteer_size = 5
 				supply_consumption_factor = -0.8
+				weekly_casualties_war_support = 0.01
 			}
 		}
 		EoF_YAK_thanks = {

@@ -1045,7 +1045,7 @@ focus_tree = {
 					}
 				}
 			}
-			add_named_threat = { threat = 5 name = pressure_olenia }
+			add_named_threat = { threat = 10 name = pressure_olenia }
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL FOCUS_FILTER_ANNEXATION }
 		x = 13
@@ -3262,52 +3262,8 @@ focus_tree = {
 				uses = 1
 				category = naval_doctrine
 			}
-			if = {
-				limit = { 
-					AND = {
-						has_tech = basic_medium_tank_chassis
-						has_dlc = "No Step Back"
-					}
-				}
-				create_equipment_variant = {
-					name = "Panzer III Ausf. J"
-					type = medium_tank_chassis_1
-					parent_version = 0
-					modules = {
-						main_armament_slot = tank_medium_high_velocity_cannon
-						turret_type_slot = tank_medium_three_man_tank_turret
-						suspension_type_slot = tank_bogie_suspension
-						armor_type_slot = tank_welded_armor
-						engine_type_slot = tank_gasoline_engine
-						tank_radio_module = tank_radio_1
-						special_type_slot_2 = smoke_launchers
-					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 3
-					}
-					icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
-				}
-				create_equipment_variant = {
-					name = "Panzer IV Ausf. E"
-					type = medium_tank_chassis_1
-					parent_version = 0
-					modules = {
-						main_armament_slot = tank_small_cannon_2
-						turret_type_slot = tank_medium_three_man_tank_turret
-						suspension_type_slot = tank_bogie_suspension
-						armor_type_slot = tank_welded_armor
-						engine_type_slot = tank_gasoline_engine
-						tank_radio_module = tank_radio_1
-						special_type_slot_2 = smoke_launchers
-					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 4
-					}
-					icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
-				}
-			}	
+			custom_effect_tooltip = EoF_advanced_academy_tt
+			set_country_flag = EoF_advanced_academy
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -3448,6 +3404,78 @@ focus_tree = {
 			swap_ideas = { remove_idea = CHN_army_reorganization_3 add_idea = changeling_school_of_war }
 		}
 	}
+	#EoF Changes
+	focus = {
+		id = EoF_afrika_korps
+		icon = GFX_goal_chn_jungle
+		cost = 3
+		x = 1
+		y = 1
+		relative_position_id = CHN_changeling_school_of_war
+		prerequisite = {
+			focus = CHN_changeling_school_of_war
+			focus = CHN_griffon_school_of_war
+		}
+		available = {
+			date 
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea =
+				days = 180
+			}
+			custom_effect_tooltip = EoF_afrika_korps_tt
+			252 = {
+				random_state_division = {
+					add_history_entry = {
+						key = EoF_afrika_korps_history
+						subject = "Afrika Korps"
+						allow = yes
+					}
+					add_unit_medal_to_latest_entry = {
+						unit_medals = EoF_afrika_korps_medal
+					}
+				}
+			}
+			309 = {
+				random_state_division = {
+					add_history_entry = {
+						key = EoF_afrika_korps_history
+						subject = "Afrika Korps"
+						allow = yes
+					}
+					add_unit_medal_to_latest_entry = {
+						unit_medals = EoF_afrika_korps_medal
+					}
+				}
+			}
+			251 = {
+				random_state_division = {
+					add_history_entry = {
+						key = EoF_afrika_korps_history
+						subject = "Afrika Korps"
+						allow = yes
+					}
+					add_unit_medal_to_latest_entry = {
+						unit_medals = EoF_afrika_korps_medal
+					}
+				}
+			}
+			259 = {
+				random_state_division = {
+					add_history_entry = {
+						key = EoF_afrika_korps_history
+						subject = "Afrika Korps"
+						allow = yes
+					}
+					add_unit_medal_to_latest_entry = {
+						unit_medals = EoF_afrika_korps_medal
+					}
+				}
+			}
+		}
+	}
+	#EoF Changes
 	
 	######AIRFORCE FOCUSES########
 

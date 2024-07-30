@@ -467,7 +467,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = EoF_great_war.6.a
-		add_ideas = EoF_EQS_army_incompetence_3
+		add_ideas = EoF_EQS_army_incompetence_4
 	}
 }
 country_event = {

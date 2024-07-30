@@ -2020,6 +2020,8 @@ focus_tree = {
 				uses = 1
 				category = land_doctrine
 			}
+			custom_effect_tooltip = EoF_advanced_academy_tt
+			set_country_flag = EoF_advanced_academy
 		}
 		search_filters = { FOCUS_FILTER_ARMY_BONUS FOCUS_FILTER_RESEARCH }
 	}
