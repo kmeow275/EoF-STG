@@ -8966,17 +8966,17 @@ shared_focus = {
 		}
 		add_resource = {
 			type = oil
-			amount = 20
+			amount = 200
 			state = 756
 		}
 		add_resource = {
 			type = oil
-			amount = 12
+			amount = 120
 			state = 878
 		}
 		add_resource = {
 			type = oil
-			amount = 12
+			amount = 120
 			state = 755
 		}
 	}

@@ -6523,12 +6523,12 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = steel
-				amount = 3
+				amount = 30
 				state = 272
 			}
 			add_resource = {
 				type = oil
-				amount = 5
+				amount = 50
 				state = 272
 			}
 		}
@@ -6588,12 +6588,12 @@ focus_tree = {
 
 			add_resource = {
 				type = steel
-				amount = 5
+				amount = 50
 				state = 272
 			}
 			add_resource = {
 				type = tungsten
-				amount = 4
+				amount = 40
 				state = 272
 			}
 		}
@@ -7146,7 +7146,7 @@ focus_tree = {
 		completion_reward = {
 		add_resource = {
 				type = crystals
-				amount = 10
+				amount = 100
 				state = 263
 			}
 		}
@@ -8886,22 +8886,22 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = oil
-				amount = 6
+				amount = 60
 				state = 257
 			}
 			add_resource = {
 				type = crystals
-				amount = 4
+				amount = 40
 				state = 317
 			}
 			add_resource = {
 				type = chromium
-				amount = 4
+				amount = 40
 				state = 256
 			}
 			add_resource = {
 				type = tungsten
-				amount = 8
+				amount = 80
 				state = 255
 			}
 		}
@@ -10552,7 +10552,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = crystals
-				amount = 5
+				amount = 50
 				state = 263
 			}
 		}
@@ -10816,7 +10816,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = tungsten
-				amount = 5
+				amount = 50
 				state = 290
 			}
 		}
@@ -14617,7 +14617,7 @@ focus_tree = {
 			}
 			add_resource = {
 				type = steel
-				amount = 6
+				amount = 60
 				state = 272
 			}
 		}
@@ -18029,7 +18029,7 @@ focus_tree = {
 			add_political_power = -100
 			add_resource = {
 				type = crystals
-				amount = 10
+				amount = 100
 				state = 263
 			}
 			263 = {
@@ -27865,7 +27865,7 @@ shared_focus = {
 			}
 			add_resource = {
 				type = steel
-				amount = 6
+				amount = 60
 				state = 272
 			}
 		}

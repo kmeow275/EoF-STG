@@ -9075,17 +9075,17 @@ shared_focus = {
 		}
 		add_resource = {
 			type = steel
-			amount = 15
+			amount = 150
 			state = 1088
 		}
 		add_resource = {
 			type = tungsten
-			amount = 3
+			amount = 30
 			state = 1088
 		}
 		add_resource = {
 			type = aluminium
-			amount = 2
+			amount = 20
 			state = 1088
 		}
 	}

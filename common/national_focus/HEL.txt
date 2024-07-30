@@ -3701,17 +3701,17 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus HEL_jaume_oil_1"
 		add_resource = {
 			type = oil
-			amount = 10
+			amount = 100
 			state = 493
 		}
 		add_resource = {
 			type = oil
-			amount = 6
+			amount = 60
 			state = 494
 		}
 		add_resource = {
 			type = oil
-			amount = 6
+			amount = 60
 			state = 495
 		}
 		decrease_poverty = yes
@@ -8220,7 +8220,7 @@ shared_focus = {
 		}
 		add_resource = {
 			type = oil
-			amount = 16
+			amount = 160
 			state = 494
 		}
 	}
@@ -8269,17 +8269,17 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus HEL_fuel_our_future"
 		add_resource = {
 			type = oil
-			amount = 10
+			amount = 100
 			state = 494
 		}
 		add_resource = {
 			type = steel
-			amount = 8
+			amount = 80
 			state = 494
 		}
 		add_resource = {
 			type = tungsten
-			amount = 8
+			amount = 80
 			state = 494
 		}
 	}
@@ -8754,7 +8754,7 @@ shared_focus = {
 		}
 		add_resource = {
 			type = oil
-			amount = 10
+			amount = 100
 			state = 494
 		}
 	}
@@ -9183,17 +9183,17 @@ shared_focus = {
 		}
 		add_resource = {
 			type = oil
-			amount = 8
+			amount = 80
 			state = 436
 		}
 		add_resource = {
 			type = oil
-			amount = 8
+			amount = 80
 			state = 495
 		}
 		add_resource = {
 			type = oil
-			amount = 8
+			amount = 80
 			state = 496
 		}
 	}
@@ -10196,17 +10196,17 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus HEL_our_resources_for_ourselves"
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 494
 		}
 		add_resource = {
 			type = steel
-			amount = 12
+			amount = 120
 			state = 494
 		}
 		add_resource = {
 			type = tungsten
-			amount = 8
+			amount = 80
 			state = 494
 		}
 	}
@@ -10252,7 +10252,7 @@ shared_focus = {
 		}
 		add_resource = {
 			type = oil
-			amount = 8
+			amount = 80
 			state = 494
 		}
 		decrease_poverty = yes
@@ -10492,7 +10492,7 @@ shared_focus = {
 		add_ideas = HEL_adelart_reborn_idea
 		add_resource = {
 			type = oil
-			amount = 10
+			amount = 100
 			state = 493
 		}
 	}

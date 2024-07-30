@@ -3139,12 +3139,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus FAT_resource_stuff"
 		add_resource = {
 			type = steel
-			amount = 10
+			amount = 100
 			state = 474
 		}
 		add_resource = {
 			type = chromium
-			amount = 12
+			amount = 120
 			state = 480
 		}
 	}
@@ -7254,12 +7254,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus FAT_IM_greifwald_oil_fields"
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 494
 		}
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 493
 		}
 	}
@@ -9326,12 +9326,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus FAT_greifwald_oil_fields"
 	 	add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 494
 		}
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 493
 		}
 	}
@@ -11065,12 +11065,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus FAT_subsidize_mining_companies"
 		add_resource = {
 			type = steel
-			amount = 14
+			amount = 140
 			state = 474
 		}
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 480
 		}
 	}
@@ -17596,12 +17596,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus FST_greifwald_oil_fields"
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 494
 		}
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 493
 		}
 	}

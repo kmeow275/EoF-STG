@@ -1611,27 +1611,27 @@ focus_tree = {
 			add_ideas = OLE_communal_mines_idea
 			add_resource = {
 				type = steel
-				amount = 4
+				amount = 40
 				state = 195
 			}
 			add_resource = {
 				type = aluminium
-				amount = 4
+				amount = 40
 				state = 195
 			}
 			add_resource = {
 				type = chromium
-				amount = 4
+				amount = 40
 				state = 206
 			}
 			add_resource = {
 				type = tungsten
-				amount = 3
+				amount = 30
 				state = 206
 			}
 			add_resource = {
 				type = crystals
-				amount = 3
+				amount = 30
 				state = 213
 			}
 		}

@@ -8349,7 +8349,7 @@ offset = {
 		completion_reward = {
 			add_resource = {
 				type = oil
-				amount = 12
+				amount = 120
 				state = 778
 			}
 			unlock_decision_tooltip = expand_oromeowia_oil_field
@@ -8502,17 +8502,17 @@ offset = {
 		completion_reward = {
 			add_resource = {
 				type = steel
-				amount = 15
+				amount = 150
 				state = 779
 			}
 			add_resource = {
 				type = steel
-				amount = 12
+				amount = 120
 				state = 775
 			}
 			add_resource = {
 				type = steel
-				amount = 10
+				amount = 100
 				state = 777
 			}
 		}
@@ -9451,7 +9451,7 @@ offset = {
 			}
 			add_resource = {
 				type = oil
-				amount = 10
+				amount = 100
 				state = 371
 			}
 			hidden_effect = {
@@ -9541,12 +9541,12 @@ offset = {
 			log = "[GetDateText]: [Root.GetName]: Focus WNG_librasia_talocana"
 			add_resource = {
 				type = oil
-				amount = 10
+				amount = 100
 				state = 372
 			}
 			add_resource = {
 				type = oil
-				amount = 10
+				amount = 100
 				state = 374
 			}
 			add_tech_bonus = {
@@ -9592,22 +9592,22 @@ offset = {
 			log = "[GetDateText]: [Root.GetName]: Focus WNG_rubber_production"
 			add_resource = {
 				type = rubber
-				amount = 8
+				amount = 80
 				state = 536
 			}
 			add_resource = {
 				type = rubber
-				amount = 8
+				amount = 80
 				state = 373
 			}
 			add_resource = {
 				type = rubber
-				amount = 8
+				amount = 80
 				state = 371
 			}
 			add_resource = {
 				type = rubber
-				amount = 8
+				amount = 80
 				state = 375
 			}
 		}

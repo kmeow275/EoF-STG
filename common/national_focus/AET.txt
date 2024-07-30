@@ -4350,12 +4350,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus AET_oil"
 		add_resource = {
 			type = oil
-			amount = 12
+			amount = 120
 			state = 493
 		}
 		add_resource = {
 			type = oil
-			amount = 12
+			amount = 120
 			state = 494
 		}
 	}
@@ -4424,7 +4424,7 @@ shared_focus = {
 		}
 		add_resource = {
 			type = oil
-			amount = 4
+			amount = 40
 			state = 494
 		}
 	}
@@ -4479,7 +4479,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus AET_oil_p"
 		add_resource = {
 			type = oil
-			amount = 8
+			amount = 80
 			state = 493
 		}
 		add_ideas = AET_oil_production
@@ -4592,12 +4592,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus AET_steel_and_tungsten"
 		add_resource = {
 			type = steel
-			amount = 8
+			amount = 80
 			state = 457
 		}
 		add_resource = {
 			type = tungsten
-			amount = 12
+			amount = 120
 			state = 457
 		}
 	}
@@ -4712,7 +4712,7 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus AET_more_steel"
 		add_resource = {
 			type = steel
-			amount = 18
+			amount = 180
 			state = 436
 		}
 	}

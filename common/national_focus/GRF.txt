@@ -46,12 +46,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRF_beak_mines"
 			add_resource = {
 				type = steel
-				amount = 16
+				amount = 160
 				state = 238
 			}
 			add_resource = {
 				type = aluminium
-				amount = 16
+				amount = 160
 				state = 238
 			}
 		}
@@ -71,12 +71,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRF_dulli_mines"
 			add_resource = {
 				type = steel
-				amount = 12
+				amount = 120
 				state = 245
 			}
 			add_resource = {
 				type = chromium
-				amount = 29
+				amount = 290
 				state = 245
 			}
 		}
@@ -96,12 +96,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRF_northern_oil"
 			add_resource = {
 				type = oil
-				amount = 8
+				amount = 80
 				state = 287
 			}
 			add_resource = {
 				type = oil
-				amount = 16
+				amount = 160
 				state = 288
 			}
 		}
@@ -546,17 +546,17 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRF_great_lake_oil"
 			add_resource = {
 				type = oil
-				amount = 8
+				amount = 80
 				state = 271
 			}
 			add_resource = {
 				type = oil
-				amount = 8
+				amount = 80
 				state = 286
 			}
 			add_resource = {
 				type = oil
-				amount = 8
+				amount = 80
 				state = 279
 			}
 		}
@@ -744,12 +744,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRF_frontier_crystals"
 			add_resource = {
 				type = crystals
-				amount = 16
+				amount = 160
 				state = 278
 			}
 			add_resource = {
 				type = crystals
-				amount = 16
+				amount = 160
 				state = 283
 			}
 		}
@@ -1814,17 +1814,17 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRF_drill_the_shelf"
 			add_resource = {
 				type = oil
-				amount = 12
+				amount = 120
 				state = 284
 			}
 			add_resource = {
 				type = oil
-				amount = 14
+				amount = 140
 				state = 266
 			}
 			add_resource = {
 				type = oil
-				amount = 12
+				amount = 120
 				state = 325
 			}
 		}
@@ -5587,7 +5587,7 @@ focus_tree = {
 			}
 			add_resource = {
 				type = oil
-				amount = 12
+				amount = 120
 				state = 244
 			}
 			if = {
@@ -5611,7 +5611,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 					state = 325
 				}
 			}
@@ -5636,7 +5636,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 					state = 290
 				}
 			}
@@ -5661,7 +5661,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 					state = 274
 				}
 			}
@@ -5686,7 +5686,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 					state = 11
 				}
 			}

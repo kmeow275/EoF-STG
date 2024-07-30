@@ -8133,12 +8133,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus JER_develop_airplane_industry"
 			add_resource = {
 				type = aluminium
-				amount = 10
+				amount = 100
 				state = 407
 			}
 			add_resource = {
 				type = aluminium
-				amount = 12
+				amount = 120
 				state = 406
 			}
 			if = {
@@ -8243,12 +8243,12 @@ focus_tree = {
 			}
 			add_resource = {
 				type = rubber
-				amount = 10
+				amount = 100
 				state = 516
 			}
 			add_resource = {
 				type = rubber
-				amount = 8
+				amount = 80
 				state = 377
 			}
 		}

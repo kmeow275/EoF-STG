@@ -1483,7 +1483,7 @@ HIP_Razorbeak_cat = {
 			}
 			add_resource = {
 				type = rubber
-				amount = 8
+				amount = 80
 				state = 711
 			}
 			set_province_name = {

@@ -1695,7 +1695,7 @@ country_event = {
 			}
 			add_resource = {
 				type = steel
-				amount = 15
+				amount = 150
 				state = 323
 			}
 			PLB = {
@@ -1708,19 +1708,19 @@ country_event = {
 			}
 			add_resource = {
 				type = oil
-				amount = 15
+				amount = 150
 				state = 323
 			}
 		}
 		else = {
 			add_resource = {
 				type = steel
-				amount = 15
+				amount = 150
 				state = 323
 			}
 			add_resource = {
 				type = oil
-				amount = 15
+				amount = 150
 				state = 323
 			}
 			PLB = {
@@ -2025,7 +2025,7 @@ country_event = {
 		}
 		add_resource = {
 			type = steel
-			amount = 15
+			amount = 150
 			state = 323
 		}
 		hidden_effect = {
@@ -2083,7 +2083,7 @@ country_event = {
 		}
 		add_resource = {
 			type = oil
-			amount = 15
+			amount = 150
 			state = 323
 		}
 		hidden_effect = {
@@ -2143,12 +2143,12 @@ country_event = {
 		}
 		add_resource = {
 			type = steel
-			amount = 15
+			amount = 150
 			state = 323
 		}
 		add_resource = {
 			type = oil
-			amount = 15
+			amount = 150
 			state = 323
 		}
 		hidden_effect = {

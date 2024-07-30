@@ -6275,7 +6275,7 @@ country_event = {
 				mark_focus_tree_layout_dirty = yes
 				add_resource = {
 					type = steel
-					amount = 5
+					amount = 50
 					state = 1088
 				}
 				add_equipment_to_stockpile = { type = convoy amount = 50 }
@@ -6800,7 +6800,7 @@ country_event = {
 				mark_focus_tree_layout_dirty = yes
 				add_resource = {
 					type = steel
-					amount = 5
+					amount = 50
 					state = 1088
 				}
 				add_equipment_to_stockpile = { type = convoy amount = 50 }

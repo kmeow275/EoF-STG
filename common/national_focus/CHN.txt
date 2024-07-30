@@ -336,7 +336,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus steel_industry"
 			add_resource = {
 				type = steel
-				amount = 18
+				amount = 180
 				state = 259
 			}
 			259 = {
@@ -389,12 +389,12 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus arctic_shelf_mining"
 			add_resource = {
 				type = oil
-				amount = 14
+				amount = 140
 				state = 264
 			}
 			add_resource = {
 				type = oil
-				amount = 10
+				amount = 100
 				state = 312
 			}
 			264 = {
@@ -457,7 +457,7 @@ focus_tree = {
 			}
 			add_resource = {
 				type = steel
-				amount = 3
+				amount = 30
 				state = 251
 			}
 			add_timed_idea = {
@@ -499,12 +499,12 @@ focus_tree = {
 			}
 			add_resource = {
 				type = steel
-				amount = 2
+				amount = 20
 				state = 252
 			}
 			add_resource = {
 				type = tungsten
-				amount = 1
+				amount = 10
 				state = 259
 			}
 			country_event = {
@@ -547,12 +547,12 @@ focus_tree = {
 			}
 			add_resource = {
 				type = steel
-				amount = 2
+				amount = 20
 				state = 259
 			}
 			add_resource = {
 				type = aluminium
-				amount = 1
+				amount = 10
 				state = 259
 			}
 			modify_building_resources = {
@@ -600,7 +600,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CHN_soryth"
 			add_resource = {
 				type = crystals
-				amount = 20
+				amount = 200
 				state = 262
 			}
 			add_tech_bonus = {
@@ -1081,17 +1081,17 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus national_resources"
 			add_resource = {
 				type = steel
-				amount = 14
+				amount = 140
 				state = 301
 			}
 			add_resource = {
 				type = steel
-				amount = 13
+				amount = 130
 				state = 300
 			}
 			add_resource = {
 				type = steel
-				amount = 24
+				amount = 240
 				state = 292
 			}
 			add_tech_bonus = {

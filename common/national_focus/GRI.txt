@@ -939,22 +939,22 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GRI_technocrats"
 		add_resource = {
 			type = steel
-			amount = 12
+			amount = 120
 			state = 546
 		}
 		add_resource = {
 			type = chromium
-			amount = 19
+			amount = 190
 			state = 546
 		}
 		add_resource = {
 			type = steel
-			amount = 14
+			amount = 140
 			state = 545
 		}
 		add_resource = {
 			type = chromium
-			amount = 9
+			amount = 90
 			state = 545
 		}
 		486 = {
@@ -3225,12 +3225,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GRI_the_oil_fields_imperial"
 		add_resource = {
 			type = oil
-			amount = 9
+			amount = 90
 			state = 494
 		}
 		add_resource = {
 			type = oil
-			amount = 9
+			amount = 90
 			state = 493
 		}
 	}
@@ -3405,17 +3405,17 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GRI_wingbardian_rubber"
 		add_resource = {
 			type = rubber
-			amount = 14
+			amount = 140
 			state = 371
 		}
 		add_resource = {
 			type = rubber
-			amount = 12
+			amount = 120
 			state = 373
 		}
 		add_resource = {
 			type = rubber
-			amount = 16
+			amount = 160
 			state = 536
 		}
 	}
@@ -4023,12 +4023,12 @@ shared_focus = {
 		show_ideas_tooltip = crow
 		add_resource = {
 			type = steel
-			amount = 14
+			amount = 140
 			state = 382
 		}
 		add_resource = {
 			type = steel
-			amount = 8
+			amount = 80
 			state = 437
 		}
 	}
@@ -4383,17 +4383,17 @@ shared_focus = {
 		}
 		add_resource = {
 			type = oil
-			amount = 6
+			amount = 60
 			state = 447
 		}
 		add_resource = {
 			type = oil
-			amount = 6
+			amount = 60
 			state = 443
 		}
 		add_resource = {
 			type = oil
-			amount = 7
+			amount = 70
 			state = 497
 		}
 	}
@@ -7439,12 +7439,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GRI_greenback_aluminum"
 		add_resource = {
 			type = steel
-			amount = 16
+			amount = 160
 			state = 398
 		}
 		add_resource = {
 			type = aluminium
-			amount = 20
+			amount = 200
 			state = 398
 		}
 		save_current_manpower = yes
@@ -7731,12 +7731,12 @@ shared_focus = {
 		add_stability = -0.05
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 497
 		}
 		add_resource = {
 			type = oil
-			amount = 16
+			amount = 160
 			state = 434
 		}
 		save_current_manpower = yes
@@ -7815,17 +7815,17 @@ shared_focus = {
 		add_stability = -0.05
 		add_resource = {
 			type = tungsten
-			amount = 14
+			amount = 140
 			state = 568
 		}
 		add_resource = {
 			type = chromium
-			amount = 19
+			amount = 190
 			state = 539
 		}
 		add_resource = {
 			type = steel
-			amount = 12
+			amount = 120
 			state = 492
 		}
 		save_current_manpower = yes
@@ -8604,12 +8604,12 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus GRI_the_oil_fields"
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 494
 		}
 		add_resource = {
 			type = oil
-			amount = 14
+			amount = 140
 			state = 493
 		}
 	}

@@ -2345,12 +2345,12 @@ focus_tree = {
 			}
 			add_resource = {
 				type = aluminium
-				amount = 20
+				amount = 200
 				state = 684
 			}
 			add_resource = {
 				type = steel
-				amount = 20
+				amount = 200
 				state = 684
 			}
 		}
@@ -6658,13 +6658,13 @@ shared_focus = {
 
 			add_resource = {
 				type = steel
-				amount = 21
+				amount = 210
 				state = 697
 			}
 
 			add_resource = {
 				type = tungsten
-				amount = 14
+				amount = 140
 				state = 698
 			}
 			add_tech_bonus = {
@@ -12817,7 +12817,7 @@ shared_focus = {
 		completion_reward = {
 			add_resource = {
 				type = aluminium
-				amount = 6
+				amount = 60
 				state = 696
 			}
 			unlock_decision_tooltip = develop_grand_alaudia_bauxite_mine
@@ -13577,7 +13577,7 @@ shared_focus = {
 		completion_reward = {
 			add_resource = {
 				type = crystals
-				amount = 16
+				amount = 160
 				state = 1165
 			}
 			unlock_decision_category_tooltip = HIP_synthetic_crystals_category
@@ -15005,12 +15005,12 @@ shared_focus = {
 			}
 			add_resource = {
 				type = steel
-				amount = 21
+				amount = 210
 				state = 697
 			}
 			add_resource = {
 				type = tungsten
-				amount = 14
+				amount = 140
 				state = 698
 			}
 			add_tech_bonus = {
@@ -19442,7 +19442,7 @@ shared_focus = {
 		completion_reward = {
 			add_resource = {
 				type = tungsten
-				amount = 10
+				amount = 100
 				state = 698
 			}
 			698 = {
@@ -21201,12 +21201,12 @@ shared_focus = {
 		completion_reward = {
 			add_resource = {
 				type = aluminium
-				amount = 6
+				amount = 60
 				state = 696
 			}
 			add_resource = {
 				type = steel
-				amount = 10
+				amount = 100
 				state = 684
 			}
 			684 = {

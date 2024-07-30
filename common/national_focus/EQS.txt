@@ -515,7 +515,7 @@ shared_focus = {
 		}
 		add_resource = {
 			type = steel
-			amount = 15
+			amount = 150
 			state = 157
 		}
 	}
@@ -547,7 +547,7 @@ shared_focus = {
 		}
 		add_resource = {
 			type = steel
-			amount = 10
+			amount = 100
 			state = 75
 		}
 	}
@@ -2631,7 +2631,7 @@ shared_focus = {
 			}
 			add_resource = {
 				type = oil
-				amount = 11
+				amount = 110
 				state = 78
 			}
 		}
@@ -2644,23 +2644,23 @@ shared_focus = {
 			}
 			add_resource = {
 				type = oil
-				amount = 7
+				amount = 70
 				state = 89
 			}
 		}
 		add_resource = {
 			type = oil
-			amount = 25
+			amount = 250
 			state = 42
 		}
 		add_resource = {
 			type = steel
-			amount = 10
+			amount = 100
 			state = 44
 		}
 		add_resource = {
 			type = steel
-			amount = 10
+			amount = 100
 			state = 71
 		}
 	}
@@ -2704,7 +2704,7 @@ shared_focus = {
 			}
 			add_resource = {
 				type = aluminium
-				amount = 10
+				amount = 100
 				state = 16
 			}
 		}
@@ -2716,7 +2716,7 @@ shared_focus = {
 			}
 			add_resource = {
 				type = steel
-				amount = 10
+				amount = 100
 				state = 15
 			}
 		}
