@@ -189,6 +189,7 @@ set_politics = {
 	elections_allowed = yes
 }
 add_ideas = {
+	proper_science_base
 	WNG_garibald_talonuel_iii
 	WNG_political_deadlock
 	WNG_economic_crisis

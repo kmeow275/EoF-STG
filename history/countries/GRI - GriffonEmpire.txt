@@ -359,6 +359,7 @@ set_politics = {
 }
 
 add_ideas = {
+	proper_science_base
 	outdated_industry
 	GRI_bureaucracy
 	GRI_land_thougth
