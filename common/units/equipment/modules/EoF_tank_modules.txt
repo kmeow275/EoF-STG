@@ -201,7 +201,7 @@ equipment_modules = {
 			build_cost_ic = -0.05
 		}
 		build_cost_resources = {
-			steel = -1
+			steel = -10
 		}
 		xp_cost = 50
 	}
@@ -216,7 +216,7 @@ equipment_modules = {
 			build_cost_ic = -0.05
 		}
 		build_cost_resources = {
-			tungsten = -1
+			tungsten = -10
 		}
 		xp_cost = 50
 	}
@@ -230,7 +230,7 @@ equipment_modules = {
 			build_cost_ic = -0.05
 		}
 		build_cost_resources = {
-			chromium = -1
+			chromium = -10
 		}
 		xp_cost = 50
 	}
@@ -331,7 +331,7 @@ equipment_modules = {
 			ap_attack = 0.1
 		}
 		build_cost_resources = {
-			tungsten = 1
+			tungsten = 10
 		}	
 	}
 	ventilation_system = {

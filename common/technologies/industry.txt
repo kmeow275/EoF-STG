@@ -1093,7 +1093,7 @@ technologies = {
 		on_research_complete = {
 			set_variable = {
 				var = rubber_per_refinery
-				value = 3
+				value = 30
 			}
 		}
 
@@ -1331,9 +1331,9 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 1
+				amount = 10
 			}
-			add_to_variable = { rubber_per_refinery = 1 }
+			add_to_variable = { rubber_per_refinery = 10 }
 		}
 
 		path = {
@@ -1383,9 +1383,9 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 1
+				amount = 10
 			}
-			add_to_variable = { rubber_per_refinery = 1 }
+			add_to_variable = { rubber_per_refinery = 10 }
 		}
 
 		path = {
@@ -1435,9 +1435,9 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 1
+				amount = 10
 			}
-			add_to_variable = { rubber_per_refinery = 1 }
+			add_to_variable = { rubber_per_refinery = 10 }
 		}
 
 		path = {
@@ -1487,9 +1487,9 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 1
+				amount = 10
 			}
-			add_to_variable = { rubber_per_refinery = 1 }
+			add_to_variable = { rubber_per_refinery = 10 }
 		}
 
 		path = {

@@ -79,19 +79,19 @@ upgrades = {
 
 		resource_cost_thresholds = { # resource values defined here are TOTAL added cost, not cumulative
 			5 = { #more armor requires more resources
-				steel = 1
+				steel = 10
 			}
 			10 = {
-				steel = 1
-				chromium = 1
+				steel = 10
+				chromium = 10
 			}
 			15 = {
-				steel = 2
-				chromium = 1
+				steel = 20
+				chromium = 10
 			}
 			20 = {
-				steel = 2
-				chromium = 2
+				steel = 20
+				chromium = 20
 			}
 		}
 

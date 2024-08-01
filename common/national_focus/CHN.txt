@@ -3417,13 +3417,10 @@ focus_tree = {
 			focus = CHN_griffon_school_of_war
 		}
 		available = {
-			date 
+			date > 1010.01.01
+			date < 1011.01.01
 		}
 		completion_reward = {
-			add_timed_idea = {
-				idea =
-				days = 180
-			}
 			custom_effect_tooltip = EoF_afrika_korps_tt
 			252 = {
 				random_state_division = {
