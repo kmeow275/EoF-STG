@@ -276,7 +276,7 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 20
+			support_equipment = 10
 		}
 	}
 
@@ -331,7 +331,7 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 20
+			support_equipment = 10
 		}
 
         marsh = {
@@ -424,7 +424,7 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 20
+			support_equipment = 10
 		}
 	}
 
@@ -479,7 +479,7 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 20
+			support_equipment = 10
 		}
 
 		urban = {
@@ -679,7 +679,7 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 20
+			support_equipment = 10
 		}
 		urban = {
 			attack = -0.05
@@ -881,8 +881,14 @@ sub_units = {
         defense = -0.05
         soft_attack = 0.15
 
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
+		}
+
         need = {
-			support_equipment = 5
+			support_equipment = 30
         }
 		desert = {
 			attack = 0.15

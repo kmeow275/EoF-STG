@@ -169,7 +169,7 @@ sub_units = {
 		}
 	
 		need = {
-			support_equipment = 50
+			support_equipment = 30
 		}
 
 		marsh = {
@@ -232,7 +232,7 @@ sub_units = {
 		}
 	
 		need = {
-			support_equipment = 50
+			support_equipment = 30
 		}
 
 		marsh = {
@@ -305,7 +305,7 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 20
+			support_equipment = 10
 		}
 	}
 
@@ -357,7 +357,7 @@ sub_units = {
 		}
 
 		need = {
-			support_equipment = 100
+			support_equipment = 50
 		}
 	}
 
