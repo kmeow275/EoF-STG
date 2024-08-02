@@ -47,6 +47,9 @@ sub_units = {
 		# needed since we give so much bonus to infantry even with no mech equipment
 		essential = {
 			amphibious_mechanized_equipment
+			infantry_equipment
+			magical_equipment
+			support_equipment
 		}
 
 		# this is what moves us and sets speed
@@ -54,6 +57,7 @@ sub_units = {
 
 		need = {
 			amphibious_mechanized_equipment = 40
+			support_equipment = 50
 		}
 
 		forest = {

@@ -248,7 +248,7 @@ sub_units = {
 		breakthrough = 0.4
 		defense = -0.15
 
-		can_be_parachuted = yes
+		can_be_parachuted = no
 
 		forest = {
 			attack = -0.05
@@ -269,8 +269,14 @@ sub_units = {
 			movement = 0.25
 		}
 
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
+		}
+
 		need = {
-			support_equipment = 5
+			support_equipment = 20
 		}
 	}
 
@@ -318,9 +324,16 @@ sub_units = {
 		breakthrough = 0.3
 		defense = -0.1
 
-		need = {
-			support_equipment = 5
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
 		}
+
+		need = {
+			support_equipment = 20
+		}
+
         marsh = {
             attack = 0.1
             movement = 0.1
@@ -404,8 +417,14 @@ sub_units = {
 			movement = 0.1
 		}
 
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
+		}
+
 		need = {
-			support_equipment = 5
+			support_equipment = 20
 		}
 	}
 
@@ -453,8 +472,14 @@ sub_units = {
 
 		can_be_parachuted = no
 
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
+		}
+
 		need = {
-			support_equipment = 5
+			support_equipment = 20
 		}
 
 		urban = {
@@ -649,12 +674,12 @@ sub_units = {
 		
 		essential = {
 			infantry_equipment
+			magical_equipment
 			support_equipment
 		}
 
 		need = {
-			#infantry_equipment = 120
-			support_equipment = 10
+			support_equipment = 20
 		}
 		urban = {
 			attack = -0.05

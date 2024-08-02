@@ -161,9 +161,15 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.05
 		breakthrough = 0.3
+
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
+		}
 	
 		need = {
-			support_equipment = 5
+			support_equipment = 50
 		}
 
 		marsh = {
@@ -218,9 +224,15 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.05
 		breakthrough = 0.3
+
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
+		}
 	
 		need = {
-			support_equipment = 5
+			support_equipment = 50
 		}
 
 		marsh = {
@@ -286,8 +298,14 @@ sub_units = {
 			movement = 0.2
 		}
 
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
+		}
+
 		need = {
-			support_equipment = 5
+			support_equipment = 20
 		}
 	}
 
@@ -332,8 +350,14 @@ sub_units = {
 
 		can_be_parachuted = yes
 
+		essential = {
+			infantry_equipment
+			magical_equipment
+			support_equipment
+		}
+
 		need = {
-			support_equipment = 5
+			support_equipment = 100
 		}
 	}
 
