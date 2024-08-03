@@ -2511,7 +2511,7 @@ prospect_for_resources = {
 			406 = {
 				add_resource = {
 					type = aluminium
-					amount = 10
+					amount = 100
 				}
 			}
 		}
@@ -2562,7 +2562,7 @@ prospect_for_resources = {
 			519 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -2613,7 +2613,7 @@ prospect_for_resources = {
 			472 = {
 				add_resource = {
 					type = rubber
-					amount = 10
+					amount = 100
 				}
 			}
 		}
@@ -2664,7 +2664,7 @@ prospect_for_resources = {
 			407 = {
 				add_resource = {
 					type = tungsten
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -2715,7 +2715,7 @@ prospect_for_resources = {
 			421 = {
 				add_resource = {
 					type = chromium
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -2766,7 +2766,7 @@ prospect_for_resources = {
 			435 = {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -2817,7 +2817,7 @@ prospect_for_resources = {
 			493 = {
 				add_resource = {
 					type = oil
-					amount = 10
+					amount = 100
 				}
 			}
 		}
@@ -2868,7 +2868,7 @@ prospect_for_resources = {
 			494 = {
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 			}
 		}
