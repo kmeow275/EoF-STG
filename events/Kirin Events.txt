@@ -23988,7 +23988,7 @@ country_event = {
 		capital_scope = {
 			add_resource = {
 				type = steel
-				amount = 2
+				amount = 20
 			}
 		}
 	}

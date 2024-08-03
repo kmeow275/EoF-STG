@@ -2911,7 +2911,7 @@ prospect_for_resources = {
 			685 = {
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -2984,7 +2984,7 @@ prospect_for_resources = {
 				687 = {
 					add_resource = {
 						type = chromium
-						amount = 9
+						amount = 90
 					}
 				}
 				set_country_flag = HIP_chromium_1
@@ -2999,7 +2999,7 @@ prospect_for_resources = {
 				694 = {
 					add_resource = {
 						type = chromium
-						amount = 5
+						amount = 50
 					}
 					add_manpower = 16000
 				}
@@ -3013,7 +3013,7 @@ prospect_for_resources = {
 				1199 = {
 					add_resource = {
 						type = chromium
-						amount = 18
+						amount = 180
 					}
 					add_manpower = 30400
 				}
@@ -8777,7 +8777,7 @@ HIP_siren_power_category = {
 			685 = {
 				add_resource = {
 					type = oil
-					amount = 40
+					amount = 400
 				}
 			}
 		}
@@ -8848,7 +8848,7 @@ HIP_siren_power_category = {
 			696 = {
 				add_resource = {
 					type = aluminium
-					amount = 20
+					amount = 200
 				}
 			}
 		}
@@ -8919,7 +8919,7 @@ HIP_siren_power_category = {
 			1165 = {
 				add_resource = {
 					type = crystals
-					amount = 15
+					amount = 150
 				}
 			}
 			set_country_flag = HIP_SIR_crystal_mines_expanded
@@ -8999,7 +8999,7 @@ HIP_siren_power_category = {
 			683 = {
 				add_resource = {
 					type = rubber
-					amount = 16
+					amount = 160
 				}
 			}
 		}
@@ -9068,7 +9068,7 @@ HIP_siren_power_category = {
 			698 = {
 				add_resource = {
 					type = tungsten
-					amount = 22
+					amount = 220
 				}
 			}
 		}
