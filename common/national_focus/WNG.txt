@@ -830,19 +830,19 @@ focus_tree = {
 			371 = {
 				add_resource = {
 					type = steel
-					amount = 10
+					amount = 100
 				}
 			}
 			370 = {
 				add_resource = {
 					type = steel
-					amount = 7
+					amount = 70
 				}
 			}
 			369 = {
 				add_resource = {
 					type = steel
-					amount = 5
+					amount = 50
 				}
 			}
 		}
@@ -1972,7 +1972,7 @@ focus_tree = {
 				371 = {
 					add_resource = {
 						type = aluminium
-						amount = 14
+						amount = 140
 					}
 				}
 			}
@@ -1985,7 +1985,7 @@ focus_tree = {
 				369 = {
 					add_resource = {
 						type = aluminium
-						amount = 4
+						amount = 40
 					}
 				}
 			}
@@ -1998,7 +1998,7 @@ focus_tree = {
 				370 = {
 					add_resource = {
 						type = aluminium
-						amount = 4
+						amount = 40
 					}
 				}
 			}
@@ -4398,19 +4398,19 @@ focus_tree = {
 			371 = {
 				add_resource = {
 					type = aluminium
-					amount = 14
+					amount = 140
 				}
 			}
 			369 = {
 				add_resource = {
 					type = aluminium
-					amount = 4
+					amount = 40
 				}
 			}
 			370 = {
 				add_resource = {
 					type = aluminium
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -4449,19 +4449,19 @@ focus_tree = {
 			371 = {
 				add_resource = {
 					type = steel
-					amount = 10
+					amount = 100
 				}
 			}
 			370 = {
 				add_resource = {
 					type = steel
-					amount = 7
+					amount = 70
 				}
 			}
 			369 = {
 				add_resource = {
 					type = steel
-					amount = 5
+					amount = 50
 				}
 			}
 		}

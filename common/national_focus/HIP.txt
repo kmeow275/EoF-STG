@@ -27234,13 +27234,13 @@ shared_focus = {
 		1093 = {
 			add_resource = {
 				type = rubber
-				amount = 21
+				amount = 210
 			}
 		}
 		933 = {
 			add_resource = {
 				type = rubber
-				amount = 20
+				amount = 200
 			}
 		}
 	}

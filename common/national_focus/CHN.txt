@@ -5731,19 +5731,19 @@ focus_tree = {
 				random_owned_controlled_state = {
 					add_resource = {
 						type = steel
-						amount = 10
+						amount = 100
 					}
 				}
 				random_owned_controlled_state = {
 					add_resource = {
 						type = oil
-						amount = 5
+						amount = 50
 					}
 				}
 				random_owned_controlled_state = {
 					add_resource = {
 						type = aluminium
-						amount = 5
+						amount = 50
 					}
 				}
 			}

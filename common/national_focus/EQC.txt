@@ -1849,7 +1849,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 5
+					amount = 50
 				}
 			}
 			add_tech_bonus = {
@@ -2747,7 +2747,7 @@ focus_tree = {
 			356 = {
 				add_resource = {
 					type = oil
-					amount = 10
+					amount = 100
 				}
 			}
 		}

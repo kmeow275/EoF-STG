@@ -3242,7 +3242,7 @@ shared_focus = {
 		random_owned_controlled_state = {
 			add_resource = {
 				type = chromium
-				amount = 12
+				amount = 120
 			}
 		}
 		swap_ideas = {
@@ -14010,7 +14010,7 @@ shared_focus = {
 		474 = {
 			add_resource = {
 				type = steel
-				amount = 12
+				amount = 120
 			}
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
@@ -16843,21 +16843,21 @@ shared_focus = {
 			add_manpower = -1000
 			add_resource = {
 				type = chromium
-				amount = 12
+				amount = 120
 			}
 		}
 		random_owned_controlled_state = {
 			add_manpower = -1000
 			add_resource = {
 				type = crystals
-				amount = 10
+				amount = 100
 			}
 		}
 		random_owned_controlled_state = {
 			add_manpower = -1000
 			add_resource = {
 				type = steel
-				amount = 10
+				amount = 100
 			}
 		}
 	}

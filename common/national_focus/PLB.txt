@@ -6744,13 +6744,13 @@ focus_tree = {
 			265 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 120
 				}
 			}
 			62 = {
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -7112,13 +7112,13 @@ focus_tree = {
 			265 = {
 				add_resource = {
 					type = aluminium
-					amount = 8
+					amount = 80
 				}
 			}
 			62 = {
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -10461,7 +10461,7 @@ focus_tree = {
 			290 = {
 				add_resource = {
 					type = steel
-					amount = 5
+					amount = 50
 				}
 			}
 		}
@@ -11142,7 +11142,7 @@ focus_tree = {
 			265 = {
 				add_resource = {
 					type = aluminium
-					amount = 5
+					amount = 50
 				}
 			}
 		}
@@ -11202,7 +11202,7 @@ focus_tree = {
 			62 = {
 				add_resource = {
 					type = oil
-					amount = 5
+					amount = 50
 				}
 			}
 		}
@@ -15822,7 +15822,7 @@ focus_tree = {
 			263 = {
 				add_resource = {
 					type = crystals
-					amount = 10
+					amount = 100
 				}
 				add_building_construction = {
 					type = industrial_complex
@@ -16929,7 +16929,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 				}
 			}
 		}
@@ -26603,25 +26603,25 @@ shared_focus = {
 			265 = {
 				add_resource = {
 					type = aluminium
-					amount = 6
+					amount = 60
 				}
 			}
 			62 = {
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 				}
 			}
 			263 = {
 				add_resource = {
 					type = crystals
-					amount = 10
+					amount = 100
 				}
 			}
 			272	= {
 				add_resource = {
 					type = steel
-					amount = 6
+					amount = 60
 				}
 			}
 		}
@@ -27861,7 +27861,7 @@ shared_focus = {
 			add_resource = {
 				state = 265
 				type = aluminium
-				amount = 6
+				amount = 60
 			}
 			add_resource = {
 				type = steel
@@ -28690,19 +28690,19 @@ shared_focus = {
 			290 = {
 				add_resource = {
 					type = tungsten
-					amount = 5
+					amount = 50
 				}
 			}
 			62 = {
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 					}
 				}
 			263 = {
 				add_resource = {
 					type = crystals
-					amount = 10
+					amount = 100
 				}
 			}
 		}
@@ -30328,7 +30328,7 @@ shared_focus = {
 			263 = {
 				add_resource = {
 					type = crystals
-					amount = 20
+					amount = 200
 				}
 			}
 		}
@@ -32231,7 +32231,7 @@ shared_focus = {
 			62 = {
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 			}
 			give_resource_rights = {
@@ -32275,19 +32275,19 @@ shared_focus = {
 			265 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 120
 				}
 			}
 			263 = {
 				add_resource = {
 					type = crystals
-					amount = 20
+					amount = 200
 				}
 			}
 			272	= {
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 120
 				}
 			}
 			give_resource_rights = {
@@ -32411,25 +32411,25 @@ shared_focus = {
 			265 = {
 				add_resource = {
 					type = aluminium
-					amount = 6
+					amount = 60
 				}
 			}
 			62 = {
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 				}
 			}
 			263 = {
 				add_resource = {
 					type = crystals
-					amount = 10
+					amount = 100
 				}
 			}
 			272	= {
 				add_resource = {
 					type = steel
-					amount = 6
+					amount = 60
 				}
 			}
 		}
