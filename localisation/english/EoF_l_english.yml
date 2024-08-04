@@ -50,6 +50,10 @@ EoF_Fluttershy:0 "Element of Kindness"
 EoF_neutral_country:0 "Neutral Country"
 EoF_neutral_trade:0 "Neutral Trade"
 
+EoF_north_integrated_economy:0 "Integrated Northern Economy"
+EoF_failed_integrated_economy:0 "Integrated Economy Collapse"
+EoF_failing_integrated_economy_mission:0 "Integrated Economy Collapsing"
+
 EoF_peacetime_training:0 "Peacetime Training"
 
 EoF_naval_expansion:0 "Dockyard Expansion"
@@ -637,6 +641,8 @@ EoF_JER_invade_equestria_mission:0 "Invasion of Equestria"
 EoF_JER_invade_wingbardy_mission:0 "Invasion of Wingbardy"
 
 EoF_tarrin_war_threat:0 "Tarrin War Threatened"
+
+EoF_WNG_terrain:0 "Resistenza e Risorgimento"
 
 EoF_WNG_treaty:0 "Treaty of Tarrin"
 EoF_WNG_militarization:0 "Fury of Karthin"

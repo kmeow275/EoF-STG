@@ -203,6 +203,28 @@ ideas = {
 				industrial_factory_donations = 5
 			}			
 		}
+		EoF_north_integrated_economy = {
+			removal_cost = -1
+			picture = generic_economic_increase
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.075
+				production_factory_max_efficiency_factor = 0.075
+				production_factory_start_efficiency_factor = 0.075
+				line_change_production_efficiency_factor = 0.075
+				local_resources_factor = 0.1
+			}			
+		}
+		EoF_failed_integrated_economy = {
+			removal_cost = -1
+			picture = generic_economic_crisis		
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_start_efficiency_factor = -0.15
+				line_change_production_efficiency_factor = -0.15
+				local_resources_factor = -0.2
+			}	
+		}
 	}
 	hidden_ideas = {
 		EoF_continuous_infantry_production = {

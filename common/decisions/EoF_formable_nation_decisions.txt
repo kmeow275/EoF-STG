@@ -9,7 +9,7 @@ political_actions = {
 		available = {
 			controls_state = 208
 			controls_state = 390
-			controls_state = 381
+			# controls_state = 381
 			controls_state = 658
 			controls_state = 659
 			controls_state = 660
@@ -38,7 +38,7 @@ political_actions = {
 			set_cosmetic_tag = EoF_JER_DOMINATION
 			208 = { add_core_of = JER }
 			390 = { add_core_of = JER }
-			381 = { add_core_of = JER }
+			# 381 = { add_core_of = JER }
 			658 = { add_core_of = JER }
 			659 = { add_core_of = JER }
 			660 = { add_core_of = JER }

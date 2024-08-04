@@ -132,15 +132,15 @@ upgrades = {
 
 		resource_cost_thresholds = {
 			1 = {
-				tungsten = 1
+				tungsten = 10
 			}
 			3 = {
-				steel = 1
-				tungsten = 1
+				steel = 10
+				tungsten = 10
 			}
 			5 = {
-				steel = 1
-				tungsten = 2
+				steel = 10
+				tungsten = 20
 			}
 		}
 		reliability = -0.015
