@@ -566,12 +566,12 @@ characters={
 		advisor = {
 			slot = army_chief
 			idea_token = PLB_generic_army_chief
-			cost = 50
+			cost = 200
 			
 			allowed = {
 				original_tag = PLB
 			}
-			traits = { army_chief_organizational_1 }
+			traits = { army_chief_organizational_3 }
 		}
 	}
 	PLB_air_chief_guy={
@@ -686,12 +686,12 @@ characters={
 			slot = high_command
 			idea_token = PLB_eternal
 			ledger = army
-			cost = 100
+			cost = 200
 			
 			allowed = {
 				original_tag = PLB
 			}
-			traits = { army_infantry_2 }
+			traits = { army_infantry_3 }
 		}
 	}
 	PLB_traditional_warfare={
@@ -1728,8 +1728,10 @@ characters={
 				
 			modifier = {
 				consumer_goods_factor = 0.15
-				breakthrough_factor = 0.05
-				army_strength_factor = 0.05
+				breakthrough_factor = 0.1
+				army_strength_factor = 0.1
+				modifier_army_sub_unit_panzerbar_attack_factor = 0.1
+				modifier_army_sub_unit_panzerbar_defence_factor = 0.1
 			}
 			traits = { army_CombinedArms_2 }
 			# equipment_bonus = {

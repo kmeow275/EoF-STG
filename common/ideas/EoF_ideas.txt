@@ -187,13 +187,15 @@ ideas = {
 		}
 		EoF_taifunkrieg = {
 			removal_cost = -1
-			picture = generic_navy_carrier_bonus
+			picture = generic_navy_bonus
 			modifier = {
 				port_strike = 1
 				sortie_efficiency = 0.3
 				naval_hit_chance = 0.1
 				naval_damage_factor = 0.2
 				naval_defense_factor = 0.2
+				air_carrier_night_penalty_reduction_factor = 0.33
+				carrier_night_traffic = 0.5
 			}			
 		}
 		EoF_payment = {
@@ -211,17 +213,17 @@ ideas = {
 				production_factory_max_efficiency_factor = 0.075
 				production_factory_start_efficiency_factor = 0.075
 				line_change_production_efficiency_factor = 0.075
-				local_resources_factor = 0.1
+				local_resources_factor = 0.15
 			}			
 		}
 		EoF_failed_integrated_economy = {
 			removal_cost = -1
 			picture = generic_economic_crisis		
 			modifier = {
-				production_factory_efficiency_gain_factor = -0.15
-				production_factory_max_efficiency_factor = -0.15
-				production_factory_start_efficiency_factor = -0.15
-				line_change_production_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_start_efficiency_factor = -0.1
+				line_change_production_efficiency_factor = -0.1
 				local_resources_factor = -0.2
 			}	
 		}

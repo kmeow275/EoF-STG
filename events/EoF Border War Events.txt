@@ -146,6 +146,10 @@ country_event = {
 	option = {
 		name = GRF_border_war.8.a
 		add_political_power = -50
+		add_opinion_modifier = {
+			target = GRF
+			modifier = light_of_kemerkai
+		}
 	}
 }
 country_event = {

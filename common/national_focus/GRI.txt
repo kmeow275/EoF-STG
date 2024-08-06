@@ -5303,6 +5303,15 @@ shared_focus = {
 	}
 	completion_reward = {
 		custom_effect_tooltip = EoF_north_eco_tt
+		CHN = {
+			add_ideas = EoF_north_integrated_economy
+		}
+		OLE = {
+			add_ideas = EoF_north_integrated_economy
+		}
+		PLB = {
+			add_ideas = EoF_north_integrated_economy
+		}	
 		GRF = {
 			add_ideas = EoF_north_integrated_economy
 		}

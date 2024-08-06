@@ -30974,7 +30974,7 @@ shared_focus = {
 		}
 
 		relative_position_id = PLB_the_polar_connection
-		x = -1
+		x = 0
 		y = 1
 
 		completion_reward = {

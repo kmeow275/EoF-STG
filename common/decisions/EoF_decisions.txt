@@ -188,7 +188,7 @@ political_actions = {
 				}
 				add_timed_idea = {
 					idea = EoF_taifunkrieg
-					days = 80
+					days = 120
 				}
 			}
 		}
@@ -198,6 +198,9 @@ economy_decisions = {
 	EoF_failing_integrated_economy_mission = {
 		allowed = {
 			OR = {
+				tag = CHN
+				tag = OLE
+				tag = PLB
 				tag = GRF
 				tag = FAT
 				tag = GRI
@@ -354,7 +357,7 @@ EoF_category = {
 				regiments = {
 					infantry = { x = 0 y = 0 }
 					infantry = { x = 0 y = 1 }
-					infantry = { x = 0 y = 2 }`
+					infantry = { x = 0 y = 2 }
 					infantry = { x = 0 y = 3 }
 			
 	    	   		infantry = { x = 1 y = 0 }

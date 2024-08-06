@@ -1733,8 +1733,7 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				max_planning = 0.15
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.05
+				supply_combat_penalties_on_core_factor = -0.35
 			}
 		}
 

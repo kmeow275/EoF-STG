@@ -273,23 +273,23 @@ technologies = {
 	}
 	tech_boreal_tactics = {
 		
-		infantry = {
+		category_all_infantry = {
 			forest = {
-				attack = 0.05
-				defence = 0.05
+				attack = 0.1
+				defence = 0.1
 			}
 			hills = {
-				attack = 0.05
-				defence = 0.05
+				attack = 0.1
+				defence = 0.1
 			}
 			mountain = {
-				attack = 0.05
-				defence = 0.05
+				attack = 0.1
+				defence = 0.1
 			}
 		}
-		# on_research_complete = {
-		#	custom_effect_tooltip = BOREAL_TACTICS_TOOLTIP
-		# }
+		on_research_complete = {
+			custom_effect_tooltip = BOREAL_TACTICS_TOOLTIP
+		}
 
 		path = {
 			leads_to_tech = tech_mountain_supply_chains
@@ -396,9 +396,9 @@ technologies = {
 	tech_modern_berserkers = {
 		
 		category_army = {
-			soft_attack = 0.025
-			hard_attack = 0.025
-			breakthrough = 0.05
+			soft_attack = 0.05
+			hard_attack = 0.05
+			breakthrough = 0.1
 		}
 		org_loss_at_low_org_factor = -0.1
 		army_attack_speed_factor = 0.1
@@ -555,7 +555,7 @@ technologies = {
 	tech_panzerbar3 = {
 
 		panzerbar = {
-			breakthrough = 0.15
+			breakthrough = 0.5
 		}
 
 		path = {
@@ -666,19 +666,19 @@ technologies = {
 	tech_panzerbar6 = {
 		panzerbar = {
 			forest = {
-				attack = 0.05
-				defence = 0.05
-				movement = 0.05
+				attack = 0.15
+				defence = 0.15
+				movement = 0.15
 			}
 			hills = {
-				attack = 0.05
-				defence = 0.05
-				movement = 0.05
+				attack = 0.15
+				defence = 0.15
+				movement = 0.15
 			}
 			mountain = {
-				attack = 0.05
-				defence = 0.05
-				movement = 0.05
+				attack = 0.15
+				defence = 0.15
+				movement = 0.15
 			}
 		}
 
