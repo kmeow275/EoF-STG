@@ -5860,21 +5860,21 @@ country_event = {
 	option = {
 		name = wingbardy_king_struggle.1.a
 		random_list = {
-			25 = {
+			0 = {
 				country_event = {
 					id = wingbardy_king_struggle.2
 					days = 28
 					random_days = 4
 				}
 			}
-			25 = {
+			0 = {
 				country_event = {
 					id = wingbardy_king_struggle.3
 					days = 28
 					random_days = 4
 				}
 			}
-			25 = {
+			0 = {
 				country_event = {
 					id = wingbardy_king_struggle.4
 					days = 28
@@ -5884,8 +5884,7 @@ country_event = {
 			40 = {
 				country_event = {
 					id = wingbardy_king_struggle.5
-					days = 28
-					random_days = 4
+					days = 30
 				}
 			}
 		}
@@ -5992,10 +5991,10 @@ country_event = {
 
 	option = {
 		name = wingbardy_king_struggle.5.a
-		add_political_power = 50
+		add_political_power = 15
 		add_popularity = {
 			ideology = neutrality
-			popularity = 0.02
+			popularity = 0.005
 		}
 	}
 }

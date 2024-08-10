@@ -87,6 +87,8 @@ NDefines.NMilitary.PEN_VS_AVERAGE = 0.3
 
 NDefines.NMilitary.DAMAGE_SPLIT_ON_FIRST_TARGET = 0.6		--% of damage dealt to the first target in a combat. The rest will be split amongst subsequent targets. Modifiers can affect this up to a maximum of 0.9. That value must not be exposed as a define.
 
+NDefines.NCharacter.POLITICAL_ADVISOR_SLOTS_IN_MENU = 6		--For Alert manager to count the number of Political Advisor Slots in the UI
+
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 4.5		-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
 
 NDefines.NProduction.PRODUCTION_RESOURCE_LACK_PENALTY = -0.005	-- Penalty decrease while lack of resource per factory

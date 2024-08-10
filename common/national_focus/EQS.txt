@@ -3971,6 +3971,7 @@ shared_focus = {
 	}
 	available = {
 		surrender_progress > 0.15
+		always = no #Still work in progress
 	}
 	relative_position_id = EoF_losing
 	x = -3
