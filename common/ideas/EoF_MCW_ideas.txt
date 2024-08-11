@@ -1,10 +1,11 @@
 ideas = {
 	country = {
-		EoF_CTH_service_exemption = {
+		EoF_MCW_divided = {
 			removal_cost = -1
-			picture = MZN_Loyalty_To_Colthage
+			picture = generic_disjointed_gov
 			modifier = {
-				recruitable_population_factor = -0.5
+				consumer_goods_factor = 0.15
+				stability_factor = -0.1
 			}		
 		}
 	}

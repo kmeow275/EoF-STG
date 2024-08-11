@@ -249,6 +249,12 @@ EoF_great_war.10.t:0 "Operation Vegetarian"
 EoF_great_war.10.desc:0 "Our scientists have recently completed the refinement of large quantities of the insecticide Ant-Thrax. Although the ecological and ethical implications are massive, the fate of our populace under Changeling occupation is worse. Enemy aerial power prevents the effective deployment of these chemical weapons by air; therefore, the only possible delivery method will be via high-power artillery. However, while our troops will be spared the harshest effects, the toxicity and proximity will still likely cause adverse effects within our army.\n\nFor us to deploy such a weapon, we need your explicit signed permission, my princess."
 EoF_great_war.10.a:0 "Ruthlessness is mercy upon ourselves."
 
+EoF_great_war.11.t:0 "Sunset Armour Selection"
+EoF_great_war.11.desc:0 "Marshal Sunset has presented us with several options on available armour support options from our otherworldly benefactors. It should be known that the total expense of the pledged support will not change depending on our selected option; therefore, the request for heavier vehicles will in turn result in a lesser total vehicle count."
+EoF_great_war.11.a:0 "Heavy Armour"
+EoF_great_war.11.b:0 "Medium Armour"
+EoF_great_war.11.c:0 "Light Armour"
+
 EoF_operation_vegetarian_stockpile:0 "Operation Vegetarian Preparation"
 EoF_operation_vegetarian_decision:0 "Enact Operation Vegetarian"
 EoF_operation_vegetarian_flag:0 "Operation Vegetarian Permitted"
@@ -629,8 +635,11 @@ EoF_supply_stockpile:0 "Supply Stockpile"
 EoF_taifunkrieg:0 "Taifunkrieg"
 EoF_payment:0 "Industrial Payments"
 
-EoF_CTH_service_exemption:0 "Colthaginian Service Exemption"
-EoF_CTH_service_exemption_desc:0 "Despite being considered full citizens of Macawia, the political and economic turmoil of the North Zebrican War have made the recruitment of Colthaginian citizens into the armed forces nonviable."
+EoF_CTH_terrain:0 "Colthaginian Service Exemption"
+EoF_CTH_terrain_desc:0 "Despite being considered full citizens of Macawia, the political and economic turmoil of the North Zebrican War have made the recruitment of Colthaginian citizens into the armed forces nonviable."
+
+EoF_MCW_divided:0 "Macawia Divided"
+EoF_MCW_divided_desc:0 "The recent unification of Asterion and Colthage into Macawia have turned the rich trade nation into an international power overnight. Yet, the strain of integrating these three vastly different cultures and economies hampers the true potential of Macawia."
 
 EoF_funding_naval_mio:0 "Funding Naval Companies"
 mio_policy_JER_quantity:0 "Quantitative Overmatch"

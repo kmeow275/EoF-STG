@@ -382,6 +382,57 @@ on_actions = {
 				}
 				add_dynamic_modifier = { modifier = EoF_WNG_terrain }
 			}
+			699 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			877 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			852 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			709 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			700 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			702 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			876 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			701 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			875 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			703 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			704 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			714 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			705 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			706 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			1093 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			1094 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
+			1095 = {
+				add_dynamic_modifier = { modifier = EoF_CTH_terrain }
+			}
 		}
 	}
 	#Yak-Jak Civil War
@@ -739,10 +790,8 @@ on_actions = {
 					}
 				}
 				EQS = {
-					country_event = {
-						id = EoF_great_war.1
-						days = 1
-					}
+					country_event = EoF_great_war.1
+					country_event = EoF_great_war.11
 				}
 			}
 			else_if = {
@@ -752,10 +801,8 @@ on_actions = {
 					}
 				}
 				EQS = {
-					country_event = {
-						id = EoF_great_war.1
-						days = 1
-					}
+					country_event = EoF_great_war.1
+					country_event = EoF_great_war.11
 				}
 			}
 		}

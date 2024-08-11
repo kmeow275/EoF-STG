@@ -51,6 +51,8 @@ if = {
 		basic_heavy_tank_chassis = 1
 		armor_tech_1 = 1
 		engine_tech_1 = 1
+		gun_tech_1 = 1
+		optics_tech_1 = 1
 	}
 	set_oob = "CHN_1007_nsb"
 }
