@@ -8,7 +8,7 @@ dependencies={
 }
 replace_path="common/ai_equipment"
 replace_path="gfx/models/EAWEntity/ponies"
-name="Equus on Fire: Redux"
+name="Equus on Fire: Redux MIAU"
 supported_version="1.14.7"
 path=""
 remote_file_id="3166665930"

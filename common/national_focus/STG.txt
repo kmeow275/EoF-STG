@@ -1174,6 +1174,9 @@ focus_tree = {
 	focus = {
 		id = STG_advisors
 		icon = GFX_goal_socialist_union
+		allow_branch = { 
+			always = no 
+		}
 		cost = 2
 		prerequisite = {
 			focus = new_horizons
@@ -1356,6 +1359,8 @@ focus_tree = {
 	focus = {
 		id = STG_crystal_empire_union ## union with cry
 		icon = GFX_goal_stg_cry
+		allow_branch = { always = no }
+
 		cost = 10
 		available = {
 			CRY = {
@@ -2733,6 +2738,7 @@ focus_tree = {
 	focus = {
 		id = strike_GRF
 		icon = GFX_goal_generic_consumer_goods
+		allow_branch = { always = no }
 		cost = 10
 		available = {
 			has_war = no
